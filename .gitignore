@@ -1,0 +1,31 @@
+# ==========================================================
+# MISTAGOGOS · musicofthespheres
+# O que versionar: scripts Manim (.py na raiz), pasta sons/,
+# roteiros e imagens de referência já existentes.
+# O que NUNCA versionar: segredos e saídas geradas.
+# ==========================================================
+
+# --- Config local do Agent Zero (contém secrets.env) ---
+.a0proj/
+
+# --- Saídas geradas pelo Manim (regeneráveis: script + sons/) ---
+media/
+
+# --- Cache Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Ambientes virtuais locais ---
+venv/
+.venv/
+
+# --- Segredos (defesa em profundidade, em qualquer ponto da árvore) ---
+*.env
+secrets.env
+variables.env
+
+# --- Temporários e sistema ---
+*.log
+.DS_Store
+Thumbs.db
