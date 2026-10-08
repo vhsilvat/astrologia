@@ -4,6 +4,8 @@ Harmônicos de uma corda vibrante — proporções pitagóricas 1:2 (metades) e 
 Paleta Gruvbox · Tipografia EB Garamond · Tons reais (220 / 440 / 660 Hz) via Scene.add_sound
 """
 
+from pathlib import Path
+
 import numpy as np
 
 from manim import (
@@ -35,7 +37,7 @@ GRUV_BLUE = "#83a598"   # rótulos laterais (f · 2f · 3f)
 GRUV_GRAY = "#a89984"   # apoios · guias tracejadas
 
 FONT = "EB Garamond"
-SONS = "/a0/usr/projects/musicofthespheres/sons"
+SONS = Path(__file__).resolve().parent / "sons"
 
 X0, X1 = -3.0, 3.0
 SPAN = X1 - X0
