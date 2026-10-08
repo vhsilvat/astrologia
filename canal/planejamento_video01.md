@@ -29,7 +29,7 @@ Plano v1 · fonte de conteúdo: o roteiro de 5 seções (a fonte da verdade) · 
 | c02 | `v01_c02_retorno_saturno.py` | 1 · O mapa do jogo | 0:35–2:30 | 115 s | novo |
 | c03 | `v01_c03_logos_hermes.py` | 2 · Axiomas & Hermética | 2:30–4:45 | 135 s | novo |
 | c04 | `v01_c04_forja_diapasao.py` (base: `da_forja_ao_diapasao.py`) | 3 · Pitágoras i | 4:45–6:15 | 90 s | ✅ reuso corrigido · validado |
-| c06 | `v01_c06_consonancias.py` | 3 · Pitágoras ii | 6:15–7:10 | 55 s | novo |
+| c06 | `v01_c06_consonancias.py` | 3 · Pitágoras ii | 6:15–7:10 | 55 s | ✅ novo · validado |
 | c07 | `v01_c07_peixe_agua.py` | 3 · Pitágoras iii | 7:10–7:30 | 20 s | novo |
 | c08 | `v01_c08_tetraktys.py` | 4 · Validação i | 7:30–8:15 | 45 s | novo |
 | c09 | `v01_c09_kepler.py` | 4 · Validação ii | 8:15–8:45 | 30 s | novo |
