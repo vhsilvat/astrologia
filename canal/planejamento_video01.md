@@ -269,7 +269,7 @@ Fronteiras entre atos sem âncora: crossfade 0,4 s (`xfade` no ffmpeg).
 
 Existentes (10): martelo_grave_220 · martelo_agudo_440 · harpa_la_220 · harpa_la4_440 · harpa_mi5_660 · harpa_la5_880 · tom_fundamental_220 · tom_oitava_440 · tom_quinta_660 · acorde_harmonico.
 
-Novos (6):
+Novos (6) — ✅ gerados via output/sintetiza_sons.py:
 - `harpa_mi4_330.wav` — Karplus-Strong, 330 Hz (a quinta 3:2 sobre 220) — c06
 - `harpa_re4_293.wav` — Karplus-Strong, 293,33 Hz (a quarta 4:3 sobre 220) — c06
 - `harpa_si3_247.wav` — Karplus-Strong, 247,5 Hz (9:8 sobre 220, o tom inteiro — opcional) — c06
