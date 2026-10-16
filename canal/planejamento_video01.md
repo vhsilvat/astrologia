@@ -25,17 +25,17 @@ Plano v1 · fonte de conteúdo: o roteiro de 5 seções (a fonte da verdade) · 
 
 | Peça | Arquivo | Ato | Janela | Duração | Status |
 |---|---|---|---|---|---|
-| c01 | `v01_c01_abertura.py` | 0 · Cold open | 0:00–0:35 | 35 s | novo |
-| c02 | `v01_c02_retorno_saturno.py` | 1 · O mapa do jogo | 0:35–2:30 | 115 s | novo |
-| c03 | `v01_c03_logos_hermes.py` | 2 · Axiomas & Hermética | 2:30–4:45 | 135 s | novo |
-| c04 | `v01_c04_forja_diapasao.py` (base: `da_forja_ao_diapasao.py`) | 3 · Pitágoras i | 4:45–6:15 | 90 s | ✅ reuso corrigido · validado |
-| c06 | `v01_c06_consonancias.py` | 3 · Pitágoras ii | 6:15–7:10 | 55 s | ✅ novo · validado |
-| c07 | `v01_c07_peixe_agua.py` | 3 · Pitágoras iii | 7:10–7:30 | 20 s | novo |
-| c08 | `v01_c08_tetraktys.py` | 4 · Validação i | 7:30–8:15 | 45 s | novo |
-| c09 | `v01_c09_kepler.py` | 4 · Validação ii | 8:15–8:45 | 30 s | novo |
-| c10 | `v01_c10_scafetta.py` | 4 · Validação iii | 8:45–9:15 | 30 s | novo |
-| c11 | `v01_c11_relogio.py` | 5 · O relógio de Deus | 9:15–10:15 | 60 s | novo |
-| c12 | `v01_c12_endcard.py` | 5 · End card | 10:15–10:30 | 15 s | novo |
+| c01 | `v01_c01_abertura.py` | 0 · Cold open | 0:00–0:35 | 35 s | ✅ novo · validado — anel zodiacal estático (12 ticks, 0° realçado), Saturno/Netuno convergem exatamente no tick, ting + onda, MISTAGOGOS, zoom final |
+| c02 | `v01_c02_retorno_saturno.py` | 1 · O mapa do jogo | 0:35–2:30 | 115 s | ✅ novo · validado — roda zodiacal com abreviações, Saturno orbita + contador 1994→2023,5, Circumscribe no retorno, Netuno converge, zoom final |
+| c03 | `v01_c03_logos_hermes.py` | 2 · Axiomas & Hermética | 2:30–4:45 | 135 s | ✅ novo · validado (111,6 s) — etimologia ASTRO/LOGIA, AXIOMA, Hermes atravessa vigília/inconsciente, caduceu (duas senoides entrelaçadas, crossings visíveis), Caronte/Morfeu, Correspondência (espiral↔átomo), Polaridade (círculo luz/sombra), saída: caduceu vira martelo |
+| c04 | `martelos_monocordio.py` (substitui `da_forja_ao_diapasao.py`) | 3 · Pitágoras i | 4:45–6:15 | 90 s | ✅ novo · validado — forja → transformação fluida martelos→corda → monocórdio Fludd (modos 1-4, oitava·quinta·quarta como razões entre modos sucessivos) |
+| c06 | `v01_c06_consonancias.py` | 3 · Pitágoras ii | 6:15–7:10 | 55 s | ✅ novo · validado — três cordas simultâneas: fundamental (aresta, 220Hz) · quinta (8/12, 330Hz) · quarta (9/12, 293Hz, nasce nova — a da quinta permanece intacta); cada uma com nota+frequência ao lado da própria ponta; legenda de fração/intervalo abaixo de tudo; Epogdoon em MathTex; régua de oitavas Mercúrio→Urano · Marte→Plutão |
+| c07 | `v01_c07_peixe_agua.py` | 3 · Pitágoras iii | 7:10–7:30 | 20 s | ✅ novo · validado — onda ambiente nunca zero, peixe nadando, texto troca (Transform), pontos condensam em linha (âncora c08) |
+| c08 | `v01_c08_tetraktys.py` | 4 · Validação i | 7:30–8:15 | 45 s | ✅ novo · validado — triângulo de 10 pontos (LaggedStart + harmônicos), 1+2+3+4=10, razões 2:1·3:2·4:3·9:8, 9:8 vira elipse |
+| c09 | `v01_c09_kepler.py` | 4 · Validação ii | 8:15–8:45 | 30 s | ✅ novo · validado — planeta acelera no periélio (razão 1:1→2:1 na régua lateral), zoom-out final |
+| c10 | `v01_c10_scafetta.py` | 4 · Validação iii | 8:45–9:15 | 30 s | ✅ novo · validado — diagrama espelhado em torno do cinturão de asteroides, arcos convergindo a ≈9/8, arcos endurecem em dentes de engrenagem (âncora para c11) |
+| c11 | `v01_c11_relogio.py` | 5 · O relógio de Deus | 9:15–10:15 | 60 s | ✅ novo · validado — sete esferas (legenda lateral), fantasmas além de Saturno, anéis viram engrenagens de dentes trapezoidais engrenadas, compasso 0° Áries, cubo isométrico teaser |
+| c12 | `v01_c12_endcard.py` | 5 · End card | 10:15–10:30 | 15 s | ✅ novo · validado — MISTAGOGOS + cubo isométrico orbitando o logotipo, teaser do próximo vídeo |
 
 Novos scripts em `output/` com prefixo `v01_` · sons novos em `output/sons/`.
 
@@ -324,5 +324,7 @@ Gerar com o mesmo script de síntese das harpas (método KS já validado).
 
 ## 10 · Pendências administrativas
 
-- Commit + push da fase local (3 scripts novos, 6 sons, reestruturação `output/`) — **aguardando seu sinal**.
+- **Todas as 11 peças do mapa (§2) estão renderizadas em 1080p60 e validadas** — faltam apenas: gravação da narração (6 takes, roteiro §3), montagem (concat + xfade + mix), e os ajustes de P1–P5/M1/M2 do antigo `da_forja_ao_diapasao.py` ficaram obsoletos (c04 foi totalmente recriado em `martelos_monocordio.py`).
+- Commit + push da fase local (scripts novos, sons, reestruturação `output/`) — **aguardando seu sinal**.
 - `artigos/` versionar depois, como combinado.
+- Dependência de ambiente: `MathTex` exige o pacote `texlive-latexextra` (classe `standalone.cls`) — instalado nesta sessão. Se o `latex.fmt` reclamar de versão divergente (`made by different executable version`), rodar `sudo fmtutil-sys --all`.
