@@ -26,7 +26,7 @@
 
 - **Princípio da Correspondência** — Fio condutor de todos os vídeos: "como acima, assim abaixo"
 - **Nous · Inteligência cósmica** — Plantado no V1 (pergunta) → *Timeu* no V4 → Plotino no V6 → Uno e Nous no V8
-- **Etimologia** — Ancora cada conceito na origem da palavra (grego · latim)
+- **Etimologia** — Todo conceito-chave abre pela origem da palavra (grego · latim · sânscrito quando couber). A raiz é fato filológico; lê-la como pista do plano das ideias é aposta, e vem rotulada
 - **Confirmação científica** — Cada tradição validada por dado verificável e datado, com o estatuto rotulado
 - **Camada alquímica** — V2 — Paracelso · três princípios · quatro elementos
 - **Camada mitológica** — V3 em diante — signos como arquétipos greco-romanos
@@ -39,36 +39,40 @@
 ### V1 · A Harmonia do Cosmos  `tijolos definidos · a gravar`
 *Título pendente: "Astrologia é Física (mas não como você imagina)" tem risco de overclaim.*
 
-**Alvo:** ≈14 min (máx. 15).
+**Alvo:** ≈14:30 (máx. 15).
 **Abertura (≈1:20):** mostra as perguntas, não as respostas. Forja → monocórdio. O Victor aparece ≈25 s (a promessa), não nos primeiros 10 s.
 
-**T1 · A corda e a conta** — FATO + lenda · ≈2:45
+**T1 · A corda e a conta** — FATO + lenda · ≈2:30
 - **Pergunta:** por que certos sons soam bem juntos?
 - **Mostra:** forja → monocórdio; razões 2:1, 3:2, 4:3; o tom = 9:8 (epogdoon); Lissajous como inserto (consonância = curva fechada simples). A lenda dos martelos contada como lenda: o princípio certo é comprimento, tensão e densidade.
+- **Etimologia:** harmonía vem de *harmózō* (“ajustar, juntar”); *razão* vem de *ratio*, que traduz o grego *lógos*: a mesma palavra para proporção e para palavra/razão.
 - **Síntese:** consonância é razão de números inteiros pequenos, e o tetraktys (1:2:3:4) é a fonte desses números.
 - **Ponte:** isso é só coisa de instrumento?
 
-**T2 · Do som à matéria** — FATO · ≈2:15
+**T2 · Onda e partícula: do som à matéria** — FATO + MODELO (Fuller) · ≈3:15
 - **Pergunta:** isso aparece fora das cordas?
-- **Mostra:** modos da corda (nós e ventres) → Chladni em 2D (~10 s) → elétron no átomo como onda estacionária (de Broglie: cabe um número inteiro de ondas na órbita). A dualidade onda-partícula só como dobradiça.
-- **Síntese:** onda confinada produz números inteiros. É o mesmo "n" da corda.
+- **Mostra:** modos da corda (nós e ventres) → Chladni em 2D (~10 s) → elétron no átomo como onda estacionária (de Broglie) → dupla fenda: o mesmo objeto se comporta como onda ou como partícula conforme a medida **[FATO; a interpretação é disputada, rotular]**. Lente de Fuller **[MODELO]**: em *Synergetics*, o metafísico (princípios generalizados) não é o físico (eventos de energia), e a mente discerne padrões enquanto o cérebro é um terminal físico. Não citar frase de Fuller sem conferir a edição e a página.
+- **Etimologia:** partícula = *particula*, diminutivo de *pars* (“parte”); matéria = *materia*, da família de *mater* (“mãe”); *matrix* = “útero, fonte”, também de *mater*. *Māyā* (sânscrito, de *mā*, “medir, formar”) é outra raiz: a ponte com matéria é conceitual, não etimológica. [conferir]
+- **Síntese:** onda confinada produz números inteiros. É o mesmo "n" da corda. E "partícula" é o nome que damos à onda quando a medimos num ponto (interpretação, rotular).
 - **Ponte:** e no céu?
 
 **T3 · O céu tem razões simples?** — FATO + modelo histórico · ≈2:45
 - **Pergunta:** existe razão simples entre os corpos celestes?
-- **Mostra:** ressonâncias reais (Io:Europa:Ganimedes 1:2:4; Netuno–Plutão 3:2). Kepler: elipses (*Astronomia Nova*, 1609) e razões harmônicas entre velocidades angulares (*Harmonices Mundi*, 1619). Gravuras de Stanley e do esquema das esferas, redesenhadas em Manim.
+- **Mostra:** ressonâncias reais (Io:Europa:Ganimedes 1:2:4; Netuno–Plutão 3:2). Kepler: elipses (*Astronomia Nova*, 1609) e razões harmônicas entre velocidades angulares (*Harmonices Mundi*, 1619). Gravuras de Stanley e do esquema das esferas, redesenhadas em Manim. Planetas como ciclos: cada período orbital é uma frequência (f = 1/T) [FATO]; não afirmar onda gravitacional nem maré sobre o corpo.
+- **Etimologia:** planeta = *planētēs*, “errante”; cosmos = *kósmos*, “ordem, ornamento” (de onde vem cosmético).
 - **Síntese:** há razões simples no céu, e Kepler leu isso como o mesmo princípio da corda.
 - **Ponte:** então todos os planetas obedecem a razões musicais?
 
-**T4 · O estudo que propõe isso** — MODELO PROPOSTO · ≈2:00
+**T4 · O estudo que propõe isso** — MODELO PROPOSTO · ≈1:45
 - **Pergunta:** alguém testou isso com dados?
-- **Mostra:** Bank & Scafetta (2022): 5/4, 4/3, 3/2 e 8/5, p<0,001. Scafetta & Bianchini (2022): 9/8 com erro <1%. Dizer "propõe", não "demonstrou". Objeções honestas: Aristóteles (*Do Céu* II.9) e os testes de previsão astrológica sem efeito (Carlson, *Nature*, 1985).
+- **Mostra:** Bank & Scafetta (2022): 5/4, 4/3, 3/2 e 8/5, p<0,001. Scafetta & Bianchini (2022): 9/8 com erro <1%. Dizer "propõe", não "demonstrou". Objeções honestas: Aristóteles (*Do Céu* II.9) e os testes de previsão astrológica sem efeito (Carlson, *Nature*, 1985). Objeção física: a força de maré dos planetas sobre o corpo é desprezível; a resposta da tradição não é força, é correspondência (T5). Contexto histórico [FATO]: até o séc. XVII astronomia e astrologia eram a mesma disciplina (Ptolomeu, Brahe, Kepler e Galileu fizeram horóscopos). Isso mostra o contexto, não prova validade. Evitar Newton: a anedota com Halley é apócrifa.
 - **Síntese:** há um modelo recente, ainda hipótese. A tradição já apostava nisso.
 - **Ponte:** o que a tradição concluiu desse padrão?
 
 **T5 · Correspondência: o axioma** — APOSTA DA TRADIÇÃO · ≈2:30
 - **Pergunta:** o que a tradição fez com esse padrão?
-- **Mostra:** três degraus rotulados na tela: estrutural (FATO) → simbólico (MODELO) → espiritual (APOSTA). Tábua de Esmeralda (versões árabes do séc. VIII–IX) e Mateus 6:10 como paralelo estrutural. Dizer uma vez que a lista dos sete princípios é do *Caibalion* (1908).
+- **Mostra:** três degraus rotulados na tela: estrutural (FATO) → simbólico (MODELO) → espiritual (APOSTA). Tábua de Esmeralda (versões árabes do séc. VIII–IX) e Mateus 6:10 como paralelo estrutural. Dizer uma vez que a lista dos sete princípios é do *Caibalion* (1908). No grau espiritual: analogia do plâncton nas ondas do mar (somos conduzidos por ciclos que não sentimos) [APOSTA; como em Tarnas, correlação de sentido e não mecanismo]. Aqui a confirmação é a experiência vivida.
+- **Etimologia:** axioma = *axíōma*, “o que é julgado digno” (de *áxios*); correspondência = *cor-respondēre*, “responder em conjunto”.
 - **Síntese:** o axioma é uma aposta assumida como aposta, e o canal inteiro parte dele **[LOCK]**.
 - **Ponte:** (opcional, uma frase) se a estrutura é proporção, o que a ordena? Sem responder. Depois, o gancho de saída.
 
@@ -76,10 +80,10 @@
 
 **Ajustes em relação à versão anterior**
 - Boécio sai do V1. A *Musica Humana* fica no V6, com no máximo 15 s de menção à *musica mundana*. **[PROPOSTO]**
-- "Kaftán 2023" vira Bank & Scafetta (2022). "Planetas como ondas" foi removido.
+- “Kaftán 2023” → Bank & Scafetta (2022). “Planetas como ondas” voltou como ciclos com frequência (período orbital = 1/f), sem afirmar força sobre o corpo. A dualidade onda-partícula virou tijolo central (T2), com a lente de Fuller.
 - O lock é paralelo estrutural, não "palavra por palavra".
 
-**Leituras de apoio:** Kahn, *Pythagoras and the Pythagoreans* (2001) · Copenhaver, *Hermetica* (1992), para saber o que dizer sobre Hermes · o próprio *Caibalion* (1908), lido criticamente.
+**Leituras de apoio:** Kahn, *Pythagoras and the Pythagoreans* (2001) · Copenhaver, *Hermetica* (1992), para saber o que dizer sobre Hermes · o próprio *Caibalion* (1908), lido criticamente · Fuller & Applewhite, Synergetics (1975/79; texto em rwgrayprojects.com/synergetics) — conferir as frases antes de citar · Beekes, Etymological Dictionary of Greek (2010), para as raízes.
 
 ## Tier 2 — Estrutura Qualitativa
 
@@ -291,6 +295,9 @@
 
 ## Pendências
 
+- **V1 · Fuller:** a passagem colada sobre "paradoxo onda-partícula" e "eventos em puro princípio" não foi localizada em fonte. Conferir em *Synergetics* antes de citar; só entra com edição e página. O que se confirmou: o par metafísico/físico (U = MP) e "eventos de energia".
+- **V1 · etimologia:** conferir a ponte matéria × *māyā* (raízes distintas; a ligação é conceitual) antes de gravar.
+- **V3/V6 · psykhé:** de *psýchein* ("soprar"). Em Homero é o sopro vital e a sombra que deixa o corpo; Platão (*Fédon*, *República*, *Fedro*) faz dela a alma racional e imortal. "Psicologia" é do séc. XVI (provavelmente Melanchthon). *Anima* também vem de "sopro".
 - **V1:** título (risco de overclaim em "Astrologia é Física").
 - **V2:** estudar tropical × sideral, elementos × estações (trígonos) e a fonte do Big Dipper; confirmar a fonte do diagrama alquímico.
 - **V3:** decidir se "figura do signo" é o mito da constelação ou o regente planetário.
