@@ -10,12 +10,16 @@
 - **[DECIDIDO]** Em vez de blocar conteúdo em fatias de 15 min, cada conceito é um **tijolo**. O vídeo é a soma natural de tijolos conectados, com teto de ~15 min, sem cortar um assunto no meio.
 - Cada tijolo tem quatro campos: **Pergunta** (o que o espectador quer saber) · **Mostra** (a demonstração) · **Síntese** (uma frase) · **Ponte** (a pergunta que o próximo tijolo responde).
 - **Teste do salto:** se a transição não puder ser escrita como uma pergunta que o espectador faria, o salto é só do Victor.
-- Cada tijolo leva um rótulo de estatuto, o mesmo que vai na tela: **FATO · MODELO PROPOSTO · APOSTA DA TRADIÇÃO**.
+- Cada tijolo leva um rótulo de **grau de correspondência**, que é o modo de validação e vai na tela: **MEDÍVEL · INTERPRETÁVEL · VIVENCIAL**. Hipótese recente leva também a palavra HIPÓTESE.
 - **[PROPOSTO]** Gravação: um tijolo por vez, no fluxo livre (3–5 min cada), transcrever e depois montar o vídeo.
 - Os minutos de cada tijolo são orçamento indicativo.
 
 ## Arco da série
 
+- **[DECIDIDO]** **Tese do canal:** mostrar como funciona o **princípio da correspondência**, o gesto que está na origem da alta magia, da astrologia como ferramenta de entendimento arquetípico, dos símbolos como passagem ao inconsciente (tarô), da psicologia analítica (Jung tardio) e da árvore da vida na Cabala. O canal não afirma que "astrologia é ciência".
+- **[PROPOSTO]** Definição de trabalho: correspondência é um **mapa que preserva estrutura** entre dois domínios (relações, razões, ordem, ciclos), não uma semelhança qualquer. É o critério contra a simbologia fajuta: o V2 o aplica (modalidades casam com as estações; elementos não).
+- **Graus de correspondência** (o rótulo na tela é o modo de validação): **MEDÍVEL** (estrutural, se mede) · **INTERPRETÁVEL** (simbólico, se lê e se compara) · **VIVENCIAL** (espiritual, só a experiência confirma).
+- **Camadas a distinguir ao falar das origens:** Agrippa e a Golden Dawn organizam tudo em tabelas de correspondências · no *Sefer Yetzirah* as 12 letras simples ↔ signos, as 7 duplas ↔ planetas, as 3 mães ↔ elementos · tarô ↔ caminhos da árvore é da Golden Dawn (séc. XIX) · Jung assume a correspondência na fase tardia (alquimia, *unus mundus*, sincronicidade), não na origem da psicologia analítica.
 - **Dentro de cada vídeo:** do caso concreto ao princípio (indutivo). O princípio é nomeado no fim, como revelação.
 - **Na série:** cada vídeo é um tijolo em que o seguinte se apoia, do mensurável (V1, a corda) ao inefável (V8, o Uno).
 - **[PROPOSTO]** Princípios do *Caibalion* (1908). É a fonte da lista de sete, e deve ser dito uma vez que é uma formulação moderna da tradição. V1 = Vibração + Correspondência (Mentalismo só plantado como pergunta) · V2 = Polaridade + Ritmo · Causa e Efeito e Gênero: **[PENDENTE]**.
@@ -26,8 +30,8 @@
 
 - **Princípio da Correspondência** — Fio condutor de todos os vídeos: "como acima, assim abaixo"
 - **Nous · Inteligência cósmica** — Plantado no V1 (pergunta) → *Timeu* no V4 → Plotino no V6 → Uno e Nous no V8
-- **Etimologia** — Todo conceito-chave abre pela origem da palavra (grego · latim · sânscrito quando couber). A raiz é fato filológico; lê-la como pista do plano das ideias é aposta, e vem rotulada
-- **Confirmação científica** — Cada tradição validada por dado verificável e datado, com o estatuto rotulado
+- **Etimologia** — Todo conceito-chave abre pela origem da palavra (grego · latim · sânscrito quando couber). A raiz é fato filológico; lê-la como pista do plano das ideias é interpretação, e vem rotulada
+- **Âncora mensurável** — Cada tradição ancorada no que se pode medir, com dado verificável e datado; onde não se mede, o grau vem rotulado
 - **Camada alquímica** — V2 — Paracelso · três princípios · quatro elementos
 - **Camada mitológica** — V3 em diante — signos como arquétipos greco-romanos
 - **Camada psicológica** — Introdução V3 · desenvolvimento pleno V5–6
@@ -37,43 +41,43 @@
 ## Tier 1 — Fundação Matemática
 
 ### V1 · A Harmonia do Cosmos  `tijolos definidos · a gravar`
-*Título pendente: "Astrologia é Física (mas não como você imagina)" tem risco de overclaim.*
+*Título pendente. "Astrologia é Física (mas não como você imagina)" afirma mais do que o canal sustenta. Título e miniatura se decidem depois do roteiro, e valem tanto quanto o conteúdo.*
 
 **Alvo:** ≈14:30 (máx. 15).
 **Abertura (≈1:20):** mostra as perguntas, não as respostas. Forja → monocórdio. O Victor aparece ≈25 s (a promessa), não nos primeiros 10 s.
 
-**T1 · A corda e a conta** — FATO + lenda · ≈2:30
+**T1 · A corda e a conta** — MEDÍVEL + lenda · ≈2:30
 - **Pergunta:** por que certos sons soam bem juntos?
 - **Mostra:** forja → monocórdio; razões 2:1, 3:2, 4:3; o tom = 9:8 (epogdoon); Lissajous como inserto (consonância = curva fechada simples). A lenda dos martelos contada como lenda: o princípio certo é comprimento, tensão e densidade.
 - **Etimologia:** harmonía vem de *harmózō* (“ajustar, juntar”); *razão* vem de *ratio*, que traduz o grego *lógos*: a mesma palavra para proporção e para palavra/razão.
 - **Síntese:** consonância é razão de números inteiros pequenos, e o tetraktys (1:2:3:4) é a fonte desses números.
 - **Ponte:** isso é só coisa de instrumento?
 
-**T2 · Onda e partícula: do som à matéria** — FATO + MODELO (Fuller) · ≈3:15
+**T2 · Onda e partícula: do som à matéria** — MEDÍVEL + INTERPRETÁVEL (Fuller) · ≈3:15
 - **Pergunta:** isso aparece fora das cordas?
-- **Mostra:** modos da corda (nós e ventres) → Chladni em 2D (~10 s) → elétron no átomo como onda estacionária (de Broglie) → dupla fenda: o mesmo objeto se comporta como onda ou como partícula conforme a medida **[FATO; a interpretação é disputada, rotular]**. Lente de Fuller **[MODELO]**: em *Synergetics*, o metafísico (princípios generalizados) não é o físico (eventos de energia), e a mente discerne padrões enquanto o cérebro é um terminal físico. Não citar frase de Fuller sem conferir a edição e a página.
+- **Mostra:** modos da corda (nós e ventres) → Chladni em 2D (~10 s) → elétron no átomo como onda estacionária (de Broglie) → dupla fenda: o mesmo objeto se comporta como onda ou como partícula conforme a medida **[MEDÍVEL; a interpretação é disputada, rotular]**. Lente de Fuller **[INTERPRETÁVEL]**: em *Synergetics*, o metafísico (princípios generalizados) não é o físico (eventos de energia), e a mente discerne padrões enquanto o cérebro é um terminal físico. Não citar frase de Fuller sem conferir a edição e a página.
 - **Etimologia:** partícula = *particula*, diminutivo de *pars* (“parte”); matéria = *materia*, da família de *mater* (“mãe”); *matrix* = “útero, fonte”, também de *mater*. *Māyā* (sânscrito, de *mā*, “medir, formar”) é outra raiz: a ponte com matéria é conceitual, não etimológica. [conferir]
 - **Síntese:** onda confinada produz números inteiros. É o mesmo "n" da corda. E "partícula" é o nome que damos à onda quando a medimos num ponto (interpretação, rotular).
 - **Ponte:** e no céu?
 
-**T3 · O céu tem razões simples?** — FATO + modelo histórico · ≈2:45
+**T3 · O céu tem razões simples?** — MEDÍVEL + modelo histórico · ≈2:45
 - **Pergunta:** existe razão simples entre os corpos celestes?
-- **Mostra:** ressonâncias reais (Io:Europa:Ganimedes 1:2:4; Netuno–Plutão 3:2). Kepler: elipses (*Astronomia Nova*, 1609) e razões harmônicas entre velocidades angulares (*Harmonices Mundi*, 1619). Gravuras de Stanley e do esquema das esferas, redesenhadas em Manim. Planetas como ciclos: cada período orbital é uma frequência (f = 1/T) [FATO]; não afirmar onda gravitacional nem maré sobre o corpo.
+- **Mostra:** ressonâncias reais (Io:Europa:Ganimedes 1:2:4; Netuno–Plutão 3:2). Kepler: elipses (*Astronomia Nova*, 1609) e razões harmônicas entre velocidades angulares (*Harmonices Mundi*, 1619). Gravuras de Stanley e do esquema das esferas, redesenhadas em Manim. Planetas como ciclos: cada período orbital é uma frequência (f = 1/T) [MEDÍVEL]; não afirmar onda gravitacional nem maré sobre o corpo.
 - **Etimologia:** planeta = *planētēs*, “errante”; cosmos = *kósmos*, “ordem, ornamento” (de onde vem cosmético).
 - **Síntese:** há razões simples no céu, e Kepler leu isso como o mesmo princípio da corda.
 - **Ponte:** então todos os planetas obedecem a razões musicais?
 
-**T4 · O estudo que propõe isso** — MODELO PROPOSTO · ≈1:45
+**T4 · O estudo que propõe isso** — MEDÍVEL · HIPÓTESE · ≈1:45
 - **Pergunta:** alguém testou isso com dados?
-- **Mostra:** Bank & Scafetta (2022): 5/4, 4/3, 3/2 e 8/5, p<0,001. Scafetta & Bianchini (2022): 9/8 com erro <1%. Dizer "propõe", não "demonstrou". Objeções honestas: Aristóteles (*Do Céu* II.9) e os testes de previsão astrológica sem efeito (Carlson, *Nature*, 1985). Objeção física: a força de maré dos planetas sobre o corpo é desprezível; a resposta da tradição não é força, é correspondência (T5). Contexto histórico [FATO]: até o séc. XVII astronomia e astrologia eram a mesma disciplina (Ptolomeu, Brahe, Kepler e Galileu fizeram horóscopos). Isso mostra o contexto, não prova validade. Evitar Newton: a anedota com Halley é apócrifa.
-- **Síntese:** há um modelo recente, ainda hipótese. A tradição já apostava nisso.
+- **Mostra:** Bank & Scafetta (2022): 5/4, 4/3, 3/2 e 8/5, p<0,001. Scafetta & Bianchini (2022): 9/8 com erro <1%. Dizer "propõe", não "demonstrou". Objeções honestas: Aristóteles (*Do Céu* II.9) e os testes de previsão astrológica sem efeito (Carlson, *Nature*, 1985). Objeção física: a força de maré dos planetas sobre o corpo é desprezível; a resposta da tradição não é força, é correspondência (T5). Contexto histórico [fato histórico]: até o séc. XVII astronomia e astrologia eram a mesma disciplina (Ptolomeu, Brahe, Kepler e Galileu fizeram horóscopos). Isso mostra o contexto, não prova validade. Evitar Newton: a anedota com Halley é apócrifa.
+- **Síntese:** há um modelo recente, ainda hipótese. A tradição já propunha isso.
 - **Ponte:** o que a tradição concluiu desse padrão?
 
-**T5 · Correspondência: o axioma** — APOSTA DA TRADIÇÃO · ≈2:30
+**T5 · Correspondência: o axioma** — INTERPRETÁVEL + VIVENCIAL · ≈2:30
 - **Pergunta:** o que a tradição fez com esse padrão?
-- **Mostra:** três degraus rotulados na tela: estrutural (FATO) → simbólico (MODELO) → espiritual (APOSTA). Tábua de Esmeralda (versões árabes do séc. VIII–IX) e Mateus 6:10 como paralelo estrutural. Dizer uma vez que a lista dos sete princípios é do *Caibalion* (1908). No grau espiritual: analogia do plâncton nas ondas do mar (somos conduzidos por ciclos que não sentimos) [APOSTA; como em Tarnas, correlação de sentido e não mecanismo]. Aqui a confirmação é a experiência vivida.
+- **Mostra:** definição de correspondência: um mapa que preserva estrutura entre dois domínios (comprimento ↔ altura, razão ↔ intervalo), não uma semelhança qualquer. Três graus rotulados na tela: estrutural (MEDÍVEL) → simbólico (INTERPRETÁVEL) → espiritual (VIVENCIAL). Tábua de Esmeralda (versões árabes do séc. VIII–IX) e Mateus 6:10 como paralelo estrutural. Dizer uma vez que a lista dos sete princípios é do *Caibalion* (1908). No grau espiritual: analogia do plâncton nas ondas do mar (somos conduzidos por ciclos que não sentimos) [VIVENCIAL; como em Tarnas, correlação de sentido e não mecanismo]. Aqui a confirmação é a experiência vivida.
 - **Etimologia:** axioma = *axíōma*, “o que é julgado digno” (de *áxios*); correspondência = *cor-respondēre*, “responder em conjunto”.
-- **Síntese:** o axioma é uma aposta assumida como aposta, e o canal inteiro parte dele **[LOCK]**.
+- **Síntese:** o axioma é um ponto de partida assumido como tal, e o canal inteiro parte dele **[LOCK]**.
 - **Ponte:** (opcional, uma frase) se a estrutura é proporção, o que a ordena? Sem responder. Depois, o gancho de saída.
 
 **Saída (≈0:30)** — **Gancho:** Áries começa no equinócio. É convenção, mas ancorada num ciclo natural e não nas estrelas. No hemisfério norte, onde a tradição nasceu. Próximo vídeo.
@@ -92,37 +96,37 @@
 
 **Alvo:** ≈14 min. A data depende de o Victor estudar antes.
 
-**T1 · Constelação é referência, signo é setor** — FATO + definição · ≈3:00
+**T1 · Constelação é referência, signo é setor** — MEDÍVEL + definição · ≈3:00
 - **Pergunta:** o signo é a constelação?
 - **Mostra:** constelações de tamanhos desiguais contra 12 setores iguais de 30° (herança sexagesimal babilônica, 360°). Ponto de partida do Victor: o nome vem da constelação, o setor é abstração. Zodíaco tropical (Ocidente, Ptolomeu) contra sideral (astrologia védica): admitir. Precessão: hoje ~24° de diferença.
 - **Síntese:** no zodíaco tropical, o signo é uma fase do ano, contada a partir do equinócio.
 - **Ponte:** por que o ano começa no equinócio?
 
-**T2 · O céu muda de fase (Ritmo)** — FATO · ≈2:30
+**T2 · O céu muda de fase (Ritmo)** — MEDÍVEL · ≈2:30
 - **Pergunta:** o que acontece nos equinócios e solstícios?
 - **Mostra:** declinação do Sol, dia = noite, os 4 pontos cardeais do ano. No hemisfério norte, onde a tradição nasceu (março é outono no Brasil). Big Dipper como relógio do ano **[PENDENTE: conferir a fonte]**.
 - **Síntese:** 4 pontos, 4 estações. Princípio do Ritmo.
 - **Ponte:** e dentro de cada estação?
 
-**T3 · Início, meio e fim: as 3 modalidades** — FATO + convenção · ≈2:00
+**T3 · Início, meio e fim: as 3 modalidades** — MEDÍVEL + convenção · ≈2:00
 - **Pergunta:** como se divide cada estação?
 - **Mostra:** cardinal (início), fixo (meio), mutável (fim). Ptolomeu os chama de signos tropicais, sólidos e bicorporais. 4 × 3 = 12.
 - **Síntese:** 12 signos = 4 estações × 3 estágios. A ligação limpa com as estações é a das modalidades.
 - **Ponte:** e os elementos?
 
-**T4 · Quatro elementos** — MODELO histórico · ≈3:00 · **[PENDENTE: estudar antes]**
+**T4 · Quatro elementos** — INTERPRETÁVEL (histórico) · ≈3:00 · **[PENDENTE: estudar antes]**
 - **Pergunta:** de onde vêm fogo, terra, ar e água, e como se ligam aos signos?
 - **Mostra:** Empédocles (as quatro raízes) → Aristóteles (*Da Geração e da Corrupção* II.2–3: pares de qualidades, quente/frio e seco/úmido) → trígonos (signos a 120°). Cuidado: cada estação tem 3 elementos diferentes, então elementos não são estações.
 - **Síntese:** a definir depois do estudo.
 - **Ponte:** e a polaridade?
 
-**T5 · Polaridade e os três princípios** — MODELO + APOSTA · ≈2:30
+**T5 · Polaridade e os três princípios** — INTERPRETÁVEL + VIVENCIAL · ≈2:30
 - **Pergunta:** por que tudo vem em pares?
 - **Mostra:** signos alternam masculino e feminino; yang/yin; diagrama alquímico 1 → 2 → 3 → 4 (Caos → Nitrum/Sal → Mercúrio/Enxofre/Sal → quatro elementos) como tetraktys desdobrado **[PENDENTE: confirmar a fonte da imagem]**. Bohr e o lema *contraria sunt complementa* (1947) como ponte com a física.
 - **Síntese:** a série 1 → 2 → 3 → 4 do V1 reaparece como estrutura qualitativa.
 - **Ponte:** cada signo tem um nome e uma história. De onde vem?
 
-**T6 · Música das esferas → qualidade** — MODELO histórico · ≈1:30 · **opcional (cortar se passar de 15 min)**
+**T6 · Música das esferas → qualidade** — INTERPRETÁVEL (histórico) · ≈1:30 · **opcional (cortar se passar de 15 min)**
 - **Pergunta:** se o céu é música, cada planeta tem a sua voz?
 - **Mostra:** Ptolomeu, *Harmônicos*; Kepler e o "moteto" de cada planeta (Saturno grave e lento, Mercúrio agudo e rápido).
 - **Síntese:** velocidade vira timbre: a qualidade de cada planeta.
@@ -149,13 +153,13 @@
 - **Síntese:** o mito é uma camada posta sobre uma base mais antiga, e natureza e mito descrevem a mesma coisa em linguagens diferentes.
 - **Ponte:** por que a psique precisa de mito?
 
-**T2 · Mito como linguagem dupla** — MODELO · ≈4:00
+**T2 · Mito como linguagem dupla** — INTERPRETÁVEL · ≈4:00
 - **Pergunta:** por que o mesmo símbolo serve ao ciclo da natureza e à vida interna?
 - **Mostra:** um signo de ponta a ponta: fase do ano + mito + função psíquica (escolher um; Áries é a sugestão natural).
 - **Síntese:** o símbolo une o que se vê (o ciclo) e o que se sente (a psique).
 - **Ponte:** quem sustentou isso, e com que estatuto?
 
-**T3 · Jung: arquétipo e inconsciente coletivo** — MODELO (psicologia analítica) · ≈3:00
+**T3 · Jung: arquétipo e inconsciente coletivo** — INTERPRETÁVEL (psicologia analítica) · ≈3:00
 - **Pergunta:** por que a psique precisa do símbolo?
 - **Mostra:** os arquétipos como hipótese da psicologia analítica, não fato empírico estabelecido. Sincronicidade (Jung e Pauli): "sinais, não causas" como uma corrente da tradição (Plotino, *Enéadas* II.3), enquanto Ptolomeu defendia influência física.
 - **Síntese:** Jung dá um modelo para explicar por que o mito funciona, e continua sendo modelo.
@@ -192,7 +196,7 @@
 
 **Atenção:** o Λ do *Timeu* é um modelo filosófico de c. 360 a.C. As distâncias reais dos planetas não seguem esses números (Kepler trocou o modelo).
 **Leituras:** Platão, *Timeu* 27c–47e (alma do mundo: 35a–36d) · *Fédon* 97b–99d.
-**Fios:** Platão como autoridade · Neoplatonismo (Proclo) · Confirmação científica · Camada geométrica · Anima Mundi · Nous
+**Fios:** Platão como autoridade · Neoplatonismo (Proclo) · Âncora mensurável · Camada geométrica · Anima Mundi · Nous
 **Gancho de saída:** fogo, água, terra, ar, éter — e os tipos psicológicos de Jung. É o mesmo sistema. Próximo vídeo.
 
 ### V5 · O Espelho Quádruplo  `planejado`
@@ -298,7 +302,7 @@
 - **V1 · Fuller:** a passagem colada sobre "paradoxo onda-partícula" e "eventos em puro princípio" não foi localizada em fonte. Conferir em *Synergetics* antes de citar; só entra com edição e página. O que se confirmou: o par metafísico/físico (U = MP) e "eventos de energia".
 - **V1 · etimologia:** conferir a ponte matéria × *māyā* (raízes distintas; a ligação é conceitual) antes de gravar.
 - **V3/V6 · psykhé:** de *psýchein* ("soprar"). Em Homero é o sopro vital e a sombra que deixa o corpo; Platão (*Fédon*, *República*, *Fedro*) faz dela a alma racional e imortal. "Psicologia" é do séc. XVI (provavelmente Melanchthon). *Anima* também vem de "sopro".
-- **V1:** título (risco de overclaim em "Astrologia é Física").
+- **V1:** título e miniatura (valem ≈50% do desempenho; decidir depois do roteiro, sem overclaim em "Astrologia é Física"). Pensar também nos primeiros 1:20, que valem outros ≈25%.
 - **V2:** estudar tropical × sideral, elementos × estações (trígonos) e a fonte do Big Dipper; confirmar a fonte do diagrama alquímico.
 - **V3:** decidir se "figura do signo" é o mito da constelação ou o regente planetário.
 - **V6:** reavaliar a densidade depois de ler as *Enéadas*.

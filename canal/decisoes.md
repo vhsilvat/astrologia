@@ -8,6 +8,11 @@
 
 - **[DECIDIDO]** Canal **MISTAGOGOS** (plural). Identidade Gruvbox estrita, EB Garamond, animações em Manim, edição no Shotcut.
 - **[DECIDIDO]** Astrologia tratada como sistema simbólico/cosmológico com base hermética e pitagórica. Vídeo 1 foca "na ciência da coisa". Pitágoras entra como ponto de partida harmônico. **[PROPOSTO]** evitar "pai da astrologia": historicamente impreciso.
+- **[DECIDIDO]** **Tese do canal:** mostrar como funciona o **princípio da correspondência**, o gesto que está na origem da alta magia, da astrologia como ferramenta de entendimento arquetípico, dos símbolos como passagem ao inconsciente (tarô), da psicologia analítica (Jung tardio) e da árvore da vida na Cabala. O canal não afirma que "astrologia é ciência".
+- **[PROPOSTO]** Definição de trabalho: correspondência é um **mapa que preserva estrutura** entre dois domínios (relações, razões, ordem, ciclos), não uma semelhança qualquer. É o critério contra a simbologia fajuta: o V2 o aplica (modalidades casam com as estações; elementos não).
+- **Graus de correspondência** (o rótulo na tela é o modo de validação): **MEDÍVEL** (estrutural, se mede) · **INTERPRETÁVEL** (simbólico, se lê e se compara) · **VIVENCIAL** (espiritual, só a experiência confirma).
+- **Camadas a distinguir ao falar das origens:** Agrippa e a Golden Dawn organizam tudo em tabelas de correspondências · no *Sefer Yetzirah* as 12 letras simples ↔ signos, as 7 duplas ↔ planetas, as 3 mães ↔ elementos · tarô ↔ caminhos da árvore é da Golden Dawn (séc. XIX) · Jung assume a correspondência na fase tardia (alquimia, *unus mundus*, sincronicidade), não na origem da psicologia analítica.
+- **[DECIDIDO]** Distribuição de esforço por vídeo (YouTube): título + miniatura ≈50%, abertura ≈25%, conteúdo ≈25%. Os três recebem cuidado de produção, e o roadmap garante que o conteúdo é uma base coerente sobre a qual os vídeos seguintes se apoiam.
 - **[DECIDIDO]** Fio condutor do V1 (quadrivium): número → som → forma → céu → matéria → correspondência (postulado).
 - **[DECIDIDO]** Sequência da série: V2 = signos como fases das estações e 4 elementos → Grécia antiga → Hipócrates → Jung. Roadmap completo em `roadmap.md`.
 - **[DECIDIDO]** O canal e os estudos fazem parte da jornada pessoal do Victor. Cabala e "frequência de anjos" ficam para bem depois, nunca no V1.
@@ -15,8 +20,8 @@
 - **[DECIDIDO]** Ordem do roadmap mantida (V1 harmonia → V2 signos e ciclos → V3 arquétipos → …): depois do V1 o espectador pergunta "e os signos?". Foco imediato: lançar V1–V3. O **Nous** entra no V8, como segunda hipóstase logo abaixo do Uno. V6 está denso demais e será reavaliado depois que o Victor ler as *Enéadas*.
 - **[DECIDIDO]** Método dos **tijolos**: cada conceito = pergunta → demonstração → síntese → pergunta-ponte. O vídeo é a soma de tijolos conectados, com teto de ~15 min (mais que isso fica pedante). Detalhe de V1–V3 em `roadmap.md`.
 - **[DECIDIDO]** O V2 parte de que as constelações são referenciais e de que o signo é um setor de 30° (ciclo natural). O Victor ainda precisa estudar antes de gravar (tropical × sideral, elementos × estações), então o V2 não tem data fixa.
-- **[DECIDIDO]** A dualidade onda-partícula é tijolo central do V1 (T2), com a lente de Fuller (mente × cérebro, metafísico × físico) como MODELO. Planetas como ciclos com frequência (período orbital = 1/f) ficam no V1. Não se afirma força de onda sobre o corpo; a analogia do plâncton entra no grau espiritual, como APOSTA.
-- **[DECIDIDO]** Etimologia abre cada conceito-chave. A raiz é fato filológico; ler a raiz como pista do plano das ideias é aposta, e vem rotulada.
+- **[DECIDIDO]** A dualidade onda-partícula é tijolo central do V1 (T2), com a lente de Fuller (mente × cérebro, metafísico × físico) como INTERPRETÁVEL. Planetas como ciclos com frequência (período orbital = 1/f) ficam no V1. Não se afirma força de onda sobre o corpo; a analogia do plâncton entra no grau espiritual (VIVENCIAL).
+- **[DECIDIDO]** Etimologia abre cada conceito-chave. A raiz é fato filológico; ler a raiz como pista do plano das ideias é interpretação, e vem rotulada.
 - **[PROPOSTO]** Ordem de exposição: dentro de cada vídeo, do caso concreto ao princípio (o princípio é nomeado no fim); na série, cada vídeo sustenta o seguinte, do mensurável ao inefável.
 - **[PROPOSTO]** Princípios do *Caibalion*: V1 = Vibração + Correspondência (Mentalismo só plantado como pergunta, sem resposta); V2 = Polaridade + Ritmo. O Nous é plantado no V1, e aparece com Anaxágoras e o *Timeu* no V4 e com Plotino no V6, até o V8.
 
@@ -27,17 +32,17 @@
 - **[DECIDIDO]** Incluir animações de **Chladni** e **Lissajous**.
 - **[PROPOSTO]** Hook em montagem acelerada de peças já renderizadas (c04 forja→monocórdio, c06, c08, c09, c10, c11) com narração nova. Abertura fria com a corda e o som.
 - **[PROPOSTO]** Ordem do corpo em 5 tijolos (detalhe em `roadmap.md`): a corda e a conta (c04, c06, c08; Lissajous como inserto) → onda e partícula (Chladni, ondas estacionárias, de Broglie, dupla fenda, lente de Fuller) → o céu (ressonâncias reais, Kepler; gravuras redesenhadas em Manim) → o estudo que propõe (Bank & Scafetta, com as objeções) → correspondência e axioma (Tábua e Mateus 6:10 como paralelo) → saída. **Boécio sai do V1**: a *Musica Humana* fica no V6, com no máximo 15 s de menção à *musica mundana*. Isso inverte o plano atual (que põe axiomas/Hermes antes de Pitágoras) e exige refazer as âncoras c03→c04 e c10→c11.
-- **[PROPOSTO]** Rótulos na tela, como marca do canal: **FATO · MODELO PROPOSTO · APOSTA DA TRADIÇÃO**.
+- **[DECIDIDO]** Rótulos na tela, como marca do canal, são os graus de correspondência: **MEDÍVEL · INTERPRETÁVEL · VIVENCIAL** (+ HIPÓTESE quando for estudo recente). Substituem FATO · MODELO PROPOSTO · APOSTA DA TRADIÇÃO.
 - **[PROPOSTO]** c01/c02 (anel zodiacal, Saturno/Netuno, retorno de Saturno) ficam guardados para o V2 (equinócio/Áries).
 - **[PROPOSTO]** c03 (Hermes) enxugar para ~90 s: manter Correspondência e Polaridade, cortar Caronte/Morfeu/Matrix.
 - **[PROPOSTO]** Onde aparecer: no hook (promessa, ~25 s), em transições curtas (5–10 s) e no final. Não nos primeiros ~10 s. Mapa pessoal (Roda da Fortuna, MC em Leão, trânsito de Marte) fica para o V2, com previsão datada e falseável.
-- **[PENDENTE]** Título. Manter "astrologia" nos títulos iniciais. "Astrologia é Física (mas não como você imagina)" é do Victor; o Claude vê risco de overclaim. Decidir.
+- **[PENDENTE]** Título. Manter "astrologia" nos títulos iniciais. "Astrologia é Física (mas não como você imagina)" é do Victor, mas afirma mais do que o canal sustenta (a tese é a correspondência, não "astrologia é ciência"). Título e miniatura valem ≈50%; decidir depois do roteiro.
 - **[DECIDIDO]** Gancho de saída do V1: o do roadmap (equinócio/Áries), dito como "convenção ancorada num ciclo natural, não nas estrelas". O gancho antigo, sobre sólidos platônicos, cai (eles só entram no V4).
 
 ## 3. Correções factuais (valem para qualquer roteiro, legenda ou cena)
 
 - **Estudo dos planetas:** Bank & Scafetta (2022), *Frontiers in Astronomy and Space Sciences*, razões 5/4, 4/3, 3/2 e 8/5, p<0,001. O 9/8 com erro <1% é de Scafetta & Bianchini (2022). **Não** é "Kaftán 2023". É modelo proposto, não consenso; escrever "propõe", não "demonstrou". p<0,001 é probabilidade de acaso, **não** margem de erro.
-- **Planeta como onda:** não afirmar. A onda de matéria de um planeta é desprezível. A ponte legítima é confinamento → números inteiros (corda, átomo) e ressonâncias orbitais reais (Io:Europa:Ganimedes 1:2:4, Netuno–Plutão 3:2).
+- **Planeta como onda:** afirmar só como ciclo com frequência (período orbital = 1/f); não afirmar força ondulatória sobre o corpo. A onda de matéria de um planeta é desprezível. A ponte legítima é confinamento → números inteiros (corda, átomo) e ressonâncias orbitais reais (Io:Europa:Ganimedes 1:2:4, Netuno–Plutão 3:2).
 - **Lenda dos martelos (Nicômaco, Jâmblico):** fisicamente falsa. Frequência depende de comprimento, tensão e densidade, não de "massa e velocidade". Apresentar como lenda que guarda o princípio certo.
 - **Pitágoras no Egito:** fontes tardias (Porfírio, Jâmblico, Diógenes Laércio). Tratar como tradição biográfica.
 - **"Oitava maior" não existe:** é oitava justa.
