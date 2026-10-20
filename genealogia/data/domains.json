@@ -180,6 +180,13 @@
    "desc": "Figuras míticas e suas identificações entre culturas (Hermes, Thoth). Base para a magia cerimonial."
   },
   {
+   "id": "cristianismo",
+   "name": "Cristianismo antigo",
+   "status": "ativo",
+   "file": "data/cristianismo.json",
+   "desc": "Textos e autores cristãos do séc. I em diante, no que tocam a cosmologia, os arcontes, os elementos e a reação gnóstica. O ponto de referência contra o qual gnósticos, hermetistas e neoplatônicos reagem."
+  },
+  {
    "id": "alquimia",
    "name": "Alquimia e gnose",
    "status": "ativo",
@@ -208,6 +215,6 @@
    "desc": "Agrippa, Dee, Lévi, Blavatsky, Golden Dawn, Crowley/Thelema, Kybalion. Muitas linhagens aqui são reivindicadas, não documentadas."
   }
  ],
- "title": "Genealogia das Ideias",
- "subtitle": "Quem leu quem, quem ensinou quem e quem refutou quem, por tema e no tempo: astrologia, mito, alquimia e psicologia profunda."
+ "title": "A Cadeia de Ouro",
+ "subtitle": "Como a correspondência entre o alto e o baixo foi transmitida, contestada e reinterpretada, do mito antigo a Jung. Quem leu quem, quem ensinou quem e quem refutou quem."
 }

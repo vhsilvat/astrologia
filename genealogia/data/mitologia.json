@@ -12,6 +12,11 @@
    "id": "myth.egipcia",
    "name": "Mito egípcio",
    "color": 1
+  },
+  {
+   "id": "myth.relatos",
+   "name": "Relatos e comparações",
+   "color": 6
   }
  ],
  "nodes": [
@@ -74,6 +79,16 @@
    "dy": -1,
    "work": "Apolodoro, Biblioteca 3.5.3; Hinos Órficos; Diodoro 4.4 e 5.75",
    "why": "Deus do vinho, do êxtase e dos mistérios. Desce ao Hades e traz a mãe Sêmele de volta, renomeada Tione (Apolodoro, Biblioteca 3.5.3). No mito órfico, Zagreu é o primeiro Dionísio, filho de Zeus e Perséfone e morto pelos Titãs; as fontes dessa versão são tardias. Visita o Hades e volta, mas não conduz almas."
+  },
+  {
+   "id": "herodoto",
+   "name": "Heródoto",
+   "date": "c. 484–425 a.C.",
+   "yr": -440,
+   "lane": "myth.relatos",
+   "dy": -1,
+   "work": "Histórias, livro II (Egito)",
+   "why": "Primeira fonte grega extensa sobre o Egito. Liga costumes 'órficos e báquicos' a ritos egípcios e pitagóricos (II.81) e atribui a metempsicose aos egípcios. Está na raiz da tradição do 'Egito como fonte' que chega a Jâmblico, aos Hermetica e à magia moderna."
   }
  ]
 }

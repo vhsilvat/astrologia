@@ -111,7 +111,7 @@ class Mapa:
         for name, obj in outs.items():
             txt = json.dumps(obj, ensure_ascii=False, indent=1) + '\n'
             p = DATA / name
-            if p.read_text(encoding='utf-8') != txt:
+            if not p.exists() or p.read_text(encoding='utf-8') != txt:
                 changed.append(name)
                 if not dry: p.write_text(txt, encoding='utf-8')
         print(('(simulação) ' if dry else '') + ('alterado: ' + ', '.join(changed) if changed else 'nada a mudar (já estava assim)'))
@@ -135,6 +135,9 @@ def main():
     p = sp.add_parser('rm-trail'); p.add_argument('id')
     p = sp.add_parser('lineage', help='cria ou substitui linhagem: id "nome" node...'); p.add_argument('id'); p.add_argument('name'); p.add_argument('nodes', nargs='+')
     p = sp.add_parser('rm-lineage'); p.add_argument('id')
+    p = sp.add_parser('add-domain', help='cria ou atualiza um tema'); p.add_argument('id'); p.add_argument('name'); p.add_argument('desc'); p.add_argument('--before', help='id do tema antes do qual inserir (padrão: antes do primeiro planejado)')
+    p = sp.add_parser('add-lane', help='cria ou atualiza uma faixa de um tema'); p.add_argument('domain'); p.add_argument('id'); p.add_argument('name'); p.add_argument('--color', type=int, default=1)
+    p = sp.add_parser('set-title', help='muda título e subtítulo da página'); p.add_argument('title'); p.add_argument('subtitle')
     sp.add_parser('build', help='gera as notas do Obsidian')
     a = ap.parse_args()
     m = Mapa()
@@ -207,6 +210,22 @@ def main():
             for o in m.tr['trails']: o.pop('default', None)
             t['default'] = True
         m.tr['trails'] = [x for x in m.tr['trails'] if x['id'] != a.id] + [t]
+    elif a.cmd == 'add-domain':
+        ent = next((d for d in m.dom['domains'] if d['id'] == a.id), None)
+        if ent: ent.update(name=a.name, desc=a.desc)
+        else:
+            ent = {'id': a.id, 'name': a.name, 'status': 'ativo', 'file': f'data/{a.id}.json', 'desc': a.desc}
+            ids = [d['id'] for d in m.dom['domains']]
+            i = ids.index(a.before) if a.before in ids else next((k for k, d in enumerate(m.dom['domains']) if d['status'] != 'ativo'), len(ids))
+            m.dom['domains'].insert(i, ent)
+            m.files[a.id] = ent['file']; m.D[a.id] = {'domain': a.id, 'schema': 1, 'updated': m.dom.get('updated', ''), 'lanes': [], 'nodes': []}
+    elif a.cmd == 'add-lane':
+        if a.domain not in m.D: sys.exit('tema desconhecido: ' + a.domain)
+        L = next((l for l in m.D[a.domain]['lanes'] if l['id'] == a.id), None)
+        if L: L.update(name=a.name, color=a.color)
+        else: m.D[a.domain]['lanes'].append({'id': a.id, 'name': a.name, 'color': a.color})
+    elif a.cmd == 'set-title':
+        m.dom['title'] = a.title; m.dom['subtitle'] = a.subtitle
     elif a.cmd == 'edit-trail':
         t = next((x for x in m.tr['trails'] if x['id'] == a.id), None)
         if not t: sys.exit('trilha inexistente: ' + a.id)

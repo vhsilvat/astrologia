@@ -1,6 +1,6 @@
-# Genealogia das Ideias
+# A Cadeia de Ouro
 
-Mapa de quem ensinou, influenciou, criticou, identificou ou reivindicou quem, por tema e no tempo (astrologia, mito, alquimia e gnose, psicologia profunda). Apoio de estudo e de roteiro para o canal @333victorhugo.
+Mapa de quem ensinou, influenciou, criticou, identificou ou reivindicou quem, por tema e no tempo (astrologia, mito, cristianismo antigo, alquimia e gnose, psicologia profunda). Apoio de estudo e de roteiro para o canal @333victorhugo.
 
 - `CONVENTIONS.md`: contrato de extensão. Leia primeiro; vale para qualquer instância do Claude.
 - `data/`: `domains.json`, um JSON por tema, `relacoes.json` e `trilhas.json`.

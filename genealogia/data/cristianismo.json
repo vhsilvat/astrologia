@@ -1,0 +1,24 @@
+{
+ "domain": "cristianismo",
+ "schema": 1,
+ "updated": "2026-10-19",
+ "lanes": [
+  {
+   "id": "chr.origens",
+   "name": "Origens cristãs",
+   "color": 3
+  }
+ ],
+ "nodes": [
+  {
+   "id": "paulo",
+   "name": "Paulo de Tarso",
+   "date": "séc. I (cartas c. 50–60)",
+   "yr": 55,
+   "lane": "chr.origens",
+   "dy": -1,
+   "work": "Gálatas, 1 Coríntios e Romanos (cartas de autoria consensual); Colossenses (autoria debatida)",
+   "why": "Primeiro autor cristão de quem temos textos. Fala em 'arcontes desta era' (1 Coríntios 2:6–8) e em 'ta stoicheia tou kosmou' (Gálatas 4:3 e 4:9; Colossenses 2:8 e 2:20). O sentido de stoicheia é discutido: princípios elementares da religião, elementos do cosmo ou potências astrais, e esta última leitura é a mais contestada. Muito lido pelos valentinianos."
+  }
+ ]
+}

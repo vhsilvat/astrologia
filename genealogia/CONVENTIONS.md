@@ -1,4 +1,4 @@
-# Genealogia das Ideias: contrato de extensão
+# A Cadeia de Ouro: contrato de extensão
 
 Leia este arquivo inteiro antes de mexer em qualquer outro. Ele existe para que qualquer instância futura do Claude, de qualquer versão, continue o trabalho sem depender da conversa em que ele nasceu.
 
@@ -6,6 +6,8 @@ Leia este arquivo inteiro antes de mexer em qualquer outro. Ele existe para que 
 
 - **Usuário:** Victor (@333victorhugo). Aprende melhor de forma visual, conectando os pontos. Quer ser desafiado no raciocínio, não afirmado.
 - **Uso:** apoio de estudo e de roteiro para um canal de YouTube sobre astrologia como *correspondência ontológica* (Plotino, Jung), não como causação. O rigor histórico é a marca do canal.
+- **Tema e título:** "A Cadeia de Ouro" é a *aurea catena* homérica (Ilíada VIII), que Macróbio e os neoplatônicos leem como a corrente que liga o alto ao baixo. O mapa segue a **tese de correspondência** ("em cima como embaixo") e suas críticas. A imagem tem dois sentidos que usamos: cadeia de seres e causas, e cadeia de transmissão entre mestres.
+- **Critério de entrada:** uma figura, texto ou tradição entra se *transmite, transforma, critica ou serve de ponto de referência* para a tese de correspondência **e** tem ao menos uma relação documentada com algo que já está no mapa. Sem as duas coisas, fica na lista de candidatos (seção 7). O cristianismo antigo entra como ponto de referência (arcontes, elementos, Logos, reação gnóstica), não como tema doutrinal.
 - **O que o mapa mostra:** não é mais só astrologia. É um mapa geral de relações entre figuras, textos e tradições (astrologia, mito, alquimia e gnose, psicologia profunda, e depois tarot e magia): quem ensinou, influenciou, criticou, identificou com quem ou reivindicou quem, no tempo. Cada linha precisa poder ser defendida com fonte.
 
 ## 2. Arquivos
@@ -48,6 +50,9 @@ mapa.py trail <id> "Nome" "Introdução" "no|leitura|horas" ... [--default]
 mapa.py rm-trail <id>
 mapa.py lineage <id> "Nome" no1 no2 ...
 mapa.py rm-lineage <id>
+mapa.py add-domain <id> "Nome" "Descrição" [--before <id>]
+mapa.py add-lane <tema> <id> "Nome" [--color 1-8]
+mapa.py set-title "Título" "Subtítulo"
 mapa.py build
 ```
 
@@ -123,3 +128,4 @@ Ao ativar um tema: criar `data/<tema>.json`, mudar `status` para `ativo` em `dom
 - 2026-10-19 · v3 · Relação `rudhyar → greene` (influencia) acrescentada, fonte: Robert Hand, prefácio de *Saturn: A New Look at an Old Devil* (Weiser, 2011), p. 5–6. Total: 43 nós, 53 relações.
 - 2026-10-19 · v4 · Refatoração para mapa geral. Relações e trilhas saem dos arquivos de tema (`relacoes.json`, `trilhas.json`); CLI `tools/mapa.py`; tipo `identificacao`; eixo começa em 2500 a.C.; numeração só da trilha selecionada; busca e seletor de destaque na página. Temas novos: `mitologia` (Homero, Hermes, Thoth) e `alquimia` (gnose antiga, Zósimo, Paracelso). Acrescentados Empédocles e Stanton Marlan (*The Black Sun*, 2008). Total: 51 nós, 69 relações, 3 trilhas, 8 linhagens. Fontes a conferir antes de citar no canal: ensaio de Jung sobre Zósimo (Eranos 1937), ensaios sobre Paracelso (1929, 1941), *Septem Sermones* (1916), Heródoto sobre Hermes/Thoth, Platão e a palavra "elemento" no *Timeu*.
 - 2026-10-20 · v5 · Trilhas renomeadas por tema; marco zero no eixo (`axis.marks`); `egito-templos` (Egito → Pitágoras e Babilônia → Pitágoras como `reivindicada`; fontes: Porfírio VP 6, Jâmblico, Heródoto II.123, Burkert); `dionisio` e `persefone` (Apolodoro, Biblioteca 3.5.3; Diodoro IV.4 e V.75.4; Hinos Órficos; Hino Homérico a Deméter) e linhagem "Descida ao Hades e retorno". CLAUDE.md na raiz do repositório. Total: 54 nós, 74 relações. Jesus, evangelhos e Nag Hammadi aguardam decisão de escopo e de título.
+- 2026-10-20 · v6 · Título "A Cadeia de Ouro" e critério de entrada (seção 1). Tema `cristianismo` com Paulo de Tarso (stoicheia e arcontes; ligado a `gnose` e a `agostinho`; Pagels 1975). Faixa `myth.relatos` com Heródoto (II.81, relação `debatido` com Pitágoras; problema textual nos manuscritos). **Correção:** a relação Hermes–Thoth dizia que Heródoto foi o primeiro a identificá-los e que Platão os via como distintos; nenhuma das duas afirmações foi confirmada. Agora cita a identificação ptolemaica (interpretatio graeca) e Cícero, De Natura Deorum III.56. CLI: `add-domain`, `add-lane`, `set-title`. Total: 56 nós, 77 relações. Da memória, a confirmar antes de citar: Romanos 13:13 na conversão de Agostinho (Confissões VIII.12); 1 Coríntios 2:6–8; Heródoto II.123.

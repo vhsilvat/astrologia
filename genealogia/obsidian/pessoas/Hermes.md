@@ -25,4 +25,4 @@ Deus de passagens e mediação. É psicopompo, condutor de almas ao Hades, uma d
 - [[Perséfone]] · *influência ou transmissão documentada* · No Hino Homérico a Deméter, Zeus envia Hermes ao Hades para trazer Perséfone de volta.
 
 ## Identificado com
-- [[Thoth]] · *identificação sincrética (figuras tomadas como a mesma)* · Heródoto é o primeiro a identificar Hermes com Thoth; no Egito ptolemaico os dois eram cultuados como um só em Hermópolis. Platão os considerava distintos.
+- [[Thoth]] · *identificação sincrética (figuras tomadas como a mesma)* · Gregos do Egito ptolemaico identificam Thoth a Hermes (interpretatio graeca); em Khemenu, a Hermópolis helenística, os dois eram cultuados como um só. Cícero (De Natura Deorum III.56) registra o Mercúrio que os egípcios chamam Theyt.

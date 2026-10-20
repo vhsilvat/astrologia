@@ -2,7 +2,7 @@
 tags: [genealogia, moc]
 ---
 
-# Genealogia das Ideias
+# A Cadeia de Ouro
 
 Mapa de conteúdo gerado de `genealogia/data/*.json`. Não edite as notas à mão: edite os JSON e rode `python3 genealogia/tools/mapa.py build`.
 
@@ -76,6 +76,16 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 
 - [[Thoth]] · c. 2400 a.C.
 - [[Templos egípcios]] · milênios a.C. até c. 300 a.C.
+
+### Relatos e comparações
+
+- [[Heródoto]] · c. 484–425 a.C.
+
+## Cristianismo antigo
+
+### Origens cristãs
+
+- [[Paulo de Tarso]] · séc. I (cartas c. 50–60)
 
 ## Alquimia e gnose
 

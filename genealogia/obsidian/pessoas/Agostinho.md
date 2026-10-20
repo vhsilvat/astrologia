@@ -18,7 +18,7 @@ Confissões VII; Cidade de Deus V
 Refuta o mapa natal com o argumento dos gêmeos e da roda do oleiro. Fixa a crítica cristã à astrologia fatalista.
 
 ## Vem de
-- (nenhuma registrada)
+- [[Paulo de Tarso]] · *influência ou transmissão documentada* · A conversão narrada nas Confissões (VIII.12) acontece ao ler Romanos 13:13–14; Paulo é autoridade central em Agostinho.
 
 ## Leva a ou atinge
 - [[Pico della Mirandola]] · *influência ou transmissão documentada* · Pico reaproveita argumentos de Agostinho

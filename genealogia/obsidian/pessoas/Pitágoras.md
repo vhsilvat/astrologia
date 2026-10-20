@@ -22,6 +22,7 @@ O que se diz dele vem de fontes tardias (Aristóteles, Porfírio, Jâmblico). Se
 - [[Babilônia]] · *linhagem reivindicada pela tradição, sem documentação* · Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época.
 - [[Walter Burkert]] · *crítica (do crítico ao alvo)* · Examina criticamente as fontes sobre Pitágoras
 - [[Templos egípcios]] · *linhagem reivindicada pela tradição, sem documentação* · Porfírio (Vida de Pitágoras, 6) e Jâmblico dizem que ele aprendeu com sacerdotes egípcios. Heródoto (II.123) atribui a metempsicose aos egípcios, sem citar Pitágoras. Fontes tardias, sem corroboração contemporânea. Burkert: não há um único detalhe da vida de Pitágoras que não seja contestado.
+- [[Heródoto]] · *relação debatida pelos estudiosos* · II.81: os ritos chamados órficos e báquicos seriam 'na verdade egípcios e pitagóricos' (proibição de enterrar em lã). A frase tem problema textual: a família florentina de manuscritos omite 'e báquicos, sendo egípcios'. Heródoto também atribui a metempsicose aos egípcios sem nomear Pitágoras.
 - [[Orfismo]] · *relação debatida pelos estudiosos* · A relação entre órficos e pitagóricos é discutida (Burkert)
 
 ## Leva a ou atinge

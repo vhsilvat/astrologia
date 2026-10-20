@@ -162,7 +162,7 @@
    "from": "hermes",
    "to": "thoth",
    "type": "identificacao",
-   "desc": "Heródoto é o primeiro a identificar Hermes com Thoth; no Egito ptolemaico os dois eram cultuados como um só em Hermópolis. Platão os considerava distintos."
+   "desc": "Gregos do Egito ptolemaico identificam Thoth a Hermes (interpretatio graeca); em Khemenu, a Hermópolis helenística, os dois eram cultuados como um só. Cícero (De Natura Deorum III.56) registra o Mercúrio que os egípcios chamam Theyt."
   },
   {
    "from": "hermetica",
@@ -187,6 +187,12 @@
    "to": "zosimo",
    "type": "influencia",
    "desc": "A alquimia de Zósimo reflete influência hermética e gnóstica."
+  },
+  {
+   "from": "herodoto",
+   "to": "pitagoras",
+   "type": "debatido",
+   "desc": "II.81: os ritos chamados órficos e báquicos seriam 'na verdade egípcios e pitagóricos' (proibição de enterrar em lã). A frase tem problema textual: a família florentina de manuscritos omite 'e báquicos, sendo egípcios'. Heródoto também atribui a metempsicose aos egípcios sem nomear Pitágoras."
   },
   {
    "from": "hesiodo",
@@ -271,6 +277,18 @@
    "to": "jung",
    "type": "influencia",
    "desc": "Correspondência desde 1932 e a conjectura Pauli–Jung sobre sincronicidade."
+  },
+  {
+   "from": "paulo",
+   "to": "agostinho",
+   "type": "influencia",
+   "desc": "A conversão narrada nas Confissões (VIII.12) acontece ao ler Romanos 13:13–14; Paulo é autoridade central em Agostinho."
+  },
+  {
+   "from": "paulo",
+   "to": "gnose",
+   "type": "influencia",
+   "desc": "Valentinianos do séc. II leem as cartas de Paulo como base de um cristianismo esotérico (Pagels, The Gnostic Paul, Fortress Press, 1975)."
   },
   {
    "from": "persefone",
