@@ -17,9 +17,11 @@ Introdução ao Tetrabiblos; Vida de Pitágoras
 ## Por que importa
 Editou as Enéadas (seis grupos de nove), comentou Ptolomeu e escreveu uma Vida de Pitágoras.
 
-## Vem de
-- [[Plotino]] · *mestre → discípulo* · Porfírio foi seu discípulo e editou as Enéadas
-- [[Ptolomeu]] · *influência ou transmissão documentada* · Porfírio escreveu uma Introdução ao Tetrabiblos
+## Mestre de
+- [[Jâmblico]] · Jâmblico foi seu discípulo e o criticou
 
-## Leva a ou atinge
-- [[Jâmblico]] · *mestre → discípulo* · Jâmblico foi seu discípulo e o criticou
+## Discípulo de
+- [[Plotino]] · Porfírio foi seu discípulo e editou as Enéadas
+
+## Foi influenciada por
+- [[Ptolomeu]] · Porfírio escreveu uma Introdução ao Tetrabiblos

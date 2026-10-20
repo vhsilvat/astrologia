@@ -17,8 +17,5 @@ Argumentos reportados por Cícero
 ## Por que importa
 Cético acadêmico; seus argumentos contra a adivinhação chegam até nós por Cícero.
 
-## Vem de
-- (nenhuma registrada)
-
-## Leva a ou atinge
-- [[Cícero]] · *influência ou transmissão documentada* · Cícero transmite os argumentos céticos de Carnéades
+## Influenciou
+- [[Cícero]] · Cícero transmite os argumentos céticos de Carnéades

@@ -17,9 +17,11 @@ Manual de Harmônica; Introdução à Aritmética
 ## Por que importa
 Neopitagórico: fixa a tradição que liga número, música e cosmos e que chegará a Boécio.
 
-## Vem de
-- [[Pitágoras]] · *influência ou transmissão documentada* · O neopitagorismo reivindica Pitágoras como fundador
-- [[Platão]] · *influência ou transmissão documentada* · Nicômaco é neopitagórico de inspiração platônica
+## Influenciou
+- [[Boécio]] · Boécio adapta Nicômaco em suas obras sobre aritmética e música
 
-## Leva a ou atinge
-- [[Boécio]] · *influência ou transmissão documentada* · Boécio adapta Nicômaco em suas obras sobre aritmética e música
+## Foi influenciada por
+- [[Platão]] · Nicômaco é neopitagórico de inspiração platônica
+
+## Segue a escola de
+- [[Pitágoras]] · O neopitagorismo reivindica Pitágoras como fundador

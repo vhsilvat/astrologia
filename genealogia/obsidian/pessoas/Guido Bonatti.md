@@ -17,8 +17,8 @@ Liber Astronomiae
 ## Por que importa
 Compêndio latino que leva a astrologia árabe à Europa medieval; muito usado por Lilly depois.
 
-## Vem de
-- [[Abu Ma’shar]] · *influência ou transmissão documentada* · Bonatti usa Abu Ma’shar amplamente
+## Influenciou
+- [[William Lilly]] · Lilly cita Bonatti
 
-## Leva a ou atinge
-- [[William Lilly]] · *influência ou transmissão documentada* · Lilly cita Bonatti
+## Foi influenciada por
+- [[Abu Ma’shar]] · Bonatti usa Abu Ma’shar amplamente

@@ -17,8 +17,5 @@ Lore and Science in Ancient Pythagoreanism
 ## Por que importa
 Separa o Pitágoras histórico da construção neoplatônica posterior. Leitura de método, antes do Timeu se possível.
 
-## Vem de
-- (nenhuma registrada)
-
-## Leva a ou atinge
-- [[Pitágoras]] · *crítica (do crítico ao alvo)* · Examina criticamente as fontes sobre Pitágoras
+## Criticou
+- [[Pitágoras]] · Examina criticamente as fontes sobre Pitágoras

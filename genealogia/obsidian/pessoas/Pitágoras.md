@@ -17,16 +17,24 @@ Não deixou escritos
 ## Por que importa
 O que se diz dele vem de fontes tardias (Aristóteles, Porfírio, Jâmblico). Separar o histórico do lendário é a primeira tarefa.
 
-## Vem de
-- [[Aristóteles]] · *crítica (do crítico ao alvo)* · Do Céu II.9 refuta a música das esferas dos pitagóricos
-- [[Babilônia]] · *linhagem reivindicada pela tradição, sem documentação* · Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época.
-- [[Walter Burkert]] · *crítica (do crítico ao alvo)* · Examina criticamente as fontes sobre Pitágoras
-- [[Templos egípcios]] · *linhagem reivindicada pela tradição, sem documentação* · Porfírio (Vida de Pitágoras, 6) e Jâmblico dizem que ele aprendeu com sacerdotes egípcios. Heródoto (II.123) atribui a metempsicose aos egípcios, sem citar Pitágoras. Fontes tardias, sem corroboração contemporânea. Burkert: não há um único detalhe da vida de Pitágoras que não seja contestado.
-- [[Heródoto]] · *relação debatida pelos estudiosos* · II.81: os ritos chamados órficos e báquicos seriam 'na verdade egípcios e pitagóricos' (proibição de enterrar em lã). A frase tem problema textual: a família florentina de manuscritos omite 'e báquicos, sendo egípcios'. Heródoto também atribui a metempsicose aos egípcios sem nomear Pitágoras.
-- [[Orfismo]] · *relação debatida pelos estudiosos* · A relação entre órficos e pitagóricos é discutida (Burkert)
+## Influenciou
+- [[Kepler]] · Kepler assume a herança pitagórica da harmonia das esferas
 
-## Leva a ou atinge
-- [[Empédocles]] · *relação debatida pelos estudiosos* · Biografias tardias o dizem pitagórico; estudiosos modernos veem a tutela como cronologicamente impossível, no máximo uma afinidade de ideias (reencarnação).
-- [[Filolau]] · *relação debatida pelos estudiosos* · Filolau pertence à tradição pitagórica
-- [[Kepler]] · *influência ou transmissão documentada* · Kepler assume a herança pitagórica da harmonia das esferas
-- [[Nicômaco]] · *influência ou transmissão documentada* · O neopitagorismo reivindica Pitágoras como fundador
+## Foi criticada por
+- [[Aristóteles]] · Do Céu II.9 refuta a música das esferas dos pitagóricos
+- [[Walter Burkert]] · Examina criticamente as fontes sobre Pitágoras
+
+## Relação debatida com
+- [[Empédocles]] · Biografias tardias o dizem pitagórico; estudiosos modernos veem a tutela como cronologicamente impossível, no máximo uma afinidade de ideias (reencarnação).
+- [[Filolau]] · Filolau pertence à tradição pitagórica
+
+## Relação debatida com
+- [[Heródoto]] · II.81: os ritos chamados órficos e báquicos seriam 'na verdade egípcios e pitagóricos' (proibição de enterrar em lã). A frase tem problema textual: a família florentina de manuscritos omite 'e báquicos, sendo egípcios'. Heródoto também atribui a metempsicose aos egípcios sem nomear Pitágoras.
+- [[Orfismo]] · A relação entre órficos e pitagóricos é discutida (Burkert)
+
+## Segundo a tradição, vem de
+- [[Babilônia]] · Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época.
+- [[Templos egípcios]] · Porfírio (Vida de Pitágoras, 6) e Jâmblico dizem que ele aprendeu com sacerdotes egípcios. Heródoto (II.123) atribui a metempsicose aos egípcios, sem citar Pitágoras. Fontes tardias, sem corroboração contemporânea. Burkert: não há um único detalhe da vida de Pitágoras que não seja contestado.
+
+## Escola seguida por
+- [[Nicômaco]] · O neopitagorismo reivindica Pitágoras como fundador

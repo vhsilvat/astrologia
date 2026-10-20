@@ -17,12 +17,12 @@ Tetrabiblos; Harmônica; Almagesto
 ## Por que importa
 Defende uma astrologia “natural”: os astros agem por qualidades físicas (calor, frio, umidade, secura). Na Harmônica e em Tetrabiblos I.13 liga os aspectos às consonâncias musicais.
 
-## Vem de
-- [[Aristóteles]] · *influência ou transmissão documentada* · Ptolomeu usa a física aristotélica das qualidades
-- [[Estoicos]] · *influência ou transmissão documentada* · Simpatia cósmica e causalidade física
+## Influenciou
+- [[Abu Ma’shar]] · A tradição árabe herda Ptolomeu e a astrologia helenística
+- [[Al-Biruni]] · Al-Biruni conhece o Almagesto e o Tetrabiblos
+- [[Kepler]] · Kepler comenta a Harmônica de Ptolomeu e reformula os aspectos
+- [[Porfírio]] · Porfírio escreveu uma Introdução ao Tetrabiblos
 
-## Leva a ou atinge
-- [[Abu Ma’shar]] · *influência ou transmissão documentada* · A tradição árabe herda Ptolomeu e a astrologia helenística
-- [[Al-Biruni]] · *influência ou transmissão documentada* · Al-Biruni conhece o Almagesto e o Tetrabiblos
-- [[Kepler]] · *influência ou transmissão documentada* · Kepler comenta a Harmônica de Ptolomeu e reformula os aspectos
-- [[Porfírio]] · *influência ou transmissão documentada* · Porfírio escreveu uma Introdução ao Tetrabiblos
+## Foi influenciada por
+- [[Aristóteles]] · Ptolomeu usa a física aristotélica das qualidades
+- [[Estoicos]] · Simpatia cósmica e causalidade física

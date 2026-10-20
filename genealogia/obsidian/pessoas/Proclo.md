@@ -17,9 +17,9 @@ Comentário ao Timeu; Hypotyposis
 ## Por que importa
 Sistematiza o neoplatonismo e comenta o Timeu. É um dos canais pelos quais a Renascença leu Platão e Euclides.
 
-## Vem de
-- [[Jâmblico]] · *influência ou transmissão documentada* · Proclo herda a teurgia de Jâmblico
+## Influenciou
+- [[Ficino]] · Ficino leu e usou Proclo
+- [[Kepler]] · Kepler usa o comentário de Proclo a Euclides
 
-## Leva a ou atinge
-- [[Ficino]] · *influência ou transmissão documentada* · Ficino leu e usou Proclo
-- [[Kepler]] · *influência ou transmissão documentada* · Kepler usa o comentário de Proclo a Euclides
+## Foi influenciada por
+- [[Jâmblico]] · Proclo herda a teurgia de Jâmblico

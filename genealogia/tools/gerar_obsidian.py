@@ -45,11 +45,16 @@ for i, n in nodes.items():
          f"tags: [genealogia, {n['dom']['id']}]", "---", "",
          f"# {n['name']}", "", f"*{n['date']} · {n['dom']['name']} · {lanes[n['lane']]['name']}*", "",
          "## Obra", n["work"], "", "## Por que importa", n["why"], ""]
-    for title, es, key in (("Vem de", inn, "from"), ("Leva a ou atinge", out, "to"), ("Identificado com", eq, None)):
-        if key is None and not es: continue
-        L += [f"## {title}"]
-        L += [f"- {link(e[key] if key else (e['to'] if e['from'] == i else e['from']))} · *{types[e['type']]['label']}* · {e['desc']}" for e in es] or ["- (nenhuma registrada)"]
-        L += [""]
+    for t, T in types.items():
+        blocks = ([(T.get("out", T["label"]), [e for e in edges if e["type"] == t and e["from"] == i], "to"),
+                   (T.get("in", T["label"]), [e for e in edges if e["type"] == t and e["to"] == i], "from")]
+                  if dr(e={"type": t}) else
+                  [(T.get("out", T["label"]), [e for e in edges if e["type"] == t and i in (e["from"], e["to"])], None)])
+        for title, es, key in blocks:
+            if not es: continue
+            L += [f"## {title}"]
+            L += [f"- {link(e[key] if key else (e['to'] if e['from'] == i else e['from']))} · {e['desc']}" for e in es]
+            L += [""]
     (OUT / "pessoas" / f"{names[i]}.md").write_text("\n".join(L), encoding="utf-8")
 
 M = ["---", "tags: [genealogia, moc]", "---", "", f"# {dom['title']}", "",

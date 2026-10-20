@@ -133,35 +133,61 @@
  },
  "edgeTypes": {
   "mestre": {
-   "label": "mestre → discípulo",
+   "label": "mestre → discípulo (ensino direto documentado)",
+   "out": "Mestre de",
+   "in": "Discípulo de",
    "dash": "",
    "css": "--e-mestre"
   },
   "influencia": {
    "label": "influência ou transmissão documentada",
+   "out": "Influenciou",
+   "in": "Foi influenciada por",
    "dash": "",
    "css": "--e-influencia"
   },
   "critica": {
    "label": "crítica (do crítico ao alvo)",
+   "out": "Criticou",
+   "in": "Foi criticada por",
    "dash": "6 4",
    "css": "--e-critica"
   },
   "debatido": {
    "label": "relação debatida pelos estudiosos",
+   "out": "Relação debatida com",
+   "in": "Relação debatida com",
    "dash": "2 4",
    "css": "--e-debatido"
   },
   "reivindicada": {
    "label": "linhagem reivindicada pela tradição, sem documentação",
+   "out": "Segundo a tradição, origem de",
+   "in": "Segundo a tradição, vem de",
    "dash": "1 3",
    "css": "--e-reivindicada"
   },
   "identificacao": {
    "label": "identificação sincrética (figuras tomadas como a mesma)",
+   "out": "Identificado com",
+   "in": "Identificado com",
    "dash": "8 3 2 3",
    "css": "--e-identificacao",
    "directed": false
+  },
+  "registro": {
+   "label": "registro (a figura é preservada ou relatada num texto)",
+   "out": "Preservado ou relatado em",
+   "in": "Preserva ou relata",
+   "dash": "10 3",
+   "css": "--e-registro"
+  },
+  "escola": {
+   "label": "escola (seguidores de uma tradição, sem ensino direto documentado)",
+   "out": "Escola seguida por",
+   "in": "Segue a escola de",
+   "dash": "4 2 1 2",
+   "css": "--e-escola"
   }
  },
  "domains": [

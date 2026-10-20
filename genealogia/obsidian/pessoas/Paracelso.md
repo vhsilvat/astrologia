@@ -17,8 +17,5 @@ Paragranum (1530); Opus Paramirum (1531); Astronomia magna (1537)
 ## Por que importa
 Médico e alquimista. Aplica o modelo enxofre–mercúrio–sal à medicina e pratica astrologia. Jung escreveu dois ensaios sobre ele (1929 e 1941).
 
-## Vem de
-- (nenhuma registrada)
-
-## Leva a ou atinge
-- [[C. G. Jung]] · *influência ou transmissão documentada* · Jung escreveu dois ensaios sobre Paracelso (1929 e 1941).
+## Influenciou
+- [[C. G. Jung]] · Jung escreveu dois ensaios sobre Paracelso (1929 e 1941).

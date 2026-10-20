@@ -23,7 +23,7 @@
   {
    "from": "apocrifo-joao",
    "to": "nag-hammadi",
-   "type": "influencia",
+   "type": "registro",
    "desc": "Preservado em três versões em Nag Hammadi (longas nos códices II e IV, curta no III)."
   },
   {
@@ -191,7 +191,7 @@
   {
    "from": "hermetica",
    "to": "nag-hammadi",
-   "type": "influencia",
+   "type": "registro",
    "desc": "O Códice VI preserva em copta três tratados herméticos: Discurso sobre o Oitavo e o Nono, Ação de Graças e um trecho do Asclépio."
   },
   {
@@ -257,7 +257,7 @@
   {
    "from": "jesus",
    "to": "evangelho-joao",
-   "type": "influencia",
+   "type": "registro",
    "desc": "Relato de ditos e feitos de Jesus, escrito entre sessenta e setenta anos depois."
   },
   {
@@ -269,19 +269,19 @@
   {
    "from": "jesus",
    "to": "lucas",
-   "type": "influencia",
+   "type": "registro",
    "desc": "Relatos de ditos e feitos de Jesus, escritos cerca de cinquenta anos depois."
   },
   {
    "from": "jesus",
    "to": "marcos",
-   "type": "influencia",
+   "type": "registro",
    "desc": "Relatos de ditos e feitos de Jesus, escritos cerca de quarenta anos depois."
   },
   {
    "from": "jesus",
    "to": "mateus",
-   "type": "influencia",
+   "type": "registro",
    "desc": "Relatos de ditos e feitos de Jesus, escritos cerca de cinquenta anos depois."
   },
   {
@@ -437,7 +437,7 @@
   {
    "from": "pitagoras",
    "to": "nicomaco",
-   "type": "influencia",
+   "type": "escola",
    "desc": "O neopitagorismo reivindica Pitágoras como fundador"
   },
   {
@@ -473,7 +473,7 @@
   {
    "from": "platao",
    "to": "plotino",
-   "type": "influencia",
+   "type": "escola",
    "desc": "Plotino se entende como intérprete de Platão"
   },
   {
@@ -593,7 +593,7 @@
   {
    "from": "valentim",
    "to": "nag-hammadi",
-   "type": "influencia",
+   "type": "registro",
    "desc": "O Evangelho de Filipe (Códice II) é valentiniano; o Evangelho da Verdade (Códice I) liga-se à escola."
   },
   {

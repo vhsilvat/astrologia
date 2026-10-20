@@ -17,8 +17,5 @@ Comentário ao Sonho de Cipião
 ## Por que importa
 Transmite à Idade Média a harmonia das esferas e a descida da alma pelas esferas planetárias.
 
-## Vem de
-- [[Cícero]] · *influência ou transmissão documentada* · Macróbio comenta o Sonho de Cipião
-
-## Leva a ou atinge
-- (nenhuma registrada)
+## Foi influenciada por
+- [[Cícero]] · Macróbio comenta o Sonho de Cipião

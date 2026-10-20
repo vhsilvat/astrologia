@@ -138,6 +138,7 @@ def main():
     p = sp.add_parser('add-domain', help='cria ou atualiza um tema'); p.add_argument('id'); p.add_argument('name'); p.add_argument('desc'); p.add_argument('--before', help='id do tema antes do qual inserir (padrão: antes do primeiro planejado)')
     p = sp.add_parser('add-lane', help='cria ou atualiza uma faixa de um tema'); p.add_argument('domain'); p.add_argument('id'); p.add_argument('name'); p.add_argument('--color', type=int, default=1)
     p = sp.add_parser('set-title', help='muda título e subtítulo da página'); p.add_argument('title'); p.add_argument('subtitle')
+    p = sp.add_parser('set-edgetype', help='cria ou atualiza um tipo de relação com seus rótulos'); p.add_argument('id'); p.add_argument('label', help='texto da legenda'); p.add_argument('--out', help='rótulo no painel quando a figura é a origem'); p.add_argument('--in', dest='inn', help='rótulo no painel quando a figura é o alvo'); p.add_argument('--dash'); p.add_argument('--css'); p.add_argument('--undirected', action='store_true')
     sp.add_parser('build', help='gera as notas do Obsidian')
     a = ap.parse_args()
     m = Mapa()
@@ -226,6 +227,16 @@ def main():
         L = next((l for l in m.D[a.domain]['lanes'] if l['id'] == a.id), None)
         if L: L.update(name=a.name, color=a.color)
         else: m.D[a.domain]['lanes'].append({'id': a.id, 'name': a.name, 'color': a.color})
+    elif a.cmd == 'set-edgetype':
+        t = m.dom['edgeTypes'].setdefault(a.id, {})
+        t['label'] = a.label
+        if a.out is not None: t['out'] = a.out
+        if a.inn is not None: t['in'] = a.inn
+        t.setdefault('dash', ''); t.setdefault('css', '--e-' + a.id)
+        if a.dash is not None: t['dash'] = a.dash
+        if a.css is not None: t['css'] = a.css
+        if a.undirected: t['directed'] = False
+        m.dom['edgeTypes'][a.id] = {k: t[k] for k in ('label', 'out', 'in', 'dash', 'css', 'directed') if k in t}
     elif a.cmd == 'set-title':
         m.dom['title'] = a.title; m.dom['subtitle'] = a.subtitle
     elif a.cmd == 'edit-trail':

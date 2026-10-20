@@ -17,9 +17,9 @@ De Mysteriis; Vida Pitagórica
 ## Por que importa
 Discípulo de Porfírio que discorda do mestre: a teurgia, e não só o intelecto, une a alma aos deuses. Nega o fatalismo astral (De Mysteriis VIII).
 
-## Vem de
-- [[Porfírio]] · *mestre → discípulo* · Jâmblico foi seu discípulo e o criticou
+## Discípulo de
+- [[Porfírio]] · Jâmblico foi seu discípulo e o criticou
 
-## Leva a ou atinge
-- [[Ficino]] · *influência ou transmissão documentada* · Ficino traduziu o De Mysteriis (1497)
-- [[Proclo]] · *influência ou transmissão documentada* · Proclo herda a teurgia de Jâmblico
+## Influenciou
+- [[Ficino]] · Ficino traduziu o De Mysteriis (1497)
+- [[Proclo]] · Proclo herda a teurgia de Jâmblico

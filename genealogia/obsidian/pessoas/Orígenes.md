@@ -17,9 +17,6 @@ Comentário a João; Contra Celso
 ## Por que importa
 Seu Comentário a João cita Heracleão quase cinquenta vezes, em geral para contestá-lo, e por isso preserva grandes trechos dele. Em Contra Celso VI descreve o diagrama dos ofitas.
 
-## Vem de
-- (nenhuma registrada)
-
-## Leva a ou atinge
-- [[Heracleão]] · *crítica (do crítico ao alvo)* · O Comentário a João cita Heracleão quase cinquenta vezes, em geral para contestá-lo, e preserva assim fragmentos que de outro modo se perderiam.
-- [[Ofitas e arcontes]] · *crítica (do crítico ao alvo)* · Contra Celso VI descreve o diagrama ofita, tomado de Celso, e o refuta.
+## Criticou
+- [[Heracleão]] · O Comentário a João cita Heracleão quase cinquenta vezes, em geral para contestá-lo, e preserva assim fragmentos que de outro modo se perderiam.
+- [[Ofitas e arcontes]] · Contra Celso VI descreve o diagrama ofita, tomado de Celso, e o refuta.

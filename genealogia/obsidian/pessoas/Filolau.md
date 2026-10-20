@@ -17,8 +17,8 @@ Fragmentos
 ## Por que importa
 Pitagórico com fragmentos tidos como autênticos (limite e ilimitado, harmonia, fogo central). É o melhor apoio textual do pitagorismo antigo (Huffman).
 
-## Vem de
-- [[Pitágoras]] · *relação debatida pelos estudiosos* · Filolau pertence à tradição pitagórica
+## Relação debatida com
+- [[Platão]] · A influência de Filolau sobre o Timeu é antiga, mas discutida
 
-## Leva a ou atinge
-- [[Platão]] · *relação debatida pelos estudiosos* · A influência de Filolau sobre o Timeu é antiga, mas discutida
+## Relação debatida com
+- [[Pitágoras]] · Filolau pertence à tradição pitagórica

@@ -17,8 +17,5 @@ Livro da Instrução nos Elementos da Arte da Astrologia
 ## Por que importa
 Manual didático (1029) que une astronomia matemática e astrologia, com olhar crítico sobre os astrólogos.
 
-## Vem de
-- [[Ptolomeu]] · *influência ou transmissão documentada* · Al-Biruni conhece o Almagesto e o Tetrabiblos
-
-## Leva a ou atinge
-- (nenhuma registrada)
+## Foi influenciada por
+- [[Ptolomeu]] · Al-Biruni conhece o Almagesto e o Tetrabiblos

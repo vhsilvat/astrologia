@@ -17,9 +17,9 @@ Sobre a Natureza; Purificações (fragmentos)
 ## Por que importa
 Propôs quatro "raízes" (fogo, ar, água, terra) movidas por Amor e Discórdia. Platão cunha o termo "elemento" no Timeu a partir dessa doutrina; Aristóteles o discute na Física e em Sobre a Alma.
 
-## Vem de
-- [[Pitágoras]] · *relação debatida pelos estudiosos* · Biografias tardias o dizem pitagórico; estudiosos modernos veem a tutela como cronologicamente impossível, no máximo uma afinidade de ideias (reencarnação).
+## Influenciou
+- [[Aristóteles]] · Aristóteles discute Empédocles na Física e em Sobre a Alma.
+- [[Platão]] · Platão cunha o termo "elemento" no Timeu a partir da doutrina das quatro raízes.
 
-## Leva a ou atinge
-- [[Aristóteles]] · *influência ou transmissão documentada* · Aristóteles discute Empédocles na Física e em Sobre a Alma.
-- [[Platão]] · *influência ou transmissão documentada* · Platão cunha o termo "elemento" no Timeu a partir da doutrina das quatro raízes.
+## Relação debatida com
+- [[Pitágoras]] · Biografias tardias o dizem pitagórico; estudiosos modernos veem a tutela como cronologicamente impossível, no máximo uma afinidade de ideias (reencarnação).

@@ -16,9 +16,3 @@ The Bowl of Heaven (1926); Astrology: Your Place in the Sun (1927)
 
 ## Por que importa
 Astróloga profissional de Nova York, absolvida em 1914 num processo por adivinhação. Empregou Aleister Crowley como ghostwriter, o que a liga ao futuro tema de magia.
-
-## Vem de
-- (nenhuma registrada)
-
-## Leva a ou atinge
-- (nenhuma registrada)

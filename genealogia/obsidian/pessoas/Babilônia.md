@@ -17,9 +17,11 @@ Enūma Anu Enlil; horóscopos
 ## Por que importa
 Presságios celestes (omina) que, por volta de 410 a.C., dão os primeiros horóscopos individuais. É a origem técnica, sem relação com o Egito faraônico.
 
-## Vem de
-- [[Sexto Empírico]] · *crítica (do crítico ao alvo)* · Ataca a astrologia caldeia (Adv. Math. V)
+## Influenciou
+- [[Nechepso–Petosiris]] · Material babilônico reelaborado no Egito helenístico
 
-## Leva a ou atinge
-- [[Nechepso–Petosiris]] · *influência ou transmissão documentada* · Material babilônico reelaborado no Egito helenístico
-- [[Pitágoras]] · *linhagem reivindicada pela tradição, sem documentação* · Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época.
+## Foi criticada por
+- [[Sexto Empírico]] · Ataca a astrologia caldeia (Adv. Math. V)
+
+## Segundo a tradição, origem de
+- [[Pitágoras]] · Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época.

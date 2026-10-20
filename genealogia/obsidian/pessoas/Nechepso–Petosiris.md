@@ -17,8 +17,8 @@ Fragmentos
 ## Por que importa
 Pseudepigrafia atribuída a um faraó e a um sacerdote; Valens os cita. Bom exemplo de autoria forjada para ganhar autoridade egípcia.
 
-## Vem de
-- [[Babilônia]] · *influência ou transmissão documentada* · Material babilônico reelaborado no Egito helenístico
+## Influenciou
+- [[Vettius Valens]] · Valens cita Nechepso e Petosiris
 
-## Leva a ou atinge
-- [[Vettius Valens]] · *influência ou transmissão documentada* · Valens cita Nechepso e Petosiris
+## Foi influenciada por
+- [[Babilônia]] · Material babilônico reelaborado no Egito helenístico

@@ -17,8 +17,5 @@ Nada escrito
 ## Por que importa
 Só o conhecemos por Platão, Xenofonte, Aristófanes e Aristóteles: o “problema socrático”, análogo ao de Pitágoras.
 
-## Vem de
-- (nenhuma registrada)
-
-## Leva a ou atinge
-- [[Platão]] · *mestre → discípulo* · Platão foi discípulo de Sócrates e é a principal fonte sobre ele
+## Mestre de
+- [[Platão]] · Platão foi discípulo de Sócrates e é a principal fonte sobre ele

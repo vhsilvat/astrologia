@@ -17,10 +17,12 @@ De Divinatione II; De Fato; Sonho de Cipião
 ## Por que importa
 Reúne a crítica cética à astrologia (De Divinatione II) e, no Sonho de Cipião, a imagem da música das esferas.
 
-## Vem de
-- [[Carnéades]] · *influência ou transmissão documentada* · Cícero transmite os argumentos céticos de Carnéades
-- [[Platão]] · *influência ou transmissão documentada* · O Sonho de Cipião é modelado no Mito de Er
+## Influenciou
+- [[Macróbio]] · Macróbio comenta o Sonho de Cipião
 
-## Leva a ou atinge
-- [[Estoicos]] · *crítica (do crítico ao alvo)* · De Divinatione II refuta a adivinhação estoica
-- [[Macróbio]] · *influência ou transmissão documentada* · Macróbio comenta o Sonho de Cipião
+## Foi influenciada por
+- [[Carnéades]] · Cícero transmite os argumentos céticos de Carnéades
+- [[Platão]] · O Sonho de Cipião é modelado no Mito de Er
+
+## Criticou
+- [[Estoicos]] · De Divinatione II refuta a adivinhação estoica

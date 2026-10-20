@@ -16,9 +16,3 @@ Mathesis
 
 ## Por que importa
 Compêndio latino de astrologia natal, escrito por um autor que depois se tornou apologista cristão.
-
-## Vem de
-- (nenhuma registrada)
-
-## Leva a ou atinge
-- (nenhuma registrada)

@@ -17,8 +17,8 @@ Anthologiae
 ## Por que importa
 Praticante, não teórico: traz dezenas de mapas reais com data. Principal fonte para as regências, casas e Lotes que você já usa. A tradução de Mark Riley circula online.
 
-## Vem de
-- [[Nechepso–Petosiris]] · *influência ou transmissão documentada* · Valens cita Nechepso e Petosiris
+## Influenciou
+- [[Chris Brennan]] · Brennan reconstrói a técnica helenística a partir de Valens e outros
 
-## Leva a ou atinge
-- [[Chris Brennan]] · *influência ou transmissão documentada* · Brennan reconstrói a técnica helenística a partir de Valens e outros
+## Foi influenciada por
+- [[Nechepso–Petosiris]] · Valens cita Nechepso e Petosiris

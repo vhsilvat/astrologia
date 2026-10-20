@@ -10,7 +10,7 @@
   /* Gruvbox claro */
   --bg:#f9f5d7; --surface:#fbf1c7; --ink:#3c3836; --muted:#7c6f64; --line:#d5c4a1; --band:#f2e5bc;
   --c1:#af3a03; --c2:#427b58; --c3:#076678; --c4:#79740e; --c5:#8f3f71; --c6:#b57614; --c7:#9d0006; --c8:#7c6f64;
-  --e-mestre:#3c3836; --e-influencia:#7c6f64; --e-critica:#9d0006; --e-debatido:#928374; --e-reivindicada:#b57614; --e-identificacao:#8f3f71;
+  --e-mestre:#3c3836; --e-influencia:#7c6f64; --e-critica:#9d0006; --e-debatido:#928374; --e-reivindicada:#b57614; --e-identificacao:#8f3f71; --e-registro:#076678; --e-escola:#427b58;
   --focus:#076678; --warn:#af3a03;
   --f-display:'Spectral',Georgia,serif; --f-ui:'IBM Plex Sans',system-ui,sans-serif; --f-mono:'IBM Plex Mono',ui-monospace,monospace;
 }
@@ -19,14 +19,14 @@
     /* Gruvbox escuro */
     --bg:#1d2021; --surface:#282828; --ink:#ebdbb2; --muted:#a89984; --line:#504945; --band:#32302f;
     --c1:#fe8019; --c2:#8ec07c; --c3:#83a598; --c4:#b8bb26; --c5:#d3869b; --c6:#fabd2f; --c7:#fb4934; --c8:#a89984;
-    --e-mestre:#ebdbb2; --e-influencia:#a89984; --e-critica:#fb4934; --e-debatido:#928374; --e-reivindicada:#fabd2f; --e-identificacao:#d3869b;
+    --e-mestre:#ebdbb2; --e-influencia:#a89984; --e-critica:#fb4934; --e-debatido:#928374; --e-reivindicada:#fabd2f; --e-identificacao:#d3869b; --e-registro:#83a598; --e-escola:#8ec07c;
     --focus:#83a598; --warn:#fe8019; color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
   --bg:#1d2021; --surface:#282828; --ink:#ebdbb2; --muted:#a89984; --line:#504945; --band:#32302f;
   --c1:#fe8019; --c2:#8ec07c; --c3:#83a598; --c4:#b8bb26; --c5:#d3869b; --c6:#fabd2f; --c7:#fb4934; --c8:#a89984;
-  --e-mestre:#ebdbb2; --e-influencia:#a89984; --e-critica:#fb4934; --e-debatido:#928374; --e-reivindicada:#fabd2f; --e-identificacao:#d3869b;
+  --e-mestre:#ebdbb2; --e-influencia:#a89984; --e-critica:#fb4934; --e-debatido:#928374; --e-reivindicada:#fabd2f; --e-identificacao:#d3869b; --e-registro:#83a598; --e-escola:#8ec07c;
   --focus:#83a598; --warn:#fe8019; color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -409,10 +409,13 @@ function panel(){
   h+='<div><dt>Obra</dt><dd>'+esc(n.work)+'</dd></div><div><dt>Por que importa</dt><dd>'+esc(n.why)+'</dd></div>';
   const t=activeTrail();if(t){const i=t.steps.findIndex(s=>s.node===sel);if(i>=0)h+='<div><dt>Na trilha selecionada</dt><dd>Etapa '+(i+1)+' · '+esc(t.steps[i].read)+' · ~'+t.steps[i].hours+' h</dd></div>';}
   h+='</dl>';$('#panel').innerHTML=h;
-  const inn=ALL.edges.filter(e=>directed(e.type)&&e.to===sel),out=ALL.edges.filter(e=>directed(e.type)&&e.from===sel),eq=ALL.edges.filter(e=>!directed(e.type)&&(e.from===sel||e.to===sel));
-  let r='<div class="relcol"><h3>Vem de</h3>'+(inn.length?inn.map(e=>relBtn(e.from,e)).join(''):'<p class="empty">Nenhuma relação de entrada registrada.</p>')+'</div>';
-  r+='<div class="relcol" style="margin-top:18px"><h3>Leva a ou atinge</h3>'+(out.length?out.map(e=>relBtn(e.to,e)).join(''):'<p class="empty">Nenhuma relação de saída registrada.</p>')+'</div>';
-  if(eq.length)r+='<div class="relcol" style="margin-top:18px"><h3>Identificado com</h3>'+eq.map(e=>relBtn(e.from===sel?e.to:e.from,e)).join('')+'</div>';
+  let r='';
+  Object.keys(DOMS.edgeTypes).forEach(t=>{const T=etype(t);
+    const blocks=directed(t)?[[T.out||T.label,ALL.edges.filter(e=>e.type===t&&e.from===sel),'to'],[T.in||T.label,ALL.edges.filter(e=>e.type===t&&e.to===sel),'from']]
+      :[[T.out||T.label,ALL.edges.filter(e=>e.type===t&&(e.from===sel||e.to===sel)),null]];
+    blocks.forEach(([lab,es,k])=>{if(!es.length)return;
+      r+='<div class="relcol" style="margin-bottom:18px"><h3>'+esc(lab)+'</h3>'+es.map(e=>relBtn(k?e[k]:(e.from===sel?e.to:e.from),e)).join('')+'</div>';});});
+  if(!r)r='<p class="empty">Nenhuma relação registrada para esta figura.</p>';
   $('#rels').innerHTML=r;
   $('#rels').querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>goTo(b.dataset.go,true)));
 }

@@ -17,8 +17,5 @@ Carmen Astrologicum
 ## Por que importa
 Poema técnico helenístico, preservado em tradução árabe e base de natividades, eleições e questões na tradição posterior.
 
-## Vem de
-- (nenhuma registrada)
-
-## Leva a ou atinge
-- [[Abu Ma’shar]] · *influência ou transmissão documentada* · A tradição árabe preserva Dorotheus
+## Influenciou
+- [[Abu Ma’shar]] · A tradição árabe preserva Dorotheus

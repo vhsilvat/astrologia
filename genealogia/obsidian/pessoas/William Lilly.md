@@ -17,8 +17,5 @@ Christian Astrology
 ## Por que importa
 Sistematiza em inglês a astrologia tradicional, natal e horária; é a ponte do método tradicional até o século XX.
 
-## Vem de
-- [[Guido Bonatti]] · *influência ou transmissão documentada* · Lilly cita Bonatti
-
-## Leva a ou atinge
-- (nenhuma registrada)
+## Foi influenciada por
+- [[Guido Bonatti]] · Lilly cita Bonatti

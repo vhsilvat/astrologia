@@ -17,8 +17,8 @@ Ensaio sobre ideias arquetípicas em Kepler (1952, no volume com o ensaio de Jun
 ## Por que importa
 Físico. Correspondeu-se com Jung desde 1932 e desenvolveu com ele a conjectura sobre sincronicidade (c. 1946–1954). Estudou Kepler como caso de ideias arquetípicas na ciência.
 
-## Vem de
-- [[Kepler]] · *influência ou transmissão documentada* · Pauli analisou Kepler como exemplo de ideias arquetípicas na formação de teorias científicas.
+## Influenciou
+- [[C. G. Jung]] · Correspondência desde 1932 e a conjectura Pauli–Jung sobre sincronicidade.
 
-## Leva a ou atinge
-- [[C. G. Jung]] · *influência ou transmissão documentada* · Correspondência desde 1932 e a conjectura Pauli–Jung sobre sincronicidade.
+## Foi influenciada por
+- [[Kepler]] · Pauli analisou Kepler como exemplo de ideias arquetípicas na formação de teorias científicas.

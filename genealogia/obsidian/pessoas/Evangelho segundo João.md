@@ -17,9 +17,11 @@ Evangelho segundo João
 ## Por que importa
 Anônimo. Identifica uma fonte, o "discípulo amado", sem nomeá-lo; o texto não diz que ele é João, filho de Zebedeu. A atribuição a esse João aparece primeiro em Ireneu, e a maioria dos críticos a rejeita. Os valentinianos o comentaram cedo (Heracleão).
 
-## Vem de
-- [[Jesus de Nazaré]] · *influência ou transmissão documentada* · Relato de ditos e feitos de Jesus, escrito entre sessenta e setenta anos depois.
-- [[João, filho de Zebedeu]] · *linhagem reivindicada pela tradição, sem documentação* · A tradição atribui o evangelho a ele, a partir de Ireneu. O texto é anônimo e não nomeia o discípulo amado; a maioria dos críticos rejeita a atribuição.
+## Influenciou
+- [[Heracleão]] · Heracleão escreve o primeiro comentário conhecido a um livro do Novo Testamento, e foi ao Evangelho de João.
 
-## Leva a ou atinge
-- [[Heracleão]] · *influência ou transmissão documentada* · Heracleão escreve o primeiro comentário conhecido a um livro do Novo Testamento, e foi ao Evangelho de João.
+## Segundo a tradição, vem de
+- [[João, filho de Zebedeu]] · A tradição atribui o evangelho a ele, a partir de Ireneu. O texto é anônimo e não nomeia o discípulo amado; a maioria dos críticos rejeita a atribuição.
+
+## Preserva ou relata
+- [[Jesus de Nazaré]] · Relato de ditos e feitos de Jesus, escrito entre sessenta e setenta anos depois.

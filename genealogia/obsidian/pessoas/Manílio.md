@@ -17,8 +17,5 @@ Astronomica
 ## Por que importa
 Poema latino de inspiração estoica sobre o zodíaco; traz a melotesia (corpo e signos) e a ideia de um cosmos único e vivo.
 
-## Vem de
-- [[Estoicos]] · *influência ou transmissão documentada* · O poema de Manílio é de inspiração estoica
-
-## Leva a ou atinge
-- (nenhuma registrada)
+## Foi influenciada por
+- [[Estoicos]] · O poema de Manílio é de inspiração estoica

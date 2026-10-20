@@ -17,10 +17,12 @@ Confissões VII; Cidade de Deus V
 ## Por que importa
 Refuta o mapa natal com o argumento dos gêmeos e da roda do oleiro. Fixa a crítica cristã à astrologia fatalista.
 
-## Vem de
-- [[Mani e o maniqueísmo]] · *influência ou transmissão documentada* · Agostinho foi ouvinte maniqueu por nove ou dez anos antes de converter-se em 387.
-- [[Paulo de Tarso]] · *influência ou transmissão documentada* · A conversão narrada nas Confissões (VIII.12) acontece ao ler Romanos 13:13–14; Paulo é autoridade central em Agostinho.
+## Influenciou
+- [[Pico della Mirandola]] · Pico reaproveita argumentos de Agostinho
 
-## Leva a ou atinge
-- [[Mani e o maniqueísmo]] · *crítica (do crítico ao alvo)* · Depois da conversão, escreveu contra os maniqueus, entre eles Fausto de Mileve.
-- [[Pico della Mirandola]] · *influência ou transmissão documentada* · Pico reaproveita argumentos de Agostinho
+## Foi influenciada por
+- [[Mani e o maniqueísmo]] · Agostinho foi ouvinte maniqueu por nove ou dez anos antes de converter-se em 387.
+- [[Paulo de Tarso]] · A conversão narrada nas Confissões (VIII.12) acontece ao ler Romanos 13:13–14; Paulo é autoridade central em Agostinho.
+
+## Criticou
+- [[Mani e o maniqueísmo]] · Depois da conversão, escreveu contra os maniqueus, entre eles Fausto de Mileve.

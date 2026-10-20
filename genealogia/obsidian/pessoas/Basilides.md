@@ -17,8 +17,8 @@ Exegetica (perdida); fragmentos em Clemente de Alexandria (Stromata)
 ## Por que importa
 Mestre de Alexandria. As duas fontes principais, Ireneu e Hipólito, se contradizem, e há quem desconfie de ambas. Clemente preserva fragmentos sobre a Ogdóada, a reencarnação e a eleição. Jung atribuiu a ele, em 1916, os Septem Sermones ad Mortuos, que o próprio Jung escreveu.
 
-## Vem de
-- [[Ireneu de Lyon]] · *crítica (do crítico ao alvo)* · Ireneu e Hipólito são as fontes principais sobre Basilides, e se contradizem.
+## Influenciou
+- [[C. G. Jung]] · Em 1916 Jung imprimiu em privado os Septem Sermones ad Mortuos, atribuídos por ele a Basilides de Alexandria.
 
-## Leva a ou atinge
-- [[C. G. Jung]] · *influência ou transmissão documentada* · Em 1916 Jung imprimiu em privado os Septem Sermones ad Mortuos, atribuídos por ele a Basilides de Alexandria.
+## Foi criticada por
+- [[Ireneu de Lyon]] · Ireneu e Hipólito são as fontes principais sobre Basilides, e se contradizem.
