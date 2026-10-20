@@ -1,0 +1,24 @@
+---
+id: biruni
+tema: astrologia
+faixa: astro.tecnica
+ano: 1020
+data: "973–1048"
+tags: [genealogia, astrologia]
+---
+
+# Al-Biruni
+
+*973–1048 · Astrologia · Astrologia técnica*
+
+## Obra
+Livro da Instrução nos Elementos da Arte da Astrologia
+
+## Por que importa
+Manual didático (1029) que une astronomia matemática e astrologia, com olhar crítico sobre os astrólogos.
+
+## Vem de
+- [[Ptolomeu]] · *influência ou transmissão documentada* · Al-Biruni conhece o Almagesto e o Tetrabiblos
+
+## Leva a ou atinge
+- (nenhuma registrada)
