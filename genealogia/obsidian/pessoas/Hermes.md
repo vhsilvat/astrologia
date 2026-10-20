@@ -22,6 +22,7 @@ Deus de passagens e mediação. É psicopompo, condutor de almas ao Hades, uma d
 
 ## Leva a ou atinge
 - [[Corpus Hermeticum]] · *influência ou transmissão documentada* · O Hermes grego, fundido a Thoth, dá Hermes Trismegisto, figura central dos Hermetica.
+- [[Perséfone]] · *influência ou transmissão documentada* · No Hino Homérico a Deméter, Zeus envia Hermes ao Hades para trazer Perséfone de volta.
 
 ## Identificado com
 - [[Thoth]] · *identificação sincrética (figuras tomadas como a mesma)* · Heródoto é o primeiro a identificar Hermes com Thoth; no Egito ptolemaico os dois eram cultuados como um só em Hermópolis. Platão os considerava distintos.

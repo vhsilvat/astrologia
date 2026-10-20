@@ -26,6 +26,16 @@
    "why": "Deus egípcio da escrita, da sabedoria, da Lua e do juízo, escriba dos deuses. Os gregos o identificaram a Hermes, e o epíteto \"três vezes grande\" virou Trismegisto."
   },
   {
+   "id": "egito-templos",
+   "name": "Templos egípcios",
+   "date": "milênios a.C. até c. 300 a.C.",
+   "yr": -1500,
+   "lane": "myth.egipcia",
+   "dy": 1,
+   "work": "Corpus funerário (Textos das Pirâmides, Textos dos Sarcófagos, Livro dos Mortos); culto em Heliópolis, Mênfis e Tebas",
+   "why": "Sacerdócio e templos do Egito, que a tradição grega tomou como fonte de sabedoria antiga. É a origem alegada do aprendizado de Pitágoras; a alegação aparece em biógrafos tardios, sem corroboração da época."
+  },
+  {
    "id": "homero",
    "name": "Homero",
    "date": "séc. VIII a.C.",
@@ -44,6 +54,26 @@
    "dy": 1,
    "work": "Odisseia 24; Hino Homérico a Hermes",
    "why": "Deus de passagens e mediação. É psicopompo, condutor de almas ao Hades, uma de suas funções mais antigas. Heródoto o identifica a Thoth."
+  },
+  {
+   "id": "persefone",
+   "name": "Perséfone",
+   "date": "séc. VII–VI a.C.",
+   "yr": -620,
+   "lane": "myth.grega",
+   "dy": 2,
+   "work": "Hino Homérico a Deméter",
+   "why": "Raptada por Hades, passa parte do ano no mundo inferior e parte entre os deuses (Hino Homérico a Deméter). Figura central dos mistérios de Elêusis. É rainha do Hades e figura de ida e volta, não psicopompo: quem a traz de volta é Hermes."
+  },
+  {
+   "id": "dionisio",
+   "name": "Dionísio (Zagreu)",
+   "date": "arcaico; Zagreu em fontes tardias",
+   "yr": -580,
+   "lane": "myth.grega",
+   "dy": -1,
+   "work": "Apolodoro, Biblioteca 3.5.3; Hinos Órficos; Diodoro 4.4 e 5.75",
+   "why": "Deus do vinho, do êxtase e dos mistérios. Desce ao Hades e traz a mãe Sêmele de volta, renomeada Tione (Apolodoro, Biblioteca 3.5.3). No mito órfico, Zagreu é o primeiro Dionísio, filho de Zeus e Perséfone e morto pelos Titãs; as fontes dessa versão são tardias. Visita o Hades e volta, mas não conduz almas."
   }
  ]
 }

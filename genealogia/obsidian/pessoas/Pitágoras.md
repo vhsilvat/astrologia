@@ -19,7 +19,9 @@ O que se diz dele vem de fontes tardias (Aristóteles, Porfírio, Jâmblico). Se
 
 ## Vem de
 - [[Aristóteles]] · *crítica (do crítico ao alvo)* · Do Céu II.9 refuta a música das esferas dos pitagóricos
+- [[Babilônia]] · *linhagem reivindicada pela tradição, sem documentação* · Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época.
 - [[Walter Burkert]] · *crítica (do crítico ao alvo)* · Examina criticamente as fontes sobre Pitágoras
+- [[Templos egípcios]] · *linhagem reivindicada pela tradição, sem documentação* · Porfírio (Vida de Pitágoras, 6) e Jâmblico dizem que ele aprendeu com sacerdotes egípcios. Heródoto (II.123) atribui a metempsicose aos egípcios, sem citar Pitágoras. Fontes tardias, sem corroboração contemporânea. Burkert: não há um único detalhe da vida de Pitágoras que não seja contestado.
 - [[Orfismo]] · *relação debatida pelos estudiosos* · A relação entre órficos e pitagóricos é discutida (Burkert)
 
 ## Leva a ou atinge

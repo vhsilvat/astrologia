@@ -39,6 +39,12 @@
    "desc": "Material babilônico reelaborado no Egito helenístico"
   },
   {
+   "from": "babilonia",
+   "to": "pitagoras",
+   "type": "reivindicada",
+   "desc": "Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época."
+  },
+  {
    "from": "bonatti",
    "to": "lilly",
    "type": "influencia",
@@ -75,10 +81,22 @@
    "desc": "Macróbio comenta o Sonho de Cipião"
   },
   {
+   "from": "dionisio",
+   "to": "orfismo",
+   "type": "influencia",
+   "desc": "Diodoro (V.75.4) diz que Orfeu transmitiu nos ritos o nascimento do deus em Creta, de Zeus e Perséfone. Os Hinos Órficos também o invocam. A versão de Zagreu dismembrado pelos Titãs vem de fontes tardias."
+  },
+  {
    "from": "dorotheus",
    "to": "abumashar",
    "type": "influencia",
    "desc": "A tradição árabe preserva Dorotheus"
+  },
+  {
+   "from": "egito-templos",
+   "to": "pitagoras",
+   "type": "reivindicada",
+   "desc": "Porfírio (Vida de Pitágoras, 6) e Jâmblico dizem que ele aprendeu com sacerdotes egípcios. Heródoto (II.123) atribui a metempsicose aos egípcios, sem citar Pitágoras. Fontes tardias, sem corroboração contemporânea. Burkert: não há um único detalhe da vida de Pitágoras que não seja contestado."
   },
   {
    "from": "empedocles",
@@ -133,6 +151,12 @@
    "to": "hermetica",
    "type": "influencia",
    "desc": "O Hermes grego, fundido a Thoth, dá Hermes Trismegisto, figura central dos Hermetica."
+  },
+  {
+   "from": "hermes",
+   "to": "persefone",
+   "type": "influencia",
+   "desc": "No Hino Homérico a Deméter, Zeus envia Hermes ao Hades para trazer Perséfone de volta."
   },
   {
    "from": "hermes",
@@ -247,6 +271,12 @@
    "to": "jung",
    "type": "influencia",
    "desc": "Correspondência desde 1932 e a conjectura Pauli–Jung sobre sincronicidade."
+  },
+  {
+   "from": "persefone",
+   "to": "orfismo",
+   "type": "influencia",
+   "desc": "Mãe de Dionísio na tradição órfica (Diodoro V.75.4; Hinos Órficos). Fontes antigas, mas posteriores ao núcleo do mito."
   },
   {
    "from": "pico",

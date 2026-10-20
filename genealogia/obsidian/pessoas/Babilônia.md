@@ -22,3 +22,4 @@ Presságios celestes (omina) que, por volta de 410 a.C., dão os primeiros horó
 
 ## Leva a ou atinge
 - [[Nechepso–Petosiris]] · *influência ou transmissão documentada* · Material babilônico reelaborado no Egito helenístico
+- [[Pitágoras]] · *linhagem reivindicada pela tradição, sem documentação* · Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época.

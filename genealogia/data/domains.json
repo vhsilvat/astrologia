@@ -123,6 +123,12 @@
     2025,
     "Séculos XX e XXI"
    ]
+  ],
+  "marks": [
+   {
+    "yr": 0,
+    "label": "0 · marco zero"
+   }
   ]
  },
  "edgeTypes": {

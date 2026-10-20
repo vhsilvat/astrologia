@@ -69,10 +69,13 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 
 - [[Homero]] · séc. VIII a.C.
 - [[Hermes]] · culto grego arcaico
+- [[Perséfone]] · séc. VII–VI a.C.
+- [[Dionísio (Zagreu)]] · arcaico; Zagreu em fontes tardias
 
 ### Mito egípcio
 
 - [[Thoth]] · c. 2400 a.C.
+- [[Templos egípcios]] · milênios a.C. até c. 300 a.C.
 
 ## Alquimia e gnose
 
@@ -100,7 +103,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Wolfgang Pauli]] · 1900–1958
 - [[Stanton Marlan]] · analista junguiano
 
-## Trilha: Trilha mínima de leitura
+## Trilha: Trilha mínima · Astrologia: de Hesíodo a Kepler
 
 Onze etapas, ordenadas para que cada uma prepare a seguinte. Os tempos são ordens de grandeza para leitura com anotações; ajuste ao seu ritmo.
 
@@ -116,7 +119,7 @@ Onze etapas, ordenadas para que cada uma prepare a seguinte. Os tempos são orde
 10. [[Pico della Mirandola]] · Disputationes, livros selecionados · ~8 h
 11. [[Kepler]] · Harmonices Mundi, livro V · ~15 h
 
-## Trilha: Trilha mínima: da astrologia moderna a Jung
+## Trilha: Trilha mínima · Astrologia psicológica e Jung
 
 Cinco leituras para ver como a astrologia virou linguagem psicológica e por que Jung é a ponte para a alquimia. As horas são estimativas minhas, não medidas.
 
@@ -126,7 +129,7 @@ Cinco leituras para ver como a astrologia virou linguagem psicológica e por que
 4. [[Wolfgang Pauli]] · Ensaio sobre Kepler, no mesmo volume · ~6 h
 5. [[Liz Greene]] · Saturn: A New Look at an Old Devil · ~10 h
 
-## Trilha: Trilha mínima: da gnose ao sol negro
+## Trilha: Trilha mínima · Alquimia: de Zósimo ao sol negro
 
 Quatro leituras para chegar à alquimia por Jung. As horas são estimativas minhas, não medidas.
 
@@ -145,3 +148,4 @@ Quatro leituras para chegar à alquimia por Jung. As horas são estimativas minh
 - **Quatro elementos**: [[Empédocles]] → [[Platão]] → [[Aristóteles]] → [[Ptolomeu]]
 - **Hermes, Thoth e Trismegisto**: [[Homero]] → [[Hermes]] → [[Thoth]] → [[Corpus Hermeticum]] → [[Casaubon]]
 - **Da gnose a Jung**: [[Gnose antiga]] → [[Corpus Hermeticum]] → [[Zósimo de Panópolis]] → [[Paracelso]] → [[C. G. Jung]] → [[Stanton Marlan]]
+- **Descida ao Hades e retorno**: [[Hermes]] → [[Perséfone]] → [[Dionísio (Zagreu)]] → [[Orfismo]]

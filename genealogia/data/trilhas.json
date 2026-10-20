@@ -4,7 +4,7 @@
  "trails": [
   {
    "id": "minima",
-   "name": "Trilha mínima de leitura",
+   "name": "Trilha mínima · Astrologia: de Hesíodo a Kepler",
    "intro": "Onze etapas, ordenadas para que cada uma prepare a seguinte. Os tempos são ordens de grandeza para leitura com anotações; ajuste ao seu ritmo.",
    "steps": [
     {
@@ -67,7 +67,7 @@
   },
   {
    "id": "junguiana",
-   "name": "Trilha mínima: da astrologia moderna a Jung",
+   "name": "Trilha mínima · Astrologia psicológica e Jung",
    "intro": "Cinco leituras para ver como a astrologia virou linguagem psicológica e por que Jung é a ponte para a alquimia. As horas são estimativas minhas, não medidas.",
    "steps": [
     {
@@ -99,7 +99,7 @@
   },
   {
    "id": "alquimia",
-   "name": "Trilha mínima: da gnose ao sol negro",
+   "name": "Trilha mínima · Alquimia: de Zósimo ao sol negro",
    "intro": "Quatro leituras para chegar à alquimia por Jung. As horas são estimativas minhas, não medidas.",
    "steps": [
     {
@@ -221,6 +221,16 @@
     "paracelso",
     "jung",
     "marlan"
+   ]
+  },
+  {
+   "id": "descida-hades",
+   "name": "Descida ao Hades e retorno",
+   "nodes": [
+    "hermes",
+    "persefone",
+    "dionisio",
+    "orfismo"
    ]
   }
  ]

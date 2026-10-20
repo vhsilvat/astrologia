@@ -56,6 +56,8 @@ input.field{width:190px}
 .tick{font:400 10.5px var(--f-mono);fill:var(--muted)}
 .tickLine{stroke:var(--line);stroke-width:1}
 .eraLine{stroke:var(--line);stroke-width:1;stroke-dasharray:2 3}
+.markLine{stroke:var(--ink);stroke-width:1.5;opacity:.55}
+.markTxt{font:600 11px var(--f-mono);fill:var(--ink)}
 .spine{stroke:var(--line);stroke-width:1}
 .domSep{stroke:var(--ink);stroke-width:1.5;opacity:.5}
 .e{fill:none;stroke-width:1.4;opacity:.3;transition:opacity .15s}
@@ -227,7 +229,7 @@ function renderFocusBar(){
   const l1=document.createElement('label');l1.className='lbl';l1.textContent='Destacar';l1.htmlFor='focusSel';f.appendChild(l1);
   const s=document.createElement('select');s.id='focusSel';s.className='field';
   let h='<option value="">Nada</option>';
-  h+='<optgroup label="Trilhas de leitura (numeradas)">'+ALL.trails.map(t=>'<option value="trail:'+esc(t.id)+'">'+esc(t.name)+'</option>').join('')+'</optgroup>';
+  h+='<optgroup label="Trilhas de leitura (numeram os círculos)">'+ALL.trails.map(t=>'<option value="trail:'+esc(t.id)+'">'+esc(t.name)+'</option>').join('')+'</optgroup>';
   h+='<optgroup label="Linhagens">'+ALL.lineages.map(L=>'<option value="lin:'+esc(L.id)+'">'+esc(L.name)+'</option>').join('')+'</optgroup>';
   s.innerHTML=h;s.value=focus?(focus.kind+':'+focus.id):'';
   s.addEventListener('change',()=>{const v=s.value;if(!v)focus=null;else{const i=v.indexOf(':');focus={kind:v.slice(0,i),id:v.slice(i+1)};
@@ -276,6 +278,9 @@ function draw(){
     const t=el('text',{x:(x0+x1)/2,y:26,class:'era','text-anchor':'middle'},svg);t.textContent=e[2];});
   DOMS.axis.ticks.forEach(y=>{const x=X(y);el('line',{x1:x,x2:x,y1:60,y2:TOP,class:'tickLine'},svg);
     const t=el('text',{x:x,y:56,class:'tick','text-anchor':'middle'},svg);t.textContent=y<0?(-y)+' a.C.':String(y);});
+  (DOMS.axis.marks||[]).forEach(mk=>{const x=X(mk.yr);
+    el('line',{x1:x,x2:x,y1:36,y2:H-12,class:'markLine'},svg);
+    const tx=el('text',{x:x,y:56,class:'markTxt','text-anchor':'middle'},svg);tx.textContent=mk.label;});
 
   stepNum={};
   if(focus&&focus.kind==='trail'){const t=ALL.trails.find(x=>x.id===focus.id);if(t)t.steps.forEach((s,i)=>{stepNum[s.node]=i+1;});}

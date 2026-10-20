@@ -43,6 +43,7 @@ mapa.py add-node --id X --why "novo texto"          # figura existente: só atua
 mapa.py rm-node <id>                                  # apaga também relações, passos e linhagens que o citam
 mapa.py add-edge <de> <para> <tipo> "descrição"       # upsert por (de, para, tipo)
 mapa.py rm-edge <de> <para> [tipo]
+mapa.py edit-trail <id> [--name N] [--intro I]          # renomeia sem mexer nos passos
 mapa.py trail <id> "Nome" "Introdução" "no|leitura|horas" ... [--default]
 mapa.py rm-trail <id>
 mapa.py lineage <id> "Nome" no1 no2 ...
@@ -68,7 +69,7 @@ Regras de identidade:
 `data/domains.json`
 - `title`, `subtitle`: título e subtítulo exibidos.
 - `axis.knots`: pares `[ano, x]` da escala de tempo (por partes, não linear; a.C. é negativo). Começa em -2500 (Egito). Para ampliar, acrescente um nó no fim.
-- `axis.ticks`, `axis.eras`: marcas e rótulos de épocas.
+- `axis.ticks`, `axis.eras`: marcas e rótulos de épocas. `axis.marks`: `[{yr, label}]`, linha forte com rótulo (hoje o marco zero, ano 0).
 - `edgeTypes`: `mestre`, `influencia`, `critica`, `debatido`, `reivindicada`, `identificacao`. Cada um tem `label`, `dash`, `css` (nome da variável de cor) e, opcionalmente, `directed: false`. Um tipo novo exige também a variável CSS em `index.html`.
 - `domains[]`: `id`, `name`, `status` (`ativo` ou `planejado`), `file`, `desc`.
 
@@ -121,3 +122,4 @@ Ao ativar um tema: criar `data/<tema>.json`, mudar `status` para `ativo` em `dom
 - 2026-10-19 · v2 · Domínio `psicologia` ativado: 6 nós (Alan Leo, Evangeline Adams, Rudhyar, Greene, Jung, Pauli), 6 relações (3 cruzam para a astrologia), 1 trilha, 2 linhagens. Domínio `alquimia` planejado. Fontes: Wikipedia (Psychological astrology, Alan Leo, Evangeline Adams, Liz Greene, Dane Rudhyar, Synchronicity, Alchemical Studies); Psicologia e Alquimia (1944), Mysterium (1955–56) e ensaio de Pauli sobre Kepler (1952) vêm de conhecimento geral, conferir se for citar no canal.
 - 2026-10-19 · v3 · Relação `rudhyar → greene` (influencia) acrescentada, fonte: Robert Hand, prefácio de *Saturn: A New Look at an Old Devil* (Weiser, 2011), p. 5–6. Total: 43 nós, 53 relações.
 - 2026-10-19 · v4 · Refatoração para mapa geral. Relações e trilhas saem dos arquivos de tema (`relacoes.json`, `trilhas.json`); CLI `tools/mapa.py`; tipo `identificacao`; eixo começa em 2500 a.C.; numeração só da trilha selecionada; busca e seletor de destaque na página. Temas novos: `mitologia` (Homero, Hermes, Thoth) e `alquimia` (gnose antiga, Zósimo, Paracelso). Acrescentados Empédocles e Stanton Marlan (*The Black Sun*, 2008). Total: 51 nós, 69 relações, 3 trilhas, 8 linhagens. Fontes a conferir antes de citar no canal: ensaio de Jung sobre Zósimo (Eranos 1937), ensaios sobre Paracelso (1929, 1941), *Septem Sermones* (1916), Heródoto sobre Hermes/Thoth, Platão e a palavra "elemento" no *Timeu*.
+- 2026-10-20 · v5 · Trilhas renomeadas por tema; marco zero no eixo (`axis.marks`); `egito-templos` (Egito → Pitágoras e Babilônia → Pitágoras como `reivindicada`; fontes: Porfírio VP 6, Jâmblico, Heródoto II.123, Burkert); `dionisio` e `persefone` (Apolodoro, Biblioteca 3.5.3; Diodoro IV.4 e V.75.4; Hinos Órficos; Hino Homérico a Deméter) e linhagem "Descida ao Hades e retorno". CLAUDE.md na raiz do repositório. Total: 54 nós, 74 relações. Jesus, evangelhos e Nag Hammadi aguardam decisão de escopo e de título.

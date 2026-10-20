@@ -131,6 +131,7 @@ def main():
     p = sp.add_parser('add-edge', help='cria ou atualiza (upsert) relação'); p.add_argument('from_'); p.add_argument('to'); p.add_argument('type'); p.add_argument('desc')
     p = sp.add_parser('rm-edge', help='remove relação (sem tipo: todas entre os dois)'); p.add_argument('from_'); p.add_argument('to'); p.add_argument('type', nargs='?')
     p = sp.add_parser('trail', help='cria ou substitui trilha: id "nome" "intro" passo...  (passo = node|leitura|horas)'); p.add_argument('id'); p.add_argument('name'); p.add_argument('intro'); p.add_argument('steps', nargs='+'); p.add_argument('--default', action='store_true')
+    p = sp.add_parser('edit-trail', help='muda nome e/ou introdução de uma trilha, sem mexer nos passos'); p.add_argument('id'); p.add_argument('--name'); p.add_argument('--intro')
     p = sp.add_parser('rm-trail'); p.add_argument('id')
     p = sp.add_parser('lineage', help='cria ou substitui linhagem: id "nome" node...'); p.add_argument('id'); p.add_argument('name'); p.add_argument('nodes', nargs='+')
     p = sp.add_parser('rm-lineage'); p.add_argument('id')
@@ -206,6 +207,11 @@ def main():
             for o in m.tr['trails']: o.pop('default', None)
             t['default'] = True
         m.tr['trails'] = [x for x in m.tr['trails'] if x['id'] != a.id] + [t]
+    elif a.cmd == 'edit-trail':
+        t = next((x for x in m.tr['trails'] if x['id'] == a.id), None)
+        if not t: sys.exit('trilha inexistente: ' + a.id)
+        if a.name: t['name'] = a.name
+        if a.intro is not None: t['intro'] = a.intro
     elif a.cmd == 'rm-trail':
         m.tr['trails'] = [x for x in m.tr['trails'] if x['id'] != a.id]
     elif a.cmd == 'lineage':
