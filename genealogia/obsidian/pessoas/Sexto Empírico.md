@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Sexto Empírico
 
-*c. 160–210 · Astrologia · Crítica e método*
+*c. 160–210 · Astrologia e cosmologia · Crítica e método*
 
 ## Obra
 Contra os Astrólogos (Adv. Math. V)

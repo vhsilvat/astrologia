@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Cícero
 
-*106–43 a.C. · Astrologia · Crítica e método*
+*106–43 a.C. · Astrologia e cosmologia · Crítica e método*
 
 ## Obra
 De Divinatione II; De Fato; Sonho de Cipião
@@ -18,9 +18,9 @@ De Divinatione II; De Fato; Sonho de Cipião
 Reúne a crítica cética à astrologia (De Divinatione II) e, no Sonho de Cipião, a imagem da música das esferas.
 
 ## Vem de
-- [[Platão]] · *influência ou transmissão documentada* · O Sonho de Cipião é modelado no Mito de Er
 - [[Carnéades]] · *influência ou transmissão documentada* · Cícero transmite os argumentos céticos de Carnéades
+- [[Platão]] · *influência ou transmissão documentada* · O Sonho de Cipião é modelado no Mito de Er
 
 ## Leva a ou atinge
-- [[Macróbio]] · *influência ou transmissão documentada* · Macróbio comenta o Sonho de Cipião
 - [[Estoicos]] · *crítica (do crítico ao alvo)* · De Divinatione II refuta a adivinhação estoica
+- [[Macróbio]] · *influência ou transmissão documentada* · Macróbio comenta o Sonho de Cipião

@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Babilônia
 
-*c. 700–400 a.C. · Astrologia · Astrologia técnica*
+*c. 700–400 a.C. · Astrologia e cosmologia · Astrologia técnica*
 
 ## Obra
 Enūma Anu Enlil; horóscopos

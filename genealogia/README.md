@@ -1,9 +1,9 @@
-# Genealogia da Astrologia
+# Genealogia das Ideias
 
-Mapa de quem ensinou, influenciou, criticou ou reivindicou quem, por tema e no tempo. Serve de apoio de estudo e de roteiro para o canal @333victorhugo.
+Mapa de quem ensinou, influenciou, criticou, identificou ou reivindicou quem, por tema e no tempo (astrologia, mito, alquimia e gnose, psicologia profunda). Apoio de estudo e de roteiro para o canal @333victorhugo.
 
-- `CONVENTIONS.md`: contrato de extensão (leia primeiro, vale para qualquer instância futura do Claude).
-- `data/`: `domains.json` (eixo do tempo, tipos de relação, temas) e um JSON por tema (`astrologia.json`, `psicologia.json`).
-- `index.html`: renderizador. Abrir com `python3 -m http.server` dentro desta pasta.
-- `obsidian/`: notas geradas com wikilinks. Abra esta pasta como vault, ou copie para o seu vault, e use a visão em grafo.
-- `tools/gerar_obsidian.py`: regenera `obsidian/` a partir dos JSON.
+- `CONVENTIONS.md`: contrato de extensão. Leia primeiro; vale para qualquer instância do Claude.
+- `data/`: `domains.json`, um JSON por tema, `relacoes.json` e `trilhas.json`.
+- `index.html`: renderizador. Abra com `python3 -m http.server` dentro desta pasta.
+- `tools/mapa.py`: CLI para validar, listar, adicionar, alterar e remover (idempotente). `python3 tools/mapa.py -h`.
+- `obsidian/`: notas com wikilinks, geradas por `python3 tools/mapa.py build`. Abra como vault e use a visão em grafo.

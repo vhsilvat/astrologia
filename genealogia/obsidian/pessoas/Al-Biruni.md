@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Al-Biruni
 
-*973–1048 · Astrologia · Astrologia técnica*
+*973–1048 · Astrologia e cosmologia · Astrologia técnica*
 
 ## Obra
 Livro da Instrução nos Elementos da Arte da Astrologia

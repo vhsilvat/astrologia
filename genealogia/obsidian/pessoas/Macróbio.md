@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Macróbio
 
-*c. 400 · Astrologia · Pitagorismo e música das esferas*
+*c. 400 · Astrologia e cosmologia · Pitagorismo e música das esferas*
 
 ## Obra
 Comentário ao Sonho de Cipião

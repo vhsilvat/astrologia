@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Vettius Valens
 
-*séc. II · Astrologia · Astrologia técnica*
+*séc. II · Astrologia e cosmologia · Astrologia técnica*
 
 ## Obra
 Anthologiae

@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Kepler
 
-*1571–1630 · Astrologia · Pitagorismo e música das esferas*
+*1571–1630 · Astrologia e cosmologia · Pitagorismo e música das esferas*
 
 ## Obra
 Harmonices Mundi; Tertius Interveniens
@@ -18,9 +18,9 @@ Harmonices Mundi; Tertius Interveniens
 Reabre Pitágoras com dados: razões harmônicas nos movimentos planetários. Mantém os aspectos como harmonias e rejeita boa parte do resto.
 
 ## Vem de
-- [[Ptolomeu]] · *influência ou transmissão documentada* · Kepler comenta a Harmônica de Ptolomeu e reformula os aspectos
 - [[Pitágoras]] · *influência ou transmissão documentada* · Kepler assume a herança pitagórica da harmonia das esferas
 - [[Proclo]] · *influência ou transmissão documentada* · Kepler usa o comentário de Proclo a Euclides
+- [[Ptolomeu]] · *influência ou transmissão documentada* · Kepler comenta a Harmônica de Ptolomeu e reformula os aspectos
 
 ## Leva a ou atinge
 - [[Wolfgang Pauli]] · *influência ou transmissão documentada* · Pauli analisou Kepler como exemplo de ideias arquetípicas na formação de teorias científicas.

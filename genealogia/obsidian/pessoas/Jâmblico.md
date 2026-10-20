@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Jâmblico
 
-*c. 245–325 · Astrologia · Filosofia*
+*c. 245–325 · Astrologia e cosmologia · Filosofia*
 
 ## Obra
 De Mysteriis; Vida Pitagórica
@@ -21,5 +21,5 @@ Discípulo de Porfírio que discorda do mestre: a teurgia, e não só o intelect
 - [[Porfírio]] · *mestre → discípulo* · Jâmblico foi seu discípulo e o criticou
 
 ## Leva a ou atinge
-- [[Proclo]] · *influência ou transmissão documentada* · Proclo herda a teurgia de Jâmblico
 - [[Ficino]] · *influência ou transmissão documentada* · Ficino traduziu o De Mysteriis (1497)
+- [[Proclo]] · *influência ou transmissão documentada* · Proclo herda a teurgia de Jâmblico

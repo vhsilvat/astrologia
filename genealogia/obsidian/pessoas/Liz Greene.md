@@ -9,7 +9,7 @@ tags: [genealogia, psicologia]
 
 # Liz Greene
 
-*n. 1946 · Astrologia psicológica e psicologia analítica · Astrologia moderna e psicológica*
+*n. 1946 · Astrologia psicológica e Jung · Astrologia moderna e psicológica*
 
 ## Obra
 Saturn: A New Look at an Old Devil (1976); The Astrology of Fate (1984)

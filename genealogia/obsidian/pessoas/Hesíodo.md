@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Hesíodo
 
-*c. 700 a.C. · Astrologia · Mito, orfismo e hermetismo*
+*c. 700 a.C. · Astrologia e cosmologia · Mito, orfismo e hermetismo*
 
 ## Obra
 Teogonia

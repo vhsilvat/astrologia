@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Estoicos
 
-*séc. III–I a.C. · Astrologia · Filosofia*
+*séc. III–I a.C. · Astrologia e cosmologia · Filosofia*
 
 ## Obra
 Crisipo, Posidônio
@@ -21,5 +21,5 @@ Simpatia cósmica (sympatheia): tudo no cosmos está ligado por um pneuma. É a 
 - [[Cícero]] · *crítica (do crítico ao alvo)* · De Divinatione II refuta a adivinhação estoica
 
 ## Leva a ou atinge
-- [[Ptolomeu]] · *influência ou transmissão documentada* · Simpatia cósmica e causalidade física
 - [[Manílio]] · *influência ou transmissão documentada* · O poema de Manílio é de inspiração estoica
+- [[Ptolomeu]] · *influência ou transmissão documentada* · Simpatia cósmica e causalidade física

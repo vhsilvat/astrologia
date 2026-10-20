@@ -16,6 +16,36 @@
  ],
  "nodes": [
   {
+   "id": "jung",
+   "name": "C. G. Jung",
+   "date": "1875–1961",
+   "yr": 1940,
+   "lane": "psi.analitica",
+   "dy": -1,
+   "work": "Comentário a O Segredo da Flor de Ouro (1929); Zósimo (Eranos, 1937); Psicologia e Alquimia (1944); Sincronicidade (1952); Mysterium Coniunctionis (1955–56)",
+   "why": "Fundador da psicologia analítica. Chamou a astrologia de soma do conhecimento psicológico da Antiguidade. Leu a alquimia como projeção de processos psíquicos, que é o caminho do canal até a alquimia."
+  },
+  {
+   "id": "pauli",
+   "name": "Wolfgang Pauli",
+   "date": "1900–1958",
+   "yr": 1952,
+   "lane": "psi.analitica",
+   "dy": 1,
+   "work": "Ensaio sobre ideias arquetípicas em Kepler (1952, no volume com o ensaio de Jung sobre sincronicidade)",
+   "why": "Físico. Correspondeu-se com Jung desde 1932 e desenvolveu com ele a conjectura sobre sincronicidade (c. 1946–1954). Estudou Kepler como caso de ideias arquetípicas na ciência."
+  },
+  {
+   "id": "marlan",
+   "name": "Stanton Marlan",
+   "date": "analista junguiano",
+   "yr": 2008,
+   "lane": "psi.analitica",
+   "dy": -1,
+   "work": "The Black Sun: The Alchemy and Art of Darkness (2008)",
+   "why": "Analista junguiano de Pittsburgh. Lê o sol negro (sol niger) como símbolo de uma escuridão essencial à psique, na linha da psicologia alquímica."
+  },
+  {
    "id": "alan-leo",
    "name": "Alan Leo",
    "date": "1860–1917",
@@ -54,129 +84,6 @@
    "dy": -1,
    "work": "Saturn: A New Look at an Old Devil (1976); The Astrology of Fate (1984)",
    "why": "Principal nome da astrologia psicológica de base junguiana. Cofundou o Centre for Psychological Astrology (Londres, 1983) com Howard Sasportas. O livro sobre Saturno é a referência do capítulo sobre Saturno."
-  },
-  {
-   "id": "jung",
-   "name": "C. G. Jung",
-   "date": "1875–1961",
-   "yr": 1940,
-   "lane": "psi.analitica",
-   "dy": -1,
-   "work": "Comentário a O Segredo da Flor de Ouro (1929); Zósimo (Eranos, 1937); Psicologia e Alquimia (1944); Sincronicidade (1952); Mysterium Coniunctionis (1955–56)",
-   "why": "Fundador da psicologia analítica. Chamou a astrologia de soma do conhecimento psicológico da Antiguidade. Leu a alquimia como projeção de processos psíquicos, que é o caminho do canal até a alquimia."
-  },
-  {
-   "id": "pauli",
-   "name": "Wolfgang Pauli",
-   "date": "1900–1958",
-   "yr": 1952,
-   "lane": "psi.analitica",
-   "dy": 1,
-   "work": "Ensaio sobre ideias arquetípicas em Kepler (1952, no volume com o ensaio de Jung sobre sincronicidade)",
-   "why": "Físico. Correspondeu-se com Jung desde 1932 e desenvolveu com ele a conjectura sobre sincronicidade (c. 1946–1954). Estudou Kepler como caso de ideias arquetípicas na ciência."
-  }
- ],
- "edges": [
-  {
-   "from": "platao",
-   "to": "jung",
-   "type": "influencia",
-   "desc": "As formas de Platão são uma das fontes do conceito de arquétipo em Jung."
-  },
-  {
-   "from": "hermetica",
-   "to": "jung",
-   "type": "influencia",
-   "desc": "Jung leu hermetismo e alquimia (Zósimo, Paracelso, Mercúrio) como precursores da psicologia profunda; ver Estudos Alquímicos, CW13."
-  },
-  {
-   "from": "jung",
-   "to": "rudhyar",
-   "type": "influencia",
-   "desc": "Rudhyar estudava Jung enquanto aprendia astrologia e passou a combinar as duas coisas."
-  },
-  {
-   "from": "jung",
-   "to": "greene",
-   "type": "influencia",
-   "desc": "A astrologia psicológica de Greene usa a psicologia analítica como base."
-  },
-  {
-   "from": "pauli",
-   "to": "jung",
-   "type": "influencia",
-   "desc": "Correspondência desde 1932 e a conjectura Pauli–Jung sobre sincronicidade."
-  },
-  {
-   "from": "kepler",
-   "to": "pauli",
-   "type": "influencia",
-   "desc": "Pauli analisou Kepler como exemplo de ideias arquetípicas na formação de teorias científicas."
-  },
-  {
-   "from": "rudhyar",
-   "to": "greene",
-   "type": "influencia",
-   "desc": "Segundo Robert Hand (prefácio a Saturn, ed. 2011, p. 5–6), Rudhyar levou a astrologia dos eventos para o autoconhecimento, de forma abstrata, e a geração seguinte, com Greene, deu os meios concretos."
-  }
- ],
- "trails": [
-  {
-   "id": "junguiana",
-   "name": "Trilha mínima: da astrologia moderna a Jung",
-   "intro": "Cinco leituras para ver como a astrologia virou linguagem psicológica e por que Jung é a ponte para a alquimia. As horas são estimativas minhas, não medidas.",
-   "steps": [
-    {
-     "node": "alan-leo",
-     "read": "The Art of Synthesis (1912)",
-     "hours": 6
-    },
-    {
-     "node": "rudhyar",
-     "read": "The Astrology of Personality, cap. 1 a 3",
-     "hours": 8
-    },
-    {
-     "node": "jung",
-     "read": "Sincronicidade: um princípio de conexões acausais (1952)",
-     "hours": 8
-    },
-    {
-     "node": "pauli",
-     "read": "Ensaio sobre Kepler, no mesmo volume",
-     "hours": 6
-    },
-    {
-     "node": "greene",
-     "read": "Saturn: A New Look at an Old Devil",
-     "hours": 10
-    }
-   ]
-  }
- ],
- "lineages": [
-  {
-   "id": "junguiana",
-   "name": "Linhagem junguiana",
-   "nodes": [
-    "platao",
-    "hermetica",
-    "kepler",
-    "pauli",
-    "jung",
-    "rudhyar",
-    "greene"
-   ]
-  },
-  {
-   "id": "moderna",
-   "name": "Astrologia do século XX",
-   "nodes": [
-    "alan-leo",
-    "evangeline-adams",
-    "rudhyar",
-    "greene"
-   ]
   }
  ]
 }

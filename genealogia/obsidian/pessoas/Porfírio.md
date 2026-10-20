@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Porfírio
 
-*234–305 · Astrologia · Filosofia*
+*234–305 · Astrologia e cosmologia · Filosofia*
 
 ## Obra
 Introdução ao Tetrabiblos; Vida de Pitágoras

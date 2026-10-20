@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Proclo
 
-*412–485 · Astrologia · Filosofia*
+*412–485 · Astrologia e cosmologia · Filosofia*
 
 ## Obra
 Comentário ao Timeu; Hypotyposis

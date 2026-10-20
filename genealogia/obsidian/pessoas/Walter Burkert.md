@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Walter Burkert
 
-*1972 · Astrologia · Crítica e método*
+*1972 · Astrologia e cosmologia · Crítica e método*
 
 ## Obra
 Lore and Science in Ancient Pythagoreanism

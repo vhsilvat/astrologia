@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Casaubon
 
-*1614 · Astrologia · Crítica e método*
+*1614 · Astrologia e cosmologia · Crítica e método*
 
 ## Obra
 De rebus sacris et ecclesiasticis exercitationes XVI

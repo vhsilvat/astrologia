@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Sócrates
 
-*470–399 a.C. · Astrologia · Filosofia*
+*470–399 a.C. · Astrologia e cosmologia · Filosofia*
 
 ## Obra
 Nada escrito

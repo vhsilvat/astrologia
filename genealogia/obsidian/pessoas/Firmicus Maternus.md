@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Firmicus Maternus
 
-*c. 335 · Astrologia · Astrologia técnica*
+*c. 335 · Astrologia e cosmologia · Astrologia técnica*
 
 ## Obra
 Mathesis

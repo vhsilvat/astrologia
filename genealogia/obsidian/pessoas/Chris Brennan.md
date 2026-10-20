@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Chris Brennan
 
-*2017 · Astrologia · Astrologia técnica*
+*2017 · Astrologia e cosmologia · Astrologia técnica*
 
 ## Obra
 Hellenistic Astrology

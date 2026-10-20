@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Carnéades
 
-*214–129 a.C. · Astrologia · Crítica e método*
+*214–129 a.C. · Astrologia e cosmologia · Crítica e método*
 
 ## Obra
 Argumentos reportados por Cícero

@@ -1,0 +1,49 @@
+{
+ "domain": "mitologia",
+ "schema": 1,
+ "updated": "2026-10-19",
+ "lanes": [
+  {
+   "id": "myth.grega",
+   "name": "Mito grego",
+   "color": 8
+  },
+  {
+   "id": "myth.egipcia",
+   "name": "Mito egípcio",
+   "color": 1
+  }
+ ],
+ "nodes": [
+  {
+   "id": "thoth",
+   "name": "Thoth",
+   "date": "c. 2400 a.C.",
+   "yr": -2400,
+   "lane": "myth.egipcia",
+   "dy": -1,
+   "work": "Textos das Pirâmides; culto em Hermópolis (Khmun)",
+   "why": "Deus egípcio da escrita, da sabedoria, da Lua e do juízo, escriba dos deuses. Os gregos o identificaram a Hermes, e o epíteto \"três vezes grande\" virou Trismegisto."
+  },
+  {
+   "id": "homero",
+   "name": "Homero",
+   "date": "séc. VIII a.C.",
+   "yr": -750,
+   "lane": "myth.grega",
+   "dy": -1,
+   "work": "Ilíada; Odisseia (canto 24: Hermes conduz as almas dos pretendentes ao Hades)",
+   "why": "Fonte antiga da imagem de Hermes como condutor de almas."
+  },
+  {
+   "id": "hermes",
+   "name": "Hermes",
+   "date": "culto grego arcaico",
+   "yr": -650,
+   "lane": "myth.grega",
+   "dy": 1,
+   "work": "Odisseia 24; Hino Homérico a Hermes",
+   "why": "Deus de passagens e mediação. É psicopompo, condutor de almas ao Hades, uma de suas funções mais antigas. Heródoto o identifica a Thoth."
+  }
+ ]
+}

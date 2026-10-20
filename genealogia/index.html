@@ -1,4 +1,5 @@
-<title>Genealogia da Astrologia</title>
+<meta charset="utf-8">
+<title>Genealogia das Ideias</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,7 +9,7 @@
 :root{
   --bg:#F4F5F8; --surface:#FFFFFF; --ink:#1A1F2E; --muted:#5A6477; --line:#D9DDE6; --band:#EBEDF3;
   --c1:#A8641A; --c2:#0E7C86; --c3:#5240A8; --c4:#2F6B3A; --c5:#8A4B6B; --c6:#1F6FB2; --c7:#8A6D00; --c8:#4E5D6C;
-  --e-mestre:#1A1F2E; --e-influencia:#6C7A99; --e-critica:#C0392B; --e-debatido:#8A93A6; --e-reivindicada:#B7791F;
+  --e-mestre:#1A1F2E; --e-influencia:#6C7A99; --e-critica:#C0392B; --e-debatido:#8A93A6; --e-reivindicada:#B7791F; --e-identificacao:#7B5EA7;
   --focus:#2F5BD3; --warn:#B45309;
   --f-display:'Spectral',Georgia,serif; --f-ui:'IBM Plex Sans',system-ui,sans-serif; --f-mono:'IBM Plex Mono',ui-monospace,monospace;
 }
@@ -16,14 +17,14 @@
   :root:not([data-theme="light"]){
     --bg:#12151C; --surface:#1A1F2A; --ink:#E6E9F0; --muted:#9AA4B8; --line:#2B3342; --band:#171B25;
     --c1:#E0A050; --c2:#4FC3CC; --c3:#A99BFF; --c4:#7FCB8C; --c5:#E09CC0; --c6:#6CB3F0; --c7:#E3C24D; --c8:#9FB0C2;
-    --e-mestre:#E6E9F0; --e-influencia:#7D8BB0; --e-critica:#FF7A6B; --e-debatido:#8A93A6; --e-reivindicada:#E3B341;
+    --e-mestre:#E6E9F0; --e-influencia:#7D8BB0; --e-critica:#FF7A6B; --e-debatido:#8A93A6; --e-reivindicada:#E3B341; --e-identificacao:#B79CE0;
     --focus:#7FA2FF; --warn:#F0A04B; color-scheme:dark;
   }
 }
 :root[data-theme="dark"]{
   --bg:#12151C; --surface:#1A1F2A; --ink:#E6E9F0; --muted:#9AA4B8; --line:#2B3342; --band:#171B25;
   --c1:#E0A050; --c2:#4FC3CC; --c3:#A99BFF; --c4:#7FCB8C; --c5:#E09CC0; --c6:#6CB3F0; --c7:#E3C24D; --c8:#9FB0C2;
-  --e-mestre:#E6E9F0; --e-influencia:#7D8BB0; --e-critica:#FF7A6B; --e-debatido:#8A93A6; --e-reivindicada:#E3B341;
+  --e-mestre:#E6E9F0; --e-influencia:#7D8BB0; --e-critica:#FF7A6B; --e-debatido:#8A93A6; --e-reivindicada:#E3B341; --e-identificacao:#B79CE0;
   --focus:#7FA2FF; --warn:#F0A04B; color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -37,6 +38,11 @@ header p{margin:0;color:var(--muted);max-width:68ch}
 .sep{width:1px;height:22px;background:var(--line);margin:0 6px}
 .chip{font:500 13px var(--f-ui);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;cursor:pointer}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.field{font:400 13px var(--f-ui);color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:6px 12px;max-width:100%}
+select.field{max-width:300px}
+input.field{width:190px}
+.field:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+.chip.ghost{border-style:dashed;color:var(--muted)}
 .chip:disabled{opacity:.55;cursor:not-allowed;border-style:dashed}
 .chip:focus-visible,.node:focus-visible,.rel:focus-visible,.row:focus-visible,summary:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 .legend{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:12.5px;color:var(--muted)}
@@ -54,6 +60,7 @@ header p{margin:0;color:var(--muted);max-width:68ch}
 .domSep{stroke:var(--ink);stroke-width:1.5;opacity:.5}
 .e{fill:none;stroke-width:1.4;opacity:.3;transition:opacity .15s}
 .e.on{opacity:1;stroke-width:2.4}
+.e.hl{opacity:.8;stroke-width:2}
 .e.dim{opacity:.05}
 .only .e:not(.on){opacity:0}
 .node{cursor:pointer;transition:opacity .15s}
@@ -103,12 +110,13 @@ details code{font-family:var(--f-mono);font-size:12.5px}
 
 <div class="wrap">
   <header>
-    <h1>Genealogia da Astrologia</h1>
-    <p>Quem leu quem, quem ensinou quem e quem refutou quem, por tema e no tempo. Clique em um nome para ver suas relações; os círculos preenchidos formam a trilha mínima de leitura.</p>
+    <h1 id="h1">Genealogia das Ideias</h1>
+    <p id="sub"></p>
   </header>
 
   <div id="msg" hidden></div>
-  <div class="controls" id="controls" role="group" aria-label="Filtros"></div>
+  <div class="controls" id="controls" role="group" aria-label="Temas"></div>
+  <div class="controls" id="focusbar" role="group" aria-label="Destaque e busca"></div>
   <div class="legend" id="legend" aria-label="Legenda"></div>
   <div class="scroller" id="scroller"><svg id="tl" role="img" aria-label="Linha do tempo por tema"></svg></div>
 
@@ -118,19 +126,15 @@ details code{font-family:var(--f-mono);font-size:12.5px}
   </div>
 
   <div id="trails"></div>
-
-  <section class="note">
-    <p><b>Sobre ler tudo de Platão e Aristóteles.</b> Platão completo (cerca de 35 diálogos) cabe em um ou dois anos, a dois ou três por mês. Uma ordem possível: Apologia, Críton, Fédon, Banquete, República, Timeu. Aristóteles completo não é uma meta realista: boa parte do corpus conservado são tratados de aula. Priorize Física, Do Céu, Metafísica e Ética a Nicômaco.</p>
-    <p><b>Sócrates</b> não escreveu nada. Só o conhecemos por Platão, Xenofonte, Aristófanes (As Nuvens) e Aristóteles, o chamado problema socrático, que é primo do problema de Pitágoras.</p>
-  </section>
+  <div id="notes"></div>
 
   <details id="contract">
     <summary>Como estender este mapa</summary>
     <ul>
-      <li>Os dados ficam em <code>data/domains.json</code> (eixo do tempo, tipos de relação, temas) e em um arquivo por tema, como <code>data/astrologia.json</code>. Esta página só desenha.</li>
-      <li>O contrato completo, com esquema, regras de rigor e procedimento, está em <a href="CONVENTIONS.md" target="_blank" rel="noopener">CONVENTIONS.md</a>. Leia antes de editar.</li>
-      <li>Cada pessoa tem um <code>id</code> estável e aparece uma vez. Relações são únicas por origem, destino e tipo. Reaplicar a mesma mudança não duplica nada.</li>
-      <li>Linhagem que só a tradição afirma, sem documento, usa o tipo <code>reivindicada</code>. É isso que separa história de mito quando entrarem tarot, magia cerimonial e astrologia psicológica.</li>
+      <li>Os dados ficam em <code>data/</code>: <code>domains.json</code> (eixo do tempo, tipos de relação, temas), um arquivo por tema com as pessoas e figuras, <code>relacoes.json</code> (todas as relações, inclusive entre temas) e <code>trilhas.json</code> (trilhas de leitura e linhagens). Esta página só desenha.</li>
+      <li>Para mudar dados use <code>python3 tools/mapa.py</code> (adicionar, alterar e remover são idempotentes e validam antes de gravar). O contrato completo está em <a href="CONVENTIONS.md" target="_blank" rel="noopener">CONVENTIONS.md</a>.</li>
+      <li>Cada figura tem um <code>id</code> estável e aparece uma vez. Relações são únicas por origem, destino e tipo.</li>
+      <li>Linhagem que só a tradição afirma, sem documento, usa o tipo <code>reivindicada</code>. Equivalência entre figuras (Hermes e Thoth) usa <code>identificacao</code>, sem direção.</li>
     </ul>
   </details>
 
@@ -142,29 +146,31 @@ details code{font-family:var(--f-mono);font-size:12.5px}
 const NS='http://www.w3.org/2000/svg';
 const $=s=>document.querySelector(s);
 const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const norm=s=>String(s).normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();
 function el(n,a,p){const e=document.createElementNS(NS,n);for(const k in (a||{}))e.setAttribute(k,a[k]);if(p)p.appendChild(e);return e;}
 function fail(m){const b=$('#msg');b.hidden=false;b.textContent=m;}
 async function getJSON(u){const r=await fetch(u);if(!r.ok)throw new Error(u+' ('+r.status+')');return r.json();}
 
-let DOMS,DATA={},ALL={},active=new Set(),sel=null,lin=null,onlyPath=false,onlySel=false;
-let LV=null,nodeEls={},edgeEls=[],pathNum={};
+let DOMS,REL,TR,DATA={},ALL={},active=new Set(),sel=null,focus=null,onlySel=false;
+let LV={},nodeEls={},edgeEls=[],stepNum={};
 const TOP=96,LH=124;
+const etype=t=>DOMS.edgeTypes[t]||{};
+const ecol=t=>'var('+(etype(t).css||'--e-'+t)+',var(--e-influencia))';
+const directed=t=>etype(t).directed!==false;
 
 function X(y){const K=DOMS.axis.knots;for(let i=0;i<K.length-1;i++){const a=K[i],b=K[i+1];if(y>=a[0]&&y<=b[0])return a[1]+(y-a[0])*(b[1]-a[1])/(b[0]-a[0]);}return y<K[0][0]?K[0][1]:K[K.length-1][1];}
 
 function indexAll(){
-  ALL={nodes:{},lanes:{},edges:[],domOf:{}};
+  ALL={nodes:{},lanes:{},edges:REL.edges,trails:TR.trails||[],lineages:TR.lineages||[]};
   DOMS.domains.forEach(d=>{const D=DATA[d.id];if(!D)return;
     D.lanes.forEach(l=>{ALL.lanes[l.id]=Object.assign({dom:d.id},l);});
-    D.nodes.forEach(n=>{ALL.nodes[n.id]=Object.assign({dom:d.id},n);});
-    D.edges.forEach(e=>ALL.edges.push(e));
-  });
+    D.nodes.forEach(n=>{ALL.nodes[n.id]=Object.assign({dom:d.id},n);});});
 }
 
 function validate(){
   const out=[],seen={},eseen={};
   DOMS.domains.forEach(d=>{const D=DATA[d.id];
-    if(d.status==='ativo'&&!D){out.push('Domínio ativo sem arquivo carregado: '+d.id);return;}
+    if(d.status==='ativo'&&!D){out.push('Tema ativo sem arquivo carregado: '+d.id);return;}
     if(!D)return;
     const laneIds=new Set(D.lanes.map(l=>l.id));
     D.nodes.forEach(n=>{
@@ -178,18 +184,31 @@ function validate(){
     const byLane={};D.nodes.forEach(n=>{(byLane[n.lane]=byLane[n.lane]||[]).push(n);});
     Object.keys(byLane).forEach(k=>{const a=byLane[k].slice().sort((x,y)=>X(x.yr)-X(y.yr));
       for(let i=0;i<a.length;i++)for(let j=i+1;j<a.length;j++){if(X(a[j].yr)-X(a[i].yr)>=84)break;if(a[i].dy===a[j].dy)out.push('Rótulos podem colidir: '+a[i].id+' e '+a[j].id+' (ajuste dy)');}});
-    (D.trails||[]).forEach(t=>t.steps.forEach(s=>{if(!ALL.nodes[s.node])out.push('Trilha aponta para nó inexistente: '+s.node);}));
-    (D.lineages||[]).forEach(L=>L.nodes.forEach(id=>{if(!ALL.nodes[id])out.push('Linhagem '+L.id+' aponta para nó inexistente: '+id);}));
-    D.edges.forEach(e=>{
-      if(!ALL.nodes[e.from]||!ALL.nodes[e.to])out.push('Relação com ponta inexistente: '+e.from+' → '+e.to);
-      if(!DOMS.edgeTypes[e.type])out.push('Tipo de relação desconhecido: '+e.type);
-      const k=e.from+'|'+e.to+'|'+e.type;if(eseen[k])out.push('Relação duplicada: '+k);eseen[k]=1;
-    });
+  });
+  const tids={};
+  ALL.trails.forEach(t=>{if(tids[t.id])out.push('id de trilha duplicado: '+t.id);tids[t.id]=1;
+    t.steps.forEach(s=>{if(!ALL.nodes[s.node])out.push('Trilha '+t.id+' aponta para nó inexistente: '+s.node);});});
+  const lids={};ALL.lineages.forEach(L=>{if(lids[L.id])out.push('id de linhagem duplicado: '+L.id);lids[L.id]=1;
+    L.nodes.forEach(id=>{if(!ALL.nodes[id])out.push('Linhagem '+L.id+' aponta para nó inexistente: '+id);});});
+  ALL.edges.forEach(e=>{
+    if(!ALL.nodes[e.from]||!ALL.nodes[e.to])out.push('Relação com ponta inexistente: '+e.from+' → '+e.to);
+    if(!DOMS.edgeTypes[e.type])out.push('Tipo de relação desconhecido: '+e.type);
+    if(e.from===e.to)out.push('Relação de um nó consigo mesmo: '+e.from);
+    const k=(!directed(e.type)&&e.from>e.to)?e.to+'|'+e.from+'|'+e.type:e.from+'|'+e.to+'|'+e.type;
+    if(eseen[k])out.push('Relação duplicada: '+k);eseen[k]=1;
+    if(!e.desc)out.push('Relação sem descrição: '+e.from+' → '+e.to);
   });
   return out;
 }
 
-function legendSvg(t,w){const d=(DOMS.edgeTypes[t]||{}).dash||'';return '<svg viewBox="0 0 '+(w||34)+' 8"><line x1="0" y1="4" x2="'+(w||34)+'" y2="4" stroke="var(--e-'+t+',var(--e-influencia))" stroke-width="2"'+(d?' stroke-dasharray="'+d+'"':'')+'/></svg>';}
+function legendSvg(t,w){const d=etype(t).dash||'';w=w||34;return '<svg viewBox="0 0 '+w+' 8"><line x1="0" y1="4" x2="'+w+'" y2="4" stroke="'+ecol(t)+'" stroke-width="2"'+(d?' stroke-dasharray="'+d+'"':'')+'/></svg>';}
+
+function focusSet(){
+  if(!focus)return null;
+  if(focus.kind==='trail'){const t=ALL.trails.find(x=>x.id===focus.id);return t?new Set(t.steps.map(s=>s.node)):null;}
+  const L=ALL.lineages.find(x=>x.id===focus.id);return L?new Set(L.nodes):null;
+}
+function activateFor(ids){let ch=false;ids.forEach(id=>{const n=ALL.nodes[id];if(n&&!active.has(n.dom)){active.add(n.dom);ch=true;}});return ch;}
 
 function renderControls(){
   const c=$('#controls');c.innerHTML='';
@@ -197,22 +216,41 @@ function renderControls(){
   DOMS.domains.forEach(d=>{
     const b=document.createElement('button');b.className='chip';b.id='dom-'+d.id;
     if(d.status==='ativo'){b.textContent=d.name;b.setAttribute('aria-pressed',String(active.has(d.id)));b.title=d.desc;
-      b.addEventListener('click',()=>{if(active.has(d.id)){if(active.size>1)active.delete(d.id);}else active.add(d.id);lin=null;renderControls();draw();});}
+      b.addEventListener('click',()=>{if(active.has(d.id)){if(active.size>1)active.delete(d.id);}else active.add(d.id);renderControls();draw();});}
     else{b.textContent=d.name+' (em breve)';b.disabled=true;b.title=d.desc;b.setAttribute('aria-pressed','false');}
     c.appendChild(b);});
-  const s=document.createElement('span');s.className='sep';c.appendChild(s);
-  const l2=document.createElement('span');l2.className='lbl';l2.textContent='Destacar';c.appendChild(l2);
-  active.forEach(id=>(DATA[id].lineages||[]).forEach(L=>{
-    const b=document.createElement('button');b.className='chip';b.textContent=L.name;b.setAttribute('aria-pressed',String(lin&&lin.id===L.id));
-    b.addEventListener('click',()=>{lin=(lin&&lin.id===L.id)?null:L;renderControls();refresh();});c.appendChild(b);}));
-  const bp=document.createElement('button');bp.className='chip';bp.textContent='Só a trilha mínima';bp.setAttribute('aria-pressed',String(onlyPath));
-  bp.addEventListener('click',()=>{onlyPath=!onlyPath;bp.setAttribute('aria-pressed',String(onlyPath));refresh();});c.appendChild(bp);
+  const all=document.createElement('button');all.className='chip ghost';all.textContent='Todos';all.addEventListener('click',()=>{DOMS.domains.forEach(d=>{if(d.status==='ativo'&&DATA[d.id])active.add(d.id);});renderControls();draw();});c.appendChild(all);
+}
+
+function renderFocusBar(){
+  const f=$('#focusbar');f.innerHTML='';
+  const l1=document.createElement('label');l1.className='lbl';l1.textContent='Destacar';l1.htmlFor='focusSel';f.appendChild(l1);
+  const s=document.createElement('select');s.id='focusSel';s.className='field';
+  let h='<option value="">Nada</option>';
+  h+='<optgroup label="Trilhas de leitura (numeradas)">'+ALL.trails.map(t=>'<option value="trail:'+esc(t.id)+'">'+esc(t.name)+'</option>').join('')+'</optgroup>';
+  h+='<optgroup label="Linhagens">'+ALL.lineages.map(L=>'<option value="lin:'+esc(L.id)+'">'+esc(L.name)+'</option>').join('')+'</optgroup>';
+  s.innerHTML=h;s.value=focus?(focus.kind+':'+focus.id):'';
+  s.addEventListener('change',()=>{const v=s.value;if(!v)focus=null;else{const i=v.indexOf(':');focus={kind:v.slice(0,i),id:v.slice(i+1)};
+      const set=focusSet();if(set)activateFor(set);}
+    renderControls();draw();});
+  f.appendChild(s);
+  const sp=document.createElement('span');sp.className='sep';f.appendChild(sp);
+  const l2=document.createElement('label');l2.className='lbl';l2.textContent='Buscar';l2.htmlFor='q';f.appendChild(l2);
+  const q=document.createElement('input');q.id='q';q.className='field';q.type='search';q.placeholder='nome da figura';q.setAttribute('list','qlist');
+  const dl=document.createElement('datalist');dl.id='qlist';dl.innerHTML=Object.keys(ALL.nodes).map(id=>'<option value="'+esc(ALL.nodes[id].name)+'">').join('');
+  const go=()=>{const v=norm(q.value.trim());if(!v)return;const ids=Object.keys(ALL.nodes);
+    const hit=ids.find(id=>norm(ALL.nodes[id].name)===v)||ids.find(id=>norm(ALL.nodes[id].name).indexOf(v)>=0);
+    if(hit){goTo(hit,true);q.value='';}};
+  q.addEventListener('change',go);q.addEventListener('keydown',e=>{if(e.key==='Enter')go();});
+  f.appendChild(q);f.appendChild(dl);
   const bs=document.createElement('button');bs.className='chip';bs.textContent='Só relações do selecionado';bs.setAttribute('aria-pressed',String(onlySel));
-  bs.addEventListener('click',()=>{onlySel=!onlySel;bs.setAttribute('aria-pressed',String(onlySel));refresh();});c.appendChild(bs);
+  bs.addEventListener('click',()=>{onlySel=!onlySel;bs.setAttribute('aria-pressed',String(onlySel));refresh();});f.appendChild(bs);
+  const cl=document.createElement('button');cl.className='chip ghost';cl.textContent='Limpar';cl.addEventListener('click',()=>{focus=null;onlySel=false;renderFocusBar();renderTrails();refresh();});f.appendChild(cl);
 }
 
 function renderLegend(){
-  $('#legend').innerHTML=Object.keys(DOMS.edgeTypes).map(t=>'<span>'+legendSvg(t)+esc(DOMS.edgeTypes[t].label)+'</span>').join('');
+  const used=new Set(ALL.edges.map(e=>e.type));
+  $('#legend').innerHTML=Object.keys(DOMS.edgeTypes).filter(t=>used.has(t)||true).map(t=>'<span>'+legendSvg(t)+esc(etype(t).label)+'</span>').join('');
 }
 
 function draw(){
@@ -224,8 +262,8 @@ function draw(){
   const K=DOMS.axis.knots,W=K[K.length-1][1]+170,H=TOP+LH*lanes.length+24;
   svg.setAttribute('width',W);svg.setAttribute('height',H);svg.setAttribute('viewBox','0 0 '+W+' '+H);
   const defs=el('defs',{},svg);
-  Object.keys(DOMS.edgeTypes).forEach(t=>{const m=el('marker',{id:'m-'+t,viewBox:'0 0 10 10',refX:'8',refY:'5',markerWidth:'7',markerHeight:'7',orient:'auto'},defs);
-    el('path',{d:'M0 1 L9 5 L0 9 z',style:'fill:var(--e-'+t+',var(--e-influencia))'},m);});
+  Object.keys(DOMS.edgeTypes).forEach(t=>{if(!directed(t))return;const m=el('marker',{id:'m-'+t,viewBox:'0 0 10 10',refX:'8',refY:'5',markerWidth:'7',markerHeight:'7',orient:'auto'},defs);
+    el('path',{d:'M0 1 L9 5 L0 9 z',style:'fill:'+ecol(t)},m);});
   const laneIdx={};
   lanes.forEach((L,i)=>{laneIdx[L.id]=i;const y=TOP+i*LH;
     el('rect',{x:0,y:y,width:W,height:LH,class:'band'+(i%2?' odd':'')},svg);
@@ -239,64 +277,68 @@ function draw(){
   DOMS.axis.ticks.forEach(y=>{const x=X(y);el('line',{x1:x,x2:x,y1:60,y2:TOP,class:'tickLine'},svg);
     const t=el('text',{x:x,y:56,class:'tick','text-anchor':'middle'},svg);t.textContent=y<0?(-y)+' a.C.':String(y);});
 
-  pathNum={};doms.forEach(d=>{const t=(DATA[d.id].trails||[])[0];if(t)t.steps.forEach((s,i)=>{pathNum[s.node]=lbl(d.id,i);});});
+  stepNum={};
+  if(focus&&focus.kind==='trail'){const t=ALL.trails.find(x=>x.id===focus.id);if(t)t.steps.forEach((s,i)=>{stepNum[s.node]=i+1;});}
   LV={};
   Object.keys(ALL.nodes).forEach(id=>{const n=ALL.nodes[id];if(laneIdx[n.lane]===undefined)return;
-    LV[id]=Object.assign({},n,{x:X(n.yr),y:TOP+laneIdx[n.lane]*LH+LH/2+12,r:pathNum[id]?12:8});});
+    LV[id]=Object.assign({},n,{x:X(n.yr),y:TOP+laneIdx[n.lane]*LH+LH/2+12,r:stepNum[id]?12:8});});
 
   edgeEls=[];
   ALL.edges.forEach(e=>{const a=LV[e.from],b=LV[e.to];if(!a||!b)return;
-    let d;
-    if(Math.abs(b.x-a.x)<2){const s=Math.sign(b.y-a.y)||1;d='M'+a.x+' '+(a.y+s*a.r)+' L'+b.x+' '+(b.y-s*(b.r+5));}
-    else{const dir=Math.sign(b.x-a.x),xm=(a.x+b.x)/2;d='M'+(a.x+dir*a.r)+' '+a.y+' C'+xm+' '+a.y+' '+xm+' '+b.y+' '+(b.x-dir*(b.r+5))+' '+b.y;}
-    const dash=(DOMS.edgeTypes[e.type]||{}).dash||'';
-    const p=el('path',{d:d,class:'e','marker-end':'url(#m-'+e.type+')',style:'stroke:var(--e-'+e.type+',var(--e-influencia));'+(dash?'stroke-dasharray:'+dash:'')},svg);
-    edgeEls.push({el:p,e:e});});
+    const dr=directed(e.type),ar=dr?5:0;let d;
+    if(Math.abs(b.x-a.x)<2){const s=Math.sign(b.y-a.y)||1;d='M'+a.x+' '+(a.y+s*a.r)+' L'+b.x+' '+(b.y-s*(b.r+ar));}
+    else{const dir=Math.sign(b.x-a.x),xm=(a.x+b.x)/2;d='M'+(a.x+dir*a.r)+' '+a.y+' C'+xm+' '+a.y+' '+xm+' '+b.y+' '+(b.x-dir*(b.r+ar))+' '+b.y;}
+    const dash=etype(e.type).dash||'';
+    const at={d:d,class:'e',style:'stroke:'+ecol(e.type)+';'+(dash?'stroke-dasharray:'+dash:'')};
+    if(dr)at['marker-end']='url(#m-'+e.type+')';
+    edgeEls.push({el:el('path',at,svg),e:e});});
 
   nodeEls={};
-  Object.keys(LV).forEach(id=>{const n=LV[id];
-    const g=el('g',{class:'node'+(pathNum[id]?' path':''),tabindex:0,role:'button','aria-label':n.name+', '+n.date,transform:'translate('+n.x+' '+n.y+')'},svg);
+  Object.keys(LV).forEach(id=>{const n=LV[id],num=stepNum[id];
+    const g=el('g',{class:'node'+(num?' path':''),tabindex:0,role:'button','aria-label':n.name+', '+n.date,transform:'translate('+n.x+' '+n.y+')'},svg);
     el('circle',{r:22,class:'hit'},g);el('circle',{r:n.r+4,class:'ring'},g);
-    const dot=el('circle',{r:n.r,class:'dot',style:'stroke:var(--c'+ALL.lanes[n.lane].color+');'+(pathNum[id]?'fill:var(--c'+ALL.lanes[n.lane].color+')':'')},g);
-    if(pathNum[id]){const t=el('text',{y:4,class:'pn'},g);t.textContent=pathNum[id];}
+    el('circle',{r:n.r,class:'dot',style:'stroke:var(--c'+ALL.lanes[n.lane].color+');'+(num?'fill:var(--c'+ALL.lanes[n.lane].color+')':'')},g);
+    if(num){const t=el('text',{y:4,class:'pn'},g);t.textContent=num;}
     const up=n.dy<0,lv=Math.abs(n.dy)-1;
     const nameY=up?-(n.r+22+lv*28):(n.r+16+lv*28);
-    const t1=el('text',{y:nameY,class:'nm'},g);t1.textContent=n.name;
-    const t2=el('text',{y:nameY+13,class:'dt'},g);t2.textContent=n.date;
+    el('text',{y:nameY,class:'nm'},g).textContent=n.name;
+    el('text',{y:nameY+13,class:'dt'},g).textContent=n.date;
     g.addEventListener('click',()=>select(id,false));
     g.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();select(id,false);}});
     nodeEls[id]=g;});
 
-  if(!sel||!LV[sel])sel=LV.platao?'platao':Object.keys(LV)[0];
+  if(!sel||!ALL.nodes[sel]||!LV[sel])sel=LV.platao?'platao':Object.keys(LV)[0];
   sc.scrollLeft=keep;
-  renderTrails();refresh();panel();
+  renderFocusBar();renderTrails();renderNotes();refresh();panel();
 }
 
 function refresh(){
-  const set=lin?new Set(lin.nodes):null;
+  const set=focusSet();
   Object.keys(nodeEls).forEach(id=>{const g=nodeEls[id];
-    const dim=(set&&!set.has(id))||(onlyPath&&!pathNum[id]);
-    g.classList.toggle('dim',!!dim);g.classList.toggle('sel',id===sel);});
+    g.classList.toggle('dim',!!(set&&!set.has(id)));g.classList.toggle('sel',id===sel);});
   edgeEls.forEach(o=>{const e=o.e,on=e.from===sel||e.to===sel;
-    const dim=(set&&!(set.has(e.from)&&set.has(e.to)))||(onlyPath&&!(pathNum[e.from]&&pathNum[e.to]));
-    o.el.classList.toggle('on',on&&!dim);o.el.classList.toggle('dim',!!dim&&!on);});
+    const inF=set&&set.has(e.from)&&set.has(e.to);
+    o.el.classList.toggle('on',on&&!(set&&!inF));
+    o.el.classList.toggle('hl',!!inF&&!on);
+    o.el.classList.toggle('dim',!!(set&&!inF)&&!on);});
   $('#tl').classList.toggle('only',onlySel);
 }
 
-function relBtn(id,e){const o=LV[id];return '<button class="rel" data-go="'+esc(id)+'">'+legendSvg(e.type,26)+'<span><b>'+esc(o.name)+'</b><small>'+esc(e.desc)+'</small></span></button>';}
-function lbl(did,i){const f=DOMS.domains.find(d=>active.has(d.id));return f&&f.id===did?String(i+1):String.fromCharCode(97+i);}
-function stepOf(id){for(const d of active){for(const t of (DATA[d].trails||[])){const i=t.steps.findIndex(s=>s.node===id);if(i>=0)return {n:lbl(d,i),s:t.steps[i]};}}return null;}
+function relBtn(id,e){const o=ALL.nodes[id];const hid=!LV[id];
+  return '<button class="rel" data-go="'+esc(id)+'">'+legendSvg(e.type,26)+'<span><b>'+esc(o.name)+'</b>'+(hid?' <small style="display:inline">(abre o tema '+esc(DOMS.domains.find(d=>d.id===o.dom).name)+')</small>':'')+'<small>'+esc(e.desc)+'</small></span></button>';}
+function activeTrail(){return focus&&focus.kind==='trail'?ALL.trails.find(x=>x.id===focus.id):null;}
 function panel(){
-  const n=LV[sel],lane=ALL.lanes[n.lane],dom=DOMS.domains.find(d=>d.id===n.dom);
+  const n=ALL.nodes[sel],lane=ALL.lanes[n.lane],dom=DOMS.domains.find(d=>d.id===n.dom);
   let h='<h2>'+esc(n.name)+'</h2><p class="meta">'+esc(n.date)+' · '+esc(dom.name)+' · '+esc(lane.name)+'</p><dl>';
   h+='<div><dt>Obra</dt><dd>'+esc(n.work)+'</dd></div><div><dt>Por que importa</dt><dd>'+esc(n.why)+'</dd></div>';
-  const st=stepOf(sel);if(st)h+='<div><dt>Na trilha mínima</dt><dd>Etapa '+st.n+' · '+esc(st.s.read)+' · ~'+st.s.hours+' h</dd></div>';
+  const t=activeTrail();if(t){const i=t.steps.findIndex(s=>s.node===sel);if(i>=0)h+='<div><dt>Na trilha selecionada</dt><dd>Etapa '+(i+1)+' · '+esc(t.steps[i].read)+' · ~'+t.steps[i].hours+' h</dd></div>';}
   h+='</dl>';$('#panel').innerHTML=h;
-  const out=edgeEls.filter(o=>o.e.from===sel).map(o=>o.e),inn=edgeEls.filter(o=>o.e.to===sel).map(o=>o.e);
+  const inn=ALL.edges.filter(e=>directed(e.type)&&e.to===sel),out=ALL.edges.filter(e=>directed(e.type)&&e.from===sel),eq=ALL.edges.filter(e=>!directed(e.type)&&(e.from===sel||e.to===sel));
   let r='<div class="relcol"><h3>Vem de</h3>'+(inn.length?inn.map(e=>relBtn(e.from,e)).join(''):'<p class="empty">Nenhuma relação de entrada registrada.</p>')+'</div>';
   r+='<div class="relcol" style="margin-top:18px"><h3>Leva a ou atinge</h3>'+(out.length?out.map(e=>relBtn(e.to,e)).join(''):'<p class="empty">Nenhuma relação de saída registrada.</p>')+'</div>';
+  if(eq.length)r+='<div class="relcol" style="margin-top:18px"><h3>Identificado com</h3>'+eq.map(e=>relBtn(e.from===sel?e.to:e.from,e)).join('')+'</div>';
   $('#rels').innerHTML=r;
-  $('#rels').querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>select(b.dataset.go,true)));
+  $('#rels').querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>goTo(b.dataset.go,true)));
 }
 function select(id,scroll){
   if(!LV[id])return;sel=id;refresh();panel();
@@ -304,38 +346,55 @@ function select(id,scroll){
     const reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     sc.scrollTo({left:Math.max(0,n.x-sc.clientWidth/2),behavior:reduce?'auto':'smooth'});}
 }
+function goTo(id,scroll){
+  if(!ALL.nodes[id])return;
+  if(activateFor([id])){sel=id;renderControls();draw();}
+  select(id,scroll);
+}
 
 function renderTrails(){
   const box=$('#trails');box.innerHTML='';
-  DOMS.domains.filter(d=>active.has(d.id)).forEach(d=>(DATA[d.id].trails||[]).forEach(t=>{
-    let total=0;
-    const rows=t.steps.map((s,i)=>{const n=ALL.nodes[s.node];total+=s.hours;
-      return '<button class="row" data-go="'+esc(s.node)+'"><span class="n">'+lbl(d.id,i)+'</span><span><b>'+esc(n.name)+'</b><br><small>'+esc(s.read)+'</small></span><span class="t">~'+s.hours+' h</span><small>'+esc(n.why)+'</small></button>';}).join('');
-    const sec=document.createElement('section');
-    sec.innerHTML='<h2>'+esc(t.name)+(active.size>1?' · '+esc(d.name):'')+'</h2><p>'+esc(t.intro||'')+'</p><div class="table">'+rows+
-      '<div class="row total"><span class="n"></span><span><b>Total</b></span><span class="t">~'+total+' h</span><small>Cerca de '+Math.round(total/5)+' semanas a 5 horas por semana.</small></div></div>';
-    box.appendChild(sec);}));
-  box.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>{select(b.dataset.go,true);window.scrollTo({top:$('#scroller').getBoundingClientRect().top+window.scrollY-12,behavior:'smooth'});}));
+  const t=activeTrail();if(!t)return;
+  let total=0;
+  const rows=t.steps.map((s,i)=>{const n=ALL.nodes[s.node];total+=s.hours;
+    return '<button class="row" data-go="'+esc(s.node)+'"><span class="n">'+(i+1)+'</span><span><b>'+esc(n.name)+'</b><br><small>'+esc(s.read)+'</small></span><span class="t">~'+s.hours+' h</span><small>'+esc(n.why)+'</small></button>';}).join('');
+  const sec=document.createElement('section');
+  sec.innerHTML='<h2>'+esc(t.name)+'</h2><p>'+esc(t.intro||'')+'</p><div class="table">'+rows+
+    '<div class="row total"><span class="n"></span><span><b>Total</b></span><span class="t">~'+total+' h</span><small>Cerca de '+Math.round(total/5)+' semanas a 5 horas por semana.</small></div></div>';
+  box.appendChild(sec);
+  box.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>{goTo(b.dataset.go,true);window.scrollTo({top:$('#scroller').getBoundingClientRect().top+window.scrollY-12,behavior:'smooth'});}));
+}
+
+function renderNotes(){
+  const box=$('#notes');box.innerHTML='';
+  DOMS.domains.filter(d=>active.has(d.id)&&DATA[d.id]&&(DATA[d.id].notes||[]).length).forEach(d=>{
+    const s=document.createElement('section');s.className='note';
+    s.innerHTML=DATA[d.id].notes.map(n=>'<p><b>'+esc(n.title)+'.</b> '+esc(n.text)+'</p>').join('');
+    box.appendChild(s);});
 }
 
 function renderIntegrity(issues){
   const ul=$('#integrityList'),sm=$('#integrity summary');
   const nodes=Object.keys(ALL.nodes).length,edges=ALL.edges.length;
-  if(!issues.length){sm.innerHTML='Integridade dos dados: <span class="ok">OK</span> · '+nodes+' nós · '+edges+' relações · '+active.size+' tema(s) ativo(s)';
-    ul.innerHTML='<li>Ids únicos, relações com pontas e tipos válidos, trilhas e linhagens consistentes, sem colisões de rótulo previstas.</li>';}
-  else{sm.innerHTML='Integridade dos dados: <span class="warn">'+issues.length+' aviso(s)</span> · '+nodes+' nós · '+edges+' relações';
+  const tail=' · '+nodes+' nós · '+edges+' relações · '+ALL.trails.length+' trilha(s) · '+ALL.lineages.length+' linhagem(ns)';
+  if(!issues.length){sm.innerHTML='Integridade dos dados: <span class="ok">OK</span>'+tail;
+    ul.innerHTML='<li>Ids únicos, relações com pontas e tipos válidos, sem duplicatas, trilhas e linhagens consistentes, sem colisões de rótulo previstas.</li>';}
+  else{sm.innerHTML='Integridade dos dados: <span class="warn">'+issues.length+' aviso(s)</span>'+tail;
     ul.innerHTML=issues.map(i=>'<li>'+esc(i)+'</li>').join('');$('#integrity').open=true;}
 }
 
 (async function init(){
   try{
-    DOMS=await getJSON('data/domains.json');
+    [DOMS,REL,TR]=await Promise.all([getJSON('data/domains.json'),getJSON('data/relacoes.json'),getJSON('data/trilhas.json')]);
     const act=DOMS.domains.filter(d=>d.status==='ativo'&&d.file);
     const res=await Promise.all(act.map(d=>getJSON(d.file)));
-    act.forEach((d,i)=>{DATA[d.id]=res[i];});active.add(act[0].id);
+    act.forEach((d,i)=>{DATA[d.id]=res[i];});
+    $('#h1').textContent=DOMS.title||'Mapa de relações';$('#sub').textContent=DOMS.subtitle||'';
+    active.add(act[0].id);
     indexAll();
+    const def=ALL.trails.find(t=>t.default)||ALL.trails[0];if(def)focus={kind:'trail',id:def.id};
     renderLegend();renderControls();draw();renderIntegrity(validate());
-  }catch(err){fail('Não foi possível carregar os dados do mapa: '+err.message+'. Os arquivos data/domains.json e data/<tema>.json precisam estar publicados junto com esta página.');}
+  }catch(err){fail('Não foi possível carregar os dados do mapa: '+err.message+'. Os arquivos em data/ (domains, relacoes, trilhas e um por tema) precisam estar publicados junto com esta página.');}
 })();
 })();
 </script>

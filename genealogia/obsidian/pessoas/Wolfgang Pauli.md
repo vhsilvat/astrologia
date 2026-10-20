@@ -9,7 +9,7 @@ tags: [genealogia, psicologia]
 
 # Wolfgang Pauli
 
-*1900–1958 · Astrologia psicológica e psicologia analítica · Psicologia analítica e alquimia*
+*1900–1958 · Astrologia psicológica e Jung · Psicologia analítica e alquimia*
 
 ## Obra
 Ensaio sobre ideias arquetípicas em Kepler (1952, no volume com o ensaio de Jung sobre sincronicidade)

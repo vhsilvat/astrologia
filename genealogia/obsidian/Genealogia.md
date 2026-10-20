@@ -2,13 +2,13 @@
 tags: [genealogia, moc]
 ---
 
-# Genealogia da Astrologia
+# Genealogia das Ideias
 
-Mapa de conteúdo gerado de `genealogia/data/*.json`. Não edite as notas à mão: edite os JSON e rode `python3 genealogia/tools/gerar_obsidian.py`.
+Mapa de conteúdo gerado de `genealogia/data/*.json`. Não edite as notas à mão: edite os JSON e rode `python3 genealogia/tools/mapa.py build`.
 
 Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligações.
 
-## Astrologia
+## Astrologia e cosmologia
 
 ### Mito, orfismo e hermetismo
 
@@ -27,6 +27,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 
 ### Filosofia
 
+- [[Empédocles]] · c. 494–434 a.C.
 - [[Sócrates]] · 470–399 a.C.
 - [[Platão]] · 428–348 a.C.
 - [[Aristóteles]] · 384–322 a.C.
@@ -62,7 +63,29 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Casaubon]] · 1614
 - [[Walter Burkert]] · 1972
 
-## Astrologia psicológica e psicologia analítica
+## Mito
+
+### Mito grego
+
+- [[Homero]] · séc. VIII a.C.
+- [[Hermes]] · culto grego arcaico
+
+### Mito egípcio
+
+- [[Thoth]] · c. 2400 a.C.
+
+## Alquimia e gnose
+
+### Gnose
+
+- [[Gnose antiga]] · séc. II–III
+
+### Alquimia
+
+- [[Zósimo de Panópolis]] · c. 300
+- [[Paracelso]] · 1493–1541
+
+## Astrologia psicológica e Jung
 
 ### Astrologia moderna e psicológica
 
@@ -75,6 +98,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 
 - [[C. G. Jung]] · 1875–1961
 - [[Wolfgang Pauli]] · 1900–1958
+- [[Stanton Marlan]] · analista junguiano
 
 ## Trilha: Trilha mínima de leitura
 
@@ -101,3 +125,23 @@ Cinco leituras para ver como a astrologia virou linguagem psicológica e por que
 3. [[C. G. Jung]] · Sincronicidade: um princípio de conexões acausais (1952) · ~8 h
 4. [[Wolfgang Pauli]] · Ensaio sobre Kepler, no mesmo volume · ~6 h
 5. [[Liz Greene]] · Saturn: A New Look at an Old Devil · ~10 h
+
+## Trilha: Trilha mínima: da gnose ao sol negro
+
+Quatro leituras para chegar à alquimia por Jung. As horas são estimativas minhas, não medidas.
+
+1. [[Zósimo de Panópolis]] · As Visões de Zósimo (em tradução comentada) · ~4 h
+2. [[Paracelso]] · Paragranum, trechos, e o ensaio de Jung · ~6 h
+3. [[C. G. Jung]] · Psicologia e Alquimia, parte II · ~12 h
+4. [[Stanton Marlan]] · The Black Sun, caps. 1 a 3 · ~8 h
+
+## Linhagens
+
+- **Linhagem causal (física)**: [[Aristóteles]] → [[Estoicos]] → [[Ptolomeu]] → [[Abu Ma’shar]] → [[Guido Bonatti]] → [[William Lilly]] → [[Manílio]]
+- **Linhagem da correspondência**: [[Platão]] → [[Plotino]] → [[Porfírio]] → [[Jâmblico]] → [[Proclo]] → [[Ficino]] → [[Corpus Hermeticum]]
+- **Linhagem órfico-pitagórica**: [[Hesíodo]] → [[Orfismo]] → [[Pitágoras]] → [[Filolau]] → [[Platão]] → [[Nicômaco]] → [[Boécio]] → [[Macróbio]] → [[Kepler]]
+- **Linhagem junguiana**: [[Platão]] → [[Corpus Hermeticum]] → [[Kepler]] → [[Wolfgang Pauli]] → [[C. G. Jung]] → [[Dane Rudhyar]] → [[Liz Greene]]
+- **Astrologia do século XX**: [[Alan Leo]] → [[Evangeline Adams]] → [[Dane Rudhyar]] → [[Liz Greene]]
+- **Quatro elementos**: [[Empédocles]] → [[Platão]] → [[Aristóteles]] → [[Ptolomeu]]
+- **Hermes, Thoth e Trismegisto**: [[Homero]] → [[Hermes]] → [[Thoth]] → [[Corpus Hermeticum]] → [[Casaubon]]
+- **Da gnose a Jung**: [[Gnose antiga]] → [[Corpus Hermeticum]] → [[Zósimo de Panópolis]] → [[Paracelso]] → [[C. G. Jung]] → [[Stanton Marlan]]

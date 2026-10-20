@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Manílio
 
-*séc. I · Astrologia · Astrologia técnica*
+*séc. I · Astrologia e cosmologia · Astrologia técnica*
 
 ## Obra
 Astronomica

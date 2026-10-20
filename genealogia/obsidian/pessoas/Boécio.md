@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Boécio
 
-*c. 480–524 · Astrologia · Pitagorismo e música das esferas*
+*c. 480–524 · Astrologia e cosmologia · Pitagorismo e música das esferas*
 
 ## Obra
 De institutione musica

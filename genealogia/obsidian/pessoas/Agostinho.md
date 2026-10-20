@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Agostinho
 
-*354–430 · Astrologia · Crítica e método*
+*354–430 · Astrologia e cosmologia · Crítica e método*
 
 ## Obra
 Confissões VII; Cidade de Deus V

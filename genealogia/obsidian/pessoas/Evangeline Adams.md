@@ -9,7 +9,7 @@ tags: [genealogia, psicologia]
 
 # Evangeline Adams
 
-*1868–1932 · Astrologia psicológica e psicologia analítica · Astrologia moderna e psicológica*
+*1868–1932 · Astrologia psicológica e Jung · Astrologia moderna e psicológica*
 
 ## Obra
 The Bowl of Heaven (1926); Astrology: Your Place in the Sun (1927)

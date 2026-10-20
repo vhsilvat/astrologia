@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Orfismo
 
-*séc. VI–IV a.C. · Astrologia · Mito, orfismo e hermetismo*
+*séc. VI–IV a.C. · Astrologia e cosmologia · Mito, orfismo e hermetismo*
 
 ## Obra
 Papiro de Derveni; lamelas de ouro; Rapsódias órficas (tardias)

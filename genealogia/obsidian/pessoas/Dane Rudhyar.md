@@ -9,7 +9,7 @@ tags: [genealogia, psicologia]
 
 # Dane Rudhyar
 
-*1895–1985 · Astrologia psicológica e psicologia analítica · Astrologia moderna e psicológica*
+*1895–1985 · Astrologia psicológica e Jung · Astrologia moderna e psicológica*
 
 ## Obra
 The Astrology of Personality (1936)

@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Nechepso–Petosiris
 
-*c. séc. II a.C. · Astrologia · Astrologia técnica*
+*c. séc. II a.C. · Astrologia e cosmologia · Astrologia técnica*
 
 ## Obra
 Fragmentos

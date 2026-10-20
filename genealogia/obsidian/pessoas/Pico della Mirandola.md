@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Pico della Mirandola
 
-*1463–1494 · Astrologia · Crítica e método*
+*1463–1494 · Astrologia e cosmologia · Crítica e método*
 
 ## Obra
 Disputationes adversus astrologiam divinatricem (1496)

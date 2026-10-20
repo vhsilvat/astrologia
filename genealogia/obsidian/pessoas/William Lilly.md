@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # William Lilly
 
-*1602–1681 · Astrologia · Astrologia técnica*
+*1602–1681 · Astrologia e cosmologia · Astrologia técnica*
 
 ## Obra
 Christian Astrology

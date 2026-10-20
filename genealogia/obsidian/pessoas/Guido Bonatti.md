@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Guido Bonatti
 
-*séc. XIII · Astrologia · Astrologia técnica*
+*séc. XIII · Astrologia e cosmologia · Astrologia técnica*
 
 ## Obra
 Liber Astronomiae

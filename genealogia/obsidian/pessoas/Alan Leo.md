@@ -9,7 +9,7 @@ tags: [genealogia, psicologia]
 
 # Alan Leo
 
-*1860–1917 · Astrologia psicológica e psicologia analítica · Astrologia moderna e psicológica*
+*1860–1917 · Astrologia psicológica e Jung · Astrologia moderna e psicológica*
 
 ## Obra
 Astrology for All (série, a partir de 1903); The Art of Synthesis (1912); Esoteric Astrology (1913)

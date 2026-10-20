@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Platão
 
-*428–348 a.C. · Astrologia · Filosofia*
+*428–348 a.C. · Astrologia e cosmologia · Filosofia*
 
 ## Obra
 Timeu; República X; Fédon
@@ -18,14 +18,16 @@ Timeu; República X; Fédon
 O Timeu faz a Alma do Mundo com razões harmônicas e trata os astros como deuses visíveis. É a base de toda leitura por correspondência.
 
 ## Vem de
-- [[Orfismo]] · *influência ou transmissão documentada* · Platão cita doutrinas órficas (Fédon, Crátilo, República)
+- [[Empédocles]] · *influência ou transmissão documentada* · Platão cunha o termo "elemento" no Timeu a partir da doutrina das quatro raízes.
 - [[Filolau]] · *relação debatida pelos estudiosos* · A influência de Filolau sobre o Timeu é antiga, mas discutida
+- [[Orfismo]] · *influência ou transmissão documentada* · Platão cita doutrinas órficas (Fédon, Crátilo, República)
 - [[Sócrates]] · *mestre → discípulo* · Platão foi discípulo de Sócrates e é a principal fonte sobre ele
 
 ## Leva a ou atinge
 - [[Aristóteles]] · *mestre → discípulo* · Aristóteles estudou cerca de vinte anos na Academia
-- [[Nicômaco]] · *influência ou transmissão documentada* · Nicômaco é neopitagórico de inspiração platônica
-- [[Plotino]] · *influência ou transmissão documentada* · Plotino se entende como intérprete de Platão
 - [[Cícero]] · *influência ou transmissão documentada* · O Sonho de Cipião é modelado no Mito de Er
 - [[Ficino]] · *influência ou transmissão documentada* · Ficino traduziu Platão (1484)
+- [[Gnose antiga]] · *relação debatida pelos estudiosos* · Os gnósticos usam Platão, mas Plotino os acusa de distorcê-lo.
 - [[C. G. Jung]] · *influência ou transmissão documentada* · As formas de Platão são uma das fontes do conceito de arquétipo em Jung.
+- [[Nicômaco]] · *influência ou transmissão documentada* · Nicômaco é neopitagórico de inspiração platônica
+- [[Plotino]] · *influência ou transmissão documentada* · Plotino se entende como intérprete de Platão

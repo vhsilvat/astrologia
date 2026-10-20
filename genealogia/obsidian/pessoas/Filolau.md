@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Filolau
 
-*c. 470–385 a.C. · Astrologia · Pitagorismo e música das esferas*
+*c. 470–385 a.C. · Astrologia e cosmologia · Pitagorismo e música das esferas*
 
 ## Obra
 Fragmentos

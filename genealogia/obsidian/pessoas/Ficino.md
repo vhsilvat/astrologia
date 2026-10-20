@@ -9,7 +9,7 @@ tags: [genealogia, astrologia]
 
 # Ficino
 
-*1433–1499 · Astrologia · Filosofia*
+*1433–1499 · Astrologia e cosmologia · Filosofia*
 
 ## Obra
 De vita coelitus comparanda; traduções
@@ -19,10 +19,10 @@ Traduz Platão, Plotino e o Corpus Hermeticum e os junta em uma magia astral. Es
 
 ## Vem de
 - [[Corpus Hermeticum]] · *influência ou transmissão documentada* · Ficino traduziu o Corpus Hermeticum em 1463
-- [[Plotino]] · *influência ou transmissão documentada* · Ficino traduziu as Enéadas (1492)
-- [[Platão]] · *influência ou transmissão documentada* · Ficino traduziu Platão (1484)
-- [[Proclo]] · *influência ou transmissão documentada* · Ficino leu e usou Proclo
 - [[Jâmblico]] · *influência ou transmissão documentada* · Ficino traduziu o De Mysteriis (1497)
+- [[Platão]] · *influência ou transmissão documentada* · Ficino traduziu Platão (1484)
+- [[Plotino]] · *influência ou transmissão documentada* · Ficino traduziu as Enéadas (1492)
+- [[Proclo]] · *influência ou transmissão documentada* · Ficino leu e usou Proclo
 
 ## Leva a ou atinge
 - [[Pico della Mirandola]] · *influência ou transmissão documentada* · Amigos e interlocutores; Ficino também escreveu contra a astrologia judiciária (1477)
