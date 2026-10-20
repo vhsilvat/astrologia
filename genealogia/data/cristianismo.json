@@ -26,7 +26,7 @@
    "date": "c. 6 a.C.–c. 30",
    "yr": 0,
    "lane": "chr.origens",
-   "dy": 1,
+   "dy": -2,
    "work": "Não deixou escritos; ensinos e relatos nos evangelhos (c. 70–100)",
    "why": "Ponto de referência do cristianismo e da reação gnóstica. Sem texto próprio, chega até nós pelos evangelhos, escritos entre quarenta e setenta anos depois. As datas de nascimento e morte são aproximadas: o marco zero do eixo é convenção do calendário."
   },
@@ -36,7 +36,7 @@
    "date": "séc. I (tradição)",
    "yr": 30,
    "lane": "chr.origens",
-   "dy": 2,
+   "dy": 1,
    "work": "A tradição lhe atribui o Evangelho segundo João, três epístolas e o Apocalipse; a crítica majoritária rejeita essas atribuições",
    "why": "Um dos Doze e irmão de Tiago, segundo os sinóticos. A tradição o identifica ao \"discípulo amado\", ao autor do quarto evangelho e ao João de Patmos; a maioria dos estudiosos separa essas figuras. Papias (c. 110) distingue \"João\" entre os discípulos do Senhor do \"presbítero João\", e se discute se são a mesma pessoa. O Apócrifo de João o toma como destinatário da revelação."
   },
@@ -77,6 +77,7 @@
    "yr": 70,
    "lane": "chr.textos",
    "dy": -1,
+   "dx": -18,
    "work": "Evangelho segundo Marcos",
    "why": "Em geral considerado o primeiro evangelho; Mateus e Lucas o teriam usado (hipótese das duas fontes, com dissidentes). Anônimo: o nome vem da tradição."
   },
@@ -87,6 +88,7 @@
    "yr": 85,
    "lane": "chr.textos",
    "dy": 2,
+   "dx": 4,
    "work": "Evangelho segundo Lucas",
    "why": "Anônimo; o nome vem da tradição. Usa Marcos como fonte, segundo a hipótese das duas fontes."
   },
@@ -97,6 +99,7 @@
    "yr": 85,
    "lane": "chr.textos",
    "dy": 1,
+   "dx": -18,
    "work": "Evangelho segundo Mateus",
    "why": "Anônimo; o nome vem da tradição. Em Mateus 2 magos do oriente seguem uma estrela até Jesus."
   },
@@ -107,6 +110,7 @@
    "yr": 95,
    "lane": "chr.textos",
    "dy": -2,
+   "dx": 11,
    "work": "Evangelho segundo João",
    "why": "Anônimo. Identifica uma fonte, o \"discípulo amado\", sem nomeá-lo; o texto não diz que ele é João, filho de Zebedeu. A atribuição a esse João aparece primeiro em Ireneu, e a maioria dos críticos a rejeita. Os valentinianos o comentaram cedo (Heracleão)."
   }

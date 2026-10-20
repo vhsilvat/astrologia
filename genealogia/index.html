@@ -86,6 +86,8 @@ input.field{width:190px}
 .dt{font:400 10px var(--f-mono);fill:var(--muted);text-anchor:middle}
 .node .pn{font:600 11px var(--f-ui);fill:var(--bg);text-anchor:middle}
 .hit{fill:transparent}
+.node.marco .halo{fill:none;stroke:var(--ink);stroke-width:1.2;opacity:.5}
+.node.marco .nm{font-weight:700;font-size:13.5px}
 .lblbg{fill:var(--surface);stroke:var(--line);stroke-width:1;opacity:.97}
 .node.hov circle.dot{stroke-width:3.5}
 .node.hov .ring{stroke:var(--muted)}
@@ -340,7 +342,8 @@ function draw(){
   if(focus&&focus.kind==='trail'){const t=ALL.trails.find(x=>x.id===focus.id);if(t)t.steps.forEach((s,i)=>{stepNum[s.node]=i+1;});}
   LV={};
   Object.keys(ALL.nodes).forEach(id=>{const n=ALL.nodes[id];if(laneIdx[n.lane]===undefined)return;
-    LV[id]=Object.assign({},n,{x:X(n.yr),y:TOP+laneIdx[n.lane]*LH+LH/2+12,r:stepNum[id]?12:8});});
+    const marco=(DOMS.axis.marks||[]).some(mk=>mk.yr===n.yr);
+    LV[id]=Object.assign({},n,{x:X(n.yr)+(n.dx||0),y:TOP+laneIdx[n.lane]*LH+LH/2+12,r:stepNum[id]?12:(marco?11:8),marco:marco});});
 
   edgeEls=[];
   ALL.edges.forEach(e=>{const a=LV[e.from],b=LV[e.to];if(!a||!b)return;
@@ -354,7 +357,8 @@ function draw(){
 
   nodeEls={};
   Object.keys(LV).forEach(id=>{const n=LV[id],num=stepNum[id];
-    const g=el('g',{class:'node'+(num?' path':''),tabindex:0,role:'button','aria-label':n.name+', '+n.date,transform:'translate('+n.x+' '+n.y+')'},svg);
+    const g=el('g',{class:'node'+(num?' path':'')+(n.marco?' marco':''),tabindex:0,role:'button','aria-label':n.name+', '+n.date,transform:'translate('+n.x+' '+n.y+')'},svg);
+    if(n.marco)el('circle',{r:n.r+8,class:'halo'},g);
     el('circle',{r:16,class:'hit'},g);el('circle',{r:n.r+4,class:'ring'},g);
     el('circle',{r:n.r,class:'dot',style:'stroke:var(--c'+ALL.lanes[n.lane].color+');'+(num?'fill:var(--c'+ALL.lanes[n.lane].color+')':'')},g);
     if(num){const t=el('text',{y:4,class:'pn'},g);t.textContent=num;}

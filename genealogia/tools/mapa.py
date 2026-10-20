@@ -64,15 +64,16 @@ class Mapa:
                 if n['lane'] not in {l['id'] for l in D['lanes']}: out.append(f'{i}: faixa {n["lane"]} não pertence ao tema {k}')
                 if n.get('dy') not in (-2, -1, 1, 2): out.append(f'{i}: dy inválido')
                 if not isinstance(n.get('yr'), (int, float)): out.append(f'{i}: ano inválido')
+                if not isinstance(n.get('dx', 0), int): out.append(f'{i}: dx inválido')
                 for f in ('name', 'date', 'work', 'why'):
                     if not n.get(f): out.append(f'{i}: falta {f}')
             by = {}
             for n in D['nodes']: by.setdefault(n['lane'], []).append(n)
             for ns in by.values():
-                ns = sorted(ns, key=lambda n: self.x(n['yr']))
+                ns = sorted(ns, key=lambda n: self.x(n['yr']) + n.get('dx', 0))
                 for i, a in enumerate(ns):
                     for b in ns[i + 1:]:
-                        if self.x(b['yr']) - self.x(a['yr']) >= 84: break
+                        if self.x(b['yr']) + b.get('dx', 0) - self.x(a['yr']) - a.get('dx', 0) >= 84: break
                         if a['dy'] == b['dy']: out.append(f'rótulos podem colidir: {a["id"]} e {b["id"]} (ajuste dy)')
         ek = set()
         for e in self.rel['edges']:
@@ -126,7 +127,7 @@ def main():
     p = sp.add_parser('show', help='mostra uma figura e suas relações'); p.add_argument('id')
     p = sp.add_parser('add-node', help='cria ou atualiza (upsert) uma figura')
     for a in ('id', 'domain', 'lane', 'name', 'date', 'work', 'why'): p.add_argument('--' + a, required=a in ('id',))
-    p.add_argument('--yr', type=int); p.add_argument('--dy', type=int)
+    p.add_argument('--yr', type=int); p.add_argument('--dy', type=int); p.add_argument('--dx', type=int, help='deslocamento visual em px (não muda o ano); 0 remove')
     p = sp.add_parser('rm-node', help='remove figura e tudo que a referencia (relações, passos, linhagens)'); p.add_argument('id')
     p = sp.add_parser('add-edge', help='cria ou atualiza (upsert) relação'); p.add_argument('from_'); p.add_argument('to'); p.add_argument('type'); p.add_argument('desc')
     p = sp.add_parser('rm-edge', help='remove relação (sem tipo: todas entre os dois)'); p.add_argument('from_'); p.add_argument('to'); p.add_argument('type', nargs='?')
@@ -178,9 +179,10 @@ def main():
             n = {'id': a.id}; m.D[a.domain]['nodes'].append(n)
         elif a.domain and a.domain != k:
             sys.exit(f'{a.id} já existe no tema {k}; para mover, remova e recrie (relações serão perdidas, anote-as antes)')
-        for f in ('name', 'date', 'yr', 'lane', 'dy', 'work', 'why'):
+        for f in ('name', 'date', 'yr', 'lane', 'dy', 'dx', 'work', 'why'):
             if getattr(a, f) is not None: n[f] = getattr(a, f)
-        n_ordered = {f: n[f] for f in ('id', 'name', 'date', 'yr', 'lane', 'dy', 'work', 'why') if f in n}
+        if n.get('dx') == 0: del n['dx']
+        n_ordered = {f: n[f] for f in ('id', 'name', 'date', 'yr', 'lane', 'dy', 'dx', 'work', 'why') if f in n}
         n.clear(); n.update(n_ordered)
     elif a.cmd == 'rm-node':
         k, n = m.node(a.id)

@@ -80,7 +80,7 @@ Regras de identidade:
 
 `data/<tema>.json`
 - `lanes[]`: `{id, name, color}`. `id` com prefixo do tema (`astro.tecnica`, `myth.grega`). `color` é 1–8.
-- `nodes[]`: `{id, name, date, yr, lane, dy, work, why}`. `yr` é o ano usado na posição; `date` é o texto exibido (curto: ele é centrado no ponto). `dy`: `-1` rótulo acima, `-2` mais alto, `1` abaixo, `2` mais baixo (o validador avisa colisões). `why`: uma ou duas frases verificáveis.
+- `nodes[]`: `{id, name, date, yr, lane, dy, dx?, work, why}`. `dx` (opcional, inteiro em px) desloca só o desenho, nunca o ano: use para figuras de mesma data na mesma faixa (`add-node --id X --dx -18`; `--dx 0` remove). Figura cujo `yr` coincide com uma marca de `axis.marks` (hoje Jesus, ano 0) ganha halo e nome em destaque, sem configuração. `yr` é o ano usado na posição; `date` é o texto exibido (curto: ele é centrado no ponto). `dy`: `-1` rótulo acima, `-2` mais alto, `1` abaixo, `2` mais baixo (o validador avisa colisões). `why`: uma ou duas frases verificáveis.
 - `notes[]` (opcional): `{title, text}`, exibidos quando o tema está ligado.
 
 `data/relacoes.json`: `edges[]` com `{from, to, type, desc}`. A seta vai de quem age ao alvo. `identificacao` não tem direção nem seta.
@@ -139,3 +139,4 @@ Ao ativar um tema: criar `data/<tema>.json`, mudar `status` para `ativo` em `dom
 - 2026-10-20 · v8 · Tema Gruvbox (escuro e claro), arrastar e zoom com limites que acompanham o tamanho do mapa, subtítulo com a palavra "genealogia", notas de leitura da astrologia removidas.
 - 2026-10-20 · v9 · Hover traz o nome para a frente (camada superior com fundo); seleção persistente sem hover nas vizinhas; limpar com clique em área vazia ou Esc; ao abrir nada vem selecionado.
 - 2026-10-20 · v10 · Painel agrupado por tipo e direção, com rótulos por tipo em `domains.json` (substitui "Vem de" e "Leva a ou atinge", que sugeriam filiação). Novos tipos `registro` (jesus→4 evangelhos, apocrifo-joao, hermetica e valentim→nag-hammadi) e `escola` (platao→plotino, pitagoras→nicomaco). Comando `set-edgetype` na CLI. Notas do Obsidian seguem o mesmo agrupamento. Sem nó "Escola pitagórica" por ora: `pitagoras→filolau` fica `debatido`.
+- 2026-10-20 · v11 · Campo `dx` (deslocamento visual) para separar os quatro evangelhos (c. 70–100) sem mexer no ano; Jesus destacado por coincidir com o marco zero (halo e nome em negrito); Jesus `dy -2`, João `dy 1`.
