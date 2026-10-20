@@ -71,7 +71,7 @@ Nada abaixo está no mapa ainda. São sugestões, cada uma exige verificação d
 - **Tarot e cartomancia:** jogo de trionfi (Itália, séc. XV); Court de Gébelin (1781, origem egípcia reivindicada); Etteilla (1783); Éliphas Lévi; Golden Dawn (1888); Waite–Smith (1909); Crowley–Harris (Thoth). Apoio crítico: Michael Dummett; Decker e Dummett, *A History of the Occult Tarot*.
 - **Hermetismo e magia cerimonial:** Agrippa, Dee, Lévi, Blavatsky, Golden Dawn, Crowley (A∴A∴, Thelema, *The Equinox*), *Kybalion* (1908). Ligar ao nó `hermetica` e a `casaubon` já existentes.
 - **Alquimia (planejado):** Zósimo, Paracelso e outros alquimistas lidos por Jung em *Estudos Alquímicos* (CW13). Gerhard Dorn não foi verificado. Ligar a `jung` e a `hermetica`.
-- **Candidatos ainda por verificar para `psicologia`:** Richard Tarnas (*The Passion of the Western Mind*, *Cosmos and Psyche*), Stephen Arroyo, Howard Sasportas, Marc Edmund Jones, Alice Bailey, Charles Carter, Margaret Hone, Bruno e Louise Huber, Roberto Assagioli, Shawn Carlson (teste duplo-cego, *Nature*, 1985, como nó crítico). Relação `rudhyar → greene` e relação `alan-leo → rudhyar` não têm fonte conferida e não foram incluídas.
+- **Candidatos ainda por verificar para `psicologia`:** Richard Tarnas (*The Passion of the Western Mind*, *Cosmos and Psyche*), Stephen Arroyo, Howard Sasportas, Marc Edmund Jones, Alice Bailey, Charles Carter, Margaret Hone, Bruno e Louise Huber, Roberto Assagioli, Shawn Carlson (teste duplo-cego, *Nature*, 1985, como nó crítico). A relação `alan-leo → rudhyar` não tem fonte conferida e não foi incluída (Hand, no prefácio de *Saturn*, só diz que Leo já apontava nessa direção).
 
 Ao ativar um domínio: criar `data/<dominio>.json`, mudar `status` para `ativo` em `domains.json`, definir faixas, nós, relações, trilha e linhagens. Não altere a trilha da astrologia nem os ids existentes.
 
@@ -88,10 +88,4 @@ Ao ativar um domínio: criar `data/<dominio>.json`, mudar `status` para `ativo` 
 
 - 2026-10-19 · v1 · Domínio `astrologia`: 37 nós, 46 relações, trilha mínima de 11 etapas (~73 h), 3 linhagens. Estrutura em JSON, validador, domínios planejados (tarot, magia, psicologia).
 - 2026-10-19 · v2 · Domínio `psicologia` ativado: 6 nós (Alan Leo, Evangeline Adams, Rudhyar, Greene, Jung, Pauli), 6 relações (3 cruzam para a astrologia), 1 trilha, 2 linhagens. Domínio `alquimia` planejado. Fontes: Wikipedia (Psychological astrology, Alan Leo, Evangeline Adams, Liz Greene, Dane Rudhyar, Synchronicity, Alchemical Studies); Psicologia e Alquimia (1944), Mysterium (1955–56) e ensaio de Pauli sobre Kepler (1952) vêm de conhecimento geral, conferir se for citar no canal.
-
-## 10. Onde os arquivos vivem (adicionado em 2026-10-19)
-
-- **Repositório `vhsilvat/astrologia`, pasta `genealogia/`:** cópia versionada. `data/` são os JSON (fonte da verdade), `index.html` é o renderizador, `tools/gerar_obsidian.py` gera `obsidian/` (notas com wikilinks).
-- **Artifact publicado** ("Genealogia da Astrologia"): a versão para ver no navegador. Depois de editar os JSON, republique no mesmo URL e rode o gerador do Obsidian. Se os dois divergirem, os JSON do repositório mandam, salvo se o usuário disser o contrário.
-- Para abrir `index.html` localmente é preciso um servidor (`python3 -m http.server` dentro de `genealogia/`), porque a página lê os JSON por `fetch`.
-- `obsidian/` é gerado: não edite as notas à mão.
+- 2026-10-19 · v3 · Relação `rudhyar → greene` (influencia) acrescentada, fonte: Robert Hand, prefácio de *Saturn: A New Look at an Old Devil* (Weiser, 2011), p. 5–6. Total: 43 nós, 53 relações.

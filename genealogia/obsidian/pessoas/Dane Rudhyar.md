@@ -21,4 +21,4 @@ Primeiro a reformular a astrologia com a psicologia de Jung (astrologia humanist
 - [[C. G. Jung]] · *influência ou transmissão documentada* · Rudhyar estudava Jung enquanto aprendia astrologia e passou a combinar as duas coisas.
 
 ## Leva a ou atinge
-- (nenhuma registrada)
+- [[Liz Greene]] · *influência ou transmissão documentada* · Segundo Robert Hand (prefácio a Saturn, ed. 2011, p. 5–6), Rudhyar levou a astrologia dos eventos para o autoconhecimento, de forma abstrata, e a geração seguinte, com Greene, deu os meios concretos.
