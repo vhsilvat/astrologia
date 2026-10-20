@@ -1,0 +1,606 @@
+{
+ "schema": 1,
+ "updated": "2026-10-19",
+ "edges": [
+  {
+   "from": "abumashar",
+   "to": "bonatti",
+   "type": "influencia",
+   "desc": "Bonatti usa Abu Ma’shar amplamente"
+  },
+  {
+   "from": "agostinho",
+   "to": "mani",
+   "type": "critica",
+   "desc": "Depois da conversão, escreveu contra os maniqueus, entre eles Fausto de Mileve."
+  },
+  {
+   "from": "agostinho",
+   "to": "pico",
+   "type": "influencia",
+   "desc": "Pico reaproveita argumentos de Agostinho"
+  },
+  {
+   "from": "apocrifo-joao",
+   "to": "nag-hammadi",
+   "type": "registro",
+   "desc": "Preservado em três versões em Nag Hammadi (longas nos códices II e IV, curta no III)."
+  },
+  {
+   "from": "aristoteles",
+   "to": "abumashar",
+   "type": "influencia",
+   "desc": "Abu Ma’shar funda a astrologia na física aristotélica"
+  },
+  {
+   "from": "aristoteles",
+   "to": "pitagoras",
+   "type": "critica",
+   "desc": "Do Céu II.9 refuta a música das esferas dos pitagóricos"
+  },
+  {
+   "from": "aristoteles",
+   "to": "ptolomeu",
+   "type": "influencia",
+   "desc": "Ptolomeu usa a física aristotélica das qualidades"
+  },
+  {
+   "from": "babilonia",
+   "to": "nechepso",
+   "type": "influencia",
+   "desc": "Material babilônico reelaborado no Egito helenístico"
+  },
+  {
+   "from": "babilonia",
+   "to": "pitagoras",
+   "type": "reivindicada",
+   "desc": "Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época."
+  },
+  {
+   "from": "basilides",
+   "to": "jung",
+   "type": "influencia",
+   "desc": "Em 1916 Jung imprimiu em privado os Septem Sermones ad Mortuos, atribuídos por ele a Basilides de Alexandria."
+  },
+  {
+   "from": "bonatti",
+   "to": "lilly",
+   "type": "influencia",
+   "desc": "Lilly cita Bonatti"
+  },
+  {
+   "from": "burkert",
+   "to": "pitagoras",
+   "type": "critica",
+   "desc": "Examina criticamente as fontes sobre Pitágoras"
+  },
+  {
+   "from": "carneades",
+   "to": "cicero",
+   "type": "influencia",
+   "desc": "Cícero transmite os argumentos céticos de Carnéades"
+  },
+  {
+   "from": "casaubon",
+   "to": "hermetica",
+   "type": "critica",
+   "desc": "Datou os textos no período helenístico, não no Egito faraônico"
+  },
+  {
+   "from": "cicero",
+   "to": "estoicos",
+   "type": "critica",
+   "desc": "De Divinatione II refuta a adivinhação estoica"
+  },
+  {
+   "from": "cicero",
+   "to": "macrobio",
+   "type": "influencia",
+   "desc": "Macróbio comenta o Sonho de Cipião"
+  },
+  {
+   "from": "dionisio",
+   "to": "orfismo",
+   "type": "influencia",
+   "desc": "Diodoro (V.75.4) diz que Orfeu transmitiu nos ritos o nascimento do deus em Creta, de Zeus e Perséfone. Os Hinos Órficos também o invocam. A versão de Zagreu dismembrado pelos Titãs vem de fontes tardias."
+  },
+  {
+   "from": "dorotheus",
+   "to": "abumashar",
+   "type": "influencia",
+   "desc": "A tradição árabe preserva Dorotheus"
+  },
+  {
+   "from": "egito-templos",
+   "to": "pitagoras",
+   "type": "reivindicada",
+   "desc": "Porfírio (Vida de Pitágoras, 6) e Jâmblico dizem que ele aprendeu com sacerdotes egípcios. Heródoto (II.123) atribui a metempsicose aos egípcios, sem citar Pitágoras. Fontes tardias, sem corroboração contemporânea. Burkert: não há um único detalhe da vida de Pitágoras que não seja contestado."
+  },
+  {
+   "from": "empedocles",
+   "to": "aristoteles",
+   "type": "influencia",
+   "desc": "Aristóteles discute Empédocles na Física e em Sobre a Alma."
+  },
+  {
+   "from": "empedocles",
+   "to": "platao",
+   "type": "influencia",
+   "desc": "Platão cunha o termo \"elemento\" no Timeu a partir da doutrina das quatro raízes."
+  },
+  {
+   "from": "estoicos",
+   "to": "manilio",
+   "type": "influencia",
+   "desc": "O poema de Manílio é de inspiração estoica"
+  },
+  {
+   "from": "estoicos",
+   "to": "ptolomeu",
+   "type": "influencia",
+   "desc": "Simpatia cósmica e causalidade física"
+  },
+  {
+   "from": "evangelho-joao",
+   "to": "heracleao",
+   "type": "influencia",
+   "desc": "Heracleão escreve o primeiro comentário conhecido a um livro do Novo Testamento, e foi ao Evangelho de João."
+  },
+  {
+   "from": "ficino",
+   "to": "pico",
+   "type": "influencia",
+   "desc": "Amigos e interlocutores; Ficino também escreveu contra a astrologia judiciária (1477)"
+  },
+  {
+   "from": "filolau",
+   "to": "platao",
+   "type": "debatido",
+   "desc": "A influência de Filolau sobre o Timeu é antiga, mas discutida"
+  },
+  {
+   "from": "hermes",
+   "to": "hermetica",
+   "type": "influencia",
+   "desc": "O Hermes grego, fundido a Thoth, dá Hermes Trismegisto, figura central dos Hermetica."
+  },
+  {
+   "from": "hermes",
+   "to": "persefone",
+   "type": "influencia",
+   "desc": "No Hino Homérico a Deméter, Zeus envia Hermes ao Hades para trazer Perséfone de volta."
+  },
+  {
+   "from": "hermes",
+   "to": "thoth",
+   "type": "identificacao",
+   "desc": "Gregos do Egito ptolemaico identificam Thoth a Hermes (interpretatio graeca); em Khemenu, a Hermópolis helenística, os dois eram cultuados como um só. Cícero (De Natura Deorum III.56) registra o Mercúrio que os egípcios chamam Theyt."
+  },
+  {
+   "from": "hermetica",
+   "to": "ficino",
+   "type": "influencia",
+   "desc": "Ficino traduziu o Corpus Hermeticum em 1463"
+  },
+  {
+   "from": "hermetica",
+   "to": "jung",
+   "type": "influencia",
+   "desc": "Jung leu hermetismo e alquimia (Zósimo, Paracelso, Mercúrio) como precursores da psicologia profunda; ver Estudos Alquímicos, CW13."
+  },
+  {
+   "from": "hermetica",
+   "to": "nag-hammadi",
+   "type": "registro",
+   "desc": "O Códice VI preserva em copta três tratados herméticos: Discurso sobre o Oitavo e o Nono, Ação de Graças e um trecho do Asclépio."
+  },
+  {
+   "from": "hermetica",
+   "to": "zosimo",
+   "type": "influencia",
+   "desc": "A alquimia de Zósimo reflete influência hermética e gnóstica."
+  },
+  {
+   "from": "herodoto",
+   "to": "pitagoras",
+   "type": "debatido",
+   "desc": "II.81: os ritos chamados órficos e báquicos seriam 'na verdade egípcios e pitagóricos' (proibição de enterrar em lã). A frase tem problema textual: a família florentina de manuscritos omite 'e báquicos, sendo egípcios'. Heródoto também atribui a metempsicose aos egípcios sem nomear Pitágoras."
+  },
+  {
+   "from": "hesiodo",
+   "to": "orfismo",
+   "type": "influencia",
+   "desc": "As teogonias órficas reelaboram a de Hesíodo"
+  },
+  {
+   "from": "homero",
+   "to": "hermes",
+   "type": "influencia",
+   "desc": "A Odisseia mostra Hermes conduzindo as almas dos pretendentes ao Hades."
+  },
+  {
+   "from": "ireneu",
+   "to": "basilides",
+   "type": "critica",
+   "desc": "Ireneu e Hipólito são as fontes principais sobre Basilides, e se contradizem."
+  },
+  {
+   "from": "ireneu",
+   "to": "ofitas",
+   "type": "critica",
+   "desc": "Contra as Heresias I.30 expõe o mito de Ialdabaoth e Sofia, núcleo do sistema ofita."
+  },
+  {
+   "from": "ireneu",
+   "to": "sethianos",
+   "type": "critica",
+   "desc": "Primeira menção aos sethianos, hostil; também refere o Apócrifo de João (c. 180). Quase tudo que vem depois depende de Ireneu."
+  },
+  {
+   "from": "ireneu",
+   "to": "valentim",
+   "type": "critica",
+   "desc": "Contra as Heresias (c. 180) foi escrito sobretudo contra os valentinianos; o primeiro livro é quase todo dedicado a eles."
+  },
+  {
+   "from": "jamblico",
+   "to": "ficino",
+   "type": "influencia",
+   "desc": "Ficino traduziu o De Mysteriis (1497)"
+  },
+  {
+   "from": "jamblico",
+   "to": "proclo",
+   "type": "influencia",
+   "desc": "Proclo herda a teurgia de Jâmblico"
+  },
+  {
+   "from": "jesus",
+   "to": "evangelho-joao",
+   "type": "registro",
+   "desc": "Relato de ditos e feitos de Jesus, escrito entre sessenta e setenta anos depois."
+  },
+  {
+   "from": "jesus",
+   "to": "joao-apostolo",
+   "type": "mestre",
+   "desc": "Nos evangelhos sinóticos, João e seu irmão Tiago, filhos de Zebedeu, estão entre os Doze."
+  },
+  {
+   "from": "jesus",
+   "to": "lucas",
+   "type": "registro",
+   "desc": "Relatos de ditos e feitos de Jesus, escritos cerca de cinquenta anos depois."
+  },
+  {
+   "from": "jesus",
+   "to": "marcos",
+   "type": "registro",
+   "desc": "Relatos de ditos e feitos de Jesus, escritos cerca de quarenta anos depois."
+  },
+  {
+   "from": "jesus",
+   "to": "mateus",
+   "type": "registro",
+   "desc": "Relatos de ditos e feitos de Jesus, escritos cerca de cinquenta anos depois."
+  },
+  {
+   "from": "jesus",
+   "to": "paulo",
+   "type": "reivindicada",
+   "desc": "Paulo afirma ter recebido o evangelho por revelação de Jesus Cristo (Gálatas 1:11–12), sem ter sido seu discípulo em vida."
+  },
+  {
+   "from": "joao-apostolo",
+   "to": "apocrifo-joao",
+   "type": "reivindicada",
+   "desc": "O texto se apresenta como revelação a \"João, irmão de Tiago, filhos de Zebedeu\". Pseudepigrafia do séc. II, anterior a 180."
+  },
+  {
+   "from": "joao-apostolo",
+   "to": "evangelho-joao",
+   "type": "reivindicada",
+   "desc": "A tradição atribui o evangelho a ele, a partir de Ireneu. O texto é anônimo e não nomeia o discípulo amado; a maioria dos críticos rejeita a atribuição."
+  },
+  {
+   "from": "jung",
+   "to": "greene",
+   "type": "influencia",
+   "desc": "A astrologia psicológica de Greene usa a psicologia analítica como base."
+  },
+  {
+   "from": "jung",
+   "to": "marlan",
+   "type": "influencia",
+   "desc": "The Black Sun (2008) lê o sol negro pela psicologia analítica e alquímica."
+  },
+  {
+   "from": "jung",
+   "to": "rudhyar",
+   "type": "influencia",
+   "desc": "Rudhyar estudava Jung enquanto aprendia astrologia e passou a combinar as duas coisas."
+  },
+  {
+   "from": "kepler",
+   "to": "pauli",
+   "type": "influencia",
+   "desc": "Pauli analisou Kepler como exemplo de ideias arquetípicas na formação de teorias científicas."
+  },
+  {
+   "from": "mani",
+   "to": "agostinho",
+   "type": "influencia",
+   "desc": "Agostinho foi ouvinte maniqueu por nove ou dez anos antes de converter-se em 387."
+  },
+  {
+   "from": "marcos",
+   "to": "lucas",
+   "type": "influencia",
+   "desc": "Hipótese das duas fontes: Lucas usou Marcos e uma fonte hipotética (Q). Maioria dos estudiosos; há dissidentes."
+  },
+  {
+   "from": "marcos",
+   "to": "mateus",
+   "type": "influencia",
+   "desc": "Hipótese das duas fontes: Mateus usou Marcos e uma fonte hipotética (Q). Maioria dos estudiosos; há dissidentes."
+  },
+  {
+   "from": "nechepso",
+   "to": "valens",
+   "type": "influencia",
+   "desc": "Valens cita Nechepso e Petosiris"
+  },
+  {
+   "from": "nicomaco",
+   "to": "boecio",
+   "type": "influencia",
+   "desc": "Boécio adapta Nicômaco em suas obras sobre aritmética e música"
+  },
+  {
+   "from": "orfismo",
+   "to": "pitagoras",
+   "type": "debatido",
+   "desc": "A relação entre órficos e pitagóricos é discutida (Burkert)"
+  },
+  {
+   "from": "orfismo",
+   "to": "platao",
+   "type": "influencia",
+   "desc": "Platão cita doutrinas órficas (Fédon, Crátilo, República)"
+  },
+  {
+   "from": "origenes",
+   "to": "heracleao",
+   "type": "critica",
+   "desc": "O Comentário a João cita Heracleão quase cinquenta vezes, em geral para contestá-lo, e preserva assim fragmentos que de outro modo se perderiam."
+  },
+  {
+   "from": "origenes",
+   "to": "ofitas",
+   "type": "critica",
+   "desc": "Contra Celso VI descreve o diagrama ofita, tomado de Celso, e o refuta."
+  },
+  {
+   "from": "paracelso",
+   "to": "jung",
+   "type": "influencia",
+   "desc": "Jung escreveu dois ensaios sobre Paracelso (1929 e 1941)."
+  },
+  {
+   "from": "pauli",
+   "to": "jung",
+   "type": "influencia",
+   "desc": "Correspondência desde 1932 e a conjectura Pauli–Jung sobre sincronicidade."
+  },
+  {
+   "from": "paulo",
+   "to": "agostinho",
+   "type": "influencia",
+   "desc": "A conversão narrada nas Confissões (VIII.12) acontece ao ler Romanos 13:13–14; Paulo é autoridade central em Agostinho."
+  },
+  {
+   "from": "paulo",
+   "to": "valentim",
+   "type": "influencia",
+   "desc": "Valentinianos do séc. II leem as cartas de Paulo como base de um cristianismo esotérico (Pagels, The Gnostic Paul, Fortress Press, 1975)."
+  },
+  {
+   "from": "persefone",
+   "to": "orfismo",
+   "type": "influencia",
+   "desc": "Mãe de Dionísio na tradição órfica (Diodoro V.75.4; Hinos Órficos). Fontes antigas, mas posteriores ao núcleo do mito."
+  },
+  {
+   "from": "pico",
+   "to": "abumashar",
+   "type": "critica",
+   "desc": "Ataca Abu Ma’shar e a astrologia judiciária"
+  },
+  {
+   "from": "pitagoras",
+   "to": "empedocles",
+   "type": "debatido",
+   "desc": "Biografias tardias o dizem pitagórico; estudiosos modernos veem a tutela como cronologicamente impossível, no máximo uma afinidade de ideias (reencarnação)."
+  },
+  {
+   "from": "pitagoras",
+   "to": "filolau",
+   "type": "debatido",
+   "desc": "Filolau pertence à tradição pitagórica"
+  },
+  {
+   "from": "pitagoras",
+   "to": "kepler",
+   "type": "influencia",
+   "desc": "Kepler assume a herança pitagórica da harmonia das esferas"
+  },
+  {
+   "from": "pitagoras",
+   "to": "nicomaco",
+   "type": "escola",
+   "desc": "O neopitagorismo reivindica Pitágoras como fundador"
+  },
+  {
+   "from": "platao",
+   "to": "aristoteles",
+   "type": "mestre",
+   "desc": "Aristóteles estudou cerca de vinte anos na Academia"
+  },
+  {
+   "from": "platao",
+   "to": "cicero",
+   "type": "influencia",
+   "desc": "O Sonho de Cipião é modelado no Mito de Er"
+  },
+  {
+   "from": "platao",
+   "to": "ficino",
+   "type": "influencia",
+   "desc": "Ficino traduziu Platão (1484)"
+  },
+  {
+   "from": "platao",
+   "to": "jung",
+   "type": "influencia",
+   "desc": "As formas de Platão são uma das fontes do conceito de arquétipo em Jung."
+  },
+  {
+   "from": "platao",
+   "to": "nicomaco",
+   "type": "influencia",
+   "desc": "Nicômaco é neopitagórico de inspiração platônica"
+  },
+  {
+   "from": "platao",
+   "to": "plotino",
+   "type": "escola",
+   "desc": "Plotino se entende como intérprete de Platão"
+  },
+  {
+   "from": "platao",
+   "to": "sethianos",
+   "type": "debatido",
+   "desc": "Estudos associam o demiurgo sethiano (Yaldabaoth) ao demiurgo do Timeu e veem influência do platonismo médio; Plotino contesta a leitura que fazem de Platão."
+  },
+  {
+   "from": "plotino",
+   "to": "ficino",
+   "type": "influencia",
+   "desc": "Ficino traduziu as Enéadas (1492)"
+  },
+  {
+   "from": "plotino",
+   "to": "porfirio",
+   "type": "mestre",
+   "desc": "Porfírio foi seu discípulo e editou as Enéadas"
+  },
+  {
+   "from": "plotino",
+   "to": "sethianos",
+   "type": "critica",
+   "desc": "Porfírio (Vida de Plotino 16): no círculo de Plotino circulavam revelações de Zoroastro, Zostriano, Nicoteu, Alógenes e Meso. Plotino escreveu o tratado Contra os Gnósticos (Enéada II.9) e Amélio refutou o Zostriano em quarenta livros."
+  },
+  {
+   "from": "porfirio",
+   "to": "jamblico",
+   "type": "mestre",
+   "desc": "Jâmblico foi seu discípulo e o criticou"
+  },
+  {
+   "from": "proclo",
+   "to": "ficino",
+   "type": "influencia",
+   "desc": "Ficino leu e usou Proclo"
+  },
+  {
+   "from": "proclo",
+   "to": "kepler",
+   "type": "influencia",
+   "desc": "Kepler usa o comentário de Proclo a Euclides"
+  },
+  {
+   "from": "ptolomeu",
+   "to": "abumashar",
+   "type": "influencia",
+   "desc": "A tradição árabe herda Ptolomeu e a astrologia helenística"
+  },
+  {
+   "from": "ptolomeu",
+   "to": "biruni",
+   "type": "influencia",
+   "desc": "Al-Biruni conhece o Almagesto e o Tetrabiblos"
+  },
+  {
+   "from": "ptolomeu",
+   "to": "kepler",
+   "type": "influencia",
+   "desc": "Kepler comenta a Harmônica de Ptolomeu e reformula os aspectos"
+  },
+  {
+   "from": "ptolomeu",
+   "to": "porfirio",
+   "type": "influencia",
+   "desc": "Porfírio escreveu uma Introdução ao Tetrabiblos"
+  },
+  {
+   "from": "rudhyar",
+   "to": "greene",
+   "type": "influencia",
+   "desc": "Segundo Robert Hand (prefácio a Saturn, ed. 2011, p. 5–6), Rudhyar levou a astrologia dos eventos para o autoconhecimento, de forma abstrata, e a geração seguinte, com Greene, deu os meios concretos."
+  },
+  {
+   "from": "sethianos",
+   "to": "apocrifo-joao",
+   "type": "influencia",
+   "desc": "Texto central da tradição sethiana."
+  },
+  {
+   "from": "sethianos",
+   "to": "zosimo",
+   "type": "influencia",
+   "desc": "Zósimo é descrito como místico gnóstico; o vaso-batistério liga-se a textos sethianos de Nag Hammadi."
+  },
+  {
+   "from": "sexto",
+   "to": "babilonia",
+   "type": "critica",
+   "desc": "Ataca a astrologia caldeia (Adv. Math. V)"
+  },
+  {
+   "from": "socrates",
+   "to": "platao",
+   "type": "mestre",
+   "desc": "Platão foi discípulo de Sócrates e é a principal fonte sobre ele"
+  },
+  {
+   "from": "thoth",
+   "to": "hermetica",
+   "type": "influencia",
+   "desc": "\"Trismegisto\" vem do epíteto egípcio de Thoth. Os Hermetica, porém, foram escritos provavelmente por gregos (platonismo e estoicismo), não por sacerdotes egípcios."
+  },
+  {
+   "from": "valens",
+   "to": "brennan",
+   "type": "influencia",
+   "desc": "Brennan reconstrói a técnica helenística a partir de Valens e outros"
+  },
+  {
+   "from": "valentim",
+   "to": "heracleao",
+   "type": "mestre",
+   "desc": "Clemente de Alexandria o chama de o mais estimado da escola de Valentim; Orígenes diz que teve contato pessoal com Valentim."
+  },
+  {
+   "from": "valentim",
+   "to": "nag-hammadi",
+   "type": "registro",
+   "desc": "O Evangelho de Filipe (Códice II) é valentiniano; o Evangelho da Verdade (Códice I) liga-se à escola."
+  },
+  {
+   "from": "zosimo",
+   "to": "jung",
+   "type": "influencia",
+   "desc": "Jung o comenta em palestra do Eranos de 1937, ensaio hoje no vol. 13 das Obras Completas."
+  }
+ ]
+}

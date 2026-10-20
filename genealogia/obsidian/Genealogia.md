@@ -1,0 +1,199 @@
+---
+tags: [genealogia, moc]
+---
+
+# A Cadeia de Ouro
+
+Mapa de conteúdo gerado de `genealogia/data/*.json`. Não edite as notas à mão: edite os JSON e rode `python3 genealogia/tools/mapa.py build`.
+
+Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligações.
+
+## Astrologia e cosmologia
+
+### Mito, orfismo e hermetismo
+
+- [[Hesíodo]] · c. 700 a.C.
+- [[Orfismo]] · séc. VI–IV a.C.
+- [[Corpus Hermeticum]] · séc. I–III d.C.
+
+### Pitagorismo e música das esferas
+
+- [[Pitágoras]] · c. 570–495 a.C.
+- [[Filolau]] · c. 470–385 a.C.
+- [[Nicômaco]] · c. 100 d.C.
+- [[Macróbio]] · c. 400
+- [[Boécio]] · c. 480–524
+- [[Kepler]] · 1571–1630
+
+### Filosofia
+
+- [[Empédocles]] · c. 494–434 a.C.
+- [[Sócrates]] · 470–399 a.C.
+- [[Platão]] · 428–348 a.C.
+- [[Aristóteles]] · 384–322 a.C.
+- [[Estoicos]] · séc. III–I a.C.
+- [[Plotino]] · 204–270
+- [[Porfírio]] · 234–305
+- [[Jâmblico]] · c. 245–325
+- [[Proclo]] · 412–485
+- [[Ficino]] · 1433–1499
+
+### Astrologia técnica
+
+- [[Babilônia]] · c. 700–400 a.C.
+- [[Nechepso–Petosiris]] · c. séc. II a.C.
+- [[Manílio]] · séc. I
+- [[Dorotheus]] · séc. I
+- [[Ptolomeu]] · séc. II
+- [[Vettius Valens]] · séc. II
+- [[Firmicus Maternus]] · c. 335
+- [[Abu Ma’shar]] · 787–886
+- [[Al-Biruni]] · 973–1048
+- [[Guido Bonatti]] · séc. XIII
+- [[William Lilly]] · 1602–1681
+- [[Chris Brennan]] · 2017
+
+### Crítica e método
+
+- [[Carnéades]] · 214–129 a.C.
+- [[Cícero]] · 106–43 a.C.
+- [[Sexto Empírico]] · c. 160–210
+- [[Agostinho]] · 354–430
+- [[Pico della Mirandola]] · 1463–1494
+- [[Casaubon]] · 1614
+- [[Walter Burkert]] · 1972
+
+## Mito
+
+### Mito grego
+
+- [[Homero]] · séc. VIII a.C.
+- [[Hermes]] · culto grego arcaico
+- [[Perséfone]] · séc. VII–VI a.C.
+- [[Dionísio (Zagreu)]] · arcaico; Zagreu em fontes tardias
+
+### Mito egípcio
+
+- [[Thoth]] · c. 2400 a.C.
+- [[Templos egípcios]] · milênios a.C. até c. 300 a.C.
+
+### Relatos e comparações
+
+- [[Heródoto]] · c. 484–425 a.C.
+
+## Cristianismo antigo
+
+### Origens cristãs
+
+- [[Jesus de Nazaré]] · c. 6 a.C.–c. 30
+- [[João, filho de Zebedeu]] · séc. I (tradição)
+- [[Paulo de Tarso]] · séc. I (cartas c. 50–60)
+
+### Evangelhos
+
+- [[Evangelho segundo Marcos]] · c. 70
+- [[Evangelho segundo Lucas]] · c. 80–90
+- [[Evangelho segundo Mateus]] · c. 80–90
+- [[Evangelho segundo João]] · c. 90–100
+
+### Pais da Igreja
+
+- [[Ireneu de Lyon]] · c. 130–c. 202
+- [[Orígenes]] · c. 185–254
+
+## Alquimia e gnose
+
+### Gnose
+
+- [[Basilides]] · ativo 117–161
+- [[Valentim e valentinianos]] · c. 100–c. 165
+- [[Sethianos]] · séc. II–IV
+- [[Heracleão]] · ativo c. 170–180
+- [[Ofitas e arcontes]] · séc. II–III
+- [[Mani e o maniqueísmo]] · 216–274
+
+### Alquimia
+
+- [[Zósimo de Panópolis]] · c. 300
+- [[Paracelso]] · 1493–1541
+
+### Textos e achados gnósticos
+
+- [[Apócrifo de João]] · séc. II (antes de 180)
+- [[Biblioteca de Nag Hammadi]] · achada em 1945 (cópias do séc. IV)
+
+## Astrologia psicológica e Jung
+
+### Astrologia moderna e psicológica
+
+- [[Alan Leo]] · 1860–1917
+- [[Evangeline Adams]] · 1868–1932
+- [[Dane Rudhyar]] · 1895–1985
+- [[Liz Greene]] · n. 1946
+
+### Psicologia analítica e alquimia
+
+- [[C. G. Jung]] · 1875–1961
+- [[Wolfgang Pauli]] · 1900–1958
+- [[Stanton Marlan]] · analista junguiano
+
+## Trilha: Trilha mínima · Astrologia: de Hesíodo a Kepler
+
+Onze etapas, ordenadas para que cada uma prepare a seguinte. Os tempos são ordens de grandeza para leitura com anotações; ajuste ao seu ritmo.
+
+1. [[Hesíodo]] · Teogonia (inteira) · ~2 h
+2. [[Platão]] · Timeu e República X (Mito de Er) · ~9 h
+3. [[Aristóteles]] · Do Céu, livros I–II (II.9 em especial) · ~4 h
+4. [[Walter Burkert]] · Capítulos sobre harmonia e Filolau · ~10 h
+5. [[Ptolomeu]] · Tetrabiblos, livro I · ~5 h
+6. [[Plotino]] · Enéada II.3 (“Se os astros são causas”) · ~3 h
+7. [[Cícero]] · Sonho de Cipião + De Divinatione II · ~4 h
+8. [[Boécio]] · Livro I, caps. 1–2 · ~3 h
+9. [[Vettius Valens]] · Anthologiae, seleção · ~10 h
+10. [[Pico della Mirandola]] · Disputationes, livros selecionados · ~8 h
+11. [[Kepler]] · Harmonices Mundi, livro V · ~15 h
+
+## Trilha: Trilha mínima · Astrologia psicológica e Jung
+
+Cinco leituras para ver como a astrologia virou linguagem psicológica e por que Jung é a ponte para a alquimia. As horas são estimativas minhas, não medidas.
+
+1. [[Alan Leo]] · The Art of Synthesis (1912) · ~6 h
+2. [[Dane Rudhyar]] · The Astrology of Personality, cap. 1 a 3 · ~8 h
+3. [[C. G. Jung]] · Sincronicidade: um princípio de conexões acausais (1952) · ~8 h
+4. [[Wolfgang Pauli]] · Ensaio sobre Kepler, no mesmo volume · ~6 h
+5. [[Liz Greene]] · Saturn: A New Look at an Old Devil · ~10 h
+
+## Trilha: Trilha mínima · Alquimia: de Zósimo ao sol negro
+
+Quatro leituras para chegar à alquimia por Jung. As horas são estimativas minhas, não medidas.
+
+1. [[Zósimo de Panópolis]] · As Visões de Zósimo (em tradução comentada) · ~4 h
+2. [[Paracelso]] · Paragranum, trechos, e o ensaio de Jung · ~6 h
+3. [[C. G. Jung]] · Psicologia e Alquimia, parte II · ~12 h
+4. [[Stanton Marlan]] · The Black Sun, caps. 1 a 3 · ~8 h
+
+## Trilha: Trilha mínima · Cristianismo antigo e gnose
+
+Seis leituras para ver como o cristianismo nascente deu a gnose e o que a filosofia respondeu. As horas são estimativas minhas, não medidas.
+
+1. [[Paulo de Tarso]] · Gálatas e 1 Coríntios, com notas críticas · ~4 h
+2. [[Evangelho segundo João]] · Evangelho segundo João, de uma vez · ~3 h
+3. [[Ireneu de Lyon]] · Contra as Heresias, livro I (valentinianos e ofitas) e III.11 · ~6 h
+4. [[Apócrifo de João]] · Apócrifo de João, versão longa em tradução comentada · ~3 h
+5. [[Biblioteca de Nag Hammadi]] · Discurso sobre o Oitavo e o Nono (VI,6) e Evangelho da Verdade · ~4 h
+6. [[Plotino]] · Enéada II.9, Contra os Gnósticos · ~3 h
+
+## Linhagens
+
+- **Linhagem causal (física)**: [[Aristóteles]] → [[Estoicos]] → [[Ptolomeu]] → [[Abu Ma’shar]] → [[Guido Bonatti]] → [[William Lilly]] → [[Manílio]]
+- **Linhagem da correspondência**: [[Platão]] → [[Plotino]] → [[Porfírio]] → [[Jâmblico]] → [[Proclo]] → [[Ficino]] → [[Corpus Hermeticum]]
+- **Linhagem órfico-pitagórica**: [[Hesíodo]] → [[Orfismo]] → [[Pitágoras]] → [[Filolau]] → [[Platão]] → [[Nicômaco]] → [[Boécio]] → [[Macróbio]] → [[Kepler]]
+- **Linhagem junguiana**: [[Platão]] → [[Corpus Hermeticum]] → [[Kepler]] → [[Wolfgang Pauli]] → [[C. G. Jung]] → [[Dane Rudhyar]] → [[Liz Greene]]
+- **Astrologia do século XX**: [[Alan Leo]] → [[Evangeline Adams]] → [[Dane Rudhyar]] → [[Liz Greene]]
+- **Quatro elementos**: [[Empédocles]] → [[Platão]] → [[Aristóteles]] → [[Ptolomeu]]
+- **Hermes, Thoth e Trismegisto**: [[Homero]] → [[Hermes]] → [[Thoth]] → [[Corpus Hermeticum]] → [[Casaubon]]
+- **Descida ao Hades e retorno**: [[Hermes]] → [[Perséfone]] → [[Dionísio (Zagreu)]] → [[Orfismo]]
+- **Da gnose a Jung**: [[Sethianos]] → [[Corpus Hermeticum]] → [[Zósimo de Panópolis]] → [[Paracelso]] → [[C. G. Jung]] → [[Stanton Marlan]]
+- **Cristianismo e reação gnóstica**: [[Jesus de Nazaré]] → [[Paulo de Tarso]] → [[Evangelho segundo João]] → [[Valentim e valentinianos]] → [[Heracleão]] → [[Ireneu de Lyon]] → [[Orígenes]]
+- **Arcontes**: [[Paulo de Tarso]] → [[Ofitas e arcontes]] → [[Sethianos]] → [[Apócrifo de João]] → [[Plotino]]
+- **O problema de João**: [[Jesus de Nazaré]] → [[João, filho de Zebedeu]] → [[Evangelho segundo João]] → [[Apócrifo de João]] → [[Ireneu de Lyon]]

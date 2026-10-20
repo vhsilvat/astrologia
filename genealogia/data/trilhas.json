@@ -1,0 +1,309 @@
+{
+ "schema": 1,
+ "updated": "2026-10-19",
+ "trails": [
+  {
+   "id": "minima",
+   "name": "Trilha mínima · Astrologia: de Hesíodo a Kepler",
+   "intro": "Onze etapas, ordenadas para que cada uma prepare a seguinte. Os tempos são ordens de grandeza para leitura com anotações; ajuste ao seu ritmo.",
+   "steps": [
+    {
+     "node": "hesiodo",
+     "read": "Teogonia (inteira)",
+     "hours": 2
+    },
+    {
+     "node": "platao",
+     "read": "Timeu e República X (Mito de Er)",
+     "hours": 9
+    },
+    {
+     "node": "aristoteles",
+     "read": "Do Céu, livros I–II (II.9 em especial)",
+     "hours": 4
+    },
+    {
+     "node": "burkert",
+     "read": "Capítulos sobre harmonia e Filolau",
+     "hours": 10
+    },
+    {
+     "node": "ptolomeu",
+     "read": "Tetrabiblos, livro I",
+     "hours": 5
+    },
+    {
+     "node": "plotino",
+     "read": "Enéada II.3 (“Se os astros são causas”)",
+     "hours": 3
+    },
+    {
+     "node": "cicero",
+     "read": "Sonho de Cipião + De Divinatione II",
+     "hours": 4
+    },
+    {
+     "node": "boecio",
+     "read": "Livro I, caps. 1–2",
+     "hours": 3
+    },
+    {
+     "node": "valens",
+     "read": "Anthologiae, seleção",
+     "hours": 10
+    },
+    {
+     "node": "pico",
+     "read": "Disputationes, livros selecionados",
+     "hours": 8
+    },
+    {
+     "node": "kepler",
+     "read": "Harmonices Mundi, livro V",
+     "hours": 15
+    }
+   ],
+   "default": true
+  },
+  {
+   "id": "junguiana",
+   "name": "Trilha mínima · Astrologia psicológica e Jung",
+   "intro": "Cinco leituras para ver como a astrologia virou linguagem psicológica e por que Jung é a ponte para a alquimia. As horas são estimativas minhas, não medidas.",
+   "steps": [
+    {
+     "node": "alan-leo",
+     "read": "The Art of Synthesis (1912)",
+     "hours": 6
+    },
+    {
+     "node": "rudhyar",
+     "read": "The Astrology of Personality, cap. 1 a 3",
+     "hours": 8
+    },
+    {
+     "node": "jung",
+     "read": "Sincronicidade: um princípio de conexões acausais (1952)",
+     "hours": 8
+    },
+    {
+     "node": "pauli",
+     "read": "Ensaio sobre Kepler, no mesmo volume",
+     "hours": 6
+    },
+    {
+     "node": "greene",
+     "read": "Saturn: A New Look at an Old Devil",
+     "hours": 10
+    }
+   ]
+  },
+  {
+   "id": "alquimia",
+   "name": "Trilha mínima · Alquimia: de Zósimo ao sol negro",
+   "intro": "Quatro leituras para chegar à alquimia por Jung. As horas são estimativas minhas, não medidas.",
+   "steps": [
+    {
+     "node": "zosimo",
+     "read": "As Visões de Zósimo (em tradução comentada)",
+     "hours": 4
+    },
+    {
+     "node": "paracelso",
+     "read": "Paragranum, trechos, e o ensaio de Jung",
+     "hours": 6
+    },
+    {
+     "node": "jung",
+     "read": "Psicologia e Alquimia, parte II",
+     "hours": 12
+    },
+    {
+     "node": "marlan",
+     "read": "The Black Sun, caps. 1 a 3",
+     "hours": 8
+    }
+   ]
+  },
+  {
+   "id": "cristianismo",
+   "name": "Trilha mínima · Cristianismo antigo e gnose",
+   "intro": "Seis leituras para ver como o cristianismo nascente deu a gnose e o que a filosofia respondeu. As horas são estimativas minhas, não medidas.",
+   "steps": [
+    {
+     "node": "paulo",
+     "read": "Gálatas e 1 Coríntios, com notas críticas",
+     "hours": 4
+    },
+    {
+     "node": "evangelho-joao",
+     "read": "Evangelho segundo João, de uma vez",
+     "hours": 3
+    },
+    {
+     "node": "ireneu",
+     "read": "Contra as Heresias, livro I (valentinianos e ofitas) e III.11",
+     "hours": 6
+    },
+    {
+     "node": "apocrifo-joao",
+     "read": "Apócrifo de João, versão longa em tradução comentada",
+     "hours": 3
+    },
+    {
+     "node": "nag-hammadi",
+     "read": "Discurso sobre o Oitavo e o Nono (VI,6) e Evangelho da Verdade",
+     "hours": 4
+    },
+    {
+     "node": "plotino",
+     "read": "Enéada II.9, Contra os Gnósticos",
+     "hours": 3
+    }
+   ]
+  }
+ ],
+ "lineages": [
+  {
+   "id": "causal",
+   "name": "Linhagem causal (física)",
+   "nodes": [
+    "aristoteles",
+    "estoicos",
+    "ptolomeu",
+    "abumashar",
+    "bonatti",
+    "lilly",
+    "manilio"
+   ]
+  },
+  {
+   "id": "corresp",
+   "name": "Linhagem da correspondência",
+   "nodes": [
+    "platao",
+    "plotino",
+    "porfirio",
+    "jamblico",
+    "proclo",
+    "ficino",
+    "hermetica"
+   ]
+  },
+  {
+   "id": "orfica",
+   "name": "Linhagem órfico-pitagórica",
+   "nodes": [
+    "hesiodo",
+    "orfismo",
+    "pitagoras",
+    "filolau",
+    "platao",
+    "nicomaco",
+    "boecio",
+    "macrobio",
+    "kepler"
+   ]
+  },
+  {
+   "id": "junguiana",
+   "name": "Linhagem junguiana",
+   "nodes": [
+    "platao",
+    "hermetica",
+    "kepler",
+    "pauli",
+    "jung",
+    "rudhyar",
+    "greene"
+   ]
+  },
+  {
+   "id": "moderna",
+   "name": "Astrologia do século XX",
+   "nodes": [
+    "alan-leo",
+    "evangeline-adams",
+    "rudhyar",
+    "greene"
+   ]
+  },
+  {
+   "id": "elementos",
+   "name": "Quatro elementos",
+   "nodes": [
+    "empedocles",
+    "platao",
+    "aristoteles",
+    "ptolomeu"
+   ]
+  },
+  {
+   "id": "hermes-thoth",
+   "name": "Hermes, Thoth e Trismegisto",
+   "nodes": [
+    "homero",
+    "hermes",
+    "thoth",
+    "hermetica",
+    "casaubon"
+   ]
+  },
+  {
+   "id": "descida-hades",
+   "name": "Descida ao Hades e retorno",
+   "nodes": [
+    "hermes",
+    "persefone",
+    "dionisio",
+    "orfismo"
+   ]
+  },
+  {
+   "id": "gnose-alquimia",
+   "name": "Da gnose a Jung",
+   "nodes": [
+    "sethianos",
+    "hermetica",
+    "zosimo",
+    "paracelso",
+    "jung",
+    "marlan"
+   ]
+  },
+  {
+   "id": "cristianismo-gnose",
+   "name": "Cristianismo e reação gnóstica",
+   "nodes": [
+    "jesus",
+    "paulo",
+    "evangelho-joao",
+    "valentim",
+    "heracleao",
+    "ireneu",
+    "origenes"
+   ]
+  },
+  {
+   "id": "arcontes",
+   "name": "Arcontes",
+   "nodes": [
+    "paulo",
+    "ofitas",
+    "sethianos",
+    "apocrifo-joao",
+    "plotino"
+   ]
+  },
+  {
+   "id": "problema-de-joao",
+   "name": "O problema de João",
+   "nodes": [
+    "jesus",
+    "joao-apostolo",
+    "evangelho-joao",
+    "apocrifo-joao",
+    "ireneu"
+   ]
+  }
+ ]
+}

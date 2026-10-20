@@ -1,0 +1,118 @@
+{
+ "domain": "cristianismo",
+ "schema": 1,
+ "updated": "2026-10-19",
+ "lanes": [
+  {
+   "id": "chr.origens",
+   "name": "Origens cristãs",
+   "color": 3
+  },
+  {
+   "id": "chr.textos",
+   "name": "Evangelhos",
+   "color": 3
+  },
+  {
+   "id": "chr.padres",
+   "name": "Pais da Igreja",
+   "color": 3
+  }
+ ],
+ "nodes": [
+  {
+   "id": "jesus",
+   "name": "Jesus de Nazaré",
+   "date": "c. 6 a.C.–c. 30",
+   "yr": 0,
+   "lane": "chr.origens",
+   "dy": -2,
+   "work": "Não deixou escritos; ensinos e relatos nos evangelhos (c. 70–100)",
+   "why": "Ponto de referência do cristianismo e da reação gnóstica. Sem texto próprio, chega até nós pelos evangelhos, escritos entre quarenta e setenta anos depois. As datas de nascimento e morte são aproximadas: o marco zero do eixo é convenção do calendário."
+  },
+  {
+   "id": "joao-apostolo",
+   "name": "João, filho de Zebedeu",
+   "date": "séc. I (tradição)",
+   "yr": 30,
+   "lane": "chr.origens",
+   "dy": 1,
+   "work": "A tradição lhe atribui o Evangelho segundo João, três epístolas e o Apocalipse; a crítica majoritária rejeita essas atribuições",
+   "why": "Um dos Doze e irmão de Tiago, segundo os sinóticos. A tradição o identifica ao \"discípulo amado\", ao autor do quarto evangelho e ao João de Patmos; a maioria dos estudiosos separa essas figuras. Papias (c. 110) distingue \"João\" entre os discípulos do Senhor do \"presbítero João\", e se discute se são a mesma pessoa. O Apócrifo de João o toma como destinatário da revelação."
+  },
+  {
+   "id": "paulo",
+   "name": "Paulo de Tarso",
+   "date": "séc. I (cartas c. 50–60)",
+   "yr": 55,
+   "lane": "chr.origens",
+   "dy": -1,
+   "work": "Gálatas, 1 Coríntios e Romanos (cartas de autoria consensual); Colossenses (autoria debatida)",
+   "why": "Primeiro autor cristão de quem temos textos. Fala em 'arcontes desta era' (1 Coríntios 2:6–8) e em 'ta stoicheia tou kosmou' (Gálatas 4:3 e 4:9; Colossenses 2:8 e 2:20). O sentido de stoicheia é discutido: princípios elementares da religião, elementos do cosmo ou potências astrais, e esta última leitura é a mais contestada. Muito lido pelos valentinianos."
+  },
+  {
+   "id": "ireneu",
+   "name": "Ireneu de Lyon",
+   "date": "c. 130–c. 202",
+   "yr": 180,
+   "lane": "chr.padres",
+   "dy": -1,
+   "work": "Contra as Heresias (Adversus Haereses, c. 180)",
+   "why": "Bispo de Lyon. Escreve contra os gnósticos, sobretudo os valentinianos. Defende exatamente quatro evangelhos (III.11.8), a mais antiga testemunha dessa posição, e é o primeiro autor conhecido a atribuir o quarto ao apóstolo João. Fonte principal, mas hostil, sobre sethianos e ofitas."
+  },
+  {
+   "id": "origenes",
+   "name": "Orígenes",
+   "date": "c. 185–254",
+   "yr": 230,
+   "lane": "chr.padres",
+   "dy": 1,
+   "work": "Comentário a João; Contra Celso",
+   "why": "Seu Comentário a João cita Heracleão quase cinquenta vezes, em geral para contestá-lo, e por isso preserva grandes trechos dele. Em Contra Celso VI descreve o diagrama dos ofitas."
+  },
+  {
+   "id": "marcos",
+   "name": "Evangelho segundo Marcos",
+   "date": "c. 70",
+   "yr": 70,
+   "lane": "chr.textos",
+   "dy": -1,
+   "dx": -18,
+   "work": "Evangelho segundo Marcos",
+   "why": "Em geral considerado o primeiro evangelho; Mateus e Lucas o teriam usado (hipótese das duas fontes, com dissidentes). Anônimo: o nome vem da tradição."
+  },
+  {
+   "id": "lucas",
+   "name": "Evangelho segundo Lucas",
+   "date": "c. 80–90",
+   "yr": 85,
+   "lane": "chr.textos",
+   "dy": 2,
+   "dx": 4,
+   "work": "Evangelho segundo Lucas",
+   "why": "Anônimo; o nome vem da tradição. Usa Marcos como fonte, segundo a hipótese das duas fontes."
+  },
+  {
+   "id": "mateus",
+   "name": "Evangelho segundo Mateus",
+   "date": "c. 80–90",
+   "yr": 85,
+   "lane": "chr.textos",
+   "dy": 1,
+   "dx": -18,
+   "work": "Evangelho segundo Mateus",
+   "why": "Anônimo; o nome vem da tradição. Em Mateus 2 magos do oriente seguem uma estrela até Jesus."
+  },
+  {
+   "id": "evangelho-joao",
+   "name": "Evangelho segundo João",
+   "date": "c. 90–100",
+   "yr": 95,
+   "lane": "chr.textos",
+   "dy": -2,
+   "dx": 11,
+   "work": "Evangelho segundo João",
+   "why": "Anônimo. Identifica uma fonte, o \"discípulo amado\", sem nomeá-lo; o texto não diz que ele é João, filho de Zebedeu. A atribuição a esse João aparece primeiro em Ireneu, e a maioria dos críticos a rejeita. Os valentinianos o comentaram cedo (Heracleão)."
+  }
+ ]
+}

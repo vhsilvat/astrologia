@@ -1,0 +1,414 @@
+{
+ "domain": "astrologia",
+ "schema": 1,
+ "updated": "2026-10-19",
+ "lanes": [
+  {
+   "id": "astro.mito",
+   "name": "Mito, orfismo e hermetismo",
+   "color": 1
+  },
+  {
+   "id": "astro.pitag",
+   "name": "Pitagorismo e música das esferas",
+   "color": 2
+  },
+  {
+   "id": "astro.filos",
+   "name": "Filosofia",
+   "color": 3
+  },
+  {
+   "id": "astro.tecnica",
+   "name": "Astrologia técnica",
+   "color": 4
+  },
+  {
+   "id": "astro.critica",
+   "name": "Crítica e método",
+   "color": 5
+  }
+ ],
+ "nodes": [
+  {
+   "id": "carneades",
+   "name": "Carnéades",
+   "date": "214–129 a.C.",
+   "yr": -155,
+   "lane": "astro.critica",
+   "dy": -1,
+   "work": "Argumentos reportados por Cícero",
+   "why": "Cético acadêmico; seus argumentos contra a adivinhação chegam até nós por Cícero."
+  },
+  {
+   "id": "cicero",
+   "name": "Cícero",
+   "date": "106–43 a.C.",
+   "yr": -50,
+   "lane": "astro.critica",
+   "dy": 1,
+   "work": "De Divinatione II; De Fato; Sonho de Cipião",
+   "why": "Reúne a crítica cética à astrologia (De Divinatione II) e, no Sonho de Cipião, a imagem da música das esferas."
+  },
+  {
+   "id": "sexto",
+   "name": "Sexto Empírico",
+   "date": "c. 160–210",
+   "yr": 190,
+   "lane": "astro.critica",
+   "dy": -1,
+   "work": "Contra os Astrólogos (Adv. Math. V)",
+   "why": "Ataca a astrologia caldeia pelos fundamentos: base empírica, a hora exata do nascimento, a divisão do zodíaco."
+  },
+  {
+   "id": "agostinho",
+   "name": "Agostinho",
+   "date": "354–430",
+   "yr": 400,
+   "lane": "astro.critica",
+   "dy": 1,
+   "work": "Confissões VII; Cidade de Deus V",
+   "why": "Refuta o mapa natal com o argumento dos gêmeos e da roda do oleiro. Fixa a crítica cristã à astrologia fatalista."
+  },
+  {
+   "id": "pico",
+   "name": "Pico della Mirandola",
+   "date": "1463–1494",
+   "yr": 1494,
+   "lane": "astro.critica",
+   "dy": -1,
+   "work": "Disputationes adversus astrologiam divinatricem (1496)",
+   "why": "Crítica renascentista completa: os astros têm efeitos físicos, mas a adivinhação por casas e signos não tem base. Ataca Abu Ma’shar."
+  },
+  {
+   "id": "casaubon",
+   "name": "Casaubon",
+   "date": "1614",
+   "yr": 1614,
+   "lane": "astro.critica",
+   "dy": 1,
+   "work": "De rebus sacris et ecclesiasticis exercitationes XVI",
+   "why": "Demonstra que o Corpus Hermeticum é helenístico, não do Egito faraônico. É o Bloco 6 do seu Vídeo 1."
+  },
+  {
+   "id": "burkert",
+   "name": "Walter Burkert",
+   "date": "1972",
+   "yr": 1972,
+   "lane": "astro.critica",
+   "dy": -1,
+   "work": "Lore and Science in Ancient Pythagoreanism",
+   "why": "Separa o Pitágoras histórico da construção neoplatônica posterior. Leitura de método, antes do Timeu se possível."
+  },
+  {
+   "id": "empedocles",
+   "name": "Empédocles",
+   "date": "c. 494–434 a.C.",
+   "yr": -460,
+   "lane": "astro.filos",
+   "dy": -2,
+   "work": "Sobre a Natureza; Purificações (fragmentos)",
+   "why": "Propôs quatro \"raízes\" (fogo, ar, água, terra) movidas por Amor e Discórdia. Platão cunha o termo \"elemento\" no Timeu a partir dessa doutrina; Aristóteles o discute na Física e em Sobre a Alma."
+  },
+  {
+   "id": "socrates",
+   "name": "Sócrates",
+   "date": "470–399 a.C.",
+   "yr": -430,
+   "lane": "astro.filos",
+   "dy": -1,
+   "work": "Nada escrito",
+   "why": "Só o conhecemos por Platão, Xenofonte, Aristófanes e Aristóteles: o “problema socrático”, análogo ao de Pitágoras."
+  },
+  {
+   "id": "platao",
+   "name": "Platão",
+   "date": "428–348 a.C.",
+   "yr": -380,
+   "lane": "astro.filos",
+   "dy": 1,
+   "work": "Timeu; República X; Fédon",
+   "why": "O Timeu faz a Alma do Mundo com razões harmônicas e trata os astros como deuses visíveis. É a base de toda leitura por correspondência."
+  },
+  {
+   "id": "aristoteles",
+   "name": "Aristóteles",
+   "date": "384–322 a.C.",
+   "yr": -340,
+   "lane": "astro.filos",
+   "dy": -1,
+   "work": "Do Céu; Metafísica; Meteorologia",
+   "why": "Separa o céu incorruptível do mundo sublunar e faz o céu mover o que está abaixo. Em Do Céu II.9 refuta a música das esferas."
+  },
+  {
+   "id": "estoicos",
+   "name": "Estoicos",
+   "date": "séc. III–I a.C.",
+   "yr": -100,
+   "lane": "astro.filos",
+   "dy": -1,
+   "work": "Crisipo, Posidônio",
+   "why": "Simpatia cósmica (sympatheia): tudo no cosmos está ligado por um pneuma. É a linhagem causal da astrologia, em contraste com a neoplatônica."
+  },
+  {
+   "id": "plotino",
+   "name": "Plotino",
+   "date": "204–270",
+   "yr": 250,
+   "lane": "astro.filos",
+   "dy": -1,
+   "work": "Enéadas II.3, IV.4",
+   "why": "Os astros são signos, não causas: leem-se como letras no céu. É a base da sua tese de correspondência ontológica."
+  },
+  {
+   "id": "porfirio",
+   "name": "Porfírio",
+   "date": "234–305",
+   "yr": 270,
+   "lane": "astro.filos",
+   "dy": 1,
+   "work": "Introdução ao Tetrabiblos; Vida de Pitágoras",
+   "why": "Editou as Enéadas (seis grupos de nove), comentou Ptolomeu e escreveu uma Vida de Pitágoras."
+  },
+  {
+   "id": "jamblico",
+   "name": "Jâmblico",
+   "date": "c. 245–325",
+   "yr": 290,
+   "lane": "astro.filos",
+   "dy": -2,
+   "work": "De Mysteriis; Vida Pitagórica",
+   "why": "Discípulo de Porfírio que discorda do mestre: a teurgia, e não só o intelecto, une a alma aos deuses. Nega o fatalismo astral (De Mysteriis VIII)."
+  },
+  {
+   "id": "proclo",
+   "name": "Proclo",
+   "date": "412–485",
+   "yr": 450,
+   "lane": "astro.filos",
+   "dy": 1,
+   "work": "Comentário ao Timeu; Hypotyposis",
+   "why": "Sistematiza o neoplatonismo e comenta o Timeu. É um dos canais pelos quais a Renascença leu Platão e Euclides."
+  },
+  {
+   "id": "ficino",
+   "name": "Ficino",
+   "date": "1433–1499",
+   "yr": 1470,
+   "lane": "astro.filos",
+   "dy": -1,
+   "work": "De vita coelitus comparanda; traduções",
+   "why": "Traduz Platão, Plotino e o Corpus Hermeticum e os junta em uma magia astral. Escreveu também contra a astrologia judiciária (1477)."
+  },
+  {
+   "id": "hesiodo",
+   "name": "Hesíodo",
+   "date": "c. 700 a.C.",
+   "yr": -700,
+   "lane": "astro.mito",
+   "dy": -1,
+   "work": "Teogonia",
+   "why": "Narra a linhagem Urano → Cronos → Zeus, o fundo mítico dos deuses que dão nome aos planetas. Não é um texto astrológico."
+  },
+  {
+   "id": "orfismo",
+   "name": "Orfismo",
+   "date": "séc. VI–IV a.C.",
+   "yr": -500,
+   "lane": "astro.mito",
+   "dy": 1,
+   "work": "Papiro de Derveni; lamelas de ouro; Rapsódias órficas (tardias)",
+   "why": "Reescreve a Teogonia com mais gerações (Fanes, Noite, Urano, Cronos, Zeus) e traz instruções para a alma atravessar o Hades. Se o “orfismo” foi uma tradição coerente é debatido (Edmonds). Apoio: M. L. West, The Orphic Poems."
+  },
+  {
+   "id": "hermetica",
+   "name": "Corpus Hermeticum",
+   "date": "séc. I–III d.C.",
+   "yr": 150,
+   "lane": "astro.mito",
+   "dy": -1,
+   "work": "Corpus Hermeticum; Asclépio",
+   "why": "Textos helenísticos atribuídos a Hermes Trismegisto, traduzidos por Ficino em 1463 e datados por Casaubon em 1614."
+  },
+  {
+   "id": "pitagoras",
+   "name": "Pitágoras",
+   "date": "c. 570–495 a.C.",
+   "yr": -530,
+   "lane": "astro.pitag",
+   "dy": -1,
+   "work": "Não deixou escritos",
+   "why": "O que se diz dele vem de fontes tardias (Aristóteles, Porfírio, Jâmblico). Separar o histórico do lendário é a primeira tarefa."
+  },
+  {
+   "id": "filolau",
+   "name": "Filolau",
+   "date": "c. 470–385 a.C.",
+   "yr": -450,
+   "lane": "astro.pitag",
+   "dy": 1,
+   "work": "Fragmentos",
+   "why": "Pitagórico com fragmentos tidos como autênticos (limite e ilimitado, harmonia, fogo central). É o melhor apoio textual do pitagorismo antigo (Huffman)."
+  },
+  {
+   "id": "nicomaco",
+   "name": "Nicômaco",
+   "date": "c. 100 d.C.",
+   "yr": 100,
+   "lane": "astro.pitag",
+   "dy": -1,
+   "work": "Manual de Harmônica; Introdução à Aritmética",
+   "why": "Neopitagórico: fixa a tradição que liga número, música e cosmos e que chegará a Boécio."
+  },
+  {
+   "id": "macrobio",
+   "name": "Macróbio",
+   "date": "c. 400",
+   "yr": 400,
+   "lane": "astro.pitag",
+   "dy": -1,
+   "work": "Comentário ao Sonho de Cipião",
+   "why": "Transmite à Idade Média a harmonia das esferas e a descida da alma pelas esferas planetárias."
+  },
+  {
+   "id": "boecio",
+   "name": "Boécio",
+   "date": "c. 480–524",
+   "yr": 510,
+   "lane": "astro.pitag",
+   "dy": 1,
+   "work": "De institutione musica",
+   "why": "Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas até Kepler."
+  },
+  {
+   "id": "kepler",
+   "name": "Kepler",
+   "date": "1571–1630",
+   "yr": 1619,
+   "lane": "astro.pitag",
+   "dy": -1,
+   "work": "Harmonices Mundi; Tertius Interveniens",
+   "why": "Reabre Pitágoras com dados: razões harmônicas nos movimentos planetários. Mantém os aspectos como harmonias e rejeita boa parte do resto."
+  },
+  {
+   "id": "babilonia",
+   "name": "Babilônia",
+   "date": "c. 700–400 a.C.",
+   "yr": -700,
+   "lane": "astro.tecnica",
+   "dy": -1,
+   "work": "Enūma Anu Enlil; horóscopos",
+   "why": "Presságios celestes (omina) que, por volta de 410 a.C., dão os primeiros horóscopos individuais. É a origem técnica, sem relação com o Egito faraônico."
+  },
+  {
+   "id": "nechepso",
+   "name": "Nechepso–Petosiris",
+   "date": "c. séc. II a.C.",
+   "yr": -150,
+   "lane": "astro.tecnica",
+   "dy": -1,
+   "work": "Fragmentos",
+   "why": "Pseudepigrafia atribuída a um faraó e a um sacerdote; Valens os cita. Bom exemplo de autoria forjada para ganhar autoridade egípcia."
+  },
+  {
+   "id": "manilio",
+   "name": "Manílio",
+   "date": "séc. I",
+   "yr": 15,
+   "lane": "astro.tecnica",
+   "dy": -1,
+   "work": "Astronomica",
+   "why": "Poema latino de inspiração estoica sobre o zodíaco; traz a melotesia (corpo e signos) e a ideia de um cosmos único e vivo."
+  },
+  {
+   "id": "dorotheus",
+   "name": "Dorotheus",
+   "date": "séc. I",
+   "yr": 50,
+   "lane": "astro.tecnica",
+   "dy": 1,
+   "work": "Carmen Astrologicum",
+   "why": "Poema técnico helenístico, preservado em tradução árabe e base de natividades, eleições e questões na tradição posterior."
+  },
+  {
+   "id": "ptolomeu",
+   "name": "Ptolomeu",
+   "date": "séc. II",
+   "yr": 150,
+   "lane": "astro.tecnica",
+   "dy": -1,
+   "work": "Tetrabiblos; Harmônica; Almagesto",
+   "why": "Defende uma astrologia “natural”: os astros agem por qualidades físicas (calor, frio, umidade, secura). Na Harmônica e em Tetrabiblos I.13 liga os aspectos às consonâncias musicais."
+  },
+  {
+   "id": "valens",
+   "name": "Vettius Valens",
+   "date": "séc. II",
+   "yr": 170,
+   "lane": "astro.tecnica",
+   "dy": 1,
+   "work": "Anthologiae",
+   "why": "Praticante, não teórico: traz dezenas de mapas reais com data. Principal fonte para as regências, casas e Lotes que você já usa. A tradução de Mark Riley circula online."
+  },
+  {
+   "id": "firmicus",
+   "name": "Firmicus Maternus",
+   "date": "c. 335",
+   "yr": 335,
+   "lane": "astro.tecnica",
+   "dy": -1,
+   "work": "Mathesis",
+   "why": "Compêndio latino de astrologia natal, escrito por um autor que depois se tornou apologista cristão."
+  },
+  {
+   "id": "abumashar",
+   "name": "Abu Ma’shar",
+   "date": "787–886",
+   "yr": 860,
+   "lane": "astro.tecnica",
+   "dy": -1,
+   "work": "Grande Introdução (Kitab al-Mudkhal)",
+   "why": "Sistematiza em árabe a astrologia helenística e persa, com fundamento na física aristotélica. Foi o grande alvo de Pico."
+  },
+  {
+   "id": "biruni",
+   "name": "Al-Biruni",
+   "date": "973–1048",
+   "yr": 1020,
+   "lane": "astro.tecnica",
+   "dy": 1,
+   "work": "Livro da Instrução nos Elementos da Arte da Astrologia",
+   "why": "Manual didático (1029) que une astronomia matemática e astrologia, com olhar crítico sobre os astrólogos."
+  },
+  {
+   "id": "bonatti",
+   "name": "Guido Bonatti",
+   "date": "séc. XIII",
+   "yr": 1270,
+   "lane": "astro.tecnica",
+   "dy": -1,
+   "work": "Liber Astronomiae",
+   "why": "Compêndio latino que leva a astrologia árabe à Europa medieval; muito usado por Lilly depois."
+  },
+  {
+   "id": "lilly",
+   "name": "William Lilly",
+   "date": "1602–1681",
+   "yr": 1647,
+   "lane": "astro.tecnica",
+   "dy": 1,
+   "work": "Christian Astrology",
+   "why": "Sistematiza em inglês a astrologia tradicional, natal e horária; é a ponte do método tradicional até o século XX."
+  },
+  {
+   "id": "brennan",
+   "name": "Chris Brennan",
+   "date": "2017",
+   "yr": 2017,
+   "lane": "astro.tecnica",
+   "dy": -1,
+   "work": "Hellenistic Astrology",
+   "why": "Panorama moderno e bem referenciado da técnica helenística. Use como mapa antes de ir às fontes."
+  }
+ ]
+}

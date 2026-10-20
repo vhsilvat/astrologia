@@ -1,0 +1,124 @@
+{
+ "domain": "alquimia",
+ "schema": 1,
+ "updated": "2026-10-19",
+ "lanes": [
+  {
+   "id": "alq.gnose",
+   "name": "Gnose",
+   "color": 4
+  },
+  {
+   "id": "alq.alquimia",
+   "name": "Alquimia",
+   "color": 5
+  },
+  {
+   "id": "alq.textos",
+   "name": "Textos e achados gnósticos",
+   "color": 4
+  }
+ ],
+ "nodes": [
+  {
+   "id": "zosimo",
+   "name": "Zósimo de Panópolis",
+   "date": "c. 300",
+   "yr": 300,
+   "lane": "alq.alquimia",
+   "dy": -1,
+   "work": "As Visões; Sobre a letra Ômega; Cartas a Teosébia",
+   "why": "Alquimista do Egito romano descrito como místico gnóstico. Usa a imagem hermética do cratera (vaso de mistura) e liga o vaso alquímico ao batistério de textos sethianos. Jung o comenta em palestra do Eranos de 1937."
+  },
+  {
+   "id": "paracelso",
+   "name": "Paracelso",
+   "date": "1493–1541",
+   "yr": 1530,
+   "lane": "alq.alquimia",
+   "dy": 1,
+   "work": "Paragranum (1530); Opus Paramirum (1531); Astronomia magna (1537)",
+   "why": "Médico e alquimista. Aplica o modelo enxofre–mercúrio–sal à medicina e pratica astrologia. Jung escreveu dois ensaios sobre ele (1929 e 1941)."
+  },
+  {
+   "id": "basilides",
+   "name": "Basilides",
+   "date": "ativo 117–161",
+   "yr": 130,
+   "lane": "alq.gnose",
+   "dy": -2,
+   "work": "Exegetica (perdida); fragmentos em Clemente de Alexandria (Stromata)",
+   "why": "Mestre de Alexandria. As duas fontes principais, Ireneu e Hipólito, se contradizem, e há quem desconfie de ambas. Clemente preserva fragmentos sobre a Ogdóada, a reencarnação e a eleição. Jung atribuiu a ele, em 1916, os Septem Sermones ad Mortuos, que o próprio Jung escreveu."
+  },
+  {
+   "id": "valentim",
+   "name": "Valentim e valentinianos",
+   "date": "c. 100–c. 165",
+   "yr": 140,
+   "lane": "alq.gnose",
+   "dy": 1,
+   "work": "Evangelho da Verdade (atribuição discutida); a escola: Heracleão, Ptolomeu",
+   "why": "Ensinou em Alexandria e depois em Roma. A escola se espalhou pelo império e se dividiu em ramos oriental e ocidental. Ireneu dedica a maior parte do primeiro livro contra ela; boa parte do que se sabe vem de críticos, e a confiabilidade deles é questionada."
+  },
+  {
+   "id": "sethianos",
+   "name": "Sethianos",
+   "date": "séc. II–IV",
+   "yr": 160,
+   "lane": "alq.gnose",
+   "dy": 2,
+   "work": "Apócrifo de João; Zostriano; Alógenes; Apocalipse de Adão; Hipóstase dos Arcontes; Três Estelas de Set",
+   "why": "Rótulo moderno (Schenke) para textos que partilham um mito de Sofia, do demiurgo Yaldabaoth e dos arcontes. Van den Broek duvida de que fossem um movimento à parte. Segundo Turner, receberam influência do cristianismo e do platonismo médio; no séc. III, neoplatônicos como Plotino os atacam."
+  },
+  {
+   "id": "heracleao",
+   "name": "Heracleão",
+   "date": "ativo c. 170–180",
+   "yr": 175,
+   "lane": "alq.gnose",
+   "dy": -1,
+   "work": "Comentário ao Evangelho de João (fragmentos em Orígenes)",
+   "why": "Valentiniano. Autor do primeiro comentário conhecido a um livro do Novo Testamento. Lê alegoricamente: o funcionário real de João 4 seria o Demiurgo."
+  },
+  {
+   "id": "ofitas",
+   "name": "Ofitas e arcontes",
+   "date": "séc. II–III",
+   "yr": 200,
+   "lane": "alq.gnose",
+   "dy": 1,
+   "work": "Ireneu, Contra as Heresias I.30; Orígenes, Contra Celso VI",
+   "why": "Sete arcontes em sete céus, chefiados pelo demiurgo Ialdabaoth: Iao, Sabaoth, Adonaios, Elaios, Astafanos e Horaios (Ireneu; Orígenes dá os mesmos nomes). Hipólito pode ter usado \"ofita\" como rótulo genérico. No diagrama descrito por Orígenes os arcontes têm forma de leão, touro, serpente, águia, urso, cão e jumento. Nas fontes que li não encontrei identificação dos arcontes com planetas."
+  },
+  {
+   "id": "mani",
+   "name": "Mani e o maniqueísmo",
+   "date": "216–274",
+   "yr": 250,
+   "lane": "alq.gnose",
+   "dy": -1,
+   "work": "Religião fundada no séc. III; conhecida por fragmentos e por críticos",
+   "why": "Profeta persa. Os pais eram elcesaítas, seita judeu-cristã descrita como gnóstica, e Bardesanes o influenciou. Se o maniqueísmo é \"gnóstico\" é discutido. Agostinho foi ouvinte maniqueu por nove ou dez anos antes de converter-se (387) e depois escreveu contra o maniqueu Fausto."
+  },
+  {
+   "id": "apocrifo-joao",
+   "name": "Apócrifo de João",
+   "date": "séc. II (antes de 180)",
+   "yr": 150,
+   "lane": "alq.textos",
+   "dy": -1,
+   "work": "Códices II, III e IV de Nag Hammadi e Códice de Berlim (cópias coptas do séc. IV)",
+   "why": "Revelação do Salvador a \"João, irmão de Tiago, filhos de Zebedeu\". Núcleo do mito sethiano: a Mônada, Sofia e o demiurgo leonino Yaldabaoth. O nome do apóstolo é pseudepigrafia. Não é o Evangelho de João."
+  },
+  {
+   "id": "nag-hammadi",
+   "name": "Biblioteca de Nag Hammadi",
+   "date": "achada em 1945 (cópias do séc. IV)",
+   "yr": 350,
+   "lane": "alq.textos",
+   "dy": -1,
+   "work": "12 códices e parte de um 13º; 52 tratados em copta",
+   "why": "Tratados na maioria gnósticos, três tratados herméticos (Códice VI: Discurso sobre o Oitavo e o Nono, Ação de Graças, Asclépio) e um trecho da República de Platão. Inclui o Apócrifo de João, os Evangelhos de Tomé, de Filipe e da Verdade."
+  }
+ ]
+}

@@ -1,0 +1,246 @@
+{
+ "schema": 1,
+ "updated": "2026-10-19",
+ "axis": {
+  "knots": [
+   [
+    -2500,
+    60
+   ],
+   [
+    -800,
+    360
+   ],
+   [
+    -500,
+    760
+   ],
+   [
+    -300,
+    1060
+   ],
+   [
+    -100,
+    1340
+   ],
+   [
+    100,
+    1640
+   ],
+   [
+    300,
+    1920
+   ],
+   [
+    600,
+    2200
+   ],
+   [
+    1000,
+    2450
+   ],
+   [
+    1400,
+    2750
+   ],
+   [
+    1700,
+    2950
+   ],
+   [
+    1800,
+    3040
+   ],
+   [
+    1900,
+    3280
+   ],
+   [
+    2025,
+    3550
+   ]
+  ],
+  "ticks": [
+   -2400,
+   -1500,
+   -700,
+   -500,
+   -300,
+   -100,
+   100,
+   300,
+   600,
+   1000,
+   1400,
+   1700,
+   1800,
+   1900,
+   2000
+  ],
+  "eras": [
+   [
+    -2500,
+    -800,
+    "Egito e mundo antigo"
+   ],
+   [
+    -800,
+    -480,
+    "Mundo arcaico"
+   ],
+   [
+    -480,
+    -320,
+    "Atenas clássica"
+   ],
+   [
+    -320,
+    200,
+    "Helenismo e Roma"
+   ],
+   [
+    200,
+    600,
+    "Antiguidade tardia"
+   ],
+   [
+    600,
+    1400,
+    "Mundo árabe e Idade Média"
+   ],
+   [
+    1400,
+    1700,
+    "Renascimento e ciência nova"
+   ],
+   [
+    1700,
+    1900,
+    "Iluminismo e século XIX"
+   ],
+   [
+    1900,
+    2025,
+    "Séculos XX e XXI"
+   ]
+  ],
+  "marks": [
+   {
+    "yr": 0,
+    "label": "0 · marco zero"
+   }
+  ]
+ },
+ "edgeTypes": {
+  "mestre": {
+   "label": "mestre → discípulo (ensino direto documentado)",
+   "out": "Mestre de",
+   "in": "Discípulo de",
+   "dash": "",
+   "css": "--e-mestre"
+  },
+  "influencia": {
+   "label": "influência ou transmissão documentada",
+   "out": "Influenciou",
+   "in": "Foi influenciada por",
+   "dash": "",
+   "css": "--e-influencia"
+  },
+  "critica": {
+   "label": "crítica (do crítico ao alvo)",
+   "out": "Criticou",
+   "in": "Foi criticada por",
+   "dash": "6 4",
+   "css": "--e-critica"
+  },
+  "debatido": {
+   "label": "relação debatida pelos estudiosos",
+   "out": "Relação debatida com",
+   "in": "Relação debatida com",
+   "dash": "2 4",
+   "css": "--e-debatido"
+  },
+  "reivindicada": {
+   "label": "linhagem reivindicada pela tradição, sem documentação",
+   "out": "Segundo a tradição, origem de",
+   "in": "Segundo a tradição, vem de",
+   "dash": "1 3",
+   "css": "--e-reivindicada"
+  },
+  "identificacao": {
+   "label": "identificação sincrética (figuras tomadas como a mesma)",
+   "out": "Identificado com",
+   "in": "Identificado com",
+   "dash": "8 3 2 3",
+   "css": "--e-identificacao",
+   "directed": false
+  },
+  "registro": {
+   "label": "registro (a figura é preservada ou relatada num texto)",
+   "out": "Preservado ou relatado em",
+   "in": "Preserva ou relata",
+   "dash": "10 3",
+   "css": "--e-registro"
+  },
+  "escola": {
+   "label": "escola (seguidores de uma tradição, sem ensino direto documentado)",
+   "out": "Escola seguida por",
+   "in": "Segue a escola de",
+   "dash": "4 2 1 2",
+   "css": "--e-escola"
+  }
+ },
+ "domains": [
+  {
+   "id": "astrologia",
+   "name": "Astrologia e cosmologia",
+   "status": "ativo",
+   "file": "data/astrologia.json",
+   "desc": "Da astrologia babilônica e helenística à crítica e ao estudo modernos; inclui a ponte filosófica (Platão, Plotino) e a música das esferas."
+  },
+  {
+   "id": "mitologia",
+   "name": "Mito",
+   "status": "ativo",
+   "file": "data/mitologia.json",
+   "desc": "Figuras míticas e suas identificações entre culturas (Hermes, Thoth). Base para a magia cerimonial."
+  },
+  {
+   "id": "cristianismo",
+   "name": "Cristianismo antigo",
+   "status": "ativo",
+   "file": "data/cristianismo.json",
+   "desc": "Textos e autores cristãos do séc. I em diante, no que tocam a cosmologia, os arcontes, os elementos e a reação gnóstica. O ponto de referência contra o qual gnósticos, hermetistas e neoplatônicos reagem."
+  },
+  {
+   "id": "alquimia",
+   "name": "Alquimia e gnose",
+   "status": "ativo",
+   "file": "data/alquimia.json",
+   "desc": "Gnose antiga, Zósimo e Paracelso, lidos depois por Jung."
+  },
+  {
+   "id": "psicologia",
+   "name": "Astrologia psicológica e Jung",
+   "status": "ativo",
+   "file": "data/psicologia.json",
+   "desc": "Da astrologia teosófica de Alan Leo e Evangeline Adams à astrologia psicológica de Rudhyar e Greene, e de Jung e Pauli (arquétipo, sincronicidade, alquimia)."
+  },
+  {
+   "id": "tarot",
+   "name": "Tarot e cartomancia",
+   "status": "planejado",
+   "file": null,
+   "desc": "Do jogo de trionfi (Itália, séc. XV) ao tarot oculto (Court de Gébelin, Etteilla, Lévi, Golden Dawn, Waite–Smith, Crowley–Harris). Usa o tipo de relação reivindicada."
+  },
+  {
+   "id": "magia",
+   "name": "Hermetismo e magia cerimonial",
+   "status": "planejado",
+   "file": null,
+   "desc": "Agrippa, Dee, Lévi, Blavatsky, Golden Dawn, Crowley/Thelema, Kybalion. Muitas linhagens aqui são reivindicadas, não documentadas."
+  }
+ ],
+ "title": "A Cadeia de Ouro",
+ "subtitle": "Uma genealogia da correspondência entre o alto e o baixo: como foi transmitida, contestada e reinterpretada, do mito antigo a Jung. Quem leu quem, quem ensinou quem e quem refutou quem."
+}

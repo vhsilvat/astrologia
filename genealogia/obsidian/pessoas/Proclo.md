@@ -1,0 +1,25 @@
+---
+id: proclo
+tema: astrologia
+faixa: astro.filos
+ano: 450
+data: "412–485"
+tags: [genealogia, astrologia]
+---
+
+# Proclo
+
+*412–485 · Astrologia e cosmologia · Filosofia*
+
+## Obra
+Comentário ao Timeu; Hypotyposis
+
+## Por que importa
+Sistematiza o neoplatonismo e comenta o Timeu. É um dos canais pelos quais a Renascença leu Platão e Euclides.
+
+## Influenciou
+- [[Ficino]] · Ficino leu e usou Proclo
+- [[Kepler]] · Kepler usa o comentário de Proclo a Euclides
+
+## Foi influenciada por
+- [[Jâmblico]] · Proclo herda a teurgia de Jâmblico
