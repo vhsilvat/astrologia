@@ -209,7 +209,9 @@ def main():
         if a.default:
             for o in m.tr['trails']: o.pop('default', None)
             t['default'] = True
-        m.tr['trails'] = [x for x in m.tr['trails'] if x['id'] != a.id] + [t]
+        ids = [x['id'] for x in m.tr['trails']]
+        if a.id in ids: m.tr['trails'][ids.index(a.id)] = t
+        else: m.tr['trails'].append(t)
     elif a.cmd == 'add-domain':
         ent = next((d for d in m.dom['domains'] if d['id'] == a.id), None)
         if ent: ent.update(name=a.name, desc=a.desc)
@@ -234,7 +236,9 @@ def main():
     elif a.cmd == 'rm-trail':
         m.tr['trails'] = [x for x in m.tr['trails'] if x['id'] != a.id]
     elif a.cmd == 'lineage':
-        m.tr['lineages'] = [x for x in m.tr['lineages'] if x['id'] != a.id] + [{'id': a.id, 'name': a.name, 'nodes': a.nodes}]
+        ids = [x['id'] for x in m.tr['lineages']]; L = {'id': a.id, 'name': a.name, 'nodes': a.nodes}
+        if a.id in ids: m.tr['lineages'][ids.index(a.id)] = L
+        else: m.tr['lineages'].append(L)
     elif a.cmd == 'rm-lineage':
         m.tr['lineages'] = [x for x in m.tr['lineages'] if x['id'] != a.id]
     elif a.cmd == 'build':

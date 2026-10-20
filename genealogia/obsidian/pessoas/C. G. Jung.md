@@ -18,7 +18,7 @@ Comentário a O Segredo da Flor de Ouro (1929); Zósimo (Eranos, 1937); Psicolog
 Fundador da psicologia analítica. Chamou a astrologia de soma do conhecimento psicológico da Antiguidade. Leu a alquimia como projeção de processos psíquicos, que é o caminho do canal até a alquimia.
 
 ## Vem de
-- [[Gnose antiga]] · *influência ou transmissão documentada* · Em 1916 Jung imprimiu em privado os Septem Sermones ad Mortuos, atribuídos ao gnóstico Basilides de Alexandria.
+- [[Basilides]] · *influência ou transmissão documentada* · Em 1916 Jung imprimiu em privado os Septem Sermones ad Mortuos, atribuídos por ele a Basilides de Alexandria.
 - [[Corpus Hermeticum]] · *influência ou transmissão documentada* · Jung leu hermetismo e alquimia (Zósimo, Paracelso, Mercúrio) como precursores da psicologia profunda; ver Estudos Alquímicos, CW13.
 - [[Paracelso]] · *influência ou transmissão documentada* · Jung escreveu dois ensaios sobre Paracelso (1929 e 1941).
 - [[Wolfgang Pauli]] · *influência ou transmissão documentada* · Correspondência desde 1932 e a conjectura Pauli–Jung sobre sincronicidade.

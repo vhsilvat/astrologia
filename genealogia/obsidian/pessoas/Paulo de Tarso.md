@@ -18,8 +18,8 @@ Gálatas, 1 Coríntios e Romanos (cartas de autoria consensual); Colossenses (au
 Primeiro autor cristão de quem temos textos. Fala em 'arcontes desta era' (1 Coríntios 2:6–8) e em 'ta stoicheia tou kosmou' (Gálatas 4:3 e 4:9; Colossenses 2:8 e 2:20). O sentido de stoicheia é discutido: princípios elementares da religião, elementos do cosmo ou potências astrais, e esta última leitura é a mais contestada. Muito lido pelos valentinianos.
 
 ## Vem de
-- (nenhuma registrada)
+- [[Jesus de Nazaré]] · *linhagem reivindicada pela tradição, sem documentação* · Paulo afirma ter recebido o evangelho por revelação de Jesus Cristo (Gálatas 1:11–12), sem ter sido seu discípulo em vida.
 
 ## Leva a ou atinge
 - [[Agostinho]] · *influência ou transmissão documentada* · A conversão narrada nas Confissões (VIII.12) acontece ao ler Romanos 13:13–14; Paulo é autoridade central em Agostinho.
-- [[Gnose antiga]] · *influência ou transmissão documentada* · Valentinianos do séc. II leem as cartas de Paulo como base de um cristianismo esotérico (Pagels, The Gnostic Paul, Fortress Press, 1975).
+- [[Valentim e valentinianos]] · *influência ou transmissão documentada* · Valentinianos do séc. II leem as cartas de Paulo como base de um cristianismo esotérico (Pagels, The Gnostic Paul, Fortress Press, 1975).

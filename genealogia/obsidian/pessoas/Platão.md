@@ -27,7 +27,7 @@ O Timeu faz a Alma do Mundo com razões harmônicas e trata os astros como deuse
 - [[Aristóteles]] · *mestre → discípulo* · Aristóteles estudou cerca de vinte anos na Academia
 - [[Cícero]] · *influência ou transmissão documentada* · O Sonho de Cipião é modelado no Mito de Er
 - [[Ficino]] · *influência ou transmissão documentada* · Ficino traduziu Platão (1484)
-- [[Gnose antiga]] · *relação debatida pelos estudiosos* · Os gnósticos usam Platão, mas Plotino os acusa de distorcê-lo.
 - [[C. G. Jung]] · *influência ou transmissão documentada* · As formas de Platão são uma das fontes do conceito de arquétipo em Jung.
 - [[Nicômaco]] · *influência ou transmissão documentada* · Nicômaco é neopitagórico de inspiração platônica
 - [[Plotino]] · *influência ou transmissão documentada* · Plotino se entende como intérprete de Platão
+- [[Sethianos]] · *relação debatida pelos estudiosos* · Estudos associam o demiurgo sethiano (Yaldabaoth) ao demiurgo do Timeu e veem influência do platonismo médio; Plotino contesta a leitura que fazem de Platão.

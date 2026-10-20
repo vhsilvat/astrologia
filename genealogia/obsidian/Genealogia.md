@@ -85,18 +85,42 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 
 ### Origens cristãs
 
+- [[Jesus de Nazaré]] · c. 6 a.C.–c. 30
+- [[João, filho de Zebedeu]] · séc. I (tradição)
 - [[Paulo de Tarso]] · séc. I (cartas c. 50–60)
+
+### Evangelhos
+
+- [[Evangelho segundo Marcos]] · c. 70
+- [[Evangelho segundo Lucas]] · c. 80–90
+- [[Evangelho segundo Mateus]] · c. 80–90
+- [[Evangelho segundo João]] · c. 90–100
+
+### Pais da Igreja
+
+- [[Ireneu de Lyon]] · c. 130–c. 202
+- [[Orígenes]] · c. 185–254
 
 ## Alquimia e gnose
 
 ### Gnose
 
-- [[Gnose antiga]] · séc. II–III
+- [[Basilides]] · ativo 117–161
+- [[Valentim e valentinianos]] · c. 100–c. 165
+- [[Sethianos]] · séc. II–IV
+- [[Heracleão]] · ativo c. 170–180
+- [[Ofitas e arcontes]] · séc. II–III
+- [[Mani e o maniqueísmo]] · 216–274
 
 ### Alquimia
 
 - [[Zósimo de Panópolis]] · c. 300
 - [[Paracelso]] · 1493–1541
+
+### Textos e achados gnósticos
+
+- [[Apócrifo de João]] · séc. II (antes de 180)
+- [[Biblioteca de Nag Hammadi]] · achada em 1945 (cópias do séc. IV)
 
 ## Astrologia psicológica e Jung
 
@@ -148,6 +172,17 @@ Quatro leituras para chegar à alquimia por Jung. As horas são estimativas minh
 3. [[C. G. Jung]] · Psicologia e Alquimia, parte II · ~12 h
 4. [[Stanton Marlan]] · The Black Sun, caps. 1 a 3 · ~8 h
 
+## Trilha: Trilha mínima · Cristianismo antigo e gnose
+
+Seis leituras para ver como o cristianismo nascente deu a gnose e o que a filosofia respondeu. As horas são estimativas minhas, não medidas.
+
+1. [[Paulo de Tarso]] · Gálatas e 1 Coríntios, com notas críticas · ~4 h
+2. [[Evangelho segundo João]] · Evangelho segundo João, de uma vez · ~3 h
+3. [[Ireneu de Lyon]] · Contra as Heresias, livro I (valentinianos e ofitas) e III.11 · ~6 h
+4. [[Apócrifo de João]] · Apócrifo de João, versão longa em tradução comentada · ~3 h
+5. [[Biblioteca de Nag Hammadi]] · Discurso sobre o Oitavo e o Nono (VI,6) e Evangelho da Verdade · ~4 h
+6. [[Plotino]] · Enéada II.9, Contra os Gnósticos · ~3 h
+
 ## Linhagens
 
 - **Linhagem causal (física)**: [[Aristóteles]] → [[Estoicos]] → [[Ptolomeu]] → [[Abu Ma’shar]] → [[Guido Bonatti]] → [[William Lilly]] → [[Manílio]]
@@ -157,5 +192,8 @@ Quatro leituras para chegar à alquimia por Jung. As horas são estimativas minh
 - **Astrologia do século XX**: [[Alan Leo]] → [[Evangeline Adams]] → [[Dane Rudhyar]] → [[Liz Greene]]
 - **Quatro elementos**: [[Empédocles]] → [[Platão]] → [[Aristóteles]] → [[Ptolomeu]]
 - **Hermes, Thoth e Trismegisto**: [[Homero]] → [[Hermes]] → [[Thoth]] → [[Corpus Hermeticum]] → [[Casaubon]]
-- **Da gnose a Jung**: [[Gnose antiga]] → [[Corpus Hermeticum]] → [[Zósimo de Panópolis]] → [[Paracelso]] → [[C. G. Jung]] → [[Stanton Marlan]]
 - **Descida ao Hades e retorno**: [[Hermes]] → [[Perséfone]] → [[Dionísio (Zagreu)]] → [[Orfismo]]
+- **Da gnose a Jung**: [[Sethianos]] → [[Corpus Hermeticum]] → [[Zósimo de Panópolis]] → [[Paracelso]] → [[C. G. Jung]] → [[Stanton Marlan]]
+- **Cristianismo e reação gnóstica**: [[Jesus de Nazaré]] → [[Paulo de Tarso]] → [[Evangelho segundo João]] → [[Valentim e valentinianos]] → [[Heracleão]] → [[Ireneu de Lyon]] → [[Orígenes]]
+- **Arcontes**: [[Paulo de Tarso]] → [[Ofitas e arcontes]] → [[Sethianos]] → [[Apócrifo de João]] → [[Plotino]]
+- **O problema de João**: [[Jesus de Nazaré]] → [[João, filho de Zebedeu]] → [[Evangelho segundo João]] → [[Apócrifo de João]] → [[Ireneu de Lyon]]

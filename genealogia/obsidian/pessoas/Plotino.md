@@ -22,5 +22,5 @@ Os astros são signos, não causas: leem-se como letras no céu. É a base da su
 
 ## Leva a ou atinge
 - [[Ficino]] · *influência ou transmissão documentada* · Ficino traduziu as Enéadas (1492)
-- [[Gnose antiga]] · *crítica (do crítico ao alvo)* · Enéada II.9, "Contra os gnósticos": rejeita o demiurgo caído e o desprezo pelo cosmos.
 - [[Porfírio]] · *mestre → discípulo* · Porfírio foi seu discípulo e editou as Enéadas
+- [[Sethianos]] · *crítica (do crítico ao alvo)* · Porfírio (Vida de Plotino 16): no círculo de Plotino circulavam revelações de Zoroastro, Zostriano, Nicoteu, Alógenes e Meso. Plotino escreveu o tratado Contra os Gnósticos (Enéada II.9) e Amélio refutou o Zostriano em quarenta livros.

@@ -123,6 +123,43 @@
      "hours": 8
     }
    ]
+  },
+  {
+   "id": "cristianismo",
+   "name": "Trilha mínima · Cristianismo antigo e gnose",
+   "intro": "Seis leituras para ver como o cristianismo nascente deu a gnose e o que a filosofia respondeu. As horas são estimativas minhas, não medidas.",
+   "steps": [
+    {
+     "node": "paulo",
+     "read": "Gálatas e 1 Coríntios, com notas críticas",
+     "hours": 4
+    },
+    {
+     "node": "evangelho-joao",
+     "read": "Evangelho segundo João, de uma vez",
+     "hours": 3
+    },
+    {
+     "node": "ireneu",
+     "read": "Contra as Heresias, livro I (valentinianos e ofitas) e III.11",
+     "hours": 6
+    },
+    {
+     "node": "apocrifo-joao",
+     "read": "Apócrifo de João, versão longa em tradução comentada",
+     "hours": 3
+    },
+    {
+     "node": "nag-hammadi",
+     "read": "Discurso sobre o Oitavo e o Nono (VI,6) e Evangelho da Verdade",
+     "hours": 4
+    },
+    {
+     "node": "plotino",
+     "read": "Enéada II.9, Contra os Gnósticos",
+     "hours": 3
+    }
+   ]
   }
  ],
  "lineages": [
@@ -212,10 +249,20 @@
    ]
   },
   {
+   "id": "descida-hades",
+   "name": "Descida ao Hades e retorno",
+   "nodes": [
+    "hermes",
+    "persefone",
+    "dionisio",
+    "orfismo"
+   ]
+  },
+  {
    "id": "gnose-alquimia",
    "name": "Da gnose a Jung",
    "nodes": [
-    "gnose",
+    "sethianos",
     "hermetica",
     "zosimo",
     "paracelso",
@@ -224,13 +271,38 @@
    ]
   },
   {
-   "id": "descida-hades",
-   "name": "Descida ao Hades e retorno",
+   "id": "cristianismo-gnose",
+   "name": "Cristianismo e reação gnóstica",
    "nodes": [
-    "hermes",
-    "persefone",
-    "dionisio",
-    "orfismo"
+    "jesus",
+    "paulo",
+    "evangelho-joao",
+    "valentim",
+    "heracleao",
+    "ireneu",
+    "origenes"
+   ]
+  },
+  {
+   "id": "arcontes",
+   "name": "Arcontes",
+   "nodes": [
+    "paulo",
+    "ofitas",
+    "sethianos",
+    "apocrifo-joao",
+    "plotino"
+   ]
+  },
+  {
+   "id": "problema-de-joao",
+   "name": "O problema de João",
+   "nodes": [
+    "jesus",
+    "joao-apostolo",
+    "evangelho-joao",
+    "apocrifo-joao",
+    "ireneu"
    ]
   }
  ]

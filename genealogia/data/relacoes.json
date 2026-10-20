@@ -10,9 +10,21 @@
   },
   {
    "from": "agostinho",
+   "to": "mani",
+   "type": "critica",
+   "desc": "Depois da conversão, escreveu contra os maniqueus, entre eles Fausto de Mileve."
+  },
+  {
+   "from": "agostinho",
    "to": "pico",
    "type": "influencia",
    "desc": "Pico reaproveita argumentos de Agostinho"
+  },
+  {
+   "from": "apocrifo-joao",
+   "to": "nag-hammadi",
+   "type": "influencia",
+   "desc": "Preservado em três versões em Nag Hammadi (longas nos códices II e IV, curta no III)."
   },
   {
    "from": "aristoteles",
@@ -43,6 +55,12 @@
    "to": "pitagoras",
    "type": "reivindicada",
    "desc": "Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época."
+  },
+  {
+   "from": "basilides",
+   "to": "jung",
+   "type": "influencia",
+   "desc": "Em 1916 Jung imprimiu em privado os Septem Sermones ad Mortuos, atribuídos por ele a Basilides de Alexandria."
   },
   {
    "from": "bonatti",
@@ -123,6 +141,12 @@
    "desc": "Simpatia cósmica e causalidade física"
   },
   {
+   "from": "evangelho-joao",
+   "to": "heracleao",
+   "type": "influencia",
+   "desc": "Heracleão escreve o primeiro comentário conhecido a um livro do Novo Testamento, e foi ao Evangelho de João."
+  },
+  {
    "from": "ficino",
    "to": "pico",
    "type": "influencia",
@@ -133,18 +157,6 @@
    "to": "platao",
    "type": "debatido",
    "desc": "A influência de Filolau sobre o Timeu é antiga, mas discutida"
-  },
-  {
-   "from": "gnose",
-   "to": "jung",
-   "type": "influencia",
-   "desc": "Em 1916 Jung imprimiu em privado os Septem Sermones ad Mortuos, atribuídos ao gnóstico Basilides de Alexandria."
-  },
-  {
-   "from": "gnose",
-   "to": "zosimo",
-   "type": "influencia",
-   "desc": "Zósimo é descrito como místico gnóstico; o vaso-batistério liga-se a textos sethianos de Nag Hammadi."
   },
   {
    "from": "hermes",
@@ -172,15 +184,15 @@
   },
   {
    "from": "hermetica",
-   "to": "gnose",
-   "type": "debatido",
-   "desc": "Hermetismo e gnose se desenvolveram na mesma época e foram confundidos, mas são tradições distintas."
-  },
-  {
-   "from": "hermetica",
    "to": "jung",
    "type": "influencia",
    "desc": "Jung leu hermetismo e alquimia (Zósimo, Paracelso, Mercúrio) como precursores da psicologia profunda; ver Estudos Alquímicos, CW13."
+  },
+  {
+   "from": "hermetica",
+   "to": "nag-hammadi",
+   "type": "influencia",
+   "desc": "O Códice VI preserva em copta três tratados herméticos: Discurso sobre o Oitavo e o Nono, Ação de Graças e um trecho do Asclépio."
   },
   {
    "from": "hermetica",
@@ -207,6 +219,30 @@
    "desc": "A Odisseia mostra Hermes conduzindo as almas dos pretendentes ao Hades."
   },
   {
+   "from": "ireneu",
+   "to": "basilides",
+   "type": "critica",
+   "desc": "Ireneu e Hipólito são as fontes principais sobre Basilides, e se contradizem."
+  },
+  {
+   "from": "ireneu",
+   "to": "ofitas",
+   "type": "critica",
+   "desc": "Contra as Heresias I.30 expõe o mito de Ialdabaoth e Sofia, núcleo do sistema ofita."
+  },
+  {
+   "from": "ireneu",
+   "to": "sethianos",
+   "type": "critica",
+   "desc": "Primeira menção aos sethianos, hostil; também refere o Apócrifo de João (c. 180). Quase tudo que vem depois depende de Ireneu."
+  },
+  {
+   "from": "ireneu",
+   "to": "valentim",
+   "type": "critica",
+   "desc": "Contra as Heresias (c. 180) foi escrito sobretudo contra os valentinianos; o primeiro livro é quase todo dedicado a eles."
+  },
+  {
    "from": "jamblico",
    "to": "ficino",
    "type": "influencia",
@@ -217,6 +253,54 @@
    "to": "proclo",
    "type": "influencia",
    "desc": "Proclo herda a teurgia de Jâmblico"
+  },
+  {
+   "from": "jesus",
+   "to": "evangelho-joao",
+   "type": "influencia",
+   "desc": "Relato de ditos e feitos de Jesus, escrito entre sessenta e setenta anos depois."
+  },
+  {
+   "from": "jesus",
+   "to": "joao-apostolo",
+   "type": "mestre",
+   "desc": "Nos evangelhos sinóticos, João e seu irmão Tiago, filhos de Zebedeu, estão entre os Doze."
+  },
+  {
+   "from": "jesus",
+   "to": "lucas",
+   "type": "influencia",
+   "desc": "Relatos de ditos e feitos de Jesus, escritos cerca de cinquenta anos depois."
+  },
+  {
+   "from": "jesus",
+   "to": "marcos",
+   "type": "influencia",
+   "desc": "Relatos de ditos e feitos de Jesus, escritos cerca de quarenta anos depois."
+  },
+  {
+   "from": "jesus",
+   "to": "mateus",
+   "type": "influencia",
+   "desc": "Relatos de ditos e feitos de Jesus, escritos cerca de cinquenta anos depois."
+  },
+  {
+   "from": "jesus",
+   "to": "paulo",
+   "type": "reivindicada",
+   "desc": "Paulo afirma ter recebido o evangelho por revelação de Jesus Cristo (Gálatas 1:11–12), sem ter sido seu discípulo em vida."
+  },
+  {
+   "from": "joao-apostolo",
+   "to": "apocrifo-joao",
+   "type": "reivindicada",
+   "desc": "O texto se apresenta como revelação a \"João, irmão de Tiago, filhos de Zebedeu\". Pseudepigrafia do séc. II, anterior a 180."
+  },
+  {
+   "from": "joao-apostolo",
+   "to": "evangelho-joao",
+   "type": "reivindicada",
+   "desc": "A tradição atribui o evangelho a ele, a partir de Ireneu. O texto é anônimo e não nomeia o discípulo amado; a maioria dos críticos rejeita a atribuição."
   },
   {
    "from": "jung",
@@ -243,6 +327,24 @@
    "desc": "Pauli analisou Kepler como exemplo de ideias arquetípicas na formação de teorias científicas."
   },
   {
+   "from": "mani",
+   "to": "agostinho",
+   "type": "influencia",
+   "desc": "Agostinho foi ouvinte maniqueu por nove ou dez anos antes de converter-se em 387."
+  },
+  {
+   "from": "marcos",
+   "to": "lucas",
+   "type": "influencia",
+   "desc": "Hipótese das duas fontes: Lucas usou Marcos e uma fonte hipotética (Q). Maioria dos estudiosos; há dissidentes."
+  },
+  {
+   "from": "marcos",
+   "to": "mateus",
+   "type": "influencia",
+   "desc": "Hipótese das duas fontes: Mateus usou Marcos e uma fonte hipotética (Q). Maioria dos estudiosos; há dissidentes."
+  },
+  {
    "from": "nechepso",
    "to": "valens",
    "type": "influencia",
@@ -267,6 +369,18 @@
    "desc": "Platão cita doutrinas órficas (Fédon, Crátilo, República)"
   },
   {
+   "from": "origenes",
+   "to": "heracleao",
+   "type": "critica",
+   "desc": "O Comentário a João cita Heracleão quase cinquenta vezes, em geral para contestá-lo, e preserva assim fragmentos que de outro modo se perderiam."
+  },
+  {
+   "from": "origenes",
+   "to": "ofitas",
+   "type": "critica",
+   "desc": "Contra Celso VI descreve o diagrama ofita, tomado de Celso, e o refuta."
+  },
+  {
    "from": "paracelso",
    "to": "jung",
    "type": "influencia",
@@ -286,7 +400,7 @@
   },
   {
    "from": "paulo",
-   "to": "gnose",
+   "to": "valentim",
    "type": "influencia",
    "desc": "Valentinianos do séc. II leem as cartas de Paulo como base de um cristianismo esotérico (Pagels, The Gnostic Paul, Fortress Press, 1975)."
   },
@@ -346,12 +460,6 @@
   },
   {
    "from": "platao",
-   "to": "gnose",
-   "type": "debatido",
-   "desc": "Os gnósticos usam Platão, mas Plotino os acusa de distorcê-lo."
-  },
-  {
-   "from": "platao",
    "to": "jung",
    "type": "influencia",
    "desc": "As formas de Platão são uma das fontes do conceito de arquétipo em Jung."
@@ -369,6 +477,12 @@
    "desc": "Plotino se entende como intérprete de Platão"
   },
   {
+   "from": "platao",
+   "to": "sethianos",
+   "type": "debatido",
+   "desc": "Estudos associam o demiurgo sethiano (Yaldabaoth) ao demiurgo do Timeu e veem influência do platonismo médio; Plotino contesta a leitura que fazem de Platão."
+  },
+  {
    "from": "plotino",
    "to": "ficino",
    "type": "influencia",
@@ -376,15 +490,15 @@
   },
   {
    "from": "plotino",
-   "to": "gnose",
-   "type": "critica",
-   "desc": "Enéada II.9, \"Contra os gnósticos\": rejeita o demiurgo caído e o desprezo pelo cosmos."
-  },
-  {
-   "from": "plotino",
    "to": "porfirio",
    "type": "mestre",
    "desc": "Porfírio foi seu discípulo e editou as Enéadas"
+  },
+  {
+   "from": "plotino",
+   "to": "sethianos",
+   "type": "critica",
+   "desc": "Porfírio (Vida de Plotino 16): no círculo de Plotino circulavam revelações de Zoroastro, Zostriano, Nicoteu, Alógenes e Meso. Plotino escreveu o tratado Contra os Gnósticos (Enéada II.9) e Amélio refutou o Zostriano em quarenta livros."
   },
   {
    "from": "porfirio",
@@ -435,6 +549,18 @@
    "desc": "Segundo Robert Hand (prefácio a Saturn, ed. 2011, p. 5–6), Rudhyar levou a astrologia dos eventos para o autoconhecimento, de forma abstrata, e a geração seguinte, com Greene, deu os meios concretos."
   },
   {
+   "from": "sethianos",
+   "to": "apocrifo-joao",
+   "type": "influencia",
+   "desc": "Texto central da tradição sethiana."
+  },
+  {
+   "from": "sethianos",
+   "to": "zosimo",
+   "type": "influencia",
+   "desc": "Zósimo é descrito como místico gnóstico; o vaso-batistério liga-se a textos sethianos de Nag Hammadi."
+  },
+  {
    "from": "sexto",
    "to": "babilonia",
    "type": "critica",
@@ -457,6 +583,18 @@
    "to": "brennan",
    "type": "influencia",
    "desc": "Brennan reconstrói a técnica helenística a partir de Valens e outros"
+  },
+  {
+   "from": "valentim",
+   "to": "heracleao",
+   "type": "mestre",
+   "desc": "Clemente de Alexandria o chama de o mais estimado da escola de Valentim; Orígenes diz que teve contato pessoal com Valentim."
+  },
+  {
+   "from": "valentim",
+   "to": "nag-hammadi",
+   "type": "influencia",
+   "desc": "O Evangelho de Filipe (Códice II) é valentiniano; o Evangelho da Verdade (Códice I) liga-se à escola."
   },
   {
    "from": "zosimo",

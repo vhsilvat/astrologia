@@ -24,6 +24,6 @@ Textos helenísticos atribuídos a Hermes Trismegisto, traduzidos por Ficino em 
 
 ## Leva a ou atinge
 - [[Ficino]] · *influência ou transmissão documentada* · Ficino traduziu o Corpus Hermeticum em 1463
-- [[Gnose antiga]] · *relação debatida pelos estudiosos* · Hermetismo e gnose se desenvolveram na mesma época e foram confundidos, mas são tradições distintas.
 - [[C. G. Jung]] · *influência ou transmissão documentada* · Jung leu hermetismo e alquimia (Zósimo, Paracelso, Mercúrio) como precursores da psicologia profunda; ver Estudos Alquímicos, CW13.
+- [[Biblioteca de Nag Hammadi]] · *influência ou transmissão documentada* · O Códice VI preserva em copta três tratados herméticos: Discurso sobre o Oitavo e o Nono, Ação de Graças e um trecho do Asclépio.
 - [[Zósimo de Panópolis]] · *influência ou transmissão documentada* · A alquimia de Zósimo reflete influência hermética e gnóstica.
