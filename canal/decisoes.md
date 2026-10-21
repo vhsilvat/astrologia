@@ -93,3 +93,12 @@ Platão (Timeu, Mito de Er) e sólidos platônicos → V4 · Ptolomeu *Harmonics
 - **[PROPOSTO]** Gravação: um tijolo por vez, no fluxo livre (3–5 min cada), transcrever e depois montar o vídeo.
 - **[PROPOSTO]** Imagens: Manim como linguagem principal; gravuras históricas como inserto documental de 3–5 s, com Transform para o desenho em Manim; sem imagens quando o Victor está em câmera. Só material livre: as gravuras de Fludd, Stanley e Apiano são de domínio público (pegar versões limpas de acervos digitais). Não usar `esfera3d.pdf` (marca Science Photo Library), `C0129133-Celestial_Spheres.jpg` nem `1000_F_*.jpg` (pelo nome, prévias de banco de imagens).
 - **[PROPOSTO]** O tetraktys como motivo visual de ~5 s na abertura e no fim de cada vídeo.
+
+## 21/out (tarde): linhagens do V1 e mapa
+
+- **[DECIDIDO]** O V1 trilha a linha Pitágoras → Nicômaco → Ptolomeu → Kepler (com Brahe, Bank & Scafetta e os críticos Aristóteles, Burkert e Carlson); o T5 trilha Thoth → Hermética → Tábua de Esmeralda → Caibalion, com Agrippa e Golden Dawn como camadas. No mapa: `v1-corda-ao-ceu` e `v1-axioma`.
+- **[DECIDIDO]** A tira de tempo do mapa entra no V1 como animação (zoom in no ponto, animação do tijolo, zoom out, zoom in no próximo), não como fala.
+- **[DECIDIDO]** Plotino fica para o V6; no V1 só entra se for referência. O axioma (princípios 2 e 3 do *Caibalion*, Correspondência e Vibração) é o alicerce do V1.
+- **[DECIDIDO]** Burkert entra na bibliografia do V1 como o lado crítico.
+- **Correções de fato:** Kepler não "assume a herança pitagórica": retoma a ideia e abandona a afinação pitagórica. A Vibração não é princípio hermético antigo (camada do *Caibalion*, 1908). A Tábua de Esmeralda é árabe (séc. VIII–IX), fora do Corpus Hermeticum. Carlson testou a correspondência mapa natal × perfil psicológico (CPI), não previsão. Galileu estudou astrologia; não confirmado que tenha feito horóscopos.
+- **Mapa:** elos Boécio→Macróbio, Macróbio→Kepler e Hermética→Kepler não têm fonte e saíram das linhagens; a polêmica Kepler–Fludd e Pauli ocupam o lugar na linhagem junguiana. *Sefer Yetzirah* ficou de fora por falta de elo documentado.

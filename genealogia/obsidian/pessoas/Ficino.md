@@ -18,6 +18,7 @@ De vita coelitus comparanda; traduções
 Traduz Platão, Plotino e o Corpus Hermeticum e os junta em uma magia astral. Escreveu também contra a astrologia judiciária (1477).
 
 ## Influenciou
+- [[Agrippa]] · Agrippa estudou as obras de Ficino na Itália do norte. Fonte: Wikipedia (Agrippa).
 - [[Pico della Mirandola]] · Amigos e interlocutores; Ficino também escreveu contra a astrologia judiciária (1477)
 
 ## Foi influenciada por

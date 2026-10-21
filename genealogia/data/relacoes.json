@@ -87,10 +87,22 @@
    "desc": "Lilly cita Bonatti"
   },
   {
+   "from": "brahe",
+   "to": "kepler",
+   "type": "influencia",
+   "desc": "Kepler foi assistente de Tycho por cerca de um ano e usou seus registros de Marte para deduzir as leis do movimento planetário."
+  },
+  {
    "from": "burkert",
    "to": "pitagoras",
    "type": "critica",
    "desc": "Examina criticamente as fontes sobre Pitágoras"
+  },
+  {
+   "from": "carlson",
+   "to": "alan-leo",
+   "type": "critica",
+   "desc": "Relação de tema, não de citação: o teste de 1985 examinou a hipótese central da astrologia de caráter, que o mapa natal descreve a personalidade, a mesma que Alan Leo populariza."
   },
   {
    "from": "carneades",
@@ -166,6 +178,12 @@
   },
   {
    "from": "ficino",
+   "to": "agrippa",
+   "type": "influencia",
+   "desc": "Agrippa estudou as obras de Ficino na Itália do norte. Fonte: Wikipedia (Agrippa)."
+  },
+  {
+   "from": "ficino",
    "to": "pico",
    "type": "influencia",
    "desc": "Amigos e interlocutores; Ficino também escreveu contra a astrologia judiciária (1477)"
@@ -175,6 +193,12 @@
    "to": "platao",
    "type": "debatido",
    "desc": "A influência de Filolau sobre o Timeu é antiga, mas discutida"
+  },
+  {
+   "from": "galileu",
+   "to": "kepler",
+   "type": "critica",
+   "desc": "Galileu rejeitou a ideia, defendida por Kepler, de que a Lua causa as marés. Fonte: Wikipedia (Galileo Galilei)."
   },
   {
    "from": "guilherme-conches",
@@ -202,9 +226,21 @@
   },
   {
    "from": "hermetica",
+   "to": "caibalion",
+   "type": "reivindicada",
+   "desc": "O livro diz transmitir os ensinamentos de Hermes Trismegisto. É tratado ocultista moderno (New Thought, 1908); só parte das ideias, como Mentalismo e o como acima assim abaixo, tem raiz hermética. Fonte: Wikipedia (The Kybalion)."
+  },
+  {
+   "from": "hermetica",
    "to": "ficino",
    "type": "influencia",
    "desc": "Ficino traduziu o Corpus Hermeticum em 1463"
+  },
+  {
+   "from": "hermetica",
+   "to": "fludd",
+   "type": "influencia",
+   "desc": "Fludd defende a abordagem hermética e paracelsiana da harmonia do cosmos, a partir de um ponto de vista platônico (Veritatis Proscenium, 1621). Fonte: Wikipedia (Robert Fludd)."
   },
   {
    "from": "hermetica",
@@ -217,6 +253,12 @@
    "to": "nag-hammadi",
    "type": "registro",
    "desc": "O Códice VI preserva em copta três tratados herméticos: Discurso sobre o Oitavo e o Nono, Ação de Graças e um trecho do Asclépio."
+  },
+  {
+   "from": "hermetica",
+   "to": "tabua-esmeralda",
+   "type": "reivindicada",
+   "desc": "O texto se atribui a Hermes Trismegisto, mas é obra árabe do séc. VIII–IX e não está no Corpus Hermeticum. Fonte: Wikipedia (Emerald Tablet)."
   },
   {
    "from": "hermetica",
@@ -345,6 +387,18 @@
    "desc": "Rudhyar estudava Jung enquanto aprendia astrologia e passou a combinar as duas coisas."
   },
   {
+   "from": "jung",
+   "to": "tarnas",
+   "type": "influencia",
+   "desc": "Tarnas usa a sincronicidade de Jung para sustentar um elo acausal entre o mundo exterior e a psique. Fonte: Wikipedia (Cosmos and Psyche)."
+  },
+  {
+   "from": "kepler",
+   "to": "fludd",
+   "type": "critica",
+   "desc": "Kepler critica a teoria de harmonia cósmica de Fludd num apêndice da Harmonices Mundi (1619); Fludd responde em 1621. Fonte: Wikipedia (Robert Fludd)."
+  },
+  {
    "from": "kepler",
    "to": "newton",
    "type": "influencia",
@@ -447,6 +501,24 @@
    "desc": "Ataca Abu Ma’shar e a astrologia judiciária"
   },
   {
+   "from": "pico",
+   "to": "agrippa",
+   "type": "influencia",
+   "desc": "Agrippa estudou as obras de Pico e a Cabala. Fonte: Wikipedia (Agrippa)."
+  },
+  {
+   "from": "pico",
+   "to": "golden-dawn",
+   "type": "influencia",
+   "desc": "A cabala hermética que a Golden Dawn desenvolve nasce da cabala cristã renascentista, da qual Pico é um marco. Elo de tradição, não de leitura direta. Fonte: Wikipedia (Hermetic Qabalah)."
+  },
+  {
+   "from": "pitagoras",
+   "to": "bank-scafetta",
+   "type": "influencia",
+   "desc": "O modelo usa a razão 9/8 (epogdoon pitagórico) e as consonâncias 5/4, 4/3, 3/2 e 8/5 como base (resumo do artigo, arXiv 2202.03939). Os autores não citam isso como filiação; é o vocabulário que retomam."
+  },
+  {
    "from": "pitagoras",
    "to": "empedocles",
    "type": "debatido",
@@ -462,7 +534,7 @@
    "from": "pitagoras",
    "to": "kepler",
    "type": "influencia",
-   "desc": "Kepler assume a herança pitagórica da harmonia das esferas"
+   "desc": "Kepler retoma a ideia pitagórica de harmonia nos céus (Harmonices Mundi, 1619), mas abandona a afinação pitagórica como base da consonância e distingue Deus geômetra de numerologia pitagórica. Fonte: Wikipedia (Harmonice Mundi)."
   },
   {
    "from": "pitagoras",
@@ -493,6 +565,12 @@
    "to": "guilherme-conches",
    "type": "influencia",
    "desc": "Glosae super Platonem: comentário ao Timeu"
+  },
+  {
+   "from": "platao",
+   "to": "hermetica",
+   "type": "influencia",
+   "desc": "Os Hermetica foram fortemente influenciados pelo platonismo médio e pelo estoicismo, com elementos egípcios em alguns tratados. Fonte: Wikipedia (Hermetica)."
   },
   {
    "from": "platao",

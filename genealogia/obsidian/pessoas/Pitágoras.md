@@ -18,7 +18,8 @@ Não deixou escritos
 O que se diz dele vem de fontes tardias (Aristóteles, Porfírio, Jâmblico). Separar o histórico do lendário é a primeira tarefa.
 
 ## Influenciou
-- [[Kepler]] · Kepler assume a herança pitagórica da harmonia das esferas
+- [[Bank e Scafetta]] · O modelo usa a razão 9/8 (epogdoon pitagórico) e as consonâncias 5/4, 4/3, 3/2 e 8/5 como base (resumo do artigo, arXiv 2202.03939). Os autores não citam isso como filiação; é o vocabulário que retomam.
+- [[Kepler]] · Kepler retoma a ideia pitagórica de harmonia nos céus (Harmonices Mundi, 1619), mas abandona a afinação pitagórica como base da consonância e distingue Deus geômetra de numerologia pitagórica. Fonte: Wikipedia (Harmonice Mundi).
 
 ## Foi criticada por
 - [[Aristóteles]] · Do Céu II.9 refuta a música das esferas dos pitagóricos

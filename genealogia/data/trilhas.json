@@ -199,9 +199,7 @@
     "filolau",
     "platao",
     "nicomaco",
-    "boecio",
-    "macrobio",
-    "kepler"
+    "boecio"
    ]
   },
   {
@@ -210,11 +208,13 @@
    "nodes": [
     "platao",
     "hermetica",
+    "fludd",
     "kepler",
     "pauli",
     "jung",
     "rudhyar",
-    "greene"
+    "greene",
+    "tarnas"
    ]
   },
   {
@@ -312,6 +312,35 @@
     "bernardo-chartres",
     "guilherme-conches",
     "joao-salisbury"
+   ]
+  },
+  {
+   "id": "v1-corda-ao-ceu",
+   "name": "V1 · Da corda ao céu",
+   "nodes": [
+    "pitagoras",
+    "platao",
+    "nicomaco",
+    "ptolomeu",
+    "kepler",
+    "brahe",
+    "bank-scafetta",
+    "aristoteles",
+    "burkert",
+    "carlson"
+   ]
+  },
+  {
+   "id": "v1-axioma",
+   "name": "V1 · O axioma da correspondência",
+   "nodes": [
+    "thoth",
+    "hermetica",
+    "tabua-esmeralda",
+    "caibalion",
+    "agrippa",
+    "golden-dawn",
+    "jung"
    ]
   }
  ]

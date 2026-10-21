@@ -81,6 +81,16 @@
    "why": "Crítica renascentista completa: os astros têm efeitos físicos, mas a adivinhação por casas e signos não tem base. Ataca Abu Ma’shar."
   },
   {
+   "id": "galileu",
+   "name": "Galileu Galilei",
+   "date": "1564–1642",
+   "yr": 1610,
+   "lane": "astro.critica",
+   "dy": 2,
+   "work": "Sidereus Nuncius (1610); Diálogo (1632)",
+   "why": "Estudou astrologia, então disciplina ligada à matemática, à astronomia e à medicina. Rejeitou a ideia, defendida por Kepler e conhecida desde a Antiguidade, de que a Lua causa as marés. Fonte: Wikipedia (Galileo Galilei); não confirmado nessa fonte que ele tenha feito horóscopos."
+  },
+  {
    "id": "casaubon",
    "name": "Casaubon",
    "date": "1614",
@@ -109,6 +119,16 @@
    "dy": -1,
    "work": "Lore and Science in Ancient Pythagoreanism",
    "why": "Separa o Pitágoras histórico da construção neoplatônica posterior. Leitura de método, antes do Timeu se possível."
+  },
+  {
+   "id": "carlson",
+   "name": "Shawn Carlson",
+   "date": "1985",
+   "yr": 1985,
+   "lane": "astro.critica",
+   "dy": -2,
+   "work": "A double-blind test of astrology, Nature 318, 419-425 (5/dez/1985)",
+   "why": "Teste duplo-cego: astrólogos indicados pelo NCGR (28, segundo a Wikipedia) tentaram casar mapas natais com perfis do California Psychological Inventory, instrumento que eles mesmos aceitaram como teste justo. O acerto não passou do acaso. Conclusão do autor: refuta a hipótese astrológica. Há reanálises e críticas ao teste (conferir antes de citar). Fonte: Wikipedia (Shawn Carlson)."
   },
   {
    "id": "empedocles",
@@ -271,6 +291,16 @@
    "why": "Textos helenísticos atribuídos a Hermes Trismegisto, traduzidos por Ficino em 1463 e datados por Casaubon em 1614."
   },
   {
+   "id": "fludd",
+   "name": "Robert Fludd",
+   "date": "1574–1637",
+   "yr": 1621,
+   "lane": "astro.mito",
+   "dy": -1,
+   "work": "Veritatis Proscenium (1621); Monochordon Mundi (1622)",
+   "why": "Médico paracelsiano e astrólogo; defende a abordagem hermética da harmonia cósmica contra a matemática de Kepler. Kepler o critica num apêndice da Harmonices Mundi (1619); Fludd responde em 1621. Copenhaver: Kepler o acusou de teósofo, e acertou. Fonte: Wikipedia (Robert Fludd); Vickers e Westman, Occult and Scientific Mentalities (1984), cap. sobre Jung, Pauli e a polêmica Kepler–Fludd."
+  },
+  {
    "id": "pitagoras",
    "name": "Pitágoras",
    "date": "c. 570–495 a.C.",
@@ -298,7 +328,7 @@
    "lane": "astro.pitag",
    "dy": -1,
    "work": "Manual de Harmônica; Introdução à Aritmética",
-   "why": "Neopitagórico: fixa a tradição que liga número, música e cosmos e que chegará a Boécio."
+   "why": "Neopitagórico: fixa a tradição que liga número, música e cosmos e que chegará a Boécio. O Manual de Harmônica traz o registro mais antigo que sobrevive da lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), cerca de seis séculos depois de Pitágoras. É lenda; o princípio físico correto é comprimento, tensão e densidade (fonte: Wikipedia, Nicomachus; conferir o capítulo antes de citar)."
   },
   {
    "id": "macrobio",
@@ -318,7 +348,7 @@
    "lane": "astro.pitag",
    "dy": 1,
    "work": "De institutione musica",
-   "why": "Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas até Kepler."
+   "why": "Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas na Idade Média. Seu tratado se baseia no Manual de Harmônica de Nicômaco. Ligação direta com Kepler não está documentada neste mapa."
   },
   {
    "id": "kepler",
@@ -329,6 +359,16 @@
    "dy": -1,
    "work": "Harmonices Mundi; Tertius Interveniens",
    "why": "Reabre Pitágoras com dados: razões harmônicas nos movimentos planetários. Mantém os aspectos como harmonias e rejeita boa parte do resto."
+  },
+  {
+   "id": "bank-scafetta",
+   "name": "Bank e Scafetta",
+   "date": "2022",
+   "yr": 2022,
+   "lane": "astro.pitag",
+   "dy": 1,
+   "work": "Scaling, mirror symmetries and consonances among the distances of the planets of the solar system (Front. Astron. Space Sci. 8:758184)",
+   "why": "Propõem simetria e escala nas razões entre as distâncias de planetas vizinhos, com o cinturão de asteroides (5:2 de Júpiter) como planeta substituto, e consonâncias 5/4, 4/3, 3/2 e 8/5 sobre a razão 9/8. Reportam p < 0,001 para as consonâncias. Os próprios autores dizem que a organização do sistema deve vir de dinâmica mais complexa. É hipótese, não consenso. Fonte: arXiv 2202.03939."
   },
   {
    "id": "babilonia",
@@ -429,6 +469,16 @@
    "dy": -1,
    "work": "Liber Astronomiae",
    "why": "Compêndio latino que leva a astrologia árabe à Europa medieval; muito usado por Lilly depois."
+  },
+  {
+   "id": "brahe",
+   "name": "Tycho Brahe",
+   "date": "1546–1601",
+   "yr": 1590,
+   "lane": "astro.tecnica",
+   "dy": -1,
+   "work": "Observações de Marte; catálogo estelar de 1.000 estrelas (1597)",
+   "why": "Astrônomo que também fazia horóscopos (para a corte e para patronos), sem publicar muito disso. Kepler foi seu assistente por cerca de um ano, até 1601, e usou os registros de Marte para deduzir suas leis do movimento planetário. Fonte: Wikipedia (Tycho Brahe)."
   },
   {
    "id": "lilly",

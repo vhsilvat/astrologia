@@ -235,10 +235,10 @@
   },
   {
    "id": "magia",
-   "name": "Hermetismo e magia cerimonial",
-   "status": "planejado",
-   "file": null,
-   "desc": "Agrippa, Dee, Lévi, Blavatsky, Golden Dawn, Crowley/Thelema, Kybalion. Muitas linhagens aqui são reivindicadas, não documentadas."
+   "name": "Hermetismo e magia",
+   "status": "ativo",
+   "file": "data/magia.json",
+   "desc": "Tábua de Esmeralda, Caibalion, Agrippa e Golden Dawn: as camadas em que o gesto da correspondência foi organizado em textos, tabelas e ordens."
   }
  ],
  "title": "A Cadeia de Ouro",

@@ -217,7 +217,12 @@ def main():
         else: m.tr['trails'].append(t)
     elif a.cmd == 'add-domain':
         ent = next((d for d in m.dom['domains'] if d['id'] == a.id), None)
-        if ent: ent.update(name=a.name, desc=a.desc)
+        if ent:
+            ent.update(name=a.name, desc=a.desc)
+            if ent.get('status') != 'ativo' or not ent.get('file'):
+                # ativa um tema planejado: cria o arquivo de dados vazio
+                ent['status'] = 'ativo'; ent['file'] = f'data/{a.id}.json'
+                m.files[a.id] = ent['file']; m.D.setdefault(a.id, {'domain': a.id, 'schema': 1, 'updated': m.dom.get('updated', ''), 'lanes': [], 'nodes': []})
         else:
             ent = {'id': a.id, 'name': a.name, 'status': 'ativo', 'file': f'data/{a.id}.json', 'desc': a.desc}
             ids = [d['id'] for d in m.dom['domains']]

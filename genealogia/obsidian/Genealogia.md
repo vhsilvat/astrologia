@@ -15,6 +15,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Hesíodo]] · c. 700 a.C.
 - [[Orfismo]] · séc. VI–IV a.C.
 - [[Corpus Hermeticum]] · séc. I–III d.C.
+- [[Robert Fludd]] · 1574–1637
 
 ### Pitagorismo e música das esferas
 
@@ -24,6 +25,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Macróbio]] · c. 400
 - [[Boécio]] · c. 480–524
 - [[Kepler]] · 1571–1630
+- [[Bank e Scafetta]] · 2022
 
 ### Filosofia
 
@@ -53,6 +55,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Abu Ma’shar]] · 787–886
 - [[Al-Biruni]] · 973–1048
 - [[Guido Bonatti]] · séc. XIII
+- [[Tycho Brahe]] · 1546–1601
 - [[William Lilly]] · 1602–1681
 - [[Chris Brennan]] · 2017
 
@@ -63,9 +66,11 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Sexto Empírico]] · c. 160–210
 - [[Agostinho]] · 354–430
 - [[Pico della Mirandola]] · 1463–1494
+- [[Galileu Galilei]] · 1564–1642
 - [[Casaubon]] · 1614
 - [[Isaac Newton]] · 1643–1727
 - [[Walter Burkert]] · 1972
+- [[Shawn Carlson]] · 1985
 
 ## Mito
 
@@ -134,12 +139,25 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Evangeline Adams]] · 1868–1932
 - [[Dane Rudhyar]] · 1895–1985
 - [[Liz Greene]] · n. 1946
+- [[Richard Tarnas]] · contemporâneo
 
 ### Psicologia analítica e alquimia
 
 - [[C. G. Jung]] · 1875–1961
 - [[Wolfgang Pauli]] · 1900–1958
 - [[Stanton Marlan]] · analista junguiano
+
+## Hermetismo e magia
+
+### Textos e princípios
+
+- [[Tábua de Esmeralda]] · séc. VIII–IX
+- [[O Caibalion]] · 1908
+
+### Magos e ordens
+
+- [[Agrippa]] · 1486–1535
+- [[Golden Dawn]] · 1887–1903
 
 ## Trilha: Trilha mínima · Astrologia: de Hesíodo a Kepler
 
@@ -191,8 +209,8 @@ Seis leituras para ver como o cristianismo nascente deu a gnose e o que a filoso
 
 - **Linhagem causal (física)**: [[Aristóteles]] → [[Estoicos]] → [[Ptolomeu]] → [[Abu Ma’shar]] → [[Guido Bonatti]] → [[William Lilly]] → [[Manílio]]
 - **Linhagem da correspondência**: [[Platão]] → [[Plotino]] → [[Porfírio]] → [[Jâmblico]] → [[Proclo]] → [[Ficino]] → [[Corpus Hermeticum]]
-- **Linhagem órfico-pitagórica**: [[Hesíodo]] → [[Orfismo]] → [[Pitágoras]] → [[Filolau]] → [[Platão]] → [[Nicômaco]] → [[Boécio]] → [[Macróbio]] → [[Kepler]]
-- **Linhagem junguiana**: [[Platão]] → [[Corpus Hermeticum]] → [[Kepler]] → [[Wolfgang Pauli]] → [[C. G. Jung]] → [[Dane Rudhyar]] → [[Liz Greene]]
+- **Linhagem órfico-pitagórica**: [[Hesíodo]] → [[Orfismo]] → [[Pitágoras]] → [[Filolau]] → [[Platão]] → [[Nicômaco]] → [[Boécio]]
+- **Linhagem junguiana**: [[Platão]] → [[Corpus Hermeticum]] → [[Robert Fludd]] → [[Kepler]] → [[Wolfgang Pauli]] → [[C. G. Jung]] → [[Dane Rudhyar]] → [[Liz Greene]] → [[Richard Tarnas]]
 - **Astrologia do século XX**: [[Alan Leo]] → [[Evangeline Adams]] → [[Dane Rudhyar]] → [[Liz Greene]]
 - **Quatro elementos**: [[Empédocles]] → [[Platão]] → [[Aristóteles]] → [[Ptolomeu]]
 - **Hermes, Thoth e Trismegisto**: [[Homero]] → [[Hermes]] → [[Thoth]] → [[Corpus Hermeticum]] → [[Casaubon]]
@@ -202,3 +220,5 @@ Seis leituras para ver como o cristianismo nascente deu a gnose e o que a filoso
 - **Arcontes**: [[Paulo de Tarso]] → [[Ofitas e arcontes]] → [[Sethianos]] → [[Apócrifo de João]] → [[Plotino]]
 - **O problema de João**: [[Jesus de Nazaré]] → [[João, filho de Zebedeu]] → [[Evangelho segundo João]] → [[Apócrifo de João]] → [[Ireneu de Lyon]]
 - **Os ombros de gigantes: de Chartres a Salisbury**: [[Bernardo de Chartres]] → [[Guilherme de Conches]] → [[João de Salisbury]]
+- **V1 · Da corda ao céu**: [[Pitágoras]] → [[Platão]] → [[Nicômaco]] → [[Ptolomeu]] → [[Kepler]] → [[Tycho Brahe]] → [[Bank e Scafetta]] → [[Aristóteles]] → [[Walter Burkert]] → [[Shawn Carlson]]
+- **V1 · O axioma da correspondência**: [[Thoth]] → [[Corpus Hermeticum]] → [[Tábua de Esmeralda]] → [[O Caibalion]] → [[Agrippa]] → [[Golden Dawn]] → [[C. G. Jung]]
