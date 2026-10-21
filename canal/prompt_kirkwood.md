@@ -53,3 +53,19 @@ A execução principal e as tentativas A, B e C não abriram lacuna. Diagnóstic
 3. **Desempenho.** As partículas de teste não interagem entre si, então divida em N processos (`multiprocessing`, um bloco de partículas por processo, todos com o mesmo Sol e Júpiter). Isso deve trazer 5×10⁵ anos para poucos minutos.
 
 Regras que continuam valendo: não ajuste mais nada até a lacuna aparecer, relate cada tentativa, inclusive as negativas, e diga no relatório que o modelo é planar, sem Marte e sem Saturno.
+
+## Adendo 2 de 21/out: modelo v2 (Sol + Júpiter + Saturno) e uso da CPU
+
+O Victor decidiu **interromper as simulações antigas** (principal, A, B e C) e rodar esta versão. Ao interromper, preserve os logs e os arquivos parciais; não apague nada, porque entram no relatório como tentativas negativas. Grave a versão nova com nomes próprios (`kirkwood_v2_*`), sem sobrescrever os arquivos antigos.
+
+**Modelo v2** (junto das mudanças 1 e 2 do adendo anterior):
+- Corpos massivos: Sol, Júpiter (9,5479e-4 massa solar, a = 5,2044 UA, e = 0,0489) e **Saturno** (2,858e-4 massa solar, a ≈ 9,58 UA, e ≈ 0,057). Use os elementos reais por `sim.add("Jupiter")` e `sim.add("Saturn")` (dados do JPL Horizons) se houver rede; sem rede, use esses valores e diga isso no relatório.
+- Some a massa dos planetas internos (Mercúrio a Marte, ≈6×10⁻⁶ massa solar, conferir) à do Sol, para o passo de 0,1 ano continuar valendo. Marte continua só como critério (periélio q < 1,67 UA).
+- Continua planar. Declare no relatório: sem Marte como corpo, sem Vênus e Terra individuais, sem inclinação.
+- Com Saturno, registre também o que acontece na borda interna (a ≈ 2,0 a 2,2 UA), onde atua a ressonância secular ν6, como observação extra (não era esperada na v1).
+- Mantenha os snapshots de antes e acrescente t = 5×10⁵ anos. Estimativa de tempo: ≈45 a 60 min para 3.000 partículas em 5×10⁵ anos com 3 processos (o log antigo dá ≈2,6×10⁶ atualizações por segundo por núcleo; Saturno custa algo como +30%).
+
+**CPU (notebook do Victor: i5-10210U, 4 núcleos físicos, 8 threads, 15 GB de RAM).**
+- Use **3 processos** (`multiprocessing`, N_WORKERS = 3), deixando 1 núcleo físico livre: o Victor vai usar o computador (vídeo) enquanto roda.
+- Rode os processos com prioridade baixa (`os.nice(10)` ou `nice -n 10`) e defina `OMP_NUM_THREADS=1` e `OPENBLAS_NUM_THREADS=1` para as bibliotecas não abrirem mais threads.
+- É um processador de baixo consumo e pode reduzir a frequência sob carga em todos os núcleos. Se o tempo total passar de 90 min, diga isso no relatório, sem aumentar o número de processos.
