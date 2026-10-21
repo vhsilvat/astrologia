@@ -252,11 +252,13 @@
 - Jâmblico (245–325): Pitagorismo como religião — *De Vita Pythagorica*
 - Proclo (412–485): síntese final do Neoplatonismo — *Teologia Platônica*
 - Macróbio e Boécio — transmissão através da Idade Média latina
+- Escola de Chartres (séc. XII): Bernardo de Chartres, Guilherme de Conches (glosas ao *Timeu* e a Boécio) e João de Salisbury (*Metalogicon*, 1159). A imagem dos **anões nos ombros de gigantes** descreve a própria cadeia: atestada em Guilherme (1123), atribuída a Bernardo por João (1159) e usada por Newton numa carta a Hooke (5/fev/1675, estilo antigo; alguns leem ironia sobre a estatura de Hooke). Não há transmissão documentada de Chartres a Newton. Candidata a abertura ou fecho do V6b
 - Ficino (1433–1499): traduz Platão e Hermes Trismegisto para o latim
 - Pico della Mirandola (1463–1494): integra Kabbalah ao sistema hermético-platônico
 - Agrippa (1486–1535): *De Occulta Philosophia* — sistematização da magia natural e astrologia
 - Giordano Bruno (1548–1600): universo infinito e panteísmo — queimado pela Inquisição
 - Robert Fludd (1574–1637): Macrocosmo/Microcosmo em diagramas enciclopédicos
+- Newton (1643–1727): troca a harmonia das esferas por mecânica (deriva as leis de Kepler) e deixa ≈1 milhão de palavras de alquimia, num acervo de ≈8 milhões de palavras (física, teologia, alquimia, história da Igreja; sem divisão por assunto nas fontes consultadas). Keynes o chamou de "o último dos magos". O motor da cadeia é o filtro (observar, medir, descartar), mais do que o axioma
 - Por que a tradição não sobreviveu por inércia: cada elo foi o mais rigoroso de sua época
 
 **Fios:** Genealogia intelectual · Autoridade por continuidade · Neoplatonismo → Renascimento

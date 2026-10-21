@@ -304,6 +304,15 @@
     "apocrifo-joao",
     "ireneu"
    ]
+  },
+  {
+   "id": "ombros-gigantes",
+   "name": "Os ombros de gigantes: de Chartres a Salisbury",
+   "nodes": [
+    "bernardo-chartres",
+    "guilherme-conches",
+    "joao-salisbury"
+   ]
   }
  ]
 }

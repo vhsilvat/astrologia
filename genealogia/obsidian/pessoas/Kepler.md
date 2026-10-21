@@ -18,6 +18,7 @@ Harmonices Mundi; Tertius Interveniens
 Reabre Pitágoras com dados: razões harmônicas nos movimentos planetários. Mantém os aspectos como harmonias e rejeita boa parte do resto.
 
 ## Influenciou
+- [[Isaac Newton]] · Newton mostra nos Principia que as leis de Kepler decorrem da gravitação (da memória, conferir o livro e a proposição antes de citar)
 - [[Wolfgang Pauli]] · Pauli analisou Kepler como exemplo de ideias arquetípicas na formação de teorias científicas.
 
 ## Foi influenciada por
