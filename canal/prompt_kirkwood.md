@@ -43,3 +43,13 @@ Rótulos: dado real = MEDÍVEL; simulação = "MEDÍVEL (simulação própria: S
 - Renderize em `-ql` e salve quadros PNG de momentos-chave em `ressonancias/frames/` (início, meio e fim de cada cena; histograma antes e depois), com `manim render -s` ou `ffmpeg -ss`. Registre os comandos no `RELATORIO.md`.
 - Faça o render final em `-qh` e salve em `output/`.
 - No `RELATORIO.md`, liste versões (Python, Manim, rebound), tempo de execução e semente. Commite e dê push na branch.
+
+## Adendo de 21/out (depois das primeiras execuções)
+
+A execução principal e as tentativas A, B e C não abriram lacuna. Diagnóstico: as condições iniciais eram frias demais e o critério de remoção, brando demais para um modelo sem Marte. Mantenha todos esses resultados no relatório, como estão. A próxima tentativa muda duas escolhas, justificadas pela física e pelo dado real, não pelo resultado:
+
+1. **Excentricidade inicial realista.** Amostre e a partir da distribuição real de excentricidades dos asteroides do cinturão (`sbdb_mba.json`), por faixa de a. O semi-eixo a continua uniforme, para o cinturão começar sem lacunas. Se não der para amostrar, use uma distribuição com média ≈0,15 e diga isso no relatório.
+2. **Critério de remoção por Marte.** No cinturão real, os corpos em ressonância ganham excentricidade até cruzar a órbita de Marte e serem espalhados. O modelo não tem Marte, então marque como removida a partícula com periélio q = a(1 − e) < 1,67 UA (afélio de Marte), como proxy declarado. Mantenha r > 10 UA como ejeção. Rode também com o critério antigo (r < 1,0 UA) para comparar, e registre as duas versões no relatório.
+3. **Desempenho.** As partículas de teste não interagem entre si, então divida em N processos (`multiprocessing`, um bloco de partículas por processo, todos com o mesmo Sol e Júpiter). Isso deve trazer 5×10⁵ anos para poucos minutos.
+
+Regras que continuam valendo: não ajuste mais nada até a lacuna aparecer, relate cada tentativa, inclusive as negativas, e diga no relatório que o modelo é planar, sem Marte e sem Saturno.
