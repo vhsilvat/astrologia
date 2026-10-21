@@ -111,3 +111,16 @@ Platão (Timeu, Mito de Er) e sólidos platônicos → V4 · Ptolomeu *Harmonics
 - **Burkert (conferido):** a lenda dos martelos é fisicamente impossível; a atestação mais antiga é Nicômaco e Adrasto; Macróbio e Boécio a repetem.
 - **Tábua de Esmeralda:** vem do fim do *Livro do Segredo da Criação* (Pseudo-Balinas, talvez séc. IX), segundo Copenhaver. As edições de referência são Ruska (1926) e Weisser (1979).
 - **Franco (1991):** o artigo sobre a "mecânica ondulatória" de Kepler foi identificado (*Rev. SBHC* n. 6); só li o resumo.
+
+## 21/out (noite, 2): Kepler no latim e Franco
+
+- **Conferido no *Harmonices Mundi* de 1619 (latim, lido no texto e na imagem das páginas; traduções minhas, provisórias, a revisar por quem lê latim):**
+  - Dedicatória (ao rei Jaime): a obra é "sobre a Harmonia dos Céus, que cheira a Pitágoras e a Platão"; quase vinte anos antes, sem conhecer os movimentos próprios dos planetas, o "instinto da natureza" já lhe ditava que havia harmonias neles.
+  - Livro III (p. 7 a 12): rejeita os "números abstratos dos pitagóricos" como causa das consonâncias ("acidental, não causal") e põe uma causa geométrica; elogia Ptolomeu por pôr o ouvido contra os pitagóricos e o critica por voltar aos números; cita Hermes Trismegisto e conclui que "ou Pitágoras hermetizou, ou Hermes pitagorizou" (opinião dele).
+  - Livro IV (p. 151 a 175): mantém os aspectos e os defende; acreditou até 1608 numa correspondência um a um com as consonâncias e a revisou (a corda é reta, o círculo do Zodíaco fecha em si); chama de fonte das "superstições torpíssimas" a ideia de astros-deuses; "a morte não está nos astros, nem no tema, nem na direção"; leu o Pico contra a astrologia; a comparação aspectos e consonâncias vem de Ptolomeu, explicada por Cardano.
+  - Apêndice (p. 251 a 254): contra Fludd: "meros simbolismos", analogia "puxada pelos cabelos", enigmas "familiares a químicos, herméticos, paracelsistas"; as harmonias de Kepler são "quantitativas e mensuráveis, não por mera simbolização" e "se formam no Sol, não por raios na Terra". Cita o "celebérrimo axioma de Hermes" como princípio de Fludd.
+- **Corrige a seção da tarde (21/out):** "Kepler retoma a ideia e abandona a afinação pitagórica" vinha da Wikipedia. O que o livro III diz está acima: herda a ideia de harmonia, rejeita a numerologia como causa, aceita terças e sextas como consonâncias.
+- **Corrige o mapa:** a frase "Kepler o acusou de teósofo" (nó Fludd), atribuída a Copenhaver, não foi achada e saiu.
+- **Franco (1991), lido inteiro:** a analogia (cordas circulares de Kepler e órbitas de Bohr como ondas estacionárias; altura da nota e comprimento de onda de de Broglie) é só de forma; o autor diz que não quer provar que Kepler antecipou a mecânica quântica e lista as diferenças. Erro de transcrição no artigo (Júpiter ou Saturno para a nota G; no livro V é Saturno).
+- **[PROPOSTO] V1:** no T5, um contraponto de ≈10 s (Kepler em 1619 contra o "axioma de Hermes" usado como símbolo, a favor da correspondência medida), só se o orçamento permitir; no T3, a analogia de Franco só como INTERPRETÁVEL opcional.
+- **Pendente:** *Tertius Interveniens* (1610); digressão sobre Bodin e analogias no fim do livro III; identificar "Cardano"; tradução completa (Aiton, Duncan e Field, 1997) para conferir meu latim.

@@ -55,6 +55,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Abu Ma’shar]] · 787–886
 - [[Al-Biruni]] · 973–1048
 - [[Guido Bonatti]] · séc. XIII
+- [[Cardano]] · séc. XVI
 - [[Tycho Brahe]] · 1546–1601
 - [[William Lilly]] · 1602–1681
 - [[Chris Brennan]] · 2017
@@ -221,4 +222,4 @@ Seis leituras para ver como o cristianismo nascente deu a gnose e o que a filoso
 - **O problema de João**: [[Jesus de Nazaré]] → [[João, filho de Zebedeu]] → [[Evangelho segundo João]] → [[Apócrifo de João]] → [[Ireneu de Lyon]]
 - **Os ombros de gigantes: de Chartres a Salisbury**: [[Bernardo de Chartres]] → [[Guilherme de Conches]] → [[João de Salisbury]]
 - **V1 · Da corda ao céu**: [[Pitágoras]] → [[Platão]] → [[Nicômaco]] → [[Ptolomeu]] → [[Kepler]] → [[Tycho Brahe]] → [[Bank e Scafetta]] → [[Aristóteles]] → [[Walter Burkert]] → [[Shawn Carlson]]
-- **V1 · O axioma da correspondência**: [[Thoth]] → [[Corpus Hermeticum]] → [[Tábua de Esmeralda]] → [[O Caibalion]] → [[Agrippa]] → [[Golden Dawn]] → [[C. G. Jung]]
+- **V1 · O axioma da correspondência**: [[Thoth]] → [[Corpus Hermeticum]] → [[Tábua de Esmeralda]] → [[O Caibalion]] → [[Agrippa]] → [[Golden Dawn]] → [[C. G. Jung]] → [[Robert Fludd]] → [[Kepler]]

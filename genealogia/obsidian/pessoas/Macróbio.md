@@ -17,6 +17,9 @@ Comentário ao Sonho de Cipião
 ## Por que importa
 Transmite à Idade Média a harmonia das esferas e a descida da alma pelas esferas planetárias.
 
+## Influenciou
+- [[Kepler]] · Kepler usa Macróbio para reconstituir o texto que falta no último capítulo (XVI) da Harmônica III de Ptolomeu ('praesertim ex Macrobio concinnavi'). Fonte: Kepler, Harmonices Mundi (Linz, 1619; escaneamento do Internet Archive), Apêndice, p. 251. Traduções do latim provisórias.
+
 ## Foi influenciada por
 - [[Cícero]] · Macróbio comenta o Sonho de Cipião
 
