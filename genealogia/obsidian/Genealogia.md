@@ -151,7 +151,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 
 ### Textos e princípios
 
-- [[Tábua de Esmeralda]] · séc. VIII–IX
+- [[Tábua de Esmeralda]] · séc. IX (?)
 - [[O Caibalion]] · 1908
 
 ### Magos e ordens

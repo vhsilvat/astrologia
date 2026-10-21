@@ -102,3 +102,12 @@ Platão (Timeu, Mito de Er) e sólidos platônicos → V4 · Ptolomeu *Harmonics
 - **[DECIDIDO]** Burkert entra na bibliografia do V1 como o lado crítico.
 - **Correções de fato:** Kepler não "assume a herança pitagórica": retoma a ideia e abandona a afinação pitagórica. A Vibração não é princípio hermético antigo (camada do *Caibalion*, 1908). A Tábua de Esmeralda é árabe (séc. VIII–IX), fora do Corpus Hermeticum. Carlson testou a correspondência mapa natal × perfil psicológico (CPI), não previsão. Galileu estudou astrologia; não confirmado que tenha feito horóscopos.
 - **Mapa:** elos Boécio→Macróbio, Macróbio→Kepler e Hermética→Kepler não têm fonte e saíram das linhagens; a polêmica Kepler–Fludd e Pauli ocupam o lugar na linhagem junguiana. *Sefer Yetzirah* ficou de fora por falta de elo documentado.
+
+## 21/out (noite): fontes conferidas nos livros
+
+- **[DECIDIDO]** Wikipedia fora do canal; só livro, artigo e fonte primária. O site espacoastrologico.com.br serve de mapa de bibliografia (Bassalo 1990, Saliba 2003, Esteban 2001, Campion, Waterfield, Culver e Ianna, Chadwick), não de fonte: os textos dele são de um astrólogo e republicações; cito o que ele cita, depois de ler.
+- **Carlson (conferido):** 28 astrólogos, 116 envelopes, acerto de 34% na parte 2, a 3,3 desvios-padrão da previsão deles (50%). A parte 1 não decide. Conclusão do autor: "refuta".
+- **Kepler (livro V, conferido):** a lei dos períodos nasce em 8/mar/1618, é rejeitada e confirmada em 15/mai/1618; Kepler leu a *Harmônica* de Ptolomeu em manuscrito; cita o Sonho de Cipião de Cícero; "rouba os vasos de ouro dos egípcios". O PDF é só o livro V; faltam os livros I a IV e o Apêndice contra Fludd.
+- **Burkert (conferido):** a lenda dos martelos é fisicamente impossível; a atestação mais antiga é Nicômaco e Adrasto; Macróbio e Boécio a repetem.
+- **Tábua de Esmeralda:** vem do fim do *Livro do Segredo da Criação* (Pseudo-Balinas, talvez séc. IX), segundo Copenhaver. As edições de referência são Ruska (1926) e Weisser (1979).
+- **Franco (1991):** o artigo sobre a "mecânica ondulatória" de Kepler foi identificado (*Rev. SBHC* n. 6); só li o resumo.

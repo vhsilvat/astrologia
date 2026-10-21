@@ -38,12 +38,12 @@
   {
    "id": "tabua-esmeralda",
    "name": "Tábua de Esmeralda",
-   "date": "séc. VIII–IX",
-   "yr": 800,
+   "date": "séc. IX (?)",
+   "yr": 850,
    "lane": "mag.textos",
    "dy": -1,
-   "work": "Apêndice do Livro do Segredo da Criação (árabe); latim: Hugo de Santalla, c. 1145–1151",
-   "why": "A versão mais antiga conhecida é árabe, do fim do séc. VIII ou início do IX (Kraus: 813–833; Weisser: c. 750–800), anexada a um tratado pseudo-Apolônio de Tiana. O texto se atribui a Hermes Trismegisto. Pode traduzir um original grego ou siríaco perdido, ou ser obra árabe sobre material antigo. Não faz parte do Corpus Hermeticum. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
+   "work": "Fim do Livro do Segredo da Criação (árabe); latim a partir do séc. XII",
+   "why": "O final do Livro do Segredo da Criação, atribuído a Pseudo-Balinas (corrupção de Apolônio de Tiana), que Copenhaver diz poder ter sido escrito no século IX, traz uma versão antiga da Tábua de Esmeralda: treze máximas alquímicas atribuídas a Hermes, que também aparecem nas obras de Jabir. Não faz parte do Corpus Hermeticum. Fonte: Copenhaver, Hermetica (Cambridge UP, 1992), Introdução (Ruska, Tabula smaragdina, 1926, e Weisser, Buch über das Geheimnis der Schöpfung, 1979, são as edições que ele cita)."
   },
   {
    "id": "caibalion",
@@ -53,7 +53,7 @@
    "lane": "mag.textos",
    "dy": -1,
    "work": "Três Iniciados; Yogi Publication Society",
-   "why": "Atribuído, provavelmente, a William Walker Atkinson (New Thought). Apresenta sete princípios (Mentalismo, Correspondência, Vibração, Polaridade, Ritmo, Causa e Efeito, Gênero) como ensino de Hermes. É lido como tratado ocultista moderno: Mentalismo e o 'como acima, assim abaixo' têm raízes herméticas; o princípio da Vibração, não. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
+   "why": "Publicado em Chicago pela Yogi Publication Society sob o nome 'Três Iniciados' (texto consultado: edição de 1912; primeira edição, 1908). O próprio livro diz compilar doutrinas herméticas básicas, passadas oralmente 'de boca a ouvido', e atribui os ensinamentos a Hermes Trismegisto. Lista sete princípios: Mentalismo, Correspondência ('como acima, assim abaixo; como abaixo, assim acima'), Vibração ('nada repousa; tudo se move; tudo vibra'), Polaridade, Ritmo, Causa e Efeito, Gênero. Autoria por William Walker Atkinson e a caracterização como tratado ocultista moderno, sem raiz hermética antiga para a Vibração: [FONTE A SUBSTITUIR: livro ou artigo acadêmico]. Fonte do texto: Project Gutenberg #14209."
   }
  ]
 }

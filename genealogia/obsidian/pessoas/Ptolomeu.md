@@ -20,7 +20,7 @@ Defende uma astrologia “natural”: os astros agem por qualidades físicas (ca
 ## Influenciou
 - [[Abu Ma’shar]] · A tradição árabe herda Ptolomeu e a astrologia helenística
 - [[Al-Biruni]] · Al-Biruni conhece o Almagesto e o Tetrabiblos
-- [[Kepler]] · Kepler comenta a Harmônica de Ptolomeu e reformula os aspectos
+- [[Kepler]] · Kepler leu a Harmônica de Ptolomeu em manuscrito enviado por Herwart de Hohenburg, achou o livro III dedicado à mesma harmonia celeste, e viu na coincidência de quinze séculos um reforço; disse que Ptolomeu parecia ter 'recitado um agradável sonho pitagórico' (Harmonices Mundi V, Proêmio [268-269]). [A CONFERIR: comentário à Harmônica e reformulação dos aspectos (livro IV, Tertius Interveniens).]
 - [[Porfírio]] · Porfírio escreveu uma Introdução ao Tetrabiblos
 
 ## Foi influenciada por

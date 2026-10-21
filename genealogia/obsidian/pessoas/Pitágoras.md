@@ -19,11 +19,11 @@ O que se diz dele vem de fontes tardias (Aristóteles, Porfírio, Jâmblico). Se
 
 ## Influenciou
 - [[Bank e Scafetta]] · O modelo usa a razão 9/8 (epogdoon pitagórico) e as consonâncias 5/4, 4/3, 3/2 e 8/5 como base (resumo do artigo, arXiv 2202.03939). Os autores não citam isso como filiação; é o vocabulário que retomam.
-- [[Kepler]] · Kepler assume a herança pitagórica da harmonia das esferas. [A CONFERIR no Harmonices Mundi (o Victor tem o livro): em que medida Kepler assume ou rejeita essa herança.]
+- [[Kepler]] · Kepler retoma a harmonia celeste dos antigos e dialoga com os pitagóricos: cita 'os antigos pitagóricos em Aristóteles' (o centro do mundo como 'vigia de Zeus') e a 'taça de Pitágoras' do hino de Proclo (Harmonices Mundi V, cap. 10 [326]). [A CONFERIR no livro III, que não está no PDF: até que ponto adota ou rejeita a afinação e a numerologia pitagóricas.]
 
 ## Foi criticada por
 - [[Aristóteles]] · Do Céu II.9 refuta a música das esferas dos pitagóricos
-- [[Walter Burkert]] · Examina criticamente as fontes sobre Pitágoras
+- [[Walter Burkert]] · Examina criticamente as fontes sobre Pitágoras. Conclui que o que depois se tomou por filosofia de Pitágoras tem raízes na escola de Platão (Prefácio), e que as experiências musicais atribuídas a ele são fisicamente impossíveis (cap. 'Speculation, Experimentation, and Fiction'). Fonte: Lore and Science in Ancient Pythagoreanism (1972).
 
 ## Relação debatida com
 - [[Empédocles]] · Biografias tardias o dizem pitagórico; estudiosos modernos veem a tutela como cronologicamente impossível, no máximo uma afinidade de ideias (reencarnação).
@@ -36,6 +36,12 @@ O que se diz dele vem de fontes tardias (Aristóteles, Porfírio, Jâmblico). Se
 ## Segundo a tradição, vem de
 - [[Babilônia]] · Biógrafos tardios dizem que os caldeus lhe ensinaram astronomia. Mesma ressalva: relato sem corroboração da época.
 - [[Templos egípcios]] · Porfírio (Vida de Pitágoras, 6) e Jâmblico dizem que ele aprendeu com sacerdotes egípcios. Heródoto (II.123) atribui a metempsicose aos egípcios, sem citar Pitágoras. Fontes tardias, sem corroboração contemporânea. Burkert: não há um único detalhe da vida de Pitágoras que não seja contestado.
+
+## Preservado ou relatado em
+- [[Boécio]] · A lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), narrada em Boécio, De institutione musica 1.10. Fonte: Burkert (1972), nota 28.
+- [[Jâmblico]] · A lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), narrada em Jâmblico, Vida de Pitágoras 115ss. Fonte: Burkert (1972), nota 28.
+- [[Macróbio]] · A lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), narrada em Macróbio, Comentário ao Sonho de Cipião 2.1.9ss, 'do modo mais vivo'. Fonte: Burkert (1972), nota 28.
+- [[Nicômaco]] · A lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), narrada em Nicômaco, Manual de Harmônica 6, a atestação mais antiga que se conhece, com Adrasto. Fisicamente impossível, segundo Burkert (1972, nota 28).
 
 ## Escola seguida por
 - [[Nicômaco]] · O neopitagorismo reivindica Pitágoras como fundador

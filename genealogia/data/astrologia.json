@@ -127,8 +127,8 @@
    "yr": 1985,
    "lane": "astro.critica",
    "dy": -2,
-   "work": "A double-blind test of astrology, Nature 318, 419-425 (5/dez/1985)",
-   "why": "Teste duplo-cego: astrólogos indicados pelo NCGR (28, segundo fonte provisória) tentaram casar mapas natais com perfis do California Psychological Inventory, instrumento que eles mesmos aceitaram como teste justo. O acerto não passou do acaso. Conclusão do autor: refuta a hipótese astrológica. Há reanálises e críticas ao teste (conferir antes de citar). [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
+   "work": "A double-blind test of astrology, Nature 318, 419-425",
+   "why": "Dois testes duplo-cegos da 'tese fundamental da astrologia natal': as posições dos planetas no nascimento determinam traços gerais de personalidade. Desenhado com o físico Richard Muller (Berkeley), o estatístico Doksum e astrólogos indicados pelo NCGR, que aceitaram o protocolo como teste justo e fixaram de antemão o mínimo esperado (50%); o critério era 2,5 desvios-padrão. Parte 1: cada sujeito escolhia a própria interpretação entre três; resultado compatível com o acaso, mas eles também não acharam o próprio perfil CPI acima do acaso, então essa parte não decide. Parte 2: 28 astrólogos (de cerca de 90 convidados) casaram mapas natais com perfis do California Psychological Inventory, entre três opções; 116 envelopes devolvidos; acerto de 0,34 ± 0,044 na primeira escolha, contra 0,33 do acaso e 0,50 previsto pelos astrólogos, a 3,3 desvios-padrão da previsão. Conclusão do autor: o experimento 'refuta claramente a hipótese astrológica'. É um Commentary da Nature; reanálises e críticas posteriores: conferir antes de citar. Fonte: Carlson, Nature 318, 5/dez/1985, pp. 419-425 (PDF conferido)."
   },
   {
    "id": "empedocles",
@@ -328,7 +328,7 @@
    "lane": "astro.pitag",
    "dy": -1,
    "work": "Manual de Harmônica; Introdução à Aritmética",
-   "why": "Neopitagórico: fixa a tradição que liga número, música e cosmos e que chegará a Boécio. O Manual de Harmônica traz o registro mais antigo que sobrevive da lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), cerca de seis séculos depois de Pitágoras. É lenda; o princípio físico correto é comprimento, tensão e densidade [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
+   "why": "Neopitagórico: fixa a tradição que liga número, música e cosmos e que chegará a Boécio. Seu Manual de Harmônica (cap. 6) e Adrasto trazem a atestação mais antiga que se conhece da lenda dos martelos do ferreiro. Burkert mostra que as experiências atribuídas a Pitágoras são fisicamente impossíveis (a altura do som não é proporcional ao peso do martelo nem à tensão da corda), e que Ptolomeu já rejeitava o experimento do peso. Fonte: Burkert, Lore and Science in Ancient Pythagoreanism (Harvard UP, 1972), cap. 'Speculation, Experimentation, and Fiction' (pp. 374-375 do PDF enviado) e nota 28."
   },
   {
    "id": "macrobio",
@@ -348,7 +348,7 @@
    "lane": "astro.pitag",
    "dy": 1,
    "work": "De institutione musica",
-   "why": "Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas até Kepler. [A CONFERIR: Boécio → Macróbio e Macróbio → Kepler ainda sem aresta documentada no mapa.]"
+   "why": "Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas até Kepler. Seu tratado de música segue Nicômaco, que ele quase traduz (Burkert 1972). [A CONFERIR: Boécio → Macróbio e Macróbio → Kepler ainda sem aresta documentada; Kepler não cita Boécio nem Macróbio no livro V.]"
   },
   {
    "id": "kepler",
@@ -358,7 +358,7 @@
    "lane": "astro.pitag",
    "dy": -1,
    "work": "Harmonices Mundi; Tertius Interveniens",
-   "why": "Reabre Pitágoras com dados: razões harmônicas nos movimentos planetários. Mantém os aspectos como harmonias e rejeita boa parte do resto."
+   "why": "Reabre Pitágoras com dados: razões harmônicas nos movimentos planetários. Mantém os aspectos como harmonias e rejeita boa parte do resto. [A CONFERIR no livro IV e no Tertius Interveniens.] No Proêmio do livro V diz que 'rouba os vasos de ouro dos egípcios' para construir um templo ao seu Deus longe do Egito, e relata a lei dos períodos, intuída em 8/mar/1618, rejeitada na primeira conta e confirmada em 15/mai/1618: a razão dos tempos periódicos de dois planetas é a razão da potência 3/2 das distâncias médias (cap. 3 [279]). Fonte: Kepler, Harmonices Mundi, livro V (trad. Wallis, 1939)."
   },
   {
    "id": "bank-scafetta",
@@ -478,7 +478,7 @@
    "lane": "astro.tecnica",
    "dy": -1,
    "work": "Observações de Marte; catálogo estelar de 1.000 estrelas (1597)",
-   "why": "Astrônomo que também fazia horóscopos (para a corte e para patronos), sem publicar muito disso. Kepler foi seu assistente por cerca de um ano, até 1601, e usou os registros de Marte para deduzir suas leis do movimento planetário. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
+   "why": "Kepler baseou nas observações de Brahe o trabalho que levou à lei dos períodos: 'meu trabalho de dezessete anos sobre as observações de Brahe' (Harmonices Mundi V, cap. 3 [279]); visitou Brahe e foi morar em Praga (Proêmio [268-269]). Que Brahe fazia horóscopos e publicou pouco disso: [FONTE A SUBSTITUIR: biografia acadêmica, por exemplo Thoren, The Lord of Uraniborg]. Fonte: Kepler, Harmonices Mundi, livro V (trad. Wallis, 1939)."
   },
   {
    "id": "lilly",

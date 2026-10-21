@@ -23,6 +23,7 @@ Sistematiza em árabe a astrologia helenística e persa, com fundamento na físi
 ## Foi influenciada por
 - [[Aristóteles]] · Abu Ma’shar funda a astrologia na física aristotélica
 - [[Dorotheus]] · A tradição árabe preserva Dorotheus
+- [[Corpus Hermeticum]] · Al-Kindi e Abu Ma'shar leram teologia hermética no século IX. Fonte: Copenhaver, Hermetica (1992), Introdução.
 - [[Ptolomeu]] · A tradição árabe herda Ptolomeu e a astrologia helenística
 
 ## Foi criticada por

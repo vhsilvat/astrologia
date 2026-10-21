@@ -90,13 +90,13 @@
    "from": "brahe",
    "to": "kepler",
    "type": "influencia",
-   "desc": "Kepler foi assistente de Tycho por cerca de um ano e usou seus registros de Marte para deduzir as leis do movimento planetário."
+   "desc": "Kepler fundou a lei dos períodos no 'trabalho de dezessete anos sobre as observações de Brahe' e visitou Brahe antes de se estabelecer em Praga (Harmonices Mundi V, Proêmio e cap. 3 [279])."
   },
   {
    "from": "burkert",
    "to": "pitagoras",
    "type": "critica",
-   "desc": "Examina criticamente as fontes sobre Pitágoras"
+   "desc": "Examina criticamente as fontes sobre Pitágoras. Conclui que o que depois se tomou por filosofia de Pitágoras tem raízes na escola de Platão (Prefácio), e que as experiências musicais atribuídas a ele são fisicamente impossíveis (cap. 'Speculation, Experimentation, and Fiction'). Fonte: Lore and Science in Ancient Pythagoreanism (1972)."
   },
   {
    "from": "carlson",
@@ -121,6 +121,12 @@
    "to": "estoicos",
    "type": "critica",
    "desc": "De Divinatione II refuta a adivinhação estoica"
+  },
+  {
+   "from": "cicero",
+   "to": "kepler",
+   "type": "influencia",
+   "desc": "Kepler alude duas vezes ao Sonho de Cipião de Cícero: ao dizer que Ptolomeu parecia ter recitado um sonho pitagórico 'como Cipião em Cícero' (Proêmio [268-269]) e ao imaginar, no epílogo sobre o Sol, um sonho como o 'Cipião de Cícero' (cap. 10 [326]). Fonte: Harmonices Mundi V (Wallis, 1939)."
   },
   {
    "from": "cicero",
@@ -226,9 +232,15 @@
   },
   {
    "from": "hermetica",
+   "to": "abumashar",
+   "type": "influencia",
+   "desc": "Al-Kindi e Abu Ma'shar leram teologia hermética no século IX. Fonte: Copenhaver, Hermetica (1992), Introdução."
+  },
+  {
+   "from": "hermetica",
    "to": "caibalion",
    "type": "reivindicada",
-   "desc": "O livro diz transmitir os ensinamentos de Hermes Trismegisto. É tratado ocultista moderno (New Thought, 1908); só parte das ideias, como Mentalismo e o como acima assim abaixo, tem raiz hermética. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
+   "desc": "O livro diz transmitir os ensinamentos de Hermes Trismegisto, passados 'de boca a ouvido' (edição de 1912, Project Gutenberg #14209). Que seja tratado ocultista moderno, e que a Vibração não tenha raiz hermética antiga: [FONTE A SUBSTITUIR: livro ou artigo acadêmico]."
   },
   {
    "from": "hermetica",
@@ -258,7 +270,7 @@
    "from": "hermetica",
    "to": "tabua-esmeralda",
    "type": "reivindicada",
-   "desc": "O texto se atribui a Hermes Trismegisto, mas é obra árabe do séc. VIII–IX e não está no Corpus Hermeticum. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
+   "desc": "Atribuída a Hermes. A versão mais antiga conhecida fecha o Livro do Segredo da Criação de Pseudo-Balinas (talvez séc. IX) e traz treze máximas alquímicas, que aparecem também em obras atribuídas a Jabir. Não está no Corpus Hermeticum. Fonte: Copenhaver, Hermetica (1992), Introdução."
   },
   {
    "from": "hermetica",
@@ -438,7 +450,7 @@
    "from": "nicomaco",
    "to": "boecio",
    "type": "influencia",
-   "desc": "Boécio adapta Nicômaco em suas obras sobre aritmética e música"
+   "desc": "Boécio adapta Nicômaco em suas obras sobre aritmética e música; em música, 'virtualmente o traduz' (Burkert 1972)."
   },
   {
    "from": "orfismo",
@@ -520,6 +532,12 @@
   },
   {
    "from": "pitagoras",
+   "to": "boecio",
+   "type": "registro",
+   "desc": "A lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), narrada em Boécio, De institutione musica 1.10. Fonte: Burkert (1972), nota 28."
+  },
+  {
+   "from": "pitagoras",
    "to": "empedocles",
    "type": "debatido",
    "desc": "Biografias tardias o dizem pitagórico; estudiosos modernos veem a tutela como cronologicamente impossível, no máximo uma afinidade de ideias (reencarnação)."
@@ -532,15 +550,33 @@
   },
   {
    "from": "pitagoras",
+   "to": "jamblico",
+   "type": "registro",
+   "desc": "A lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), narrada em Jâmblico, Vida de Pitágoras 115ss. Fonte: Burkert (1972), nota 28."
+  },
+  {
+   "from": "pitagoras",
    "to": "kepler",
    "type": "influencia",
-   "desc": "Kepler assume a herança pitagórica da harmonia das esferas. [A CONFERIR no Harmonices Mundi (o Victor tem o livro): em que medida Kepler assume ou rejeita essa herança.]"
+   "desc": "Kepler retoma a harmonia celeste dos antigos e dialoga com os pitagóricos: cita 'os antigos pitagóricos em Aristóteles' (o centro do mundo como 'vigia de Zeus') e a 'taça de Pitágoras' do hino de Proclo (Harmonices Mundi V, cap. 10 [326]). [A CONFERIR no livro III, que não está no PDF: até que ponto adota ou rejeita a afinação e a numerologia pitagóricas.]"
+  },
+  {
+   "from": "pitagoras",
+   "to": "macrobio",
+   "type": "registro",
+   "desc": "A lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), narrada em Macróbio, Comentário ao Sonho de Cipião 2.1.9ss, 'do modo mais vivo'. Fonte: Burkert (1972), nota 28."
   },
   {
    "from": "pitagoras",
    "to": "nicomaco",
    "type": "escola",
    "desc": "O neopitagorismo reivindica Pitágoras como fundador"
+  },
+  {
+   "from": "pitagoras",
+   "to": "nicomaco",
+   "type": "registro",
+   "desc": "A lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), narrada em Nicômaco, Manual de Harmônica 6, a atestação mais antiga que se conhece, com Adrasto. Fisicamente impossível, segundo Burkert (1972, nota 28)."
   },
   {
    "from": "platao",
@@ -569,8 +605,8 @@
   {
    "from": "platao",
    "to": "hermetica",
-   "type": "influencia",
-   "desc": "Os Hermetica foram fortemente influenciados pelo platonismo médio e pelo estoicismo, com elementos egípcios em alguns tratados. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
+   "type": "debatido",
+   "desc": "As raízes dos Hermetica são disputadas: Reitzenstein as via egípcias; Zielinski, gregas (peripatéticas, platônicas e panteístas); J. Kroll, no estoicismo médio, em Posidônio e em Fílon; Bousset disse que 'os Hermetica pertencem à história da piedade, não da filosofia'. No séc. XII, o Asclepius foi lido em relação ao Timeu. Fonte: Copenhaver, Hermetica (1992), Introdução."
   },
   {
    "from": "platao",
@@ -630,7 +666,7 @@
    "from": "proclo",
    "to": "kepler",
    "type": "influencia",
-   "desc": "Kepler usa o comentário de Proclo a Euclides"
+   "desc": "Kepler cita longamente o hino de Proclo ao Sol e discute a filosofia de Proclo (Harmonices Mundi V, cap. 10 [325-326]). [A CONFERIR: uso do comentário de Proclo a Euclides, que não aparece no livro V.]"
   },
   {
    "from": "ptolomeu",
@@ -648,7 +684,7 @@
    "from": "ptolomeu",
    "to": "kepler",
    "type": "influencia",
-   "desc": "Kepler comenta a Harmônica de Ptolomeu e reformula os aspectos"
+   "desc": "Kepler leu a Harmônica de Ptolomeu em manuscrito enviado por Herwart de Hohenburg, achou o livro III dedicado à mesma harmonia celeste, e viu na coincidência de quinze séculos um reforço; disse que Ptolomeu parecia ter 'recitado um agradável sonho pitagórico' (Harmonices Mundi V, Proêmio [268-269]). [A CONFERIR: comentário à Harmônica e reformulação dos aspectos (livro IV, Tertius Interveniens).]"
   },
   {
    "from": "ptolomeu",

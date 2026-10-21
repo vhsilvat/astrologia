@@ -19,7 +19,7 @@ Sistematiza o neoplatonismo e comenta o Timeu. É um dos canais pelos quais a Re
 
 ## Influenciou
 - [[Ficino]] · Ficino leu e usou Proclo
-- [[Kepler]] · Kepler usa o comentário de Proclo a Euclides
+- [[Kepler]] · Kepler cita longamente o hino de Proclo ao Sol e discute a filosofia de Proclo (Harmonices Mundi V, cap. 10 [325-326]). [A CONFERIR: uso do comentário de Proclo a Euclides, que não aparece no livro V.]
 
 ## Foi influenciada por
 - [[Jâmblico]] · Proclo herda a teurgia de Jâmblico

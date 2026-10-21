@@ -27,7 +27,6 @@ O Timeu faz a Alma do Mundo com razões harmônicas e trata os astros como deuse
 - [[Cícero]] · O Sonho de Cipião é modelado no Mito de Er
 - [[Ficino]] · Ficino traduziu Platão (1484)
 - [[Guilherme de Conches]] · Glosae super Platonem: comentário ao Timeu
-- [[Corpus Hermeticum]] · Os Hermetica foram fortemente influenciados pelo platonismo médio e pelo estoicismo, com elementos egípcios em alguns tratados. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]
 - [[C. G. Jung]] · As formas de Platão são uma das fontes do conceito de arquétipo em Jung.
 - [[Nicômaco]] · Nicômaco é neopitagórico de inspiração platônica
 
@@ -36,6 +35,7 @@ O Timeu faz a Alma do Mundo com razões harmônicas e trata os astros como deuse
 - [[Orfismo]] · Platão cita doutrinas órficas (Fédon, Crátilo, República)
 
 ## Relação debatida com
+- [[Corpus Hermeticum]] · As raízes dos Hermetica são disputadas: Reitzenstein as via egípcias; Zielinski, gregas (peripatéticas, platônicas e panteístas); J. Kroll, no estoicismo médio, em Posidônio e em Fílon; Bousset disse que 'os Hermetica pertencem à história da piedade, não da filosofia'. No séc. XII, o Asclepius foi lido em relação ao Timeu. Fonte: Copenhaver, Hermetica (1992), Introdução.
 - [[Sethianos]] · Estudos associam o demiurgo sethiano (Yaldabaoth) ao demiurgo do Timeu e veem influência do platonismo médio; Plotino contesta a leitura que fazem de Platão.
 
 ## Relação debatida com

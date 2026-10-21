@@ -15,7 +15,7 @@ tags: [genealogia, astrologia]
 Observações de Marte; catálogo estelar de 1.000 estrelas (1597)
 
 ## Por que importa
-Astrônomo que também fazia horóscopos (para a corte e para patronos), sem publicar muito disso. Kepler foi seu assistente por cerca de um ano, até 1601, e usou os registros de Marte para deduzir suas leis do movimento planetário. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]
+Kepler baseou nas observações de Brahe o trabalho que levou à lei dos períodos: 'meu trabalho de dezessete anos sobre as observações de Brahe' (Harmonices Mundi V, cap. 3 [279]); visitou Brahe e foi morar em Praga (Proêmio [268-269]). Que Brahe fazia horóscopos e publicou pouco disso: [FONTE A SUBSTITUIR: biografia acadêmica, por exemplo Thoren, The Lord of Uraniborg]. Fonte: Kepler, Harmonices Mundi, livro V (trad. Wallis, 1939).
 
 ## Influenciou
-- [[Kepler]] · Kepler foi assistente de Tycho por cerca de um ano e usou seus registros de Marte para deduzir as leis do movimento planetário.
+- [[Kepler]] · Kepler fundou a lei dos períodos no 'trabalho de dezessete anos sobre as observações de Brahe' e visitou Brahe antes de se estabelecer em Praga (Harmonices Mundi V, Proêmio e cap. 3 [279]).

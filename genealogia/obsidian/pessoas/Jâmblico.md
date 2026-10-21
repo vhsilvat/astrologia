@@ -23,3 +23,6 @@ Discípulo de Porfírio que discorda do mestre: a teurgia, e não só o intelect
 ## Influenciou
 - [[Ficino]] · Ficino traduziu o De Mysteriis (1497)
 - [[Proclo]] · Proclo herda a teurgia de Jâmblico
+
+## Preserva ou relata
+- [[Pitágoras]] · A lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), narrada em Jâmblico, Vida de Pitágoras 115ss. Fonte: Burkert (1972), nota 28.
