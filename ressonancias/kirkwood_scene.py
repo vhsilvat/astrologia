@@ -272,7 +272,7 @@ class Lacunas(Scene):
         self.tocar("drone_esferas.wav", gain=-16)
 
         ver = json.load(open(DADOS / "verificacao.json"))
-        snaps = np.load(DADOS / "kirkwood_snapshots.npz")
+        snaps = np.load(DADOS / "kirkwood_v2_snapshots.npz")
         orb = np.load(DADOS / "kirkwood_orbital.npz")
 
         legenda = texto("A ressonância limpa em vez de construir", 28, GRUV_AQUA, slant=ITALIC)
@@ -383,17 +383,19 @@ class Lacunas(Scene):
         ts = snaps["t"]
         hist = []
         for k in range(len(ts)):
-            a = snaps["a"][k][snaps["vivo"][k]]
+            a = snaps["a"][k][snaps["vivo_marte"][k]]
             hist.append(contagens(a))
         ymax_s = max(h.max() for h in hist) * 1.15
         poly = poligono_hist(hist[0], ymax_s, GRUV_AQUA)
         ax2 = eixos()
         lin2 = linhas_ressonancia()
-        tit4 = texto("a simulação: 3.000 partículas, 200 mil anos", 36).to_edge(UP, buff=0.35)
-        sel4 = texto("MEDÍVEL (simulação própria: Sol, Júpiter e partículas de teste)", 20,
+        tit4 = texto("a simulação v2: 3.000 partículas, 500 mil anos", 36).to_edge(UP, buff=0.35)
+        sel4 = texto("MEDÍVEL (simulação própria: Sol, Júpiter, Saturno e partículas de teste)", 20,
                      GRUV_AQUA).next_to(tit4, DOWN, buff=0.12)
-        ini = texto("começam distribuídas por igual em a", 22, GRUV_GRAY).move_to([0.0, 1.9, 0])
-        self.play(FadeIn(tit4), FadeIn(sel4), FadeIn(ax2), FadeIn(lin2), FadeIn(poly), run_time=1.0)
+        regra = texto("removida: periélio q < 1,67 UA (proxy de Marte) ou r > 10 UA", 20,
+                      GRUV_GRAY).next_to(sel4, DOWN, buff=0.08)
+        ini = texto("começam distribuídas por igual em a, com e do dado real", 22, GRUV_GRAY).move_to([0.0, 1.9, 0])
+        self.play(FadeIn(tit4), FadeIn(sel4), FadeIn(regra), FadeIn(ax2), FadeIn(lin2), FadeIn(poly), run_time=1.0)
 
         def rot_t(t):
             if t == 0:
@@ -403,7 +405,7 @@ class Lacunas(Scene):
             return f"t = {t / 1e3:.0f} mil anos"
 
         rel = texto(rot_t(ts[0]), 30, GRUV_FG).move_to([5.2, 2.55, 0])
-        vivas = texto(f"vivas: {int(snaps['vivo'][0].sum())}", 22, GRUV_GRAY).next_to(rel, DOWN, buff=0.1)
+        vivas = texto(f"vivas: {int(snaps['vivo_marte'][0].sum())}", 22, GRUV_GRAY).next_to(rel, DOWN, buff=0.1)
         self.add(rel, vivas)
         self.play(FadeIn(ini), run_time=0.6)
         self.wait(2.0)
@@ -411,7 +413,7 @@ class Lacunas(Scene):
         for k in range(1, len(ts)):
             novo = poligono_hist(hist[k], ymax_s, GRUV_AQUA)
             rel_n = texto(rot_t(ts[k]), 30, GRUV_FG).move_to(rel.get_center())
-            viv_n = texto(f"vivas: {int(snaps['vivo'][k].sum())}", 22, GRUV_GRAY).next_to(rel_n, DOWN, buff=0.1)
+            viv_n = texto(f"vivas: {int(snaps['vivo_marte'][k].sum())}", 22, GRUV_GRAY).next_to(rel_n, DOWN, buff=0.1)
             self.play(poly.animate.become(novo), rel.animate.become(rel_n),
                       vivas.animate.become(viv_n), run_time=2.6)
             self.wait(1.2)
@@ -420,25 +422,31 @@ class Lacunas(Scene):
         def pct(v):
             return f"{v['variacao_pct']:+.0f}%".replace("-", "−")
 
-        final = ver["simulacao"][f"{ts[-1]:.0f}"]["ressonancias"]
-        sigmas = [abs(final[n]["sigma_poisson"]) for n in ("3:1", "5:2", "7:3", "2:1")]
-        a_tent = ver["tentativas"]["A"]["ressonancias_por_t"]["1000000"]["ressonancias"]["3:1"]
+        v2 = ver["v2"]
+        tf = f"{ts[-1]:.0f}"
+        mar = v2["criterios"]["marte_q<1,67"]
+        fim = mar[tf]["ressonancias"]
+        ini_ = mar["0"]["ressonancias"]
+        ant = v2["criterios"]["antigo_r<1_e>0,7"][tf]["ressonancias"]["3:1"]
         jpl = ver["jpl_sbdb"]["ressonancias"]
-        l1 = "aos 200 mil anos, em ±0,02 UA contra a vizinhança:"
-        l2 = ("simulação  " + " · ".join(f"{n} {pct(final[n])}" for n in ("3:1", "5:2", "7:3", "2:1"))
-              + f"  (até {max(sigmas):.1f}σ de ruído)".replace(".", ","))
-        l3 = f"até 1 milhão de anos, 800 partículas perto de 3:1: {pct(a_tent)}"
-        l4 = "dado real do JPL  " + " · ".join(f"{n} {pct(jpl[n])}" for n in ("3:1", "5:2", "7:3", "2:1"))
-        l5 = "esta simulação simples não abre as lacunas; o céu real as tem"
-        caixa = VGroup(texto(l1, 20, GRUV_GRAY), texto(l2, 20, GRUV_FG), texto(l3, 20, GRUV_FG),
-                       texto(l4, 20, GRUV_AQUA), texto(l5, 20, GRUV_YELLOW)
-                       ).arrange(DOWN, aligned_edge=LEFT, buff=0.1).move_to([0.0, 2.15, 0])
-        fundo = RoundedRectangle(corner_radius=0.08, width=caixa.width + 0.4, height=caixa.height + 0.3,
+        bi = v2["borda_interna"]["2.0-2.2"]
+        l1 = f"em ±0,02 UA de cada ressonância, contra a vizinhança, aos {ts[-1] / 1e3:.0f} mil anos:"
+        l2 = (f"simulação v2   3:1 {pct(fim['3:1'])} (em t = 0: {pct(ini_['3:1'])}) · 5:2 {pct(fim['5:2'])}"
+              f" · 7:3 {pct(fim['7:3'])} · 2:1 {pct(fim['2:1'])}")
+        l3 = (f"sem a remoção tipo Marte, o 3:1 chega só a {pct(ant)} "
+              f"({abs(ant['sigma_poisson']):.1f}σ)".replace(".", ","))
+        l4 = "dado real do JPL   " + " · ".join(f"{n} {pct(jpl[n])}" for n in ("3:1", "5:2", "7:3", "2:1"))
+        l5 = (f"borda interna, 2,0 a 2,2 UA: {bi['0']['vivas_marte']} partículas em t = 0, "
+              f"{bi[tf]['vivas_marte']} aos {ts[-1] / 1e3:.0f} mil anos")
+        l6 = "o 3:1 se esvazia; 5:2, 7:3 e 2:1 não: modelo planar, sem Marte como corpo"
+        caixa = VGroup(texto(l1, 22, GRUV_GRAY), texto(l2, 22, GRUV_FG), texto(l3, 22, GRUV_FG),
+                       texto(l4, 22, GRUV_AQUA), texto(l5, 22, GRUV_FG), texto(l6, 22, GRUV_YELLOW)
+                       ).arrange(DOWN, aligned_edge=LEFT, buff=0.14).move_to([0.0, 0.5, 0])
+        fundo = RoundedRectangle(corner_radius=0.08, width=caixa.width + 0.5, height=caixa.height + 0.4,
                                  color=GRUV_NEUT, stroke_width=1.5, fill_color=GRUV_BG,
-                                 fill_opacity=0.92).move_to(caixa)
-        self.play(FadeOut(VGroup(rel, vivas, sel4)), run_time=0.5)
+                                 fill_opacity=0.95).move_to(caixa)
+        self.play(FadeOut(VGroup(rel, vivas, sel4, regra, poly, ax2, lin2)), run_time=0.7)
         self.play(FadeIn(fundo), FadeIn(caixa), run_time=0.9)
-        self.play(Circumscribe(lin2[0], color=GRUV_RED), run_time=1.2)
-        self.wait(7.0)
-        self.play(FadeOut(VGroup(fundo, caixa, poly, ax2, lin2, tit4)), run_time=0.9)
+        self.wait(9.0)
+        self.play(FadeOut(VGroup(fundo, caixa, tit4)), run_time=0.9)
         self.wait(1.2)

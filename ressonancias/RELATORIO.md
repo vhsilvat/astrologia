@@ -5,9 +5,10 @@ Branch `claude/kirkwood-simulacao` (a partir da `master`). Executado em 21/out/2
 ## Resumo honesto
 
 - **Dado real (MEDÍVEL):** o histograma de 182.252 asteroides do JPL mostra as lacunas em 3:1, 5:2, 7:3 e 2:1 e a concentração em 3:2 (grupo Hilda).
-- **Simulação própria (MEDÍVEL, só como explicação):** com os parâmetros do prompt (e inicial ≤ 0,1, 2×10⁵ anos, 3.000 partículas) **nenhuma lacuna se abriu**. Os desvios em ±0,02 UA ficaram dentro de ≈1,3σ de ruído de contagem.
-- Três tentativas suplementares (abaixo), até 10⁶ anos, **também não abriram lacuna**. Não ajustei parâmetros até o efeito aparecer; a cena B mostra o resultado como ele é.
-- Efeito: a cena B mostra o dado real com lacunas e, depois, a simulação sem lacuna, com a frase "esta simulação simples não abre as lacunas; o céu real as tem". Não afirmo que a simulação explica as lacunas.
+- **Modelo v1** (Sol + Júpiter, e inicial ≤ 0,1, 2×10⁵ anos) e as tentativas A, B, C (até 10⁶ anos): **nenhuma lacuna**. Mantidos abaixo como resultados negativos.
+- **Modelo v2** (Sol + Júpiter + Saturno, e inicial do dado real, remoção por periélio q < 1,67 UA como proxy de Marte, 5×10⁵ anos): **o 3:1 se esvazia** (−8% em t = 0 → −60% aos 5×10⁵ anos, −4,4σ), mas **5:2, 7:3 e 2:1 não mostram lacuna** (−16%, −20%, +8%, todos dentro de ≈1,4σ). Com o critério antigo de remoção (r < 1 UA, e > 0,7) o 3:1 chega só a −20% (−1,5σ). Ou seja, o efeito no 3:1 depende do proxy de Marte, que é uma suposição declarada.
+- A borda interna (2,0 a 2,2 UA) perde 88% das partículas na v2 (287 → 34), observação extra do adendo.
+- A cena B mostra o dado real, a conta de Kepler, a vista orbital e a evolução da v2 com o resultado parcial dito na tela. Não afirmo que a simulação reproduz o cinturão: reproduz o esvaziamento do 3:1 e não os outros.
 
 ## Versões e execução
 
@@ -82,11 +83,50 @@ Não testei: partículas com e inicial ≥ 0,3 numa faixa larga, mais de 10⁶ a
 
 Ressalvas: 5:2 e 7:3 são mais fracas que 3:1 e 2:1 também no dado real (−66% e −37%). No 3:2, a vizinhança é quase vazia (os Hildas ficam isolados), então o percentual enorme só diz "muito mais que o fundo", não é uma razão comparável às outras.
 
+## Parte 5: modelo v2 (`kirkwood_sim_v2.py`, adendos 1 e 2 do prompt)
+
+As simulações v1 (principal, A, B, C) terminaram antes do adendo 2; os arquivos e logs foram preservados. A v2 grava em arquivos próprios (`kirkwood_v2_*`).
+
+Mudanças, definidas pelo adendo e não pelo resultado:
+
+1. **Excentricidade inicial do dado real.** Para cada partícula (a uniforme em [2,0; 4,2] UA), e sorteada entre os asteroides reais do JPL com |a_real − a| ≤ 0,05 UA (`sbdb_mba.json` e `sbdb_externo.json`). 109 partículas (a > ≈3,6 UA, onde há poucos objetos) não tiveram ao menos 5 vizinhos reais e receberam e uniforme em [0; 0,2]. e inicial médio 0,146, máximo 0,660.
+2. **Remoção.** Duas marcações na mesma integração: (a) critério de Marte: periélio q = a(1 − e) < 1,67 UA, ou r > 10 UA; (b) critério antigo: r < 1 UA, r > 10 UA ou e > 0,7. A partícula só sai da integração pelo critério antigo, então a contagem por Marte é a mesma partícula seguida até esse ponto.
+3. **Saturno.** Sol, Júpiter (9,5479×10⁻⁴ M☉, a = 5,2044 UA, e = 0,0489) e Saturno (2,858×10⁻⁴ M☉, a = 9,58 UA, e = 0,057). Sem usar o Horizons: elementos planares fixos (ϖ e longitude média aproximados de J2000: Júpiter ϖ = 14,73°, L = 34,40°; Saturno ϖ = 92,60°, L = 49,94°), declarados aqui. Massa de Mercúrio a Marte (≈5,97×10⁻⁶ M☉) somada à do Sol.
+4. **Limites do modelo:** planar; sem Marte como corpo; sem Vênus e Terra individuais; sem inclinação; sem interação entre partículas.
+5. **Desempenho.** 3 processos (`multiprocessing`), `nice` 10, `OMP_NUM_THREADS=1`; cada processo integra 1.000 partículas com o mesmo Sol, Júpiter e Saturno. Tempo total 1576 s (26 min), abaixo dos 45 a 60 min estimados. Passo 0,1 ano; checagem de remoção a cada 5 anos (não a cada passo).
+6. **Aviso do integrador.** Apareceu `Possible convergence issue. Timestep in Kepler solver is larger than one orbital period` durante a execução. Vem de partículas que mergulham perto do Sol (período < 0,1 ano) antes da checagem seguinte as remover. Não investiguei a fundo; essas partículas são removidas pelos dois critérios.
+7. Semente 20261021 (o conjunto de a iniciais é o mesmo da simulação principal v1; ω, M e e diferem). Snapshots em t = 0, 1e3, 1e4, 5e4, 1e5, 2e5 e 5e5 anos.
+
+### Resultado v2 (3.000 partículas, a de 2,0 a 4,2)
+
+Remoção tipo Marte (q < 1,67 UA):
+
+| t (anos) | vivas | 3:1 | 5:2 | 7:3 | 2:1 |
+|---|---|---|---|---|---|
+| 0 | 3000 | −8% (−0,6σ) | +20% | −20% | +20% |
+| 1×10³ | 2686 | −11% | +21% | −22% | −14% |
+| 1×10⁴ | 2534 | −35% (−2,6σ) | +12% | −17% | +2% |
+| 5×10⁴ | 2410 | −53% (−3,8σ) | +4% | −18% | +10% |
+| 1×10⁵ | 2319 | −53% (−3,8σ) | +3% | −17% | −2% |
+| 2×10⁵ | 2180 | −56% (−4,1σ) | +3% | −18% | −20% |
+| 5×10⁵ | 2067 | −60% (−4,4σ) | −16% (−1,1σ) | −20% (−1,4σ) | +8% (+0,6σ) |
+
+Critério antigo (sem proxy de Marte), 5×10⁵ anos, 2316 vivas: 3:1 −20% (−1,5σ), 5:2 −3%, 7:3 −21%, 2:1 +10%.
+
+Leitura:
+- O 3:1 mostra uma queda monotônica e acima de 4σ só com a remoção por Marte. Com o critério antigo, não passa de 1,5σ. Isso sugere que o esvaziamento em a ≈ 2,50 UA é feito por partículas que ganham excentricidade e cruzam a órbita de Marte; mas "sugere" é o limite: não testei, por exemplo, uma variante sem Saturno com a mesma remoção, então não separo o papel de Saturno e o da remoção.
+- 5:2, 7:3 e 2:1 não abrem lacuna em 5×10⁵ anos. O −20% no 7:3 já estava em t = 0 (acaso da semente), e o 2:1 oscila entre −20% e +10% sem tendência.
+- 3:2 (Hilda): +14% em t = 0 e +132% aos 5×10⁵ anos (+5,0σ). Parte disso é artefato do método (a vizinhança externa é esvaziada porque partículas com a ≳ 3,6 a 4,2 UA são removidas, o que reduz a referência). Não afirmo captura em 3:2.
+
+### Borda interna (observação extra)
+
+Partículas com a inicial em 2,0 a 2,2 UA vivas (critério de Marte): 287 (t = 0) → 264 (10³) → 248 (10⁴) → 212 (5×10⁴) → 170 (10⁵) → 81 (2×10⁵) → 34 (5×10⁵ anos). As outras faixas perdem pouco (2,2 a 2,5: 409 → 321; 2,5 a 3,0: 690 → 634; 3,0 a 3,5: 655 → 637; 3,5 a 4,2: 959 → 441, a perda forte vem da borda caótica de Júpiter). O dado real tem a borda interna do cinturão em ≈2,1 UA. O adendo associa isso à ressonância secular ν6 com Saturno; eu só observo a depleção, não identifiquei o mecanismo.
+
 ## Parte 3: cenas (`kirkwood_scene.py`)
 
 - **Gota** (~21 s): campo de ondas de duas fontes, matriz numpy 400×225 por quadro → `ImageMobject`, paleta Gruvbox. Rótulos "reforço" e "cancelamento" (o ponto do cancelamento fica na terceira linha nodal, |r₁−r₂| = 3λ/2), selo INTERPRETÁVEL (analogia), aviso de que a ressonância dos asteroides é gravitacional.
-- **Lacunas** (~81 s): histograma real com as linhas e a conta a = a_J (1/3)^(2/3) = 2,50 UA; vista de cima (500 partículas, 3:1 em vermelho, três voltas por volta de Júpiter); histograma da simulação em t = 0 a 2×10⁵ anos; quadro final com a comparação simulação × tentativa A × JPL. Legenda fixa "A ressonância limpa em vez de construir". Rótulos: dado real = MEDÍVEL; simulação = "MEDÍVEL (simulação própria: Sol, Júpiter e partículas de teste)".
-- Diferença em relação ao pedido: a cena B, item 4, não mostra "a lacuna se abrindo", porque a simulação não a abriu. Mostra o histograma sem lacuna e diz isso na tela.
+- **Lacunas** (~87 s): histograma real com as linhas e a conta a = a_J (1/3)^(2/3) = 2,50 UA; vista de cima (500 partículas, 3:1 em vermelho, três voltas por volta de Júpiter; dados da v1, 50 anos); histograma da simulação v2 em t = 0 a 5×10⁵ anos; quadro final comparando v2 × critério antigo × JPL e a borda interna. Legenda fixa "A ressonância limpa em vez de construir". Rótulos: dado real = MEDÍVEL; simulação = "MEDÍVEL (simulação própria: Sol, Júpiter, Saturno e partículas de teste)".
+- Diferença em relação ao pedido: a cena B, item 4, não mostra a lacuna se abrindo em todas as ressonâncias: na v2 o 3:1 se esvazia e as outras não, e o quadro final diz isso na tela. O histograma de 0,01 UA com 3.000 partículas é ruidoso (≈14 por bin), então a queda do 3:1 aparece nos números do quadro final mais que a olho no gráfico.
 
 ## Parte 4: verificação visual
 
@@ -104,10 +144,10 @@ manim render -qh ../ressonancias/kirkwood_scene.py Lacunas
 Quadros em `ressonancias/frames/`:
 
 - `gota_ql_1s.png` (uma gota), `gota_ql_10s.png` (rótulos), `gota_ql_19s.png` (aviso final).
-- `lacunas_ql_3s.png` (histograma real), `lacunas_ql_8s.png` (conta de Kepler), `lacunas_ql_25s.png` (vista de cima), `lacunas_ql_45s.png` e `lacunas_ql_56s.png` (início e meio da simulação, histograma antes), `lacunas_ql_62s.png` e `lacunas_ql_70s.png` (histograma depois), `lacunas_ql_78s.png` (quadro final de comparação).
+- `lacunas_ql_3s.png` (histograma real), `lacunas_ql_8s.png` (conta de Kepler), `lacunas_ql_25s.png` (vista de cima), `lacunas_v2_ql_50s.png` e `lacunas_v2_ql_56s.png` (início da v2, histograma antes), `lacunas_v2_ql_62s.png` e `lacunas_v2_ql_68s.png` (histograma depois), `lacunas_v2_ql_final.png` (quadro final de comparação).
 
 Os renders finais `-qh` (1920x1080, 60 fps) ficam em `output/media/videos/kirkwood_scene/1080p60/` (a pasta `media/` é ignorada pelo git, como no resto do projeto).
 
 ## Arquivos
 
-`kirkwood_sim.py`, `kirkwood_verify.py`, `kirkwood_scene.py`, `dados/` (`kirkwood_snapshots.npz`, `kirkwood_orbital.npz`, `kirkwood_tent_{A,B,C}.npz`, `sbdb_mba.json`, `sbdb_externo.json`, `verificacao.json`), `frames/`.
+`kirkwood_sim.py` (v1), `kirkwood_sim_v2.py`, `kirkwood_verify.py`, `kirkwood_scene.py`, `dados/` (`kirkwood_snapshots.npz`, `kirkwood_orbital.npz`, `kirkwood_tent_{A,B,C}.npz`, `kirkwood_v2_snapshots.npz` (e `_w{0,1,2}` parciais), `sbdb_mba.json`, `sbdb_externo.json`, `verificacao.json`), `frames/`.

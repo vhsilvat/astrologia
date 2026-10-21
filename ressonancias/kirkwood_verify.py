@@ -89,6 +89,31 @@ def main():
         saida["tentativas"][nome] = {"n": int(d["n"]), "a0": [round(amin, 3), round(amax, 3)],
                                       "e0_max": round(float(d["e0"].max()), 3), "ressonancias_por_t": res,
                                       "tempo_execucao_s": round(float(d["tempo_execucao_s"]))}
+    f2 = DADOS / "kirkwood_v2_snapshots.npz"
+    if f2.exists():
+        d = np.load(f2)
+        v2 = {"n": int(d["n"]), "e0_media": round(float(d["e0"].mean()), 3),
+              "e0_sem_dado": int(d["e0_sem_dado"]), "tempo_execucao_s": round(float(d["tempo_execucao_s"])),
+              "criterios": {}, "borda_interna": {}}
+        for crit, chave in (("marte_q<1,67", "vivo_marte"), ("antigo_r<1_e>0,7", "vivo_old")):
+            por_t = {}
+            for k, t in enumerate(d["t"]):
+                viv = d[chave][k]
+                a = d["a"][k][viv]
+                a = a[(a >= FAIXA[0]) & (a <= FAIXA[1])]
+                por_t[f"{t:.0f}"] = {"vivas": int(viv.sum()), "ressonancias": tabela(a)}
+            v2["criterios"][crit] = por_t
+        a0 = d["a0"]
+        for lo, hi in ((2.0, 2.2), (2.2, 2.5), (2.5, 3.0), (3.0, 3.5), (3.5, 4.2)):
+            m = (a0 >= lo) & (a0 < hi)
+            linha = {}
+            for k, t in enumerate(d["t"]):
+                viv = d["vivo_marte"][k] & m
+                linha[f"{t:.0f}"] = {"inicio": int(m.sum()), "vivas_marte": int(viv.sum()),
+                                      "e_medio_vivas": round(float(d["e"][k][viv].mean()), 3) if viv.any() else None}
+            v2["borda_interna"][f"{lo}-{hi}"] = linha
+        saida["v2"] = v2
+        print("v2:", json.dumps(v2["criterios"]["marte_q<1,67"][f"{d['t'][-1]:.0f}"]["ressonancias"]))
     real = carrega_sbdb()
     saida["jpl_sbdb"] = {"n": int(real.size), "ressonancias": tabela(real)}
     json.dump(saida, open(DADOS / "verificacao.json", "w"), indent=1, ensure_ascii=False)
