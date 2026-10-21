@@ -88,7 +88,7 @@
    "lane": "astro.critica",
    "dy": 2,
    "work": "Sidereus Nuncius (1610); Diálogo (1632)",
-   "why": "Estudou astrologia, então disciplina ligada à matemática, à astronomia e à medicina. Rejeitou a ideia, defendida por Kepler e conhecida desde a Antiguidade, de que a Lua causa as marés. Fonte: Wikipedia (Galileo Galilei); não confirmado nessa fonte que ele tenha feito horóscopos."
+   "why": "Estudou astrologia, então disciplina ligada à matemática, à astronomia e à medicina. Rejeitou a ideia, defendida por Kepler e conhecida desde a Antiguidade, de que a Lua causa as marés. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "id": "casaubon",
@@ -128,7 +128,7 @@
    "lane": "astro.critica",
    "dy": -2,
    "work": "A double-blind test of astrology, Nature 318, 419-425 (5/dez/1985)",
-   "why": "Teste duplo-cego: astrólogos indicados pelo NCGR (28, segundo a Wikipedia) tentaram casar mapas natais com perfis do California Psychological Inventory, instrumento que eles mesmos aceitaram como teste justo. O acerto não passou do acaso. Conclusão do autor: refuta a hipótese astrológica. Há reanálises e críticas ao teste (conferir antes de citar). Fonte: Wikipedia (Shawn Carlson)."
+   "why": "Teste duplo-cego: astrólogos indicados pelo NCGR (28, segundo fonte provisória) tentaram casar mapas natais com perfis do California Psychological Inventory, instrumento que eles mesmos aceitaram como teste justo. O acerto não passou do acaso. Conclusão do autor: refuta a hipótese astrológica. Há reanálises e críticas ao teste (conferir antes de citar). [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "id": "empedocles",
@@ -298,7 +298,7 @@
    "lane": "astro.mito",
    "dy": -1,
    "work": "Veritatis Proscenium (1621); Monochordon Mundi (1622)",
-   "why": "Médico paracelsiano e astrólogo; defende a abordagem hermética da harmonia cósmica contra a matemática de Kepler. Kepler o critica num apêndice da Harmonices Mundi (1619); Fludd responde em 1621. Copenhaver: Kepler o acusou de teósofo, e acertou. Fonte: Wikipedia (Robert Fludd); Vickers e Westman, Occult and Scientific Mentalities (1984), cap. sobre Jung, Pauli e a polêmica Kepler–Fludd."
+   "why": "Médico paracelsiano e astrólogo; defende a abordagem hermética da harmonia cósmica contra a matemática de Kepler. Kepler o critica num apêndice da Harmonices Mundi (1619); Fludd responde em 1621. Copenhaver: Kepler o acusou de teósofo, e acertou. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.] sobre Jung, Pauli e a polêmica Kepler–Fludd."
   },
   {
    "id": "pitagoras",
@@ -328,7 +328,7 @@
    "lane": "astro.pitag",
    "dy": -1,
    "work": "Manual de Harmônica; Introdução à Aritmética",
-   "why": "Neopitagórico: fixa a tradição que liga número, música e cosmos e que chegará a Boécio. O Manual de Harmônica traz o registro mais antigo que sobrevive da lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), cerca de seis séculos depois de Pitágoras. É lenda; o princípio físico correto é comprimento, tensão e densidade (fonte: Wikipedia, Nicomachus; conferir o capítulo antes de citar)."
+   "why": "Neopitagórico: fixa a tradição que liga número, música e cosmos e que chegará a Boécio. O Manual de Harmônica traz o registro mais antigo que sobrevive da lenda dos martelos do ferreiro (a altura do som decidida por razões numéricas), cerca de seis séculos depois de Pitágoras. É lenda; o princípio físico correto é comprimento, tensão e densidade [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "id": "macrobio",
@@ -348,7 +348,7 @@
    "lane": "astro.pitag",
    "dy": 1,
    "work": "De institutione musica",
-   "why": "Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas na Idade Média. Seu tratado se baseia no Manual de Harmônica de Nicômaco. Ligação direta com Kepler não está documentada neste mapa."
+   "why": "Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas até Kepler. [A CONFERIR: Boécio → Macróbio e Macróbio → Kepler ainda sem aresta documentada no mapa.]"
   },
   {
    "id": "kepler",
@@ -478,7 +478,7 @@
    "lane": "astro.tecnica",
    "dy": -1,
    "work": "Observações de Marte; catálogo estelar de 1.000 estrelas (1597)",
-   "why": "Astrônomo que também fazia horóscopos (para a corte e para patronos), sem publicar muito disso. Kepler foi seu assistente por cerca de um ano, até 1601, e usou os registros de Marte para deduzir suas leis do movimento planetário. Fonte: Wikipedia (Tycho Brahe)."
+   "why": "Astrônomo que também fazia horóscopos (para a corte e para patronos), sem publicar muito disso. Kepler foi seu assistente por cerca de um ano, até 1601, e usou os registros de Marte para deduzir suas leis do movimento planetário. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "id": "lilly",

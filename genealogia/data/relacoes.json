@@ -66,7 +66,7 @@
    "from": "bernardo-chartres",
    "to": "guilherme-conches",
    "type": "mestre",
-   "desc": "Guilherme estudou com Bernardo em Chartres (Wikipedia, William of Conches e Bernard of Chartres; conferir em fonte primária antes de citar no canal)"
+   "desc": "Guilherme estudou com Bernardo em Chartres [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "bernardo-chartres",
@@ -180,7 +180,7 @@
    "from": "ficino",
    "to": "agrippa",
    "type": "influencia",
-   "desc": "Agrippa estudou as obras de Ficino na Itália do norte. Fonte: Wikipedia (Agrippa)."
+   "desc": "Agrippa estudou as obras de Ficino na Itália do norte. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "ficino",
@@ -198,13 +198,13 @@
    "from": "galileu",
    "to": "kepler",
    "type": "critica",
-   "desc": "Galileu rejeitou a ideia, defendida por Kepler, de que a Lua causa as marés. Fonte: Wikipedia (Galileo Galilei)."
+   "desc": "Galileu rejeitou a ideia, defendida por Kepler, de que a Lua causa as marés. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "guilherme-conches",
    "to": "joao-salisbury",
    "type": "mestre",
-   "desc": "Ensinou gramática a João em Chartres, em 1137–1138 (Wikipedia, John of Salisbury e William of Conches)"
+   "desc": "Ensinou gramática a João em Chartres, em 1137–1138 [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "hermes",
@@ -228,7 +228,7 @@
    "from": "hermetica",
    "to": "caibalion",
    "type": "reivindicada",
-   "desc": "O livro diz transmitir os ensinamentos de Hermes Trismegisto. É tratado ocultista moderno (New Thought, 1908); só parte das ideias, como Mentalismo e o como acima assim abaixo, tem raiz hermética. Fonte: Wikipedia (The Kybalion)."
+   "desc": "O livro diz transmitir os ensinamentos de Hermes Trismegisto. É tratado ocultista moderno (New Thought, 1908); só parte das ideias, como Mentalismo e o como acima assim abaixo, tem raiz hermética. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "hermetica",
@@ -240,7 +240,7 @@
    "from": "hermetica",
    "to": "fludd",
    "type": "influencia",
-   "desc": "Fludd defende a abordagem hermética e paracelsiana da harmonia do cosmos, a partir de um ponto de vista platônico (Veritatis Proscenium, 1621). Fonte: Wikipedia (Robert Fludd)."
+   "desc": "Fludd defende a abordagem hermética e paracelsiana da harmonia do cosmos, a partir de um ponto de vista platônico (Veritatis Proscenium, 1621). [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "hermetica",
@@ -258,7 +258,7 @@
    "from": "hermetica",
    "to": "tabua-esmeralda",
    "type": "reivindicada",
-   "desc": "O texto se atribui a Hermes Trismegisto, mas é obra árabe do séc. VIII–IX e não está no Corpus Hermeticum. Fonte: Wikipedia (Emerald Tablet)."
+   "desc": "O texto se atribui a Hermes Trismegisto, mas é obra árabe do séc. VIII–IX e não está no Corpus Hermeticum. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "hermetica",
@@ -390,13 +390,13 @@
    "from": "jung",
    "to": "tarnas",
    "type": "influencia",
-   "desc": "Tarnas usa a sincronicidade de Jung para sustentar um elo acausal entre o mundo exterior e a psique. Fonte: Wikipedia (Cosmos and Psyche)."
+   "desc": "Tarnas usa a sincronicidade de Jung para sustentar um elo acausal entre o mundo exterior e a psique. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "kepler",
    "to": "fludd",
    "type": "critica",
-   "desc": "Kepler critica a teoria de harmonia cósmica de Fludd num apêndice da Harmonices Mundi (1619); Fludd responde em 1621. Fonte: Wikipedia (Robert Fludd)."
+   "desc": "Kepler critica a teoria de harmonia cósmica de Fludd num apêndice da Harmonices Mundi (1619); Fludd responde em 1621. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "kepler",
@@ -504,13 +504,13 @@
    "from": "pico",
    "to": "agrippa",
    "type": "influencia",
-   "desc": "Agrippa estudou as obras de Pico e a Cabala. Fonte: Wikipedia (Agrippa)."
+   "desc": "Agrippa estudou as obras de Pico e a Cabala. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "pico",
    "to": "golden-dawn",
    "type": "influencia",
-   "desc": "A cabala hermética que a Golden Dawn desenvolve nasce da cabala cristã renascentista, da qual Pico é um marco. Elo de tradição, não de leitura direta. Fonte: Wikipedia (Hermetic Qabalah)."
+   "desc": "A cabala hermética que a Golden Dawn desenvolve nasce da cabala cristã renascentista, da qual Pico é um marco. Elo de tradição, não de leitura direta. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "pitagoras",
@@ -534,7 +534,7 @@
    "from": "pitagoras",
    "to": "kepler",
    "type": "influencia",
-   "desc": "Kepler retoma a ideia pitagórica de harmonia nos céus (Harmonices Mundi, 1619), mas abandona a afinação pitagórica como base da consonância e distingue Deus geômetra de numerologia pitagórica. Fonte: Wikipedia (Harmonice Mundi)."
+   "desc": "Kepler assume a herança pitagórica da harmonia das esferas. [A CONFERIR no Harmonices Mundi (o Victor tem o livro): em que medida Kepler assume ou rejeita essa herança.]"
   },
   {
    "from": "pitagoras",
@@ -570,7 +570,7 @@
    "from": "platao",
    "to": "hermetica",
    "type": "influencia",
-   "desc": "Os Hermetica foram fortemente influenciados pelo platonismo médio e pelo estoicismo, com elementos egípcios em alguns tratados. Fonte: Wikipedia (Hermetica)."
+   "desc": "Os Hermetica foram fortemente influenciados pelo platonismo médio e pelo estoicismo, com elementos egípcios em alguns tratados. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]"
   },
   {
    "from": "platao",

@@ -21,7 +21,7 @@ Fundador da psicologia analítica. Chamou a astrologia de soma do conhecimento p
 - [[Liz Greene]] · A astrologia psicológica de Greene usa a psicologia analítica como base.
 - [[Stanton Marlan]] · The Black Sun (2008) lê o sol negro pela psicologia analítica e alquímica.
 - [[Dane Rudhyar]] · Rudhyar estudava Jung enquanto aprendia astrologia e passou a combinar as duas coisas.
-- [[Richard Tarnas]] · Tarnas usa a sincronicidade de Jung para sustentar um elo acausal entre o mundo exterior e a psique. Fonte: Wikipedia (Cosmos and Psyche).
+- [[Richard Tarnas]] · Tarnas usa a sincronicidade de Jung para sustentar um elo acausal entre o mundo exterior e a psique. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]
 
 ## Foi influenciada por
 - [[Basilides]] · Em 1916 Jung imprimiu em privado os Septem Sermones ad Mortuos, atribuídos por ele a Basilides de Alexandria.

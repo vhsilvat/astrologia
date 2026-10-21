@@ -18,8 +18,8 @@ Disputationes adversus astrologiam divinatricem (1496)
 Crítica renascentista completa: os astros têm efeitos físicos, mas a adivinhação por casas e signos não tem base. Ataca Abu Ma’shar.
 
 ## Influenciou
-- [[Agrippa]] · Agrippa estudou as obras de Pico e a Cabala. Fonte: Wikipedia (Agrippa).
-- [[Golden Dawn]] · A cabala hermética que a Golden Dawn desenvolve nasce da cabala cristã renascentista, da qual Pico é um marco. Elo de tradição, não de leitura direta. Fonte: Wikipedia (Hermetic Qabalah).
+- [[Agrippa]] · Agrippa estudou as obras de Pico e a Cabala. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]
+- [[Golden Dawn]] · A cabala hermética que a Golden Dawn desenvolve nasce da cabala cristã renascentista, da qual Pico é um marco. Elo de tradição, não de leitura direta. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]
 
 ## Foi influenciada por
 - [[Agostinho]] · Pico reaproveita argumentos de Agostinho

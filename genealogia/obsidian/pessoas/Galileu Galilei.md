@@ -15,7 +15,7 @@ tags: [genealogia, astrologia]
 Sidereus Nuncius (1610); Diálogo (1632)
 
 ## Por que importa
-Estudou astrologia, então disciplina ligada à matemática, à astronomia e à medicina. Rejeitou a ideia, defendida por Kepler e conhecida desde a Antiguidade, de que a Lua causa as marés. Fonte: Wikipedia (Galileo Galilei); não confirmado nessa fonte que ele tenha feito horóscopos.
+Estudou astrologia, então disciplina ligada à matemática, à astronomia e à medicina. Rejeitou a ideia, defendida por Kepler e conhecida desde a Antiguidade, de que a Lua causa as marés. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]
 
 ## Criticou
-- [[Kepler]] · Galileu rejeitou a ideia, defendida por Kepler, de que a Lua causa as marés. Fonte: Wikipedia (Galileo Galilei).
+- [[Kepler]] · Galileu rejeitou a ideia, defendida por Kepler, de que a Lua causa as marés. [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]

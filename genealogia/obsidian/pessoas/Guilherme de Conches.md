@@ -18,10 +18,10 @@ Glosae super Platonem; Glosae super Boetium; De Philosophia Mundi
 Aluno de Bernardo em Chartres. Comenta o Timeu e a Consolação de Boécio. Numa glosa a Prisciano (1123) aparece a mais antiga atestação documentada da imagem do anão nos ombros do gigante.
 
 ## Mestre de
-- [[João de Salisbury]] · Ensinou gramática a João em Chartres, em 1137–1138 (Wikipedia, John of Salisbury e William of Conches)
+- [[João de Salisbury]] · Ensinou gramática a João em Chartres, em 1137–1138 [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]
 
 ## Discípulo de
-- [[Bernardo de Chartres]] · Guilherme estudou com Bernardo em Chartres (Wikipedia, William of Conches e Bernard of Chartres; conferir em fonte primária antes de citar no canal)
+- [[Bernardo de Chartres]] · Guilherme estudou com Bernardo em Chartres [FONTE A SUBSTITUIR: consulta provisória, não aceita pelo canal; trocar por livro ou artigo.]
 
 ## Foi influenciada por
 - [[Boécio]] · Glosae super Boetium: comentário à Consolação da Filosofia

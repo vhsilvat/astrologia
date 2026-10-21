@@ -209,7 +209,7 @@ Seis leituras para ver como o cristianismo nascente deu a gnose e o que a filoso
 
 - **Linhagem causal (física)**: [[Aristóteles]] → [[Estoicos]] → [[Ptolomeu]] → [[Abu Ma’shar]] → [[Guido Bonatti]] → [[William Lilly]] → [[Manílio]]
 - **Linhagem da correspondência**: [[Platão]] → [[Plotino]] → [[Porfírio]] → [[Jâmblico]] → [[Proclo]] → [[Ficino]] → [[Corpus Hermeticum]]
-- **Linhagem órfico-pitagórica**: [[Hesíodo]] → [[Orfismo]] → [[Pitágoras]] → [[Filolau]] → [[Platão]] → [[Nicômaco]] → [[Boécio]]
+- **Linhagem órfico-pitagórica**: [[Hesíodo]] → [[Orfismo]] → [[Pitágoras]] → [[Filolau]] → [[Platão]] → [[Nicômaco]] → [[Boécio]] → [[Macróbio]] → [[Kepler]]
 - **Linhagem junguiana**: [[Platão]] → [[Corpus Hermeticum]] → [[Robert Fludd]] → [[Kepler]] → [[Wolfgang Pauli]] → [[C. G. Jung]] → [[Dane Rudhyar]] → [[Liz Greene]] → [[Richard Tarnas]]
 - **Astrologia do século XX**: [[Alan Leo]] → [[Evangeline Adams]] → [[Dane Rudhyar]] → [[Liz Greene]]
 - **Quatro elementos**: [[Empédocles]] → [[Platão]] → [[Aristóteles]] → [[Ptolomeu]]

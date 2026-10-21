@@ -15,7 +15,7 @@ tags: [genealogia, astrologia]
 De institutione musica
 
 ## Por que importa
-Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas na Idade Média. Seu tratado se baseia no Manual de Harmônica de Nicômaco. Ligação direta com Kepler não está documentada neste mapa.
+Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas até Kepler. [A CONFERIR: Boécio → Macróbio e Macróbio → Kepler ainda sem aresta documentada no mapa.]
 
 ## Influenciou
 - [[Guilherme de Conches]] · Glosae super Boetium: comentário à Consolação da Filosofia
