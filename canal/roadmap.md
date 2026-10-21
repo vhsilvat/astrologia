@@ -43,49 +43,51 @@
 ### V1 · A Harmonia do Cosmos  `tijolos definidos · a gravar`
 *Título pendente. "Astrologia é Física (mas não como você imagina)" afirma mais do que o canal sustenta. Título e miniatura se decidem depois do roteiro, e valem tanto quanto o conteúdo.*
 
-**Alvo:** ≈14:30 (máx. 15).
+**Alvo:** ≈14:50 (máx. 15). Cada tijolo perdeu ≈15 s para caber o tijolo novo "Tudo vibra".
 **Abertura (≈1:20):** mostra as perguntas, não as respostas. Forja → monocórdio. O Victor aparece ≈25 s (a promessa), não nos primeiros 10 s.
 
-**T1 · A corda e a conta** — MEDÍVEL + lenda · ≈2:30
+**T1 · A corda e a conta** · MEDÍVEL + lenda · ≈2:15
 - **Pergunta:** por que certos sons soam bem juntos?
 - **Mostra:** forja → monocórdio; razões 2:1, 3:2, 4:3; o tom = 9:8 (epogdoon); Lissajous como inserto (consonância = curva fechada simples). A lenda dos martelos contada como lenda: o princípio certo é comprimento, tensão e densidade.
 - **Etimologia:** harmonía vem de *harmózō* (“ajustar, juntar”); *razão* vem de *ratio*, que traduz o grego *lógos*: a mesma palavra para proporção e para palavra/razão.
 - **Síntese:** consonância é razão de números inteiros pequenos, e o tetraktys (1:2:3:4) é a fonte desses números.
 - **Ponte:** isso é só coisa de instrumento?
 
-**T2 · Onda e partícula: do som à matéria** — MEDÍVEL + INTERPRETÁVEL (Fuller) · ≈3:15
-- **Pergunta:** isso aparece fora das cordas?
-- **Mostra:** modos da corda (nós e ventres) → Chladni em 2D (~10 s) → elétron no átomo como onda estacionária (de Broglie) → dupla fenda: o mesmo objeto se comporta como onda ou como partícula conforme a medida **[MEDÍVEL; a interpretação é disputada, rotular]**. Lente de Fuller **[INTERPRETÁVEL]**: em *Synergetics*, o metafísico (princípios generalizados) não é o físico (eventos de energia), e a mente discerne padrões enquanto o cérebro é um terminal físico. Não citar frase de Fuller sem conferir a edição e a página.
+**T2 · Tudo vibra** · MEDÍVEL + INTERPRETÁVEL · ≈2:15 **[NOVO]**
+- **Pergunta:** o que é, de fato, vibrar? E quanto disso a gente percebe?
+- **Mostra:** régua de frequências em oitavas (cada oitava dobra a frequência, a razão 2:1 do T1). Audição: 20 Hz a 20 kHz, ≈10 oitavas. Visão: ≈380 a 750 nm, razão ≈2:1, ou seja, ≈1 oitava. Rádio, wi-fi e micro-ondas ficam fora da janela dos sentidos. Duas famílias de onda: **mecânica** (perturba um meio material, como som e mar; sem meio não existe) e **eletromagnética** (oscila campos e atravessa o vácuo a c). O que vibra muda, o padrão é o mesmo (frequência, comprimento de onda, v = f·λ, superposição, interferência). É o primeiro exemplo de correspondência: um mapa que preserva estrutura. **Planetas como ciclos:** o período orbital é uma frequência (f = 1/T), uma onda no tempo (a sombra de um movimento circular uniforme numa reta é uma senoide). Terra: 1 ciclo por ano; Lua: ≈13 por ano; Júpiter: 1 a cada 11,86 anos. Não afirmar onda de matéria nem efeito físico dos planetas. Glândula pineal fica fora do V1 (em humanos ela não detecta frequência; secreta melatonina regulada pela luz que vem da retina); se aparecer, como símbolo e rotulada.
+- **Etimologia:** *vibrar* vem do latim *vibrare* (“agitar, tremer”); *frequência*, de *frequens* (“numeroso, repetido”); *espectro*, de *spectrum* (“imagem, aparição”, de *specere*, “olhar”). [conferir]
+- **Síntese:** o mundo é uma pilha de ciclos de frequências diferentes, e os sentidos pegam só uma fatia estreita.
+- **Ponte:** e a matéria, também é ciclo?
+
+**T3 · Onda e partícula: do som à matéria** · MEDÍVEL + INTERPRETÁVEL (Fuller) · ≈3:00
+- **Pergunta:** a matéria também vibra?
+- **Mostra:** modos da corda (nós e ventres) → Chladni em 2D (~10 s) → elétron no átomo como onda estacionária (de Broglie) → dupla fenda: o mesmo objeto se comporta como onda ou como partícula conforme a medida **[MEDÍVEL; a interpretação é disputada, rotular]**. Faixa de pessoas de ≈10 s, sem detalhar (de Broglie 1924 → Davisson e Germer 1927 → Jönsson 1961 → Arndt e Zeilinger 1999). Escada de massas em montagem de ≈20 s: elétron, C₆₀ (≈720 amu), moléculas de 810 átomos (2013) e de mais de 2.000 átomos, acima de 25.000 amu (2019). A bola de tênis fica fora da escada: λ ≈ 10⁻³⁴ m, sem interferência observável. Depois, o experimento em animação. Lente de Fuller **[INTERPRETÁVEL]**: em *Synergetics*, o metafísico (princípios generalizados) não é o físico (eventos de energia), e a mente discerne padrões enquanto o cérebro é um terminal físico. Não citar frase de Fuller sem conferir a edição e a página.
 - **Etimologia:** partícula = *particula*, diminutivo de *pars* (“parte”); matéria = *materia*, da família de *mater* (“mãe”); *matrix* = “útero, fonte”, também de *mater*. *Māyā* (sânscrito, de *mā*, “medir, formar”) é outra raiz: a ponte com matéria é conceitual, não etimológica. [conferir]
 - **Síntese:** onda confinada produz números inteiros. É o mesmo "n" da corda. E "partícula" é o nome que damos à onda quando a medimos num ponto (interpretação, rotular).
 - **Ponte:** e no céu?
 
-**T3 · O céu tem razões simples?** — MEDÍVEL + modelo histórico · ≈2:45
-- **Pergunta:** existe razão simples entre os corpos celestes?
-- **Mostra:** ressonâncias reais (Io:Europa:Ganimedes 1:2:4; Netuno–Plutão 3:2). Kepler: elipses (*Astronomia Nova*, 1609) e razões harmônicas entre velocidades angulares (*Harmonices Mundi*, 1619). Gravuras de Stanley e do esquema das esferas, redesenhadas em Manim. Planetas como ciclos: cada período orbital é uma frequência (f = 1/T) [MEDÍVEL]; não afirmar onda gravitacional nem maré sobre o corpo.
+**T4 · O céu e o estudo que o testa** · MEDÍVEL · HIPÓTESE · ≈3:15 **[T3 e T4 antigos fundidos]**
+- **Pergunta:** existe razão simples entre os corpos celestes, e alguém testou isso com dados?
+- **Mostra:** ressonâncias reais (Io:Europa:Ganimedes 1:2:4; Netuno–Plutão 3:2). Kepler: elipses (*Astronomia Nova*, 1609) e razões harmônicas entre velocidades angulares (*Harmonices Mundi*, 1619); gravuras de Stanley e do esquema das esferas redesenhadas em Manim. Estudo: Bank & Scafetta (2022): 5/4, 4/3, 3/2 e 8/5, p<0,001; Scafetta & Bianchini (2022): 9/8 com erro <1%. Dizer "propõe", não "demonstrou". Objeções honestas: Aristóteles (*Do Céu* II.9) e testes de previsão astrológica sem efeito (Carlson, *Nature*, 1985). Objeção física: a força de maré dos planetas sobre o corpo é desprezível; a resposta da tradição não é força, é correspondência (T5). Contexto histórico [fato histórico]: até o séc. XVII astronomia e astrologia eram a mesma disciplina (Ptolomeu, Brahe, Kepler e Galileu fizeram horóscopos). Isso mostra o contexto, não prova validade. Evitar Newton: a anedota com Halley é apócrifa.
 - **Etimologia:** planeta = *planētēs*, “errante”; cosmos = *kósmos*, “ordem, ornamento” (de onde vem cosmético).
-- **Síntese:** há razões simples no céu, e Kepler leu isso como o mesmo princípio da corda.
-- **Ponte:** então todos os planetas obedecem a razões musicais?
-
-**T4 · O estudo que propõe isso** — MEDÍVEL · HIPÓTESE · ≈1:45
-- **Pergunta:** alguém testou isso com dados?
-- **Mostra:** Bank & Scafetta (2022): 5/4, 4/3, 3/2 e 8/5, p<0,001. Scafetta & Bianchini (2022): 9/8 com erro <1%. Dizer "propõe", não "demonstrou". Objeções honestas: Aristóteles (*Do Céu* II.9) e os testes de previsão astrológica sem efeito (Carlson, *Nature*, 1985). Objeção física: a força de maré dos planetas sobre o corpo é desprezível; a resposta da tradição não é força, é correspondência (T5). Contexto histórico [fato histórico]: até o séc. XVII astronomia e astrologia eram a mesma disciplina (Ptolomeu, Brahe, Kepler e Galileu fizeram horóscopos). Isso mostra o contexto, não prova validade. Evitar Newton: a anedota com Halley é apócrifa.
-- **Síntese:** há um modelo recente, ainda hipótese. A tradição já propunha isso.
+- **Síntese:** há razões simples no céu, Kepler leu isso como o princípio da corda, e há um modelo recente que o testa, ainda hipótese.
 - **Ponte:** o que a tradição concluiu desse padrão?
 
-**T5 · Correspondência: o axioma** — INTERPRETÁVEL + VIVENCIAL · ≈2:30
+**T5 · Correspondência: o axioma** · INTERPRETÁVEL + VIVENCIAL · ≈2:15
 - **Pergunta:** o que a tradição fez com esse padrão?
-- **Mostra:** definição de correspondência: um mapa que preserva estrutura entre dois domínios (comprimento ↔ altura, razão ↔ intervalo), não uma semelhança qualquer. Três graus rotulados na tela: estrutural (MEDÍVEL) → simbólico (INTERPRETÁVEL) → espiritual (VIVENCIAL). Tábua de Esmeralda (versões árabes do séc. VIII–IX) e Mateus 6:10 como paralelo estrutural. Dizer uma vez que a lista dos sete princípios é do *Caibalion* (1908). No grau espiritual: analogia do plâncton nas ondas do mar (somos conduzidos por ciclos que não sentimos) [VIVENCIAL; como em Tarnas, correlação de sentido e não mecanismo]. Aqui a confirmação é a experiência vivida.
+- **Mostra:** definição de correspondência: um mapa que preserva estrutura entre dois domínios (comprimento ↔ altura, razão ↔ intervalo, onda mecânica ↔ onda eletromagnética), não uma semelhança qualquer. Três graus rotulados na tela: estrutural (MEDÍVEL) → simbólico (INTERPRETÁVEL) → espiritual (VIVENCIAL). Tábua de Esmeralda (versões árabes do séc. VIII–IX) e Mateus 6:10 como paralelo estrutural. Dizer uma vez que a lista dos sete princípios é do *Caibalion* (1908). No grau espiritual: analogia do plâncton nas ondas do mar (somos conduzidos por ciclos que não sentimos) [VIVENCIAL; como em Tarnas, correlação de sentido e não mecanismo]. Aqui a confirmação é a experiência vivida.
 - **Etimologia:** axioma = *axíōma*, “o que é julgado digno” (de *áxios*); correspondência = *cor-respondēre*, “responder em conjunto”.
 - **Síntese:** o axioma é um ponto de partida assumido como tal, e o canal inteiro parte dele **[LOCK]**.
 - **Ponte:** (opcional, uma frase) se a estrutura é proporção, o que a ordena? Sem responder. Depois, o gancho de saída.
 
-**Saída (≈0:30)** — **Gancho:** Áries começa no equinócio. É convenção, mas ancorada num ciclo natural e não nas estrelas. No hemisfério norte, onde a tradição nasceu. Próximo vídeo.
+**Saída (≈0:30)** · **Gancho:** Áries começa no equinócio. É convenção, mas ancorada num ciclo natural e não nas estrelas. No hemisfério norte, onde a tradição nasceu. Próximo vídeo.
 
 **Ajustes em relação à versão anterior**
 - Boécio sai do V1. A *Musica Humana* fica no V6, com no máximo 15 s de menção à *musica mundana*. **[PROPOSTO]**
 - “Kaftán 2023” → Bank & Scafetta (2022). “Planetas como ondas” voltou como ciclos com frequência (período orbital = 1/f), sem afirmar força sobre o corpo. A dualidade onda-partícula virou tijolo central (T2), com a lente de Fuller.
 - O lock é paralelo estrutural, não "palavra por palavra".
+- **Orçamento (21/out):** novo tijolo "Tudo vibra" (T2); "céu" e "estudo" fundidos (T4). A conta anterior fechava em 16:05, não em 15; cortei ≈15 s de cada tijolo e chegou a 14:50. A Lua e as lacunas de Kirkwood foram para o V2.
 
 **Leituras de apoio:** Kahn, *Pythagoras and the Pythagoreans* (2001) · Copenhaver, *Hermetica* (1992), para saber o que dizer sobre Hermes · o próprio *Caibalion* (1908), lido criticamente · Fuller & Applewhite, Synergetics (1975/79; texto em rwgrayprojects.com/synergetics) — conferir as frases antes de citar · Beekes, Etymological Dictionary of Greek (2010), para as raízes.
 
@@ -94,7 +96,7 @@
 ### V2 · Os Quatro Princípios  `esqueleto · depende de estudo`
 *Título provisório. **[PROPOSTO]** O tema central agora é "signo é ciclo, não constelação".*
 
-**Alvo:** ≈14 min. A data depende de o Victor estudar antes.
+**Alvo:** ≈14 min. A data depende de o Victor estudar antes. **[PENDENTE]** Com o tijolo da Lua (T3) o V2 passa de 15 min: decidir o corte (o opcional sai primeiro; os elementos podem virar vídeo próprio).
 
 **T1 · Constelação é referência, signo é setor** — MEDÍVEL + definição · ≈3:00
 - **Pergunta:** o signo é a constelação?
@@ -106,27 +108,34 @@
 - **Pergunta:** o que acontece nos equinócios e solstícios?
 - **Mostra:** declinação do Sol, dia = noite, os 4 pontos cardeais do ano. No hemisfério norte, onde a tradição nasceu (março é outono no Brasil). Big Dipper como relógio do ano **[PENDENTE: conferir a fonte]**.
 - **Síntese:** 4 pontos, 4 estações. Princípio do Ritmo.
+- **Ponte:** e os outros ciclos do céu, mexem com a vida?
+
+**T3 · A Lua e o relógio da vida** · MEDÍVEL + disputado · ≈3:30 **[NOVO]**
+- **Pergunta:** os ciclos do céu mexem com a vida na Terra?
+- **Mostra:** três camadas, com rótulo de evidência na tela. **ESTABELECIDO:** marés; relógio lunar de organismos marinhos (desova de corais na lua cheia, o verme palolo, o mosquito *Clunio*); o gatilho é a luz da Lua ou a maré, não a gravidade sobre o corpo. **DISPUTADO:** ciclo menstrual (média ≈28 dias, mas varia de 21 a 35; sincronia fraca ou inconsistente) e sono na lua cheia (replicações mistas); plantas: evidência irregular. **NÃO DEMONSTRADO:** efeito de outros planetas; testes controlados (Carlson, 1985) não acharam; aqui entra a correspondência. Depois, ressonâncias: as lacunas de Kirkwood no cinturão de asteroides (razões simples de período com Júpiter: 3:1 a 2,50 UA, 5:2 a 2,82, 7:3 a 2,95, 2:1 a 3,27) e uma simulação própria que as reproduz. A ressonância limpa em vez de construir. Anéis de Saturno: a Divisão de Cassini está em 2:1 com Mimas, e o limite de Roche explica por que os anéis não viram luas. A gota que quica (ondas que se reforçam e se cancelam) entra como analogia **[INTERPRETÁVEL]**, não como causa; parentesco com a onda-piloto (Couder e Fort; as réplicas da dupla fenda foram contestadas). Prompt do Claude Code em `canal/prompt_kirkwood.md`.
+- **Etimologia:** *lunar*, de *luna* (“a luminosa”); *mês* e *menstrual*, de *mensis*, da raiz *meh₁-* (“medir”): o mês é o tempo medido pela Lua. [conferir]
+- **Síntese:** o céu marca ritmos que a vida usa (provado onde há mecanismo: luz e maré). Nos planetas, o que há são razões de período, e a leitura tradicional é correspondência.
 - **Ponte:** e dentro de cada estação?
 
-**T3 · Início, meio e fim: as 3 modalidades** — MEDÍVEL + convenção · ≈2:00
+**T4 · Início, meio e fim: as 3 modalidades** — MEDÍVEL + convenção · ≈2:00
 - **Pergunta:** como se divide cada estação?
 - **Mostra:** cardinal (início), fixo (meio), mutável (fim). Ptolomeu os chama de signos tropicais, sólidos e bicorporais. 4 × 3 = 12.
 - **Síntese:** 12 signos = 4 estações × 3 estágios. A ligação limpa com as estações é a das modalidades.
 - **Ponte:** e os elementos?
 
-**T4 · Quatro elementos** — INTERPRETÁVEL (histórico) · ≈3:00 · **[PENDENTE: estudar antes]**
+**T5 · Quatro elementos** — INTERPRETÁVEL (histórico) · ≈3:00 · **[PENDENTE: estudar antes]**
 - **Pergunta:** de onde vêm fogo, terra, ar e água, e como se ligam aos signos?
 - **Mostra:** Empédocles (as quatro raízes) → Aristóteles (*Da Geração e da Corrupção* II.2–3: pares de qualidades, quente/frio e seco/úmido) → trígonos (signos a 120°). Cuidado: cada estação tem 3 elementos diferentes, então elementos não são estações.
 - **Síntese:** a definir depois do estudo.
 - **Ponte:** e a polaridade?
 
-**T5 · Polaridade e os três princípios** — INTERPRETÁVEL + VIVENCIAL · ≈2:30
+**T6 · Polaridade e os três princípios** — INTERPRETÁVEL + VIVENCIAL · ≈2:30
 - **Pergunta:** por que tudo vem em pares?
 - **Mostra:** signos alternam masculino e feminino; yang/yin; diagrama alquímico 1 → 2 → 3 → 4 (Caos → Nitrum/Sal → Mercúrio/Enxofre/Sal → quatro elementos) como tetraktys desdobrado **[PENDENTE: confirmar a fonte da imagem]**. Bohr e o lema *contraria sunt complementa* (1947) como ponte com a física.
 - **Síntese:** a série 1 → 2 → 3 → 4 do V1 reaparece como estrutura qualitativa.
 - **Ponte:** cada signo tem um nome e uma história. De onde vem?
 
-**T6 · Música das esferas → qualidade** — INTERPRETÁVEL (histórico) · ≈1:30 · **opcional (cortar se passar de 15 min)**
+**T7 · Música das esferas → qualidade** — INTERPRETÁVEL (histórico) · ≈1:30 · **opcional (cortar se passar de 15 min)**
 - **Pergunta:** se o céu é música, cada planeta tem a sua voz?
 - **Mostra:** Ptolomeu, *Harmônicos*; Kepler e o "moteto" de cada planeta (Saturno grave e lento, Mercúrio agudo e rápido).
 - **Síntese:** velocidade vira timbre: a qualidade de cada planeta.
@@ -142,6 +151,8 @@
 - Francesca Rochberg, *The Heavenly Writing* (2004) — origem mesopotâmica do zodíaco
 - Empédocles (fragmentos) e Hipócrates, *Da Natureza do Homem* (elementos, humores e estações) — complementares
 - *Caibalion* (1908), princípios 4 e 5 — para saber o que dizer, lido criticamente
+- Murray e Dermott, *Solar System Dynamics* (1999), cap. 8 (ressonâncias e lacunas de Kirkwood)
+- Helfrich-Förster et al., *Science Advances* (2021), ciclo menstrual e Lua [conferir]; Cajochen et al., *Current Biology* (2013), sono e lua cheia; Kaiser et al., *Nature* (2016), relógio lunar do *Clunio* [conferir]
 
 ### V3 · Os Signos como Arquétipos  `esqueleto · depende de estudo`
 

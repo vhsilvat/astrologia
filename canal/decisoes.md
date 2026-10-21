@@ -22,6 +22,8 @@
 - **[DECIDIDO]** O V2 parte de que as constelações são referenciais e de que o signo é um setor de 30° (ciclo natural). O Victor ainda precisa estudar antes de gravar (tropical × sideral, elementos × estações), então o V2 não tem data fixa.
 - **[DECIDIDO]** A dualidade onda-partícula é tijolo central do V1 (T2), com a lente de Fuller (mente × cérebro, metafísico × físico) como INTERPRETÁVEL. Planetas como ciclos com frequência (período orbital = 1/f) ficam no V1. Não se afirma força de onda sobre o corpo; a analogia do plâncton entra no grau espiritual (VIVENCIAL).
 - **[DECIDIDO]** Etimologia abre cada conceito-chave. A raiz é fato filológico; ler a raiz como pista do plano das ideias é interpretação, e vem rotulada.
+- **[DECIDIDO]** V1 reestruturado (21/out): T1 corda · T2 **Tudo vibra** (espectro em oitavas, famílias de onda, planetas como ciclos) · T3 onda e partícula (faixa de pessoas de ≈10 s, escada de massas de ≈20 s, experimento em animação) · T4 céu e estudo fundidos · T5 axioma. Orçamento ≈14:50. Isso substitui a "ordem do corpo" abaixo.
+- **[DECIDIDO]** A Lua (marés e ritmos marinhos) e as lacunas de Kirkwood vão para o V2, tijolo "A Lua e o relógio da vida". O V2 passa de 15 min com ele: decidir o corte. Prompt do Claude Code: `canal/prompt_kirkwood.md`.
 - **[PROPOSTO]** Ordem de exposição: dentro de cada vídeo, do caso concreto ao princípio (o princípio é nomeado no fim); na série, cada vídeo sustenta o seguinte, do mensurável ao inefável.
 - **[PROPOSTO]** Princípios do *Caibalion*: V1 = Vibração + Correspondência (Mentalismo só plantado como pergunta, sem resposta); V2 = Polaridade + Ritmo. O Nous é plantado no V1, e aparece com Anaxágoras e o *Timeu* no V4 e com Plotino no V6, até o V8.
 
@@ -57,6 +59,11 @@
 - **Hemisfério:** março é outono no Brasil. Ao falar de Áries/equinócio, dizer "no hemisfério norte, onde a tradição nasceu".
 - **Psykhé:** não foi criada por Platão. É de *psýchein* ("soprar"); em Homero é o sopro vital e a sombra que deixa o corpo. Platão a transforma na alma racional e imortal. "Psicologia" é do séc. XVI (provavelmente Melanchthon).
 - **Fuller:** o par metafísico/físico (U = MP) e "eventos de energia" estão confirmados. A frase sobre o "paradoxo onda-partícula" não foi localizada; só citar após conferir a edição e a página.
+- **Bola de tênis:** nunca se observou interferência de matéria com objeto assim. λ = h/p ≈ 10⁻³⁴ m. O recorde é de moléculas com mais de 2.000 átomos e mais de 25.000 amu (Fein et al., *Nature Physics*, 2019).
+- **Planeta como onda de matéria:** λ da Terra ≈ 4×10⁻⁶³ m, inobservável. O que vale é o ciclo (f = 1/T). Um corpo em órbita estável não irradia "vibração" relevante.
+- **Lua e vida:** estabelecido (marés; ritmos lunares de organismos marinhos, com gatilho de luz ou maré), disputado (ciclo menstrual, sono) e não demonstrado (outros planetas). Não escrever "comprovadamente" para os dois últimos.
+- **Sentidos e ondas:** o ouvido capta onda mecânica; olho, rádio, wi-fi e micro-ondas são ondas eletromagnéticas. Audição ≈10 oitavas, visão ≈1 oitava. A glândula pineal humana não detecta uma faixa de frequência (secreta melatonina, regulada pela luz da retina).
+- **Lacunas de Kirkwood:** a ressonância com Júpiter limpa o cinturão, em vez de construir planeta. Os anéis de Saturno não viram luas principalmente pelo limite de Roche.
 - **Caibalion:** os sete princípios herméticos, na forma popular, vêm do *Caibalion* (Chicago, 1908, "Três Iniciados", em geral atribuído a William Walker Atkinson, do New Thought), não de textos antigos de Hermes. Dizer "formulação moderna da tradição". "Vibração" é a que menos tem formulação antiga.
 - **Hermetica:** o *Corpus Hermeticum* é dos séc. I–III d.C., posterior a Pitágoras e Platão. Casaubon o redatou em 1614 (Ficino o julgava anterior a Moisés). "O axioma vem de Hermes" é atribuição da tradição, não cronologia.
 - **Demiurgo:** termo platônico (*Timeu*), não gnóstico. Em Platão ele é bom; os gnósticos (séc. II) inverteram o valor.
