@@ -1,0 +1,71 @@
+# Prompt para o Claude Code: lacunas de Kirkwood e ondas da gota
+
+Uso no V2, tijolo "A Lua e o relógio da vida" (ver `canal/roadmap.md`). Quem executa: Claude Code local do Victor.
+
+## Antes de começar
+
+Leia `CLAUDE.md`, `canal/decisoes.md`, o tijolo T3 do V2 em `canal/roadmap.md`, `canal/manim_referencia.md` e um molde aprovado (procure `monocordio_harpa.py` e `harmonia_corda.py` no repositório). Trabalhe numa branch nova, `claude/kirkwood-simulacao`, a partir da `master`. Não faça merge na `master`. Valide, renderize, commite e dê push você mesmo. Se precisar decidir algo, escolha o padrão mais simples e anote no relatório; não pare para perguntar.
+
+## Objetivo
+
+Duas cenas em Manim CE, 1920x1080 a 60 fps no padrão visual do canal (Gruvbox estrito, EB Garamond, textos em português do Brasil, sem travessão como pausa), apoiadas num dado que dê para verificar. O estatuto de cada cena vai rotulado na tela com os termos do canal: MEDÍVEL, INTERPRETÁVEL.
+
+## Parte 1: simulação numérica (`ressonancias/kirkwood_sim.py`)
+
+- Problema restrito e planar: Sol (1 massa solar), Júpiter (9,5479e-4 massa solar, a = 5,2044 UA, e = 0,0489) e N = 3000 partículas de teste sem massa, com a uniforme em [2,0; 4,2] UA, e uniforme em [0; 0,1], ângulos aleatórios e semente fixa.
+- Use `rebound` (`pip install rebound`), integrador WHFast, passo de ≈0,1 ano. Se não instalar, escreva um integrador simplético próprio com numpy e diga isso no relatório.
+- Tempo total: 2×10⁵ anos (≈17.000 períodos de Júpiter). Salve snapshots (a, e, vivo/ejetado) em t = 0, 1e3, 1e4, 5e4, 1e5 e 2e5 anos.
+- Para a animação orbital, salve à parte as posições (x, y) de um subconjunto de 500 partículas, em ≈600 quadros cobrindo os primeiros ≈50 anos.
+- Marque como "ejetada" a partícula com r < 1,0 UA, r > 10 UA ou e > 0,7.
+- Guarde tudo em `.npz` dentro de `ressonancias/dados/`. Se a execução ficar lenta, reduza N antes de reduzir o tempo e documente.
+
+## Parte 2: verificação honesta (`ressonancias/kirkwood_verify.py`, gera `ressonancias/RELATORIO.md`)
+
+- Posições teóricas pela terceira lei de Kepler: a = a_Júpiter · (período relativo)^(2/3). Esperado: 3:1 em 2,50 UA (período do asteroide = 1/3 do de Júpiter), 5:2 em 2,82, 7:3 em 2,95, 2:1 em 3,27. Concentração esperada em 3:2 (grupo Hilda) em 3,97 UA.
+- Histograma de a (bins de 0,01 UA) em t = 0 e no final. Para cada ressonância, compare a contagem em ±0,02 UA com a média de janelas vizinhas (de ±0,05 a ±0,15 UA) e reporte a queda ou o aumento em porcentagem.
+- Regra principal: não ajuste parâmetros até a lacuna aparecer. Se algo não aparecer em 2×10⁵ anos, reporte isso. Só então teste mais tempo ou mais partículas, descrevendo cada tentativa. Não invente dado. O relatório diz o que apareceu e o que não apareceu (as lacunas 5:2 e 7:3 costumam ser mais fracas).
+- Se houver rede, baixe do JPL SBDB (`https://ssd-api.jpl.nasa.gov/sbdb_query.api`) os asteroides do cinturão principal (a, e, H) e faça o histograma real. Ele é o dado MEDÍVEL; a simulação é a explicação. Sem rede, diga isso no relatório.
+
+## Parte 3: cenas (`ressonancias/kirkwood_scene.py`)
+
+**Cena A, "Gota" (≈20 s).** Campo de ondas 2D de duas fontes pontuais (gotas) com interferência, desenhado como imagem atualizada por quadro (numpy → `ImageMobject`) com paleta Gruvbox. Rótulos "reforço" e "cancelamento" nas regiões correspondentes e o selo INTERPRETÁVEL (analogia).
+
+**Cena B, "Lacunas" (≈60 a 75 s).**
+1. Histograma real (se houver) com as lacunas.
+2. Linhas verticais nas ressonâncias, rotuladas 3:1, 5:2, 7:3 e 2:1, com a conta a = a_J · (1/3)^(2/3).
+3. Vista de cima: Sol, Júpiter e partículas coloridas por a, em movimento orbital, com as partículas em 3:1 destacadas.
+4. Histograma da simulação evoluindo de t = 0 a 2×10⁵ anos, com a lacuna se abrindo.
+
+Rótulos: dado real = MEDÍVEL; simulação = "MEDÍVEL (simulação própria: Sol, Júpiter e partículas de teste)". Legenda fixa: "A ressonância limpa em vez de construir". Não afirmar que as ondas da gota são a causa: a ressonância é gravitacional.
+
+## Parte 4: verificação visual (para o Claude do chat conferir)
+
+- Renderize em `-ql` e salve quadros PNG de momentos-chave em `ressonancias/frames/` (início, meio e fim de cada cena; histograma antes e depois), com `manim render -s` ou `ffmpeg -ss`. Registre os comandos no `RELATORIO.md`.
+- Faça o render final em `-qh` e salve em `output/`.
+- No `RELATORIO.md`, liste versões (Python, Manim, rebound), tempo de execução e semente. Commite e dê push na branch.
+
+## Adendo de 21/out (depois das primeiras execuções)
+
+A execução principal e as tentativas A, B e C não abriram lacuna. Diagnóstico: as condições iniciais eram frias demais e o critério de remoção, brando demais para um modelo sem Marte. Mantenha todos esses resultados no relatório, como estão. A próxima tentativa muda duas escolhas, justificadas pela física e pelo dado real, não pelo resultado:
+
+1. **Excentricidade inicial realista.** Amostre e a partir da distribuição real de excentricidades dos asteroides do cinturão (`sbdb_mba.json`), por faixa de a. O semi-eixo a continua uniforme, para o cinturão começar sem lacunas. Se não der para amostrar, use uma distribuição com média ≈0,15 e diga isso no relatório.
+2. **Critério de remoção por Marte.** No cinturão real, os corpos em ressonância ganham excentricidade até cruzar a órbita de Marte e serem espalhados. O modelo não tem Marte, então marque como removida a partícula com periélio q = a(1 − e) < 1,67 UA (afélio de Marte), como proxy declarado. Mantenha r > 10 UA como ejeção. Rode também com o critério antigo (r < 1,0 UA) para comparar, e registre as duas versões no relatório.
+3. **Desempenho.** As partículas de teste não interagem entre si, então divida em N processos (`multiprocessing`, um bloco de partículas por processo, todos com o mesmo Sol e Júpiter). Isso deve trazer 5×10⁵ anos para poucos minutos.
+
+Regras que continuam valendo: não ajuste mais nada até a lacuna aparecer, relate cada tentativa, inclusive as negativas, e diga no relatório que o modelo é planar, sem Marte e sem Saturno.
+
+## Adendo 2 de 21/out: modelo v2 (Sol + Júpiter + Saturno) e uso da CPU
+
+O Victor decidiu **interromper as simulações antigas** (principal, A, B e C) e rodar esta versão. Ao interromper, preserve os logs e os arquivos parciais; não apague nada, porque entram no relatório como tentativas negativas. Grave a versão nova com nomes próprios (`kirkwood_v2_*`), sem sobrescrever os arquivos antigos.
+
+**Modelo v2** (junto das mudanças 1 e 2 do adendo anterior):
+- Corpos massivos: Sol, Júpiter (9,5479e-4 massa solar, a = 5,2044 UA, e = 0,0489) e **Saturno** (2,858e-4 massa solar, a ≈ 9,58 UA, e ≈ 0,057). Use os elementos reais por `sim.add("Jupiter")` e `sim.add("Saturn")` (dados do JPL Horizons) se houver rede; sem rede, use esses valores e diga isso no relatório.
+- Some a massa dos planetas internos (Mercúrio a Marte, ≈6×10⁻⁶ massa solar, conferir) à do Sol, para o passo de 0,1 ano continuar valendo. Marte continua só como critério (periélio q < 1,67 UA).
+- Continua planar. Declare no relatório: sem Marte como corpo, sem Vênus e Terra individuais, sem inclinação.
+- Com Saturno, registre também o que acontece na borda interna (a ≈ 2,0 a 2,2 UA), onde atua a ressonância secular ν6, como observação extra (não era esperada na v1).
+- Mantenha os snapshots de antes e acrescente t = 5×10⁵ anos. Estimativa de tempo: ≈45 a 60 min para 3.000 partículas em 5×10⁵ anos com 3 processos (o log antigo dá ≈2,6×10⁶ atualizações por segundo por núcleo; Saturno custa algo como +30%).
+
+**CPU (notebook do Victor: i5-10210U, 4 núcleos físicos, 8 threads, 15 GB de RAM).**
+- Use **3 processos** (`multiprocessing`, N_WORKERS = 3), deixando 1 núcleo físico livre: o Victor vai usar o computador (vídeo) enquanto roda.
+- Rode os processos com prioridade baixa (`os.nice(10)` ou `nice -n 10`) e defina `OMP_NUM_THREADS=1` e `OPENBLAS_NUM_THREADS=1` para as bibliotecas não abrirem mais threads.
+- É um processador de baixo consumo e pode reduzir a frequência sob carga em todos os núcleos. Se o tempo total passar de 90 min, diga isso no relatório, sem aumentar o número de processos.

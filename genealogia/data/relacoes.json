@@ -63,6 +63,24 @@
    "desc": "Em 1916 Jung imprimiu em privado os Septem Sermones ad Mortuos, atribuídos por ele a Basilides de Alexandria."
   },
   {
+   "from": "bernardo-chartres",
+   "to": "guilherme-conches",
+   "type": "mestre",
+   "desc": "Guilherme estudou com Bernardo em Chartres (Wikipedia, William of Conches e Bernard of Chartres; conferir em fonte primária antes de citar no canal)"
+  },
+  {
+   "from": "bernardo-chartres",
+   "to": "joao-salisbury",
+   "type": "registro",
+   "desc": "João relata o dito dos anões nos ombros de gigantes e o atribui a Bernardo (Metalogicon, 1159; livro e capítulo a conferir)"
+  },
+  {
+   "from": "boecio",
+   "to": "guilherme-conches",
+   "type": "influencia",
+   "desc": "Glosae super Boetium: comentário à Consolação da Filosofia"
+  },
+  {
    "from": "bonatti",
    "to": "lilly",
    "type": "influencia",
@@ -157,6 +175,12 @@
    "to": "platao",
    "type": "debatido",
    "desc": "A influência de Filolau sobre o Timeu é antiga, mas discutida"
+  },
+  {
+   "from": "guilherme-conches",
+   "to": "joao-salisbury",
+   "type": "mestre",
+   "desc": "Ensinou gramática a João em Chartres, em 1137–1138 (Wikipedia, John of Salisbury e William of Conches)"
   },
   {
    "from": "hermes",
@@ -322,6 +346,12 @@
   },
   {
    "from": "kepler",
+   "to": "newton",
+   "type": "influencia",
+   "desc": "Newton mostra nos Principia que as leis de Kepler decorrem da gravitação (da memória, conferir o livro e a proposição antes de citar)"
+  },
+  {
+   "from": "kepler",
    "to": "pauli",
    "type": "influencia",
    "desc": "Pauli analisou Kepler como exemplo de ideias arquetípicas na formação de teorias científicas."
@@ -457,6 +487,12 @@
    "to": "ficino",
    "type": "influencia",
    "desc": "Ficino traduziu Platão (1484)"
+  },
+  {
+   "from": "platao",
+   "to": "guilherme-conches",
+   "type": "influencia",
+   "desc": "Glosae super Platonem: comentário ao Timeu"
   },
   {
    "from": "platao",

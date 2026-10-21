@@ -36,6 +36,9 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Porfírio]] · 234–305
 - [[Jâmblico]] · c. 245–325
 - [[Proclo]] · 412–485
+- [[Bernardo de Chartres]] · fl. 1115–1124
+- [[Guilherme de Conches]] · c. 1090–1154
+- [[João de Salisbury]] · c. 1115–1180
 - [[Ficino]] · 1433–1499
 
 ### Astrologia técnica
@@ -61,6 +64,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Agostinho]] · 354–430
 - [[Pico della Mirandola]] · 1463–1494
 - [[Casaubon]] · 1614
+- [[Isaac Newton]] · 1643–1727
 - [[Walter Burkert]] · 1972
 
 ## Mito
@@ -197,3 +201,4 @@ Seis leituras para ver como o cristianismo nascente deu a gnose e o que a filoso
 - **Cristianismo e reação gnóstica**: [[Jesus de Nazaré]] → [[Paulo de Tarso]] → [[Evangelho segundo João]] → [[Valentim e valentinianos]] → [[Heracleão]] → [[Ireneu de Lyon]] → [[Orígenes]]
 - **Arcontes**: [[Paulo de Tarso]] → [[Ofitas e arcontes]] → [[Sethianos]] → [[Apócrifo de João]] → [[Plotino]]
 - **O problema de João**: [[Jesus de Nazaré]] → [[João, filho de Zebedeu]] → [[Evangelho segundo João]] → [[Apócrifo de João]] → [[Ireneu de Lyon]]
+- **Os ombros de gigantes: de Chartres a Salisbury**: [[Bernardo de Chartres]] → [[Guilherme de Conches]] → [[João de Salisbury]]

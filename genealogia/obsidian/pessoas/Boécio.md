@@ -17,5 +17,8 @@ De institutione musica
 ## Por que importa
 Divide a música em mundana, humana e instrumental, a taxonomia que organiza a música das esferas até Kepler.
 
+## Influenciou
+- [[Guilherme de Conches]] · Glosae super Boetium: comentário à Consolação da Filosofia
+
 ## Foi influenciada por
 - [[Nicômaco]] · Boécio adapta Nicômaco em suas obras sobre aritmética e música
