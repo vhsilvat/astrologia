@@ -29,3 +29,6 @@ variables.env
 *.log
 .DS_Store
 Thumbs.db
+
+# Áudio gerado pela cena harmonia_dos_mundos.py (regenerável: python3 output/harmonia_dos_mundos.py)
+output/sons/harmonia_dos_mundos.wav

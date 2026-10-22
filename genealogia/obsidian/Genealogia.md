@@ -55,7 +55,7 @@ Use a visão em grafo do Obsidian (filtro `tag:#genealogia`) para ver as ligaç�
 - [[Abu Ma’shar]] · 787–886
 - [[Al-Biruni]] · 973–1048
 - [[Guido Bonatti]] · séc. XIII
-- [[Cardano]] · séc. XVI
+- [[Cardano]] · 1501–1576
 - [[Tycho Brahe]] · 1546–1601
 - [[William Lilly]] · 1602–1681
 - [[Chris Brennan]] · 2017
