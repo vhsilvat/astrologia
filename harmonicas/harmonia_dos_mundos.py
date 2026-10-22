@@ -455,6 +455,16 @@ class HarmoniaDosMundos(Scene):
 
         tt = ValueTracker(0.0)
         cache = {"data": None, "taxa": None}
+        X_DATA, X_TAXA, Y_BASE = CX - 1.45, CX + 0.25, -3.80   # esquerda fixa e mesma linha de base
+
+        def texto_base(s, size, cor, x_esq, **kw):
+            # "Hg" invisível no fim dá a todas as strings a mesma altura (H e g), e o fundo do H é a
+            # linha de base: assim a data e a taxa não sobem nem descem conforme as letras do mês
+            t = Text(s + "Hg", font=FONT, font_size=size, color=cor, **kw)
+            t[-2].set_opacity(0)
+            t[-1].set_opacity(0)
+            return t.shift(RIGHT * (x_esq - t.get_left()[0]) + UP * (Y_BASE - t[-2].get_bottom()[1]))
+
         tx_data = Text("", font=FONT, font_size=30, color=GRUV_AQUA)
         tx_taxa = Text("", font=FONT, font_size=18, color=GRUV_GRAY, slant=ITALIC)
         self.add(tx_data, tx_taxa)
@@ -466,13 +476,11 @@ class HarmoniaDosMundos(Scene):
             s_data = f"{MESES[data.month - 1]} {data.year}"
             if s_data != cache["data"]:
                 cache["data"] = s_data
-                tx_data.become(Text(s_data, font=FONT, font_size=28, color=GRUV_AQUA)
-                               .move_to([CX - 0.75, -3.70, 0]))
+                tx_data.become(texto_base(s_data, 28, GRUV_AQUA, X_DATA))
             s_taxa = f"1 s ≈ {taxa(t):.0f} dias"
             if s_taxa != cache["taxa"]:
                 cache["taxa"] = s_taxa
-                tx_taxa.become(Text(s_taxa, font=FONT, font_size=18, color=GRUV_GRAY, slant=ITALIC)
-                               .next_to(tx_data, RIGHT, buff=0.25))
+                tx_taxa.become(texto_base(s_taxa, 18, GRUV_GRAY, X_TAXA, slant=ITALIC))
             for i, (p, o) in enumerate(zip(PLANETAS, objs)):
                 a = float(smooth((t - p["entra"]) / 1.6))
                 lon = float(ef.lon[i](d))

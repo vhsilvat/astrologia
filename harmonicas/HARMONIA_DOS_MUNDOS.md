@@ -66,4 +66,4 @@ Entradas das vozes (s): Saturno 1,5; Júpiter 5; Marte 8,5; Terra 12; Vênus 15,
 - Efemérides VSOP87 batem com a tabela de movimentos extremos de Kepler (1619) em cerca de
   1 a 3% (Marte: 26,2 e 38,1 min/dia contra 26′14″ e 38′1″; Mercúrio: 164,6 e 379 contra 164′ e 384′).
 - Alternativa mais "orquestral": renderizar com SoundFont e pitch-bend contínuo (licença do
-  SoundFont a conferir). Pode ser comparada com os protótipos `sinfonia_*.py` desta pasta.
+  SoundFont a conferir). Já existe uma: `sinfonia_orquestra2.py` (General MIDI via FluidSynth, uma nota por pulso).
