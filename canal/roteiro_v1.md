@@ -1,6 +1,6 @@
-# MISTAGOGOS · V1 · Roteiro (rascunho 1, 22/out/2026)
+# MISTAGOGOS · V1 · Roteiro (rascunho 2, 22/out/2026)
 
-Estrutura de `roadmap.md` (abertura de perguntas, tijolos T1 a T5, saída, ≈14:50). Onde este arquivo divergir de `planejamento_video01.md`, vale este (o plano de peças ainda está na ordem antiga).
+Estrutura de `roadmap.md` (abertura, tijolos T1 a T5, saída, ≈14:50). A abertura foi refeita em 22/out à noite (sem lista de perguntas e sem apresentação). Onde este arquivo divergir de `planejamento_video01.md`, vale este (o plano de peças ainda está na ordem antiga).
 
 ## Como ler
 
@@ -24,34 +24,35 @@ Estrutura de `roadmap.md` (abertura de perguntas, tijolos T1 a T5, saída, ≈14
 
 ---
 
-## ABERTURA · 0:00 a 1:20
+## ABERTURA · 0:00 a 1:20 (versão 2: sem lista de perguntas e sem apresentação)
 
-**0:00 a 0:25 · corte frio, voz em off**
+Mudança de 22/out: a versão 1 abria com uma corda e uma fila de perguntas genéricas, e depois tinha "eu sou o Victor". Você apontou que soa barato. Esta abre com uma coisa concreta que o espectador ouve e vê, afirma o que foi medido, e só então diz qual é a discussão. A estrutura é a da abertura do vídeo dos shade balls (objeto estranho, uma única pergunta específica) combinada com a do vídeo do "immodest" (a resposta comum, por que ela falha, o que o vídeo vai mostrar).
 
-`[TELA: fundo escuro, uma corda esticada. Dedilhada: nota grave. Um dedo toca a corda no meio e a nota sobe uma oitava. Primeiros ≈8 s sem fala, só o som.]`
-`[ANIM: trecho do monocórdio de c04 (martelos_monocordio.py), ✅]`
+**0:00 a 0:10 · só o som e a imagem**
 
-Essa corda tem um comprimento. Se eu seguro ela no meio, o som sobe uma oitava. A dois terços, sobe uma quinta. A três quartos, uma quarta. Dois pra um, três pra dois, quatro pra três, em qualquer corda esticada. A conta é fácil. O que me interessa é por que o ouvido reconhece essas razões como boas.
+`[ANIM: "A harmonia dos mundos" (harmonicas/harmonia_dos_mundos.py), ✅ rascunho. Começa em silêncio. Os planetas entram um a um, do grave de Saturno ao agudo de Mercúrio, e as notas se somam. Sem fala nos primeiros ≈8 s.]`
 
-**0:25 a 0:50 · Victor em câmera (a promessa)**
+**0:10 a 0:45 · voz em off sobre a animação**
 
-`[TELA: Victor em câmera. Lower third discreto: MISTAGOGOS.]`
+O que você está ouvindo é o movimento dos planetas traduzido em som. Cada voz é um planeta, e a altura da nota é a velocidade com que ele anda, visto do Sol: quando acelera, a nota sobe, quando desacelera, desce. Saturno, o mais lento, é o grave. Mercúrio, o mais rápido, é o agudo.
 
-Eu sou o Victor, e esse canal parte de uma ideia antiga: a de que existe correspondência entre coisas diferentes, de que o de cima tem a ver com o de baixo. Astrologia, alquimia, tarô e parte da psicologia do Jung nascem desse gesto. [VICTOR: uma frase sua sobre por que você foi atrás disso.] Este vídeo é uma fila de perguntas, cada uma puxando a seguinte.
+Quem fez essa conta pela primeira vez foi o Kepler, em 1619, e eu refiz com dados de hoje. Os extremos que ele calculou batem com os atuais, com poucos por cento de diferença. E a razão entre a nota mais grave e a mais aguda de cada planeta cai perto de um intervalo musical: quatro pra cinco em Saturno, dois pra três em Marte.
 
-**0:50 a 1:20 · montagem acelerada, voz em off**
+`[TELA: ao lado de cada planeta, a razão extrema (4:5, 5:6, 2:3, 15:16...) e o rótulo MEDÍVEL. Tira de tempo discreta: ponto em 1619.]`
 
-`[TELA: cortes de 3 a 4 s, uma peça por pergunta: forja → corda (c04) · curva de Lissajous · régua de oitavas · placa de Chladni · dupla fenda · planetas girando sobre o teclado (Harmonia dos mundos) · o estudo recente (c10).]`
+**0:45 a 1:20 · Victor em câmera, uma vez, sem se apresentar**
 
-Por que certos sons soam bem juntos? O que é vibrar, e por que a gente só percebe uma fatia estreita do que vibra? A matéria também vibra? No céu, existe razão simples entre os corpos, e alguém já testou isso com dados? E o que as tradições fizeram com esse padrão?
+`[TELA: Victor em câmera, ≈25 s, pela primeira vez. Sem lower third de apresentação; o nome do canal só aparece no fim.]`
 
-Em cada parte vai aparecer um rótulo na tela: MEDÍVEL é o que se mede, INTERPRETÁVEL é o que se lê e se compara, VIVENCIAL é o que só a experiência de cada um confirma. Eu vou tentar não deixar você confundir um com o outro, e isso inclui eu mesmo.
+Isso é medido. O que fazer com isso é outra conversa. Tem quem diga que é coincidência, e tem quem diga que é a prova de que os planetas mandam na sua vida. Eu acho que as duas respostas pulam um passo, e este vídeo é sobre qual.
 
-Começando pela corda.
+Eu não sou astrônomo nem acadêmico, então tudo que eu disser vai ter a fonte na tela, e cada parte leva um rótulo: MEDÍVEL é o que se mede, INTERPRETÁVEL é o que se lê e se compara, VIVENCIAL é o que só a experiência de cada um confirma. A gente começa pelo começo: uma corda esticada.
 
-`[TELA 1:18: título do V1 (a decidir) + o tetraktys como motivo de ≈5 s. Decisão de design em decisoes.md §5.]`
+`[ANIM: corte para o monocórdio de c04 (martelos_monocordio.py), ✅, que abre o T1.]`
 
-*(fala do núcleo ≈231 palavras (≈1:32 a 150 ppm); cortáveis marcados somam ≈0)*
+*(fala do núcleo ≈225 palavras (≈1:30 a 150 ppm); cortáveis marcados somam ≈0)*
+
+`[FONTE ABERTURA: extremos de Kepler vs. efemérides modernas: ver T4. A conjunção Saturno-Netuno em 0° de Áries (exata em 20/fev/2026, conferi nas efemérides) já passou; por isso o gancho "tá pipocando no YouTube" não serve mais e o Astrolog/jogo ficam fora, como já estava decidido.]`
 
 ---
 
@@ -81,9 +82,9 @@ Dá pra ver isso sem ouvir. Duas vibrações em eixos perpendiculares, na razão
 
 `[CORTÁVEL 3 · se quiser o aviso: "quase todas as culturas reconhecem a oitava, mas gostar de consonância varia; um estudo de 2016 com os Tsimane não achou a mesma preferência". Sem essa frase eu não afirmo nenhum universal.]`
 
-Mas isso é só coisa de instrumento?
+Você pode estar pensando que isso é música e não astrologia, e tem razão. Mas será que é só coisa de instrumento?
 
-*(fala do núcleo ≈250 palavras (≈1:40 a 150 ppm); cortáveis marcados somam ≈24)*
+*(fala do núcleo ≈265 palavras (≈1:46 a 150 ppm); cortáveis marcados somam ≈24)*
 
 `[FONTE T1: Burkert, Lore and Science in Ancient Pythagoreanism (1972), atestação (Nicômaco, Adrasto, Jâmblico 115ss, Macróbio 2.1.9ss, Boécio Mus. 1.10) e impossibilidade física, Mersenne 1634. Etimologia: Beekes (2010) para *harmózō*, [conferir] *ratio*/*lógos* em dicionário latino. Tetraktys atribuído aos pitagóricos: conferir página em Kahn (2001) ou Burkert antes de gravar. Tsimane 2016: [conferir] McDermott et al., Nature. "Oitava justa", nunca "oitava maior".]`
 
@@ -253,9 +254,11 @@ No grau espiritual, uma analogia: o plâncton nas ondas do mar, levado por ciclo
 
 É por isso que o canal parte de um axioma, e eu assumo ele como axioma: que a estrutura se repete entre domínios diferentes e que dá pra ler um a partir do outro. Um axioma é um ponto de partida aceito como tal. Não é prova.
 
+Lembra das duas respostas lá do começo, a de que é coincidência e a de que os planetas mandam em você? O passo que as duas pulam é este: antes de decidir se o mapa vale, perguntar que tipo de mapa é, e quanto dele se mede.
+
 E sobra uma pergunta que eu não vou responder agora: se a estrutura é proporção, o que ordena essa proporção?
 
-*(fala do núcleo ≈376 palavras (≈2:30 a 150 ppm); cortáveis marcados somam ≈96)*
+*(fala do núcleo ≈423 palavras (≈2:49 a 150 ppm); cortáveis marcados somam ≈96)*
 
 `[FONTE T5: Tábua de Esmeralda: Copenhaver, Hermetica (1992); edições de referência Ruska (1926) e Weisser (1979); "fim do Livro do Segredo da Criação" (Pseudo-Balinas, talvez séc. IX) segundo Copenhaver. Caibalion (Chicago, 1908, "Três Iniciados", em geral atribuído a W. W. Atkinson). Corpus Hermeticum datado por Casaubon em 1614. Kepler × Fludd: Aiton, Duncan e Field (1997), Apêndice pp. 505 e 506; Bodin, p. 278. Mt 6:10: [conferir a edição que for citada]. O elo do plâncton com Tarnas (correlação de sentido) NÃO entra na fala: o nó Tarnas ainda está com FONTE A SUBSTITUIR no mapa. NÃO dizer "Kepler endossa" nem "Kepler rejeita" a astrologia sem nuance, nem que Pitágoras influenciou os Hermetica.]`
 
@@ -277,13 +280,14 @@ Falta uma coisa que eu deixei pendente. Na astrologia, o zodíaco começa em Ár
 
 Se o vídeo passar de 15 min, corte nesta ordem (os números estão nas marcas `CORTÁVEL`): 1 c09 · 2 analogia de Franco · 3 aviso dos Tsimane · 4 bola de tênis · 5 contraponto Kepler × Fludd · 6 Mateus 6:10 · 7 lei dos períodos · 8 Aristóteles e a força de maré · 9 Kepler e a astrologia · 10 conferência com efemérides modernas.
 
-**Conta honesta:** a fala do núcleo soma ≈2049 palavras (≈14 min a 150 ppm). Com as pausas de animação sem fala (Harmonia dos mundos, Chladni, faixa de pessoas, escada de massas, Lissajous) o vídeo fica em 15 a 16 min, não em 14:50. O T5 e a abertura passam um pouco do orçamento; T1 e T4 têm folga. Se você narrar mais devagar que 150 ppm, o corte cresce.
+**Conta honesta:** a fala do núcleo soma ≈2105 palavras (≈14 min a 150 ppm). Com as pausas de animação sem fala (Harmonia dos mundos, Chladni, faixa de pessoas, escada de massas, Lissajous) o vídeo fica em 15 a 16 min, não em 14:50. O T5 e a abertura passam um pouco do orçamento; T1 e T4 têm folga. Se você narrar mais devagar que 150 ppm, o corte cresce.
 
 ## Animações: o que existe, o que muda, o que falta
 
 | Onde | Cena | Arquivo | Status |
 |---|---|---|---|
-| Abertura | corda e oitava; montagem | `martelos_monocordio.py` (c04) | ✅ existe |
+| Abertura | A harmonia dos mundos (trecho de ≈25 s com as razões na tela) | `harmonicas/harmonia_dos_mundos.py` | ✅ rascunho; falta você ouvir e aprovar o som |
+| Abertura (corte final) | monocórdio, abre o T1 | `martelos_monocordio.py` (c04) | ✅ existe |
 | T1 | forja → monocórdio | c04 | ✅ existe |
 | T1 | quinta, quarta e 9/8 | `v01_c06_consonancias.py` | ✅ existe; tirar a régua "Mercúrio→Urano / Marte→Plutão" |
 | T1 | tetraktys | `v01_c08_tetraktys.py` | ✅ existe; o final "9:8 vira elipse" perde o sentido (a âncora para c09 caiu) |
@@ -315,7 +319,7 @@ Se o vídeo passar de 15 min, corte nesta ordem (os números estão nas marcas `
 
 1. **Cortes:** sem cortar nada o vídeo passa de 15 min (ver "Ordem de corte"). Os que mais pesam são o bloco "Kepler e a astrologia" e o c09; se você quiser manter Kepler e astrologia, o que sai é a escada de massas por inteiro.
 2. **Primeira pessoa:** escrevi com "eu" porque você aparece em câmera. Os pontos onde "eu refiz a conta" e "eu não li as críticas" são verdadeiros para o canal, mas confira se é assim que você quer dizer.
-3. **Abertura:** a voz em off nos primeiros 25 s é minha sugestão. Se preferir você em câmera desde o início, a regra era não nos primeiros ≈10 s.
+3. **Abertura (versão 2):** abre com a animação e o som, afirma o que foi medido, e você aparece uma vez, sem se apresentar. Se o som da animação não convencer, a abertura inteira depende de trocar o timbre (SoundFont) antes de gravar. A Harmonia dos mundos aparece de novo no T4, com a explicação completa; se repetir demais, o T4 usa só a parte com as faixas e as razões.
 4. **Franco e Fuller:** ficam como INTERPRETÁVEL curtos. Se faltar tempo, o Franco sai sem perda.
 5. **Título e miniatura:** ficam para depois do roteiro, como combinado.
 
