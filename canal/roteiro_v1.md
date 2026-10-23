@@ -313,7 +313,7 @@ Se o vídeo passar de 15 min, corte nesta ordem (os números estão nas marcas `
 
 ## Para decidir (nesta ordem)
 
-1. **Cortes:** o orçamento fecha em 14:50 só se saírem os itens `[CORTA PRIMEIRO]`. Os dois que mais pesam são o bloco "Kepler e a astrologia" e o c09. Se você preferir manter Kepler e astrologia, o que sai é a escada de massas por inteiro.
+1. **Cortes:** sem cortar nada o vídeo passa de 15 min (ver "Ordem de corte"). Os que mais pesam são o bloco "Kepler e a astrologia" e o c09; se você quiser manter Kepler e astrologia, o que sai é a escada de massas por inteiro.
 2. **Primeira pessoa:** escrevi com "eu" porque você aparece em câmera. Os pontos onde "eu refiz a conta" e "eu não li as críticas" são verdadeiros para o canal, mas confira se é assim que você quer dizer.
 3. **Abertura:** a voz em off nos primeiros 25 s é minha sugestão. Se preferir você em câmera desde o início, a regra era não nos primeiros ≈10 s.
 4. **Franco e Fuller:** ficam como INTERPRETÁVEL curtos. Se faltar tempo, o Franco sai sem perda.
