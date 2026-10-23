@@ -155,7 +155,7 @@ Platão (Timeu, Mito de Er) e sólidos platônicos → V4 · Ptolomeu *Harmonics
 ## 22/out (noite, 3): relatório da simulação de Kirkwood
 
 - **Conferido (recalculei a partir dos JSON do JPL no branch):** os números da tabela do relatório batem (3:1 −86,4%, 5:2 −65,6%, 7:3 −37,3%, 2:1 −96,9%). A depleção do 3:1 depende da janela (±0,01 UA dá −99%, ±0,04 UA dá −30%, porque a lacuna é estreita); dizer "numa janela de ±0,02 UA".
-- **Erro de rótulo na cena Lacunas:** o subtítulo diz "a entre 2,0 e 4,2 UA", mas os 182.252 objetos cobrem 2,0 a 4,4 UA (182.222 dentro de 4,2). Corrigir o texto para 4,4 ou contar de novo.
+- **Erro de rótulo na cena Lacunas (corrigido na master em 22/out, subtítulo agora diz 4,4 UA; re-renderizar a cena):** o subtítulo diz "a entre 2,0 e 4,2 UA", mas os 182.252 objetos cobrem 2,0 a 4,4 UA (182.222 dentro de 4,2). Corrigir o texto para 4,4 ou contar de novo.
 - **Simulação:** não abriu lacuna em 2×10⁵ anos (3.000 partículas) nem em 10⁶ anos (A, B, C). Nos dados salvos, 1 a 6 partículas por janela do 3:1 chegam a e > 0,3 (máximo 0,58; algumas cruzam a órbita de Marte), ou 1 a 6%; o modelo não tem Marte nem remoção, e a depleção real é de 86%. Ou seja, o modelo é incompleto e curto, não "errado". A hipótese da literatura (caos no 3:1, ressonância secular ν6 com Saturno, remoção por Marte; ex.: Wisdom 1982, Moons e Morbidelli 1995) é de memória: [conferir, não li].
 - **[PROPOSTO] para o V2:** trocar o trecho do histograma da simulação por uma partícula do 3:1 cuja excentricidade cresce até cruzar Marte (reexecutar poucas partículas, segundos cada). Só depois do V1.
 - O roadmap (V2, T3) dizia "uma simulação própria que as reproduz": corrigido.

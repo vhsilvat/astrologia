@@ -287,7 +287,7 @@ class Lacunas(Scene):
         ax = eixos()
         titulo = texto("o cinturão de asteroides hoje", 36).to_edge(UP, buff=0.35)
         n_real = f"{len(real):,}".replace(",", ".")
-        sub = texto(f"{n_real} asteroides do JPL (H < 16), a entre 2,0 e 4,2 UA", 22, GRUV_GRAY).next_to(titulo, DOWN, buff=0.12)
+        sub = texto(f"{n_real} asteroides do JPL (H < 16), a entre 2,0 e 4,4 UA", 22, GRUV_GRAY).next_to(titulo, DOWN, buff=0.12)
         s_med = selo("MEDÍVEL", GRUV_AQUA).to_corner(UP + RIGHT, buff=0.35)
         self.play(FadeIn(titulo), FadeIn(sub), FadeIn(ax), run_time=1.0)
         self.play(FadeIn(poly_real), FadeIn(s_med), run_time=1.6)
