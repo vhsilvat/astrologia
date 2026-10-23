@@ -89,7 +89,7 @@ Platão (Timeu, Mito de Er) e sólidos platônicos → V4 · Ptolomeu *Harmonics
 
 - Uma sessão por assunto (roteiro / animação / título e distribuição). Decisões novas entram neste arquivo.
 - Peças Manim: uma por vez, `-ql` + checagem de pixel, depois `-qh`. Sons via `Path(__file__).resolve().parent / "sons"`.
-- Claude Code: modelo mais barato para código; pedir só o arquivo, sem recapitular; molde aprovado como referência (`harmonia_corda.py`, `martelos_monocordio.py`).
+- Claude Code: modelo mais barato para código; pedir só o arquivo, sem recapitular; moldes de referência (atualizado em 22/out): `harmonicas/harmonia_dos_mundos.py` e `ressonancias/kirkwood_scene.py`. Este segundo ainda está só no branch `claude/kirkwood-simulacao` (não mesclado); para ler: `git show origin/claude/kirkwood-simulacao:ressonancias/kirkwood_scene.py`. `harmonia_corda.py` e `martelos_monocordio.py` deixam de ser referência (continuam como peças, não como molde).
 - **[PROPOSTO]** Gravação: um tijolo por vez, no fluxo livre (3–5 min cada), transcrever e depois montar o vídeo.
 - **[PROPOSTO]** Imagens: Manim como linguagem principal; gravuras históricas como inserto documental de 3–5 s, com Transform para o desenho em Manim; sem imagens quando o Victor está em câmera. Só material livre: as gravuras de Fludd, Stanley e Apiano são de domínio público (pegar versões limpas de acervos digitais). Não usar `esfera3d.pdf` (marca Science Photo Library), `C0129133-Celestial_Spheres.jpg` nem `1000_F_*.jpg` (pelo nome, prévias de banco de imagens).
 - **[PROPOSTO]** O tetraktys como motivo visual de ~5 s na abertura e no fim de cada vídeo.
