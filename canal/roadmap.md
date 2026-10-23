@@ -17,7 +17,7 @@
 ## Arco da série
 
 - **[DECIDIDO]** **Tese do canal:** mostrar como funciona o **princípio da correspondência**, o gesto que está na origem da alta magia, da astrologia como ferramenta de entendimento arquetípico, dos símbolos como passagem ao inconsciente (tarô), da psicologia analítica (Jung tardio) e da árvore da vida na Cabala. O canal não afirma que "astrologia é ciência".
-- **[PROPOSTO]** Definição de trabalho: correspondência é um **mapa que preserva estrutura** entre dois domínios (relações, razões, ordem, ciclos), não uma semelhança qualquer. É o critério contra a simbologia fajuta: o V2 o aplica (modalidades casam com as estações; elementos não).
+- **[DECIDIDO em 23/out]** Nome da tese: **isomorfia estrutural**. **[PROPOSTO]** Definição de trabalho: correspondência é um **mapa que preserva estrutura** entre dois domínios (relações, razões, ordem, ciclos), não uma semelhança qualquer. É o critério contra a simbologia fajuta: o V2 o aplica (modalidades casam com as estações; elementos não).
 - **Graus de correspondência** (o rótulo na tela é o modo de validação): **MEDÍVEL** (estrutural, se mede) · **INTERPRETÁVEL** (simbólico, se lê e se compara) · **VIVENCIAL** (espiritual, só a experiência confirma).
 - **Camadas a distinguir ao falar das origens:** Agrippa e a Golden Dawn organizam tudo em tabelas de correspondências · no *Sefer Yetzirah* as 12 letras simples ↔ signos, as 7 duplas ↔ planetas, as 3 mães ↔ elementos · tarô ↔ caminhos da árvore é da Golden Dawn (séc. XIX) · Jung assume a correspondência na fase tardia (alquimia, *unus mundus*, sincronicidade), não na origem da psicologia analítica.
 - **Dentro de cada vídeo:** do caso concreto ao princípio (indutivo). O princípio é nomeado no fim, como revelação.

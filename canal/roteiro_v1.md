@@ -1,6 +1,6 @@
-# MISTAGOGOS · V1 · Roteiro (rascunho 2, 22/out/2026)
+# MISTAGOGOS · V1 · Roteiro (rascunho 3, 23/out/2026)
 
-Estrutura de `roadmap.md` (abertura, tijolos T1 a T5, saída, ≈14:50). A abertura foi refeita em 22/out à noite (sem lista de perguntas e sem apresentação). Onde este arquivo divergir de `planejamento_video01.md`, vale este (o plano de peças ainda está na ordem antiga).
+Estrutura de `roadmap.md` (abertura, tijolos T1 a T5, saída, ≈14:50). A abertura foi refeita em 22/out à noite (sem lista de perguntas e sem apresentação). O rascunho 3 (23/out) assume a tese como **isomorfia estrutural** (a mesma estrutura em escalas diferentes, sem força de uma sobre a outra) e tira do texto falado as ressalvas dirigidas a uma tese causal que o canal não defende. Onde este arquivo divergir de `planejamento_video01.md`, vale este (o plano de peças ainda está na ordem antiga).
 
 ## Como ler
 
@@ -44,13 +44,13 @@ Quem fez essa conta pela primeira vez foi o Kepler, em 1619, e eu refiz com dado
 
 `[TELA: Victor em câmera, ≈25 s, pela primeira vez. Sem lower third de apresentação; o nome do canal só aparece no fim.]`
 
-Isso é medido. O que fazer com isso é outra conversa. Tem quem diga que é coincidência, e tem quem diga que é a prova de que os planetas mandam na sua vida. Eu acho que as duas respostas pulam um passo, e este vídeo é sobre qual.
+Isso é medido. O que fazer com isso é outra conversa. Tem quem diga que é coincidência, e tem quem diga que é a prova de que os planetas mandam na sua vida. Eu acho que as duas pulam um passo. Minha tese é que não é coincidência e não é força: é isomorfia, a mesma estrutura aparecendo em escalas diferentes. A corda, o átomo e o céu, e este vídeo mostra onde isso se mede e onde só se lê.
 
 Eu não sou astrônomo nem acadêmico, então tudo que eu disser vai ter a fonte na tela, e cada parte leva um rótulo: MEDÍVEL é o que se mede, INTERPRETÁVEL é o que se lê e se compara, VIVENCIAL é o que só a experiência de cada um confirma. A gente começa pelo começo: uma corda esticada.
 
 `[ANIM: corte para o monocórdio de c04 (martelos_monocordio.py), ✅, que abre o T1.]`
 
-*(fala do núcleo ≈225 palavras (≈1:30 a 150 ppm); cortáveis marcados somam ≈0)*
+*(fala do núcleo ≈258 palavras (≈1:43 a 150 ppm); cortáveis marcados somam ≈0)*
 
 `[FONTE ABERTURA: extremos de Kepler vs. efemérides modernas: ver T4. A conjunção Saturno-Netuno em 0° de Áries (exata em 20/fev/2026, conferi nas efemérides) já passou; por isso o gancho "tá pipocando no YouTube" não serve mais e o Astrolog/jogo ficam fora, como já estava decidido.]`
 
@@ -178,7 +178,7 @@ O céu tem razões simples que são reais. Io, Europa e Ganimedes giram numa raz
 
 Quem trouxe essa ideia pra astronomia moderna foi o Kepler. Em 1609 ele mostra que as órbitas são elipses. Em 1619, no *Harmonices Mundi*, pega a velocidade angular de cada planeta, vista do Sol, que muda entre o afélio e o periélio, e lê isso como altura de som. Em Saturno, a razão entre a velocidade mais lenta e a mais rápida é de quatro pra cinco, uma terça. Em Marte, dois pra três, uma quinta. Na Terra, quinze pra dezesseis, um semitom.
 
-`[CORTÁVEL 10 · conferência com dados modernos (mantém o MEDÍVEL, mas é o que mais pesa em palavras)]`
+`[CORTÁVEL 8 · conferência com dados modernos (mantém o MEDÍVEL, mas é o que mais pesa em palavras)]`
 
 Refiz a conta com efemérides modernas, e as velocidades extremas batem com a tabela dele em um a três por cento. Marte dá 26,2 e 38,1 minutos de arco por dia; o Kepler escreveu 26 minutos e 14 segundos e 38 minutos e 1 segundo.
 
@@ -196,27 +196,23 @@ O Kepler não era um pitagórico ingênuo. Na dedicatória, a obra "cheira a Pit
 
 E conta que a lei dos períodos nasceu em março de 1618, foi descartada na primeira conta e confirmada em maio, depois de dezessete anos sobre os dados do Brahe. No começo, diz, achou que estava sonhando.
 
-`[CORTÁVEL 9 · Kepler e a astrologia (contexto, não prova)]`
+Até o século XVII, astronomia e astrologia eram a mesma disciplina: Ptolomeu, Brahe e Kepler fizeram as duas. E o Kepler fez com a correspondência o que a gente deveria fazer: testou onde ela fecha. Até 1608 ele acreditou numa correspondência um a um entre os aspectos astrológicos e as consonâncias, e depois a revisou, porque não há tantos aspectos quanto divisões harmônicas: a corda é reta, e o círculo do zodíaco fecha em si. Ele mesmo mediu até onde a estrutura se preserva e onde ela deixa de valer.
 
-Até o século XVII, astronomia e astrologia eram a mesma disciplina: Ptolomeu, Brahe e Kepler fizeram astrologia. O Kepler defendia os aspectos, revisou em 1608 a correspondência que imaginava com as consonâncias, rejeitava astros que agem como deuses e dizia que a morte não está nos astros. Isso mostra o contexto, não prova que a astrologia funciona.
+`[TELA: Aiton, Duncan e Field (1997), IV p. 351.]`
 
 `[ANIM: c10 Scafetta, ✅, COM LEGENDA A CORRIGIR: hoje diz "Scafetta (2023)" e "erro < 1% · p(aleatório) < 0,1%". Passar para "Bank e Scafetta (2022) · Front. Astron. Space Sci. 8:758184 · p < 0,001". Rótulo HIPÓTESE.]`
 
-Em 2022, Bank e Scafetta propuseram, na *Frontiers in Astronomy and Space Sciences*, que as razões entre as distâncias de planetas vizinhos, com o cinturão de asteroides valendo como um planeta, formam consonâncias, cinco pra quatro, quatro pra três, três pra dois e oito pra cinco, sobre uma base de nove pra oito. Ao acaso, isso seria muito raro: menos de uma chance em mil. É uma hipótese, e os próprios autores dizem que a organização do sistema solar deve vir de uma dinâmica mais complexa. Eu escrevo "propõe", não "demonstrou".
+Em 2022, Bank e Scafetta propuseram, na *Frontiers in Astronomy and Space Sciences*, que as razões entre as distâncias de planetas vizinhos, com o cinturão de asteroides valendo como um planeta, formam consonâncias, cinco pra quatro, quatro pra três, três pra dois e oito pra cinco, sobre uma base de nove pra oito. Ao acaso, isso seria muito raro: menos de uma chance em mil. É uma proposta recente. Os autores mostram a estrutura e deixam a causa em aberto, e isso, pra uma tese de isomorfia, não atrapalha.
 
 `[ANIM: cartão Carlson, simples, NOVO. 28 astrólogos · previsão ≥ 50% · acerto 34% (±4,4) · acaso 33%.]`
 
-E tem objeção honesta. Em 1985 saiu na *Nature* o teste duplo-cego do Shawn Carlson: 28 astrólogos, que aprovaram o protocolo e previram acertar pelo menos metade, casaram mapas natais com perfis psicológicos entre três opções e acertaram 34%. O acaso dá 33%. É o artigo de um autor, não uma meta-análise, e há críticas e reanálises que eu não li.
+Agora o ponto onde a estrutura deixa de ser medida. Em 1985 saiu na *Nature* o teste duplo-cego do Shawn Carlson: 28 astrólogos casaram mapas natais com perfis psicológicos entre três opções e acertaram 34%, com o acaso em 33%. É o teste da correspondência no nível humano, e nele ela não apareceu.
 
-`[CORTÁVEL 8 · as outras duas objeções]`
+Então a estrutura no céu existe, pelo menos em parte, e dá pra medir. O Kepler a leu como música e testou onde ela fecha, e um estudo recente a procura de novo nos números. A pergunta passa a ser o que fazer com ela, e é aí que entra a tradição.
 
-Aristóteles já dizia que, se os astros fizessem som girando, a gente ouviria. E, fisicamente, a força de maré dos planetas sobre o corpo é desprezível: a resposta da tradição não é força, é correspondência.
+*(fala do núcleo ≈507 palavras (≈3:22 a 150 ppm); cortáveis marcados somam ≈82)*
 
-Há razões simples no céu, o Kepler reabriu essa ideia com dados e a reformulou, e existe um modelo recente que a testa, ainda hipótese. E a tradição, o que concluiu disso?
-
-*(fala do núcleo ≈407 palavras (≈2:42 a 150 ppm); cortáveis marcados somam ≈174)*
-
-`[FONTE T4: Aiton, Duncan e Field (1997): dedicatória; III pp. 136 a 139, 144 e 145; IV pp. 351, 360, 361, 383; Wallis (1939) para o livro V (8/mar/1618, 15/mai/1618, "vasos de ouro dos egípcios", se quiser dizer). Efemérides: PyEphem/VSOP87, ver harmonicas/HARMONIA_DOS_MUNDOS.md; Marte e Mercúrio conferem, Saturno 1,80 e 2,24 contra 1′46″ e 2′15″. Carlson, Nature 318 (5/dez/1985). Bank e Scafetta (2022): [conferir no artigo] como eles definem o planeta substituto (no mapa: no 5:2 de Júpiter). Scafetta e Bianchini (2022), 9/8 com erro < 1%: [conferir o artigo] antes de usar. p < 0,001 diz que o acaso seria raro; não é margem de erro. Aristóteles, Do Céu II.9: [conferir página e tradução]. NÃO citar Newton e Halley (anedota apócrifa).]`
+`[FONTE T4: Aiton, Duncan e Field (1997): dedicatória; III pp. 136 a 139, 144 e 145; IV pp. 351, 360, 361, 383; Wallis (1939) para o livro V (8/mar/1618, 15/mai/1618, "vasos de ouro dos egípcios", se quiser dizer). Efemérides: PyEphem/VSOP87, ver harmonicas/HARMONIA_DOS_MUNDOS.md; Marte e Mercúrio conferem, Saturno 1,80 e 2,24 contra 1′46″ e 2′15″. Carlson, Nature 318 (5/dez/1985): é um Commentary de um autor, não meta-análise; reanálises e críticas [conferir]; a primeira parte do teste (sujeitos escolhendo a própria interpretação) não decidiu. Bank e Scafetta (2022): [conferir no artigo] como eles definem o planeta substituto (no mapa: no 5:2 de Júpiter). Scafetta e Bianchini (2022), 9/8 com erro < 1%: [conferir o artigo] antes de usar. p < 0,001 diz que o acaso seria raro; não é margem de erro. Tirei da fala a objeção de Aristóteles (os astros fariam som) e a da força de maré: respondem a uma tese causal, que o canal não defende. Se quiser de volta, entram no T5 como "o que a isomorfia não afirma". NÃO citar Newton e Halley (anedota apócrifa).]`
 
 ---
 
@@ -224,19 +220,21 @@ Há razões simples no céu, o Kepler reabriu essa ideia com dados e a reformulo
 
 `[TELA: rótulos INTERPRETÁVEL e VIVENCIAL. Etimologia: áxios "digno" → axíōma "o que é julgado digno" · cor-respondēre "responder em conjunto".]`
 
-*Axioma* vem do grego *axíōma*, "o que é julgado digno", de *áxios*. *Correspondência* vem do latim *cor-respondēre*, "responder em conjunto".
+*Axioma* vem do grego *axíōma*, "o que é julgado digno", de *áxios*. *Isomorfia* vem do grego *ísos*, "igual", e *morphḗ*, "forma". *Correspondência* vem do latim *cor-respondēre*, "responder em conjunto".
 
-`[ANIM: três pares lado a lado, NOVO: comprimento da corda ↔ altura do som · razão ↔ intervalo · onda mecânica ↔ onda eletromagnética. Setas de mão dupla preservando a estrutura.]`
+`[ANIM: três pares lado a lado, NOVO: comprimento da corda ↔ altura do som · razão ↔ intervalo · onda mecânica ↔ onda eletromagnética. Setas de mão dupla preservando a estrutura. No par do meio, o destaque: duas cordas lado a lado, "3/2 × 4/3 = 2" de um lado e "quinta + quarta = oitava" do outro, com a seta ligando as duas contas.]`
 
-Eu estou usando a palavra assim: correspondência é um mapa que preserva estrutura entre dois domínios. O comprimento da corda e a altura do som. A razão e o intervalo. A onda mecânica e a eletromagnética. Em todos, a relação entre as partes de um lado se repete no outro. Não é uma semelhança qualquer entre coisas que parecem combinar.
+Em matemática, um isomorfismo é uma correspondência um a um entre duas estruturas que preserva as relações: o que vale entre as partes de um lado vale entre as partes do outro. É isso que eu chamo de correspondência, e é o contrário de uma semelhança qualquer entre coisas que parecem combinar.
+
+O exemplo mais limpo é o primeiro que a gente viu. Somar intervalos corresponde a multiplicar razões: uma quinta mais uma quarta dá uma oitava, e três meios vezes quatro terços dá dois. A conta de um lado é a conta do outro. E em nenhum desses casos uma coisa empurra a outra. O comprimento da corda e a altura do som, a onda mecânica e a eletromagnética: o que se repete é a estrutura.
 
 `[TELA: escada de três degraus com os rótulos, na cor das faixas do mapa.]`
 
-Dá pra ver três graus. O estrutural, que se mede, é MEDÍVEL: a corda, a onda. O simbólico, que se lê e se compara com cuidado, é INTERPRETÁVEL. O espiritual, que só a experiência de cada um confirma, é VIVENCIAL. Muita coisa que circula por aí mistura os três.
+Dá pra ver três graus de quanto dessa correspondência se mede. Onde ela se mede, é MEDÍVEL: a corda, a onda, o átomo. Onde ela se lê e se compara, é INTERPRETÁVEL: o céu como música, os símbolos. Onde só a experiência de cada um confirma, é VIVENCIAL. Muita coisa que circula por aí mistura os três, e o que eu vou fazer é separar.
 
 `[ANIM: c03, só o trecho "Correspondência" (galáxia ↔ átomo), enxugado, ✅. A Polaridade fica para o V2. Tira de tempo: zoom no séc. VIII-IX (Tábua de Esmeralda) e em 1908 (Caibalion).]`
 
-A tradição hermética formulou essa ideia na frase que todo mundo conhece: o que está embaixo é como o que está em cima. A versão mais antiga da Tábua de Esmeralda é árabe, do fim do século VIII ou começo do IX, e vem no fim de um texto chamado *Livro do Segredo da Criação*; não é do *Corpus Hermeticum*, que é dos séculos I a III. A parte que diz "o que está dentro é como o que está fora" não está na Tábua, é acréscimo moderno. E a lista dos sete princípios herméticos que muita gente repete vem do *Caibalion*, de 1908, uma formulação moderna da tradição. A Vibração é o princípio com menos raiz antiga, e por isso, aqui, eu a ancorei na física e não na tradição.
+A tradição hermética deu a essa ideia a frase que todo mundo conhece: o que está embaixo é como o que está em cima. A versão mais antiga da Tábua de Esmeralda é árabe, do fim do século VIII ou começo do IX (a parte do "dentro e fora" é acréscimo moderno). Os sete princípios herméticos que se repetem hoje vêm do *Caibalion*, de 1908, e a Vibração é o que menos tem raiz antiga; por isso, aqui, eu a ancorei na física.
 
 `[CORTÁVEL 6 · paralelo com Mateus]`
 
@@ -252,13 +250,13 @@ No grau espiritual, uma analogia: o plâncton nas ondas do mar, levado por ciclo
 
 `[TELA: "AXIOMA" em destaque, [LOCK].]`
 
-É por isso que o canal parte de um axioma, e eu assumo ele como axioma: que a estrutura se repete entre domínios diferentes e que dá pra ler um a partir do outro. Um axioma é um ponto de partida aceito como tal. Não é prova.
+É por isso que o canal parte de um axioma, que eu assumo como axioma: a estrutura se repete entre domínios diferentes, e dá pra ler um a partir do outro. Um axioma é um ponto de partida, e o que se constrói em cima dele é que precisa se sustentar.
 
-Lembra das duas respostas lá do começo, a de que é coincidência e a de que os planetas mandam em você? O passo que as duas pulam é este: antes de decidir se o mapa vale, perguntar que tipo de mapa é, e quanto dele se mede.
+Lembra das duas respostas lá do começo? A primeira diz que a estrutura é acaso, a segunda inventa uma força pra explicá-la. A tese do canal é a terceira, isomorfia estrutural: a mesma proporção aparece na corda, no átomo e no céu, e não porque uma empurre a outra.
 
 E sobra uma pergunta que eu não vou responder agora: se a estrutura é proporção, o que ordena essa proporção?
 
-*(fala do núcleo ≈423 palavras (≈2:49 a 150 ppm); cortáveis marcados somam ≈96)*
+*(fala do núcleo ≈473 palavras (≈3:09 a 150 ppm); cortáveis marcados somam ≈96)*
 
 `[FONTE T5: Tábua de Esmeralda: Copenhaver, Hermetica (1992); edições de referência Ruska (1926) e Weisser (1979); "fim do Livro do Segredo da Criação" (Pseudo-Balinas, talvez séc. IX) segundo Copenhaver. Caibalion (Chicago, 1908, "Três Iniciados", em geral atribuído a W. W. Atkinson). Corpus Hermeticum datado por Casaubon em 1614. Kepler × Fludd: Aiton, Duncan e Field (1997), Apêndice pp. 505 e 506; Bodin, p. 278. Mt 6:10: [conferir a edição que for citada]. O elo do plâncton com Tarnas (correlação de sentido) NÃO entra na fala: o nó Tarnas ainda está com FONTE A SUBSTITUIR no mapa. NÃO dizer "Kepler endossa" nem "Kepler rejeita" a astrologia sem nuance, nem que Pitágoras influenciou os Hermetica.]`
 
@@ -278,9 +276,9 @@ Falta uma coisa que eu deixei pendente. Na astrologia, o zodíaco começa em Ár
 
 ## Ordem de corte
 
-Se o vídeo passar de 15 min, corte nesta ordem (os números estão nas marcas `CORTÁVEL`): 1 c09 · 2 analogia de Franco · 3 aviso dos Tsimane · 4 bola de tênis · 5 contraponto Kepler × Fludd · 6 Mateus 6:10 · 7 lei dos períodos · 8 Aristóteles e a força de maré · 9 Kepler e a astrologia · 10 conferência com efemérides modernas.
+Se o vídeo passar de 15 min, corte nesta ordem (os números estão nas marcas `CORTÁVEL`): 1 c09 · 2 analogia de Franco · 3 aviso dos Tsimane · 4 bola de tênis · 5 contraponto Kepler × Fludd · 6 Mateus 6:10 · 7 lei dos períodos · 8 conferência com efemérides modernas.
 
-**Conta honesta:** a fala do núcleo soma ≈2105 palavras (≈14 min a 150 ppm). Com as pausas de animação sem fala (Harmonia dos mundos, Chladni, faixa de pessoas, escada de massas, Lissajous) o vídeo fica em 15 a 16 min, não em 14:50. O T5 e a abertura passam um pouco do orçamento; T1 e T4 têm folga. Se você narrar mais devagar que 150 ppm, o corte cresce.
+**Conta honesta:** a fala do núcleo soma ≈2288 palavras (≈15 min a 150 ppm). Com as pausas de animação sem fala (Harmonia dos mundos, Chladni, faixa de pessoas, escada de massas, Lissajous) o vídeo fica em 15 a 16 min, não em 14:50. O T5 e a abertura passam um pouco do orçamento; T1 e T4 têm folga. Se você narrar mais devagar que 150 ppm, o corte cresce.
 
 ## Animações: o que existe, o que muda, o que falta
 
@@ -317,8 +315,8 @@ Se o vídeo passar de 15 min, corte nesta ordem (os números estão nas marcas `
 
 ## Para decidir (nesta ordem)
 
-1. **Cortes:** sem cortar nada o vídeo passa de 15 min (ver "Ordem de corte"). Os que mais pesam são o bloco "Kepler e a astrologia" e o c09; se você quiser manter Kepler e astrologia, o que sai é a escada de massas por inteiro.
-2. **Primeira pessoa:** escrevi com "eu" porque você aparece em câmera. Os pontos onde "eu refiz a conta" e "eu não li as críticas" são verdadeiros para o canal, mas confira se é assim que você quer dizer.
+1. **Cortes:** sem cortar nada o vídeo passa de 15 min (ver "Ordem de corte"). O bloco de Kepler testando a correspondência (1608) agora é núcleo, porque é o método da tese; o que mais pesa é a escada de massas do T3.
+2. **Primeira pessoa:** escrevi com "eu" porque você aparece em câmera. "Eu refiz a conta" é verdadeiro para o canal, mas confira se é assim que você quer dizer.
 3. **Abertura (versão 2):** abre com a animação e o som, afirma o que foi medido, e você aparece uma vez, sem se apresentar. Se o som da animação não convencer, a abertura inteira depende de trocar o timbre (SoundFont) antes de gravar. A Harmonia dos mundos aparece de novo no T4, com a explicação completa; se repetir demais, o T4 usa só a parte com as faixas e as razões.
 4. **Franco e Fuller:** ficam como INTERPRETÁVEL curtos. Se faltar tempo, o Franco sai sem perda.
 5. **Título e miniatura:** ficam para depois do roteiro, como combinado.
