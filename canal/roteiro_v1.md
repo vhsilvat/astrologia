@@ -48,7 +48,7 @@ Isso é medido. O que fazer com isso é outra conversa. Tem quem diga que é coi
 
 Eu não sou astrônomo nem acadêmico, então tudo que eu disser vai ter a fonte na tela, e cada parte leva um rótulo: MEDÍVEL é o que se mede, INTERPRETÁVEL é o que se lê e se compara, VIVENCIAL é o que só a experiência de cada um confirma. A gente começa pelo começo: uma corda esticada.
 
-`[ANIM: corte para o monocórdio de c04 (martelos_monocordio.py), ✅, que abre o T1.]`
+`[ANIM: corte para o monocórdio (cena NOVA, padrão Harmonia dos mundos), que abre o T1.]`
 
 *(fala do núcleo ≈258 palavras (≈1:43 a 150 ppm); cortáveis marcados somam ≈0)*
 
@@ -62,17 +62,17 @@ Eu não sou astrônomo nem acadêmico, então tudo que eu disser vai ter a fonte
 
 Harmonia vem do grego *harmózō*, ajustar, juntar peças que se encaixam. Razão, no sentido de proporção, vem do latim *ratio*, que traduziu *lógos*, e *lógos* é proporção e também palavra. Eu volto nessa coincidência no fim.
 
-`[ANIM: forja, c04, ✅. Texto na tela: "lenda · Nicômaco de Gerasa, séc. I-II d.C."]`
+`[ANIM: forja, cena NOVA. Texto na tela: "lenda · Nicômaco de Gerasa, séc. I-II d.C."]`
 
 A história de como isso foi descoberto é uma lenda. Pitágoras teria passado numa forja e ouvido martelos de pesos diferentes soarem bem juntos: doze libras e seis dariam uma oitava, dois pra um. A versão mais antiga é de Nicômaco, uns seiscentos anos depois dele, e o Burkert mostra que a experiência não funciona: martelos assim não dão essas razões. O princípio certo é que a altura de uma corda depende do comprimento, da tensão e da densidade.
 
-`[ANIM: martelos viram pinos, bigorna vira aresta, c04 → monocórdio, ✅. Cada divisão com nota, fração e frequência na tela.]`
+`[ANIM: martelos viram pinos, bigorna vira aresta, forja → monocórdio, cena NOVA. Cada divisão com nota, fração e frequência na tela.]`
 
 Na corda inteira, uma nota. Na metade, a mesma uma oitava acima: dois pra um. Em dois terços, a quinta, três pra dois. Em três quartos, a quarta, quatro pra três. A diferença entre a quinta e a quarta é o tom inteiro: três meios dividido por quatro terços dá nove oitavos, o epogdoon.
 
-`[ANIM: c06 consonâncias, ✅. Usar só as três cordas e o 9/8 em MathTex. A régua "Mercúrio→Urano / Marte→Plutão" NÃO entra aqui: é convenção da astrologia moderna, vai para o V2 ou para o T5 como exemplo rotulado.]`
+`[ANIM: consonâncias, cena NOVA. Usar só as três cordas e o 9/8 em MathTex. A régua "Mercúrio→Urano / Marte→Plutão" NÃO entra aqui: é convenção da astrologia moderna, vai para o V2 ou para o T5 como exemplo rotulado.]`
 
-`[ANIM: c08 tetraktys, ✅. Pontos 1·2·3·4, "1+2+3+4 = 10" e as razões. Recriação do detalhe de Rafael, não a imagem colada.]`
+`[ANIM: tetraktys, cena NOVA. Pontos 1·2·3·4, "1+2+3+4 = 10" e as razões. Recriação do detalhe de Rafael, não a imagem colada.]`
 
 Os pitagóricos juntavam o um, o dois, o três e o quatro numa figura de dez pontos, o tetraktys. As razões da música saem de combinações desses quatro números.
 
@@ -124,7 +124,7 @@ O mundo é uma pilha de ciclos de frequências diferentes, e os sentidos pegam s
 
 *Partícula* é o latim *particula*, "pedacinho", diminutivo de *pars*, parte. *Matéria* vem de *materia*, da família de *mater*, mãe, e *matrix* é "útero". O *māyā* do sânscrito vem de outra raiz, a de medir e formar, então a ponte entre matéria e *māyā* é de ideia, não de palavra.
 
-`[ANIM: modos da corda 1 a 4 (nós e ventres), c04, ✅.]`
+`[ANIM: modos da corda 1 a 4 (nós e ventres), cena NOVA.]`
 
 Voltando à corda. Quando ela vibra presa nas duas pontas, só cabem certas ondas: um número inteiro de ventres e de nós. Uma, duas, três, quatro. É a onda confinada que produz números inteiros.
 
@@ -186,7 +186,7 @@ Refiz a conta com efemérides modernas, e as velocidades extremas batem com a ta
 
 Aqui, cada planeta é uma voz, e a altura segue a velocidade: Saturno é o mais grave, Mercúrio o mais agudo, na divisão de vozes que o Kepler descreve. O som é gerado por computador, é a minha leitura, não uma gravação de nada. As velocidades são MEDÍVEIS; lê-las como música é INTERPRETÁVEL.
 
-`[ANIM: c09 Kepler, ✅. CORTÁVEL 1 (é o primeiro a sair). Rotular "ilustração": a razão 1:1 → 2:1 não é a de nenhum planeta (Mercúrio chega a ≈2,3:1, a Terra a ≈1,07:1). A Harmonia dos mundos já faz esse papel com dados reais.]`
+`[ANIM: Kepler (planeta acelera), cena NOVA. CORTÁVEL 1 (é o primeiro a sair). Rotular "ilustração": a razão 1:1 → 2:1 não é a de nenhum planeta (Mercúrio chega a ≈2,3:1, a Terra a ≈1,07:1). A Harmonia dos mundos já faz esse papel com dados reais.]`
 
 O Kepler não era um pitagórico ingênuo. Na dedicatória, a obra "cheira a Pitágoras e a Platão". Mas no livro III ele rejeita os números abstratos dos pitagóricos como causa das consonâncias e põe uma causa geométrica no lugar.
 
@@ -200,7 +200,7 @@ Até o século XVII, astronomia e astrologia eram a mesma disciplina: Ptolomeu, 
 
 `[TELA: Aiton, Duncan e Field (1997), IV p. 351.]`
 
-`[ANIM: c10 Scafetta, ✅, COM LEGENDA A CORRIGIR: hoje diz "Scafetta (2023)" e "erro < 1% · p(aleatório) < 0,1%". Passar para "Bank e Scafetta (2022) · Front. Astron. Space Sci. 8:758184 · p < 0,001". Rótulo HIPÓTESE.]`
+`[ANIM: estudo recente, cena NOVA. Legenda: "Bank e Scafetta (2022) · Front. Astron. Space Sci. 8:758184 · p < 0,001". Rótulo HIPÓTESE.]`
 
 Em 2022, Bank e Scafetta propuseram, na *Frontiers in Astronomy and Space Sciences*, que as razões entre as distâncias de planetas vizinhos, com o cinturão de asteroides valendo como um planeta, formam consonâncias, cinco pra quatro, quatro pra três, três pra dois e oito pra cinco, sobre uma base de nove pra oito. Ao acaso, isso seria muito raro: menos de uma chance em mil. É uma proposta recente. Os autores mostram a estrutura e deixam a causa em aberto, e isso, pra uma tese de isomorfia, não atrapalha.
 
@@ -232,7 +232,7 @@ O exemplo mais limpo é o primeiro que a gente viu. Somar intervalos corresponde
 
 Dá pra ver três graus de quanto dessa correspondência se mede. Onde ela se mede, é MEDÍVEL: a corda, a onda, o átomo. Onde ela se lê e se compara, é INTERPRETÁVEL: o céu como música, os símbolos. Onde só a experiência de cada um confirma, é VIVENCIAL. Muita coisa que circula por aí mistura os três, e o que eu vou fazer é separar.
 
-`[ANIM: c03, só o trecho "Correspondência" (galáxia ↔ átomo), enxugado, ✅. A Polaridade fica para o V2. Tira de tempo: zoom no séc. VIII-IX (Tábua de Esmeralda) e em 1908 (Caibalion).]`
+`[ANIM: correspondência (galáxia ↔ átomo), cena NOVA. A Polaridade fica para o V2. Tira de tempo: zoom no séc. VIII-IX (Tábua de Esmeralda) e em 1908 (Caibalion).]`
 
 A tradição hermética deu a essa ideia a frase que todo mundo conhece: o que está embaixo é como o que está em cima. A versão mais antiga da Tábua de Esmeralda é árabe, do fim do século VIII ou começo do IX (a parte do "dentro e fora" é acréscimo moderno). Os sete princípios herméticos que se repetem hoje vêm do *Caibalion*, de 1908, e a Vibração é o que menos tem raiz antiga; por isso, aqui, eu a ancorei na física.
 
@@ -264,11 +264,11 @@ E sobra uma pergunta que eu não vou responder agora: se a estrutura é proporç
 
 ## SAÍDA · 14:20 a 14:50
 
-`[ANIM: anel zodiacal de c01 (guardado para o V2), só os últimos ≈10 s: o Sol cruzando o equador, 0° Áries realçado. ✅ reaproveitado.]`
+`[ANIM: anel zodiacal NOVO, ≈10 s: o Sol cruzando o equador, 0° Áries realçado.]`
 
 Falta uma coisa que eu deixei pendente. Na astrologia, o zodíaco começa em Áries, e Áries começa no equinócio de março, quando o dia e a noite têm mais ou menos a mesma duração. No hemisfério norte, onde essa tradição nasceu, é o começo da primavera; aqui no Brasil, é o outono. Isso é uma convenção, mas ancorada num ciclo natural, o do Sol, e não nas estrelas. No próximo vídeo eu mostro o que isso muda na ideia de signo.
 
-`[ANIM: end card, c12 ADAPTADO: o teaser do cubo (sólidos platônicos) cai, entra o equinócio. MISTAGOGOS + "a iniciação continua" (ou a frase final que você escolher).]`
+`[ANIM: end card NOVO, com o equinócio como gancho. MISTAGOGOS + "a iniciação continua" (ou a frase final que você escolher).]`
 
 *(fala do núcleo ≈81 palavras (≈0:32 a 150 ppm); cortáveis marcados somam ≈0)*
 
@@ -280,38 +280,48 @@ Se o vídeo passar de 15 min, corte nesta ordem (os números estão nas marcas `
 
 **Conta honesta:** a fala do núcleo soma ≈2288 palavras (≈15 min a 150 ppm). Com as pausas de animação sem fala (Harmonia dos mundos, Chladni, faixa de pessoas, escada de massas, Lissajous) o vídeo fica em 15 a 16 min, não em 14:50. O T5 e a abertura passam um pouco do orçamento; T1 e T4 têm folga. Se você narrar mais devagar que 150 ppm, o corte cresce.
 
-## Animações: o que existe, o que muda, o que falta
+## Animações: tudo novo, no padrão da Harmonia dos mundos e do Kirkwood
 
-| Onde | Cena | Arquivo | Status |
+**Decisão de 24/out:** as cenas do piloto (c01 a c12, martelos_monocordio) NÃO entram no V1. Eram piloto. Todas as cenas do V1 são refeitas do zero no padrão de `harmonicas/harmonia_dos_mundos.py` e `ressonancias/kirkwood_scene.py`. Só a gravura de 1619 é imagem pronta (fonte primária, domínio público).
+
+**Regra para cada cena (o que as duas de referência fazem):**
+1. Cada elemento da tela é um dado com origem: efemérides, tabela de livro, equação. Cabeçalho do arquivo diz o que é MEDÍVEL, o que é INTERPRETÁVEL e de onde vem cada número. Escalas comprimidas ficam declaradas.
+2. Uma única função de tempo comanda imagem e som. Nada fora dela.
+3. O ritmo é dramatúrgico: os elementos entram um a um e a cena constrói. Nada despejado de uma vez.
+4. Identidade fechada: paleta Gruvbox, cor fixa por objeto, EB Garamond, linhas de base alinhadas.
+5. Som sintetizado quando houver som, derivado da mesma função de tempo, determinístico (semente fixa).
+6. Teste por quadro único (`-s`, variável de ambiente com o instante), e os quadros-chave salvos em `frames/` para conferência.
+7. Limites conhecidos escritos numa nota `.md` ao lado, incluindo o que ninguém ainda ouviu ou conferiu.
+8. Um arquivo `.py` + uma nota `.md` por cena, na pasta do tema.
+
+| Onde | Cena | Dados / origem | Status |
 |---|---|---|---|
-| Abertura | A harmonia dos mundos (trecho de ≈25 s com as razões na tela) | `harmonicas/harmonia_dos_mundos.py` | ✅ rascunho; falta você ouvir e aprovar o som |
-| Abertura (corte final) | monocórdio, abre o T1 | `martelos_monocordio.py` (c04) | ✅ existe |
-| T1 | forja → monocórdio | c04 | ✅ existe |
-| T1 | quinta, quarta e 9/8 | `v01_c06_consonancias.py` | ✅ existe; tirar a régua "Mercúrio→Urano / Marte→Plutão" |
-| T1 | tetraktys | `v01_c08_tetraktys.py` | ✅ existe; o final "9:8 vira elipse" perde o sentido (a âncora para c09 caiu) |
-| T1 | Lissajous | a criar | NOVO (decisão de 21/out) |
-| T2 | régua de oitavas (audição, visão, fora da janela) | a criar | NOVO |
-| T2 | famílias de onda (mecânica e eletromagnética) | a criar | NOVO |
-| T2 | sombra do círculo → senoide; Terra, Lua, Júpiter como ciclos | a criar | NOVO |
-| T3 | modos da corda | c04 | ✅ existe |
-| T3 | Chladni | a criar | NOVO (decisão de 21/out) |
-| T3 | elétron como onda estacionária | a criar | NOVO |
-| T3 | faixa de pessoas e escada de massas | a criar | NOVO |
-| T3 | dupla fenda | a criar | NOVO (prompt para o Claude Code pendente) |
-| T3 | analogia de Franco | a criar | NOVO, opcional |
-| T4 | ressonâncias Io:Europa:Ganimedes e Netuno:Plutão | a criar | NOVO |
-| T4 | gravura de 1619 | arquivo do Internet Archive | recortar e tratar (domínio público) |
-| T4 | A harmonia dos mundos | `harmonicas/harmonia_dos_mundos.py` | ✅ rascunho; falta você ouvir |
-| T4 | Kepler (planeta acelera) | `v01_c09_kepler.py` | ✅ existe; opcional, rotular "ilustração" |
-| T4 | estudo recente | `v01_c10_scafetta.py` | ✅ existe; CORRIGIR legenda (Bank e Scafetta 2022, p < 0,001) |
-| T4 | cartão do teste de Carlson | a criar | NOVO, simples |
-| T5 | três pares de correspondência | a criar | NOVO |
-| T5 | Correspondência (galáxia ↔ átomo) | `v01_c03_logos_hermes.py` | ✅ existe; extrair só esse trecho |
-| T5 | plâncton | a criar | NOVO |
-| Tira de tempo | zoom in e zoom out nos pontos do mapa | a criar | NOVO, teste pendente ("deixar para depois"); se parecer marketing, tira estática com destaque |
-| Saída | anel zodiacal com o equinócio | `v01_c01_abertura.py` | ✅ reaproveitado |
-| Saída | end card | `v01_c12_endcard.py` | ✅ existe; adaptar |
-| Fora do V1 | c02 (retorno de Saturno), c07 (peixe), c11 (relógio de Deus), c03 (Hermes, Caronte, Morfeu, Polaridade) | | guardadas |
+| Abertura e T4 | A harmonia dos mundos | VSOP87 | ✅ rascunho; falta você ouvir e aprovar o som |
+| Abertura (corte), T1 | forja → monocórdio (razões 2:1, 3:2, 4:3 na corda) | física da corda; Nicômaco (conferir) | NOVO |
+| T1 | quinta, quarta e 9/8 na corda (soma de intervalos = produto de razões) | razões exatas, som sintetizado | NOVO |
+| T1 | tetraktys (1:2:3:4 → oitava, quinta, quarta) | razões exatas | NOVO |
+| T1 | Lissajous | equações; razões do T1 | NOVO |
+| T2 | régua de oitavas (audição, visão, fora da janela) | limites de faixa a conferir em literatura | NOVO |
+| T2 | famílias de onda (mecânica e eletromagnética) | f·λ=v, superposição | NOVO |
+| T2 | sombra do círculo → senoide; Terra, Lua, Júpiter como ciclos | períodos reais | NOVO |
+| T3 | modos da corda | equação da corda | NOVO |
+| T3 | Chladni | equação da placa (modos) | NOVO |
+| T3 | elétron como onda estacionária | de Broglie, condição de Bohr | NOVO |
+| T3 | faixa de pessoas e escada de massas | ordens de grandeza a conferir | NOVO |
+| T3 | dupla fenda | interferência, Tonomura 1989 a conferir | NOVO |
+| T3 | analogia de Franco | | NOVO, opcional |
+| T4 | ressonâncias Io:Europa:Ganimedes e Netuno:Plutão | elementos orbitais (JPL/efemérides) | NOVO |
+| T4 | gravura de 1619 | Internet Archive, Smithsonian | recortar e tratar (domínio público) |
+| T4 | Kepler testa a correspondência (aspectos × consonâncias; 1608) | Aiton, Duncan e Field 1997, p.351 | NOVO |
+| T4 | estudo recente (Bank e Scafetta 2022, p < 0,001) | artigo, Front. Astron. Space Sci. 8:758184 | NOVO |
+| T4 | cartão do teste de Carlson | Nature 318 (1985) | NOVO, simples |
+| T5 | três pares de correspondência (intervalos ↔ razões em destaque) | | NOVO |
+| T5 | correspondência galáxia ↔ átomo | a definir com dado real | NOVO |
+| T5 | plâncton | a conferir | NOVO |
+| Tira de tempo | zoom in e zoom out nos pontos do mapa | `genealogia/data/*.json` | NOVO, teste pendente |
+| Saída | anel zodiacal com o equinócio (Sol cruzando o equador, 0° Áries) | efemérides | NOVO |
+| Saída | end card | | NOVO |
+| Fora do V1 | cenas do piloto (c02, c03, c07, c11 e demais) | | arquivadas |
 
 ## Para decidir (nesta ordem)
 
